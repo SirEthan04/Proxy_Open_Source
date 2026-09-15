@@ -1731,6 +1731,55 @@ El sistema de diseño de **BodeGo** se basa en una estética moderna, limpia y f
 
 ### 4.1.2. Web Style Guidelines
 
+BodeGo está diseñado principalmente como una **aplicación web de gestión interna**, por lo que la interfaz busca aprovechar el espacio disponible en computadoras utilizadas en caja, oficina o almacén.
+
+Los diseños presentan una navegación lateral permanente y un área principal destinada a dashboards, tablas, gráficos y operaciones.
+
+- **Diseño Responsivo:**
+  - **En Computadora (Desktop):** Se mantiene un menú lateral fijo y el contenido se distribuye utilizando tarjetas, tablas y columnas.
+  - **En Tablet:** El contenido puede reducir el número de columnas y reorganizar tarjetas de forma vertical.
+  - **En Celular:** Las tarjetas y controles se presentan en una sola columna y el menú lateral puede transformarse en un menú desplegable.
+
+- **Componentes Web:**
+  - **Botón Primario:** Fondo azul para acciones principales como “Nuevo producto”, “Registrar operación” o “Lanzar oferta”.
+  - **Botón Secundario:** Fondo claro o borde azul para acciones complementarias como editar, ver detalle o cancelar.
+  - **Botón de Peligro:** Rojo para acciones relacionadas con eliminación, errores o estados críticos.
+
+- **Tarjetas de Indicadores:**
+  - Presentan información resumida como productos totales, stock crítico, productos por vencer y mermas.
+  - Incluyen iconos y colores que ayudan a diferenciar cada indicador.
+  - Se ubican principalmente en la parte superior de los dashboards.
+
+- **Tablas:**
+  - Se utilizan para mostrar productos, lotes, empleados y operaciones.
+  - Presentan columnas claramente separadas.
+  - Incorporan estados mediante etiquetas de colores como **Activo**, **Crítico**, **Próximo a vencer** o **Vencido**.
+  - Pueden incluir buscadores, filtros y paginación.
+
+- **Formularios:**
+  - Campos de entrada con bordes simples y etiquetas visibles.
+  - Los formularios deben mostrar mensajes claros cuando un dato sea incorrecto.
+  - Las acciones de guardar o registrar deben destacar sobre las opciones secundarias.
+
+- **Navegación:**
+  - Barra lateral ubicada en el lado izquierdo.
+  - Logo de BodeGo ubicado en la parte superior.
+  - El módulo seleccionado se diferencia mediante color de fondo o texto destacado.
+  - En la parte inferior se muestra información del usuario y la opción para cerrar sesión.
+
+- **Interacción:**
+  - Los cambios de estado deben mostrarse inmediatamente después de registrar una operación.
+  - Las acciones importantes deben generar mensajes de confirmación.
+  - Los elementos interactivos deben cambiar visualmente al pasar el cursor.
+  - Los gráficos y tablas deben mantener una lectura sencilla sin sobrecargar la pantalla.
+
+- **Accesibilidad:**
+  - Alto contraste entre fondo y texto.
+  - Los estados no deben identificarse únicamente mediante colores, sino también mediante texto o iconos.
+  - Los botones principales deben tener un tamaño suficiente para ser identificados fácilmente.
+
+---
+
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems
 ### 4.2.2. Labeling Systems
