@@ -1782,7 +1782,76 @@ Los diseños presentan una navegación lateral permanente y un área principal d
 
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems
+
+La arquitectura de información de BodeGo se organiza mediante sistemas **jerárquicos, secuenciales y matriciales**, permitiendo que cada usuario pueda acceder rápidamente a las funciones correspondientes a su rol.
+
+Los mockups muestran una clara separación entre el Dashboard del Administrador y el Dashboard del Empleado, además de módulos especializados para inventario, vencimientos, alertas, reportes, empleados y configuración.
+
+- **Sistema Jerárquico:**
+  - **Dashboard Administrador:** Primero se muestran indicadores generales como productos totales, stock crítico, productos por vencer y mermas. Después se muestran alertas, movimientos, productos vendidos y lotes próximos a vencer.
+  - **Dashboard Empleado:** Primero se muestran ingresos, salidas y mermas del día; posteriormente aparecen las operaciones rápidas y el historial diario.
+  - **Inventario:** Se muestra primero el catálogo general y posteriormente el detalle de cada producto.
+  - **Vencimientos:** Se priorizan primero los productos vencidos o próximos a vencer.
+
+- **Sistema Secuencial:**
+  - **Registro de Producto:** Datos generales → categoría → stock → precio → información del lote → guardar.
+  - **Registro de Ingreso:** Seleccionar producto → ingresar cantidad → registrar lote → confirmar.
+  - **Registro de Salida:** Seleccionar producto → indicar cantidad → confirmar operación.
+  - **Registro de Merma:** Seleccionar producto → cantidad → motivo → confirmar registro.
+  - **Gestión de Vencimiento:** Identificar producto → revisar días restantes → seleccionar acción → actualizar inventario.
+
+- **Sistema Matricial:**
+  - **Inventario:** Producto + categoría + estado.
+  - **Vencimientos:** Producto + lote + fecha de vencimiento + estado.
+  - **Operaciones:** Tipo de operación + empleado + fecha + producto.
+  - **Empleados:** Nombre + rol + turno + estado.
+  - **Reportes:** Fecha + categoría + producto + tipo de movimiento.
+
+- **Esquemas de Categorización:**
+  - **Por Rol:** Administrador y Empleado.
+  - **Por Función:** Dashboard, Inventario, Vencimientos, Alertas, Reportes, Empleados y Configuración.
+  - **Por Estado:** Activo, stock bajo, stock crítico, próximo a vencer y vencido.
+  - **Cronológico:** Las operaciones y alertas se presentan comenzando por las más recientes.
+  - **Por Prioridad:** Los productos con mayor riesgo de vencimiento o falta de stock aparecen primero.
+
+---
+
 ### 4.2.2. Labeling Systems
+
+El sistema de etiquetado de BodeGo utiliza palabras breves y relacionadas directamente con las actividades realizadas en un minimarket. El objetivo es que Administradores y Empleados puedan reconocer cada función sin conocimientos técnicos.
+
+## Etiquetas Principales de Navegación
+
+- **Dashboard:** Resumen del estado actual del minimarket.
+- **Inventario:** Gestión y consulta de productos y stock.
+- **Vencimientos:** Control de productos y lotes próximos a caducar.
+- **Alertas:** Notificaciones sobre situaciones que requieren atención.
+- **Reportes:** Visualización de métricas e indicadores del negocio.
+- **Empleados:** Gestión del personal y permisos.
+- **Configuración:** Ajustes generales del sistema.
+
+## Etiquetas de Acciones
+
+- **“Nuevo producto”**: Registra un producto en el inventario.
+- **“Registrar ingreso”**: Añade unidades al stock.
+- **“Registrar salida”**: Registra productos que salen del inventario.
+- **“Registrar merma”**: Registra productos perdidos, dañados o vencidos.
+- **“Consultar inventario”**: Permite revisar productos disponibles.
+- **“Lanzar oferta”**: Permite aplicar una estrategia de liquidación.
+- **“Ver producto”**: Abre información detallada del producto.
+- **“Editar”**: Permite modificar información registrada.
+
+## Etiquetas Contextuales
+
+- **Éxito:** “Operación registrada correctamente”.
+- **Stock bajo:** “Quedan pocas unidades disponibles”.
+- **Stock crítico:** “Producto con stock crítico”.
+- **Próximo a vencer:** “Producto próximo a vencer”.
+- **Vencido:** “Producto vencido”.
+- **Error:** “No se pudo completar la operación. Inténtalo nuevamente”.
+
+---
+
 ### 4.2.3. SEO Tags and Meta Tags
 ### 4.2.4. Searching Systems
 ### 4.2.5. Navigation Systems
