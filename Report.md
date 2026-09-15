@@ -485,29 +485,58 @@ Este segmento está compuesto por trabajadores encargados de realizar actividade
 
 ### 2.2.2. Registro de entrevistas
 
-### Segmento objetivo 1:
+### Segmento Administradores
 
-### Entrevista 1
+| |
+|---|
+| <br><br><br><br><br><br><br><br><br><br><br><br> |
+| **Nombres y apellidos:**  <br>**Edad:** 28  <br>**Distrito:** San Martin de Porrez  <br>**Resumen de la entrevista:** Lucía, de 28 años, trabaja como administradora de un minimarket en San Martín de Porres. Ella comenta que el control del inventario se realiza mediante un sistema POS, reportes en Excel y conteos físicos en las góndolas y el almacén. Sin embargo, existen diferencias frecuentes entre el stock registrado en el sistema y la cantidad real de productos, principalmente porque algunos productos dañados o retirados no siempre son registrados correctamente. <br><br>El control de los productos próximos a vencer se realiza de forma manual, revisando las fechas y aplicando el método FEFO, que consiste en colocar adelante los productos que vencen primero. A pesar de esto, suelen tener pequeñas pérdidas semanales por productos vencidos, especialmente yogures, embutidos y pan de molde. Para reducir estas pérdidas, Lucía coloca los productos próximos a vencer en zonas más visibles y aplica descuentos cuando faltan pocos días para su vencimiento. <br><br>Además, la comunicación sobre incidencias del inventario se realiza mediante el sistema, guías de remisión y un grupo de WhatsApp. Lucía considera que sería muy útil contar con una aplicación móvil que permita escanear códigos de barras, revisar el stock, las fechas de vencimiento y los pedidos en camino, además de recibir alertas cuando un producto esté por agotarse o próximo a vencer. <br><br>**URL:** |
 
-#### Datos de la entrevista:
+| |
+|---|
+| ![Imagen de la entrevista](RUTA-DE-LA-IMAGEN) |
+| **Nombres y apellidos:**  <br>**Edad:**  <br>**Distrito:**  <br><br>**Resumen de la entrevista:**  <br>Jimmy, administrador de un pequeño minimarket, comenta que actualmente controla el inventario de forma mixta: registra diariamente los movimientos en un cuaderno y, al finalizar la semana, pasa la información a una plantilla de Excel. Sin embargo, uno de los principales problemas es que durante las horas de mayor venta no siempre se registran correctamente todos los productos, lo que genera diferencias entre el stock registrado y el stock real. <br><br>El control de los productos próximos a vencer se realiza de manera manual. Los trabajadores revisan los estantes y el almacén mientras reponen o limpian los productos. A pesar de estas revisiones, se presentan pérdidas una o dos veces al mes, principalmente en productos como lácteos y panes que pueden quedar poco visibles al fondo de los estantes. <br><br>Cuando un producto está próximo a vencer o tiene poca rotación, lo colocan cerca de la caja o en zonas más visibles para facilitar su venta. También aplican descuentos o promociones para intentar recuperar la inversión antes de que el producto venza. <br><br>Jimmy menciona que las diferencias de stock ocurren casi todas las semanas, especialmente en golosinas, galletas, cereales y gaseosas, debido a errores de registro o consumo del personal. <br><br>Finalmente, considera importante contar con un sistema digital, principalmente desde el celular, que permita recibir alertas automáticas de bajo stock y vencimientos, generar reportes de los productos más vendidos y conectarse con un lector de códigos de barras para registrar fácilmente productos, pérdidas o roturas. <br><br>**URL:** |
 
-- **Nombres y Apellidos:** Lucía Dávila
-- **Edad:** 28 años
-- **Distrito:** San Martín de Porres
-- **Captura de pantalla:**
-<img width="742" height="394" alt="image" src="https://github.com/user-attachments/assets/9e991940-2105-4a09-ad6d-ef0c881ee5e2" />
+| |
+|---|
+| ![Imagen de la entrevista](RUTA-DE-LA-IMAGEN) |
+| **Nombres y apellidos:**  <br>**Edad:** 49  <br>**Distrito:**  <br><br>**Resumen de la entrevista:**  <br>Silvia Bravo, de 49 años, participa en la administración de un minimarket y explica que el control del stock se realiza revisando y contando los productos disponibles. Una de las principales dificultades es que, en ocasiones, la cantidad real no coincide con la cantidad que deberían tener registrada, por lo que deben estar pendientes constantemente del inventario. <br><br>La identificación de productos próximos a vencer se realiza revisando manualmente las fechas de vencimiento. Las pérdidas por vencimiento ocurren con frecuencia, especialmente en productos como yogur, leche y panes, ya que tienen una duración más corta. Para mantenerse comunicados sobre los cambios en el inventario, utilizan principalmente WhatsApp y un registro donde anotan información importante, como las fechas de vencimiento y los productos que ingresan. <br><br>Cuando un producto está próximo a vencer o tiene poca rotación, realizan ofertas, por ejemplo, combinándolo con otro producto que sí tiene mayor salida y reduciendo el precio para facilitar su venta. Los descuentos se aplican principalmente cuando los productos están cerca de vencer. Finalmente, Silvia considera que sería útil contar con un sistema digital que envíe alertas sobre los productos próximos a vencer y que también brinde orientación sobre qué acciones tomar para evitar pérdidas. <br><br>**URL:** |
 
-- **Resumen de la entrevista:**
-Lucía es una administradora de una sucursal del minimarket "Mass" de 28 años que tiene un perfil práctico orientado a la solución rápida de problemas cotidianos en el entorno retail. Su personalidad demuestra ser organizada y concreta, encargandose de gestionar constantemente el descuadre de información que hay entre el sistema POS y el inventario físico, ya que sufre de variaciones diarias por mermas que no se registran.
-En cuanto a sus canales de interacción, Lucía utiliza las herramientas tradicionales como Excel y el sistema de la tienda, pero confía fuertemente en su dispositivo meóvil para la comunicación y difusión, utilizando WhatsApp como medio principal para reportar incidencias con el personal de almacén. Sus frustraciones se encuentran en el trabajo manual o visual que demanda el revisar fechas de caducidad bajo el método FEFO, una tarea que resulta pesada. Su objetivo principal es lograr una alta rapidez, expresa una fuerte necesidad por un sistema digital de App móvil que utilice la cámara de su celular por ejemplo como escáner de códigos de barras, permitiéndole recibir alertas sobre vencimientos y bajo stock sin depender de la computadora de la oficina.
+### Segmento Empleados
 
-### Segmento objetivo 2:
+| |
+|---|
+| ![Imagen de la entrevista](RUTA-DE-LA-IMAGEN) |
+| **Nombres y apellidos:**  <br>**Edad:**  <br>**Distrito:**  <br><br>**Resumen:**  <br>Joseph trabaja en un minimarket realizando tareas de atención al cliente, registro de ventas, reposición de productos y control de almacén. Actualmente, las entradas y salidas de productos se registran manualmente en un cuaderno, lo que puede generar errores o confusiones, especialmente en las horas de mayor movimiento o cuando llega mercadería mientras se atiende a los clientes. <br><br>Para conocer el stock disponible, deben revisar y contar físicamente los productos en los estantes, lo cual puede resultar lento y complicado. La revisión de fechas de vencimiento también se realiza manualmente, generalmente cuando llega nueva mercadería. Si encuentran un producto vencido, lo retiran del estante y se lo comunican al administrador para evitar que llegue al cliente. <br><br>Joseph menciona que los errores en el inventario suelen ocurrir principalmente durante las horas de mayor venta, cuando hay más presión de trabajo. Los cambios de stock o problemas con los productos se comunican de forma verbal y mediante el cuaderno de registro. Además, considera que las tareas más tediosas son contar los productos y revisar uno por uno las fechas de vencimiento. <br><br>Finalmente, señala que sería útil contar con una herramienta digital sencilla que permita registrar entradas y salidas, consultar el stock disponible y facilitar el control del inventario, reduciendo así el tiempo y los errores del proceso manual. <br><br>**URL:** |
 
-### Entrevista 1
+| |
+|---|
+| ![Imagen de la entrevista](RUTA-DE-LA-IMAGEN) |
+| **Nombres y apellidos:**  <br>**Edad:** 20  <br>**Distrito:**  <br><br>**Resumen:**  <br>Andrés Marzano, de 20 años, tiene experiencia trabajando en atención al cliente y almacén. Explica que las entradas de productos se registraban después de verificar que la mercadería recibida coincidiera con la información del documento de entrega, para luego ingresarla en el sistema. Las salidas, por su parte, se registraban mediante boletas electrónicas. <br><br>Uno de los principales problemas era conocer con precisión la cantidad disponible de productos, especialmente cuando se trataba de artículos pequeños, ya que podían cometerse errores al contarlos. Esta tarea se volvía más complicada cuando, al mismo tiempo, tenían que atender a los clientes. <br><br>Para controlar los productos próximos a vencer, colocaban adelante los que tenían menor tiempo de vida útil y dejaban al fondo los productos recién llegados. Además, revisaban las fechas de vencimiento en los turnos de día y noche. Cuando un producto estaba cerca de vencer, trataban de darle prioridad a su venta; si ya quedaban pocos días y no se lograba vender, se registraba como merma para calcular las pérdidas. <br><br>Finalmente, Andrés señala que los mayores errores en el control del inventario se presentaban principalmente durante las mañanas, cuando había mayor cantidad de clientes y debían dividir su atención entre las ventas y las tareas de inventario. <br><br>**URL:** |
 
-#### Datos de la entrevista:
+| |
+|---|
+| ![Imagen de la entrevista](RUTA-DE-LA-IMAGEN) |
+| **Nombres y apellidos:**  <br>**Edad:** 20  <br>**Distrito:**  <br><br>**Resumen:**  <br>Pablo Moreno, empleado de un minimarket, explica que las entradas y salidas de productos se registran principalmente de forma manual y, en algunos casos, mediante Excel. Este proceso no siempre se actualiza de inmediato, por lo que a veces existen diferencias entre el stock registrado y la cantidad real disponible, especialmente en productos de alta rotación o durante las horas de mayor atención. La revisión de productos próximos a vencer también se realiza manualmente, verificando las fechas directamente en los productos. Cuando un producto está vencido se retira de la venta, mientras que los productos próximos a vencer pueden colocarse en zonas más visibles o venderse con descuento. Pablo también menciona que los errores suelen ocurrir cuando hay muchos clientes o cuando llega bastante mercadería al mismo tiempo. Los problemas de stock se comunican personalmente o por WhatsApp, aunque la información puede perderse entre tantos mensajes. Finalmente, considera que sería útil contar con un sistema digital accesible desde el celular o computadora que permita registrar entradas y salidas, actualizar el stock rápidamente y recibir alertas sobre productos próximos a vencer. <br><br>**URL:** |
+
 
 ### 2.2.3. Análisis de entrevistas
+
+## Análisis para el segmento de Administradores
+A partir de las entrevistas realizadas a Lucía, Jimmy y Silvia, se pudo ver que los tres tienen problemas parecidos al momento de manejar el inventario de sus minimarkets.
+Uno de los problemas que más se repite es la **diferencia entre el stock registrado y el stock real**, ya que el **100 % de los entrevistados** mencionó que en algún momento las cantidades no coinciden. Esto puede pasar por errores al registrar productos, pérdidas, productos dañados o movimientos que no se anotan correctamente.
+También se encontró que el **100 % controla las fechas de vencimiento de forma manual**, revisando los productos directamente en los estantes o en el almacén. Esto hace que algunos productos puedan pasar desapercibidos y terminar venciendo, sobre todo los lácteos, yogures, leche y panes.
+Por otro lado, los tres entrevistados comentaron que tienen pérdidas por productos vencidos. Para tratar de evitarlo, suelen hacer descuentos, promociones u ofertas. Además, el **66,7 % mencionó que coloca estos productos en lugares más visibles**, como cerca de la caja, para que se vendan más rápido.
+En cuanto a las herramientas que utilizan, se puede ver que combinan métodos como Excel, sistemas POS, registros manuales y WhatsApp. Sin embargo, todavía sienten que la información no siempre está actualizada o reunida en un solo lugar.
+Respecto a una posible solución, el **100 % considera útil recibir alertas de productos próximos a vencer**. Además, el **66,7 % mostró interés en funciones como alertas de bajo stock, uso desde el celular y registro de productos mediante códigos de barras**.
+
+## Análisis para el segmento de Empleados
+A partir de las entrevistas realizadas a Joseph, Andrés y Pablo, se pudo identificar que los tres tienen dificultades con tareas relacionadas con el inventario y el almacén del minimarket.
+Uno de los principales problemas es el **registro y control del stock**. El **66,7 % de los entrevistados** mencionó que las entradas y salidas se registran principalmente de forma manual, utilizando cuadernos o Excel. Aunque Andrés trabajaba con un sistema digital, también señaló que podían existir errores al momento de contar los productos.
+Otro aspecto que se repite es que los errores suelen aparecer cuando existe mayor carga de trabajo. El **100 % mencionó que los problemas de inventario aumentan durante las horas con mayor cantidad de clientes o cuando llega mercadería**.
+La revisión de las **fechas de vencimiento también se realiza manualmente en el 100 % de los casos**. Los trabajadores revisan directamente cada producto y, cuando detectan uno próximo a vencer, tratan de darle mayor prioridad en la venta.
+En cuanto a la comunicación, los problemas relacionados con el stock suelen informarse de forma verbal, mediante registros escritos o por WhatsApp. Sin embargo, este proceso puede generar confusiones.
+Respecto a una posible solución, el **66,7 % mencionó directamente que sería útil contar con una herramienta digital de gestión**. Entre las funciones más importantes se encuentran el **registro de entradas y salidas, consulta rápida del stock y alertas de productos próximos a vencer**.
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
