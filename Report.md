@@ -611,6 +611,14 @@ Respecto a una posible solución, el **66,7 % mencionó directamente que sería 
 
 ### 2.3.4. Empathy Mapping
 
+## Administrador
+
+![Empathy Map Administrador](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/main/Recursos/EmphathyMapping-Administrador.jpg)
+
+## Empleado
+
+![Empathy Map Empleado](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/main/Recursos/EmphathyMapping-Empleado.jpg)
+
 ## 2.4. Big Picture EventStorming
 
 ## 2.5. Ubiquitous Language
