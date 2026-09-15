@@ -497,6 +497,9 @@ Este segmento está compuesto por trabajadores encargados de realizar actividade
 - **Captura de pantalla:**
 <img width="742" height="394" alt="image" src="https://github.com/user-attachments/assets/9e991940-2105-4a09-ad6d-ef0c881ee5e2" />
 
+- **Resumen de la entrevista:**
+Lucía es una administradora de una sucursal del minimarket "Mass" de 28 años que tiene un perfil práctico orientado a la solución rápida de problemas cotidianos en el entorno retail. Su personalidad demuestra ser organizada y concreta, encargandose de gestionar constantemente el descuadre de información que hay entre el sistema POS y el inventario físico, ya que sufre de variaciones diarias por mermas que no se registran.
+En cuanto a sus canales de interacción, Lucía utiliza las herramientas tradicionales como Excel y el sistema de la tienda, pero confía fuertemente en su dispositivo meóvil para la comunicación y difusión, utilizando WhatsApp como medio principal para reportar incidencias con el personal de almacén. Sus frustraciones se encuentran en el trabajo manual o visual que demanda el revisar fechas de caducidad bajo el método FEFO, una tarea que resulta pesada. Su objetivo principal es lograr una alta rapidez, expresa una fuerte necesidad por un sistema digital de App móvil que utilice la cámara de su celular por ejemplo como escáner de códigos de barras, permitiéndole recibir alertas sobre vencimientos y bajo stock sin depender de la computadora de la oficina.
 
 ### Segmento objetivo 2:
 
