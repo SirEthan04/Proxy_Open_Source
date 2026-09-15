@@ -1854,6 +1854,38 @@ El sistema de etiquetado de BodeGo utiliza palabras breves y relacionadas direct
 
 ### 4.2.3. SEO Tags and Meta Tags
 ### 4.2.4. Searching Systems
+
+El sistema de búsqueda de BodeGo permite localizar rápidamente productos, lotes, empleados y operaciones, reduciendo el tiempo necesario para revisar grandes cantidades de información.
+
+- **Herramientas de Búsqueda:**
+  - **Barra de búsqueda:** Disponible principalmente en Inventario y otras pantallas con grandes cantidades de registros.
+  - **Filtro por categoría:** Permite visualizar productos pertenecientes a una categoría determinada.
+  - **Filtro por estado:** Permite mostrar productos activos, con stock bajo, críticos o vencidos.
+  - **Filtro por fechas:** Utilizado en reportes, operaciones y vencimientos.
+  - **Filtro por lote:** Facilita la identificación de productos perecibles.
+
+- **Búsqueda en Inventario:**
+  - Código del producto.
+  - Nombre.
+  - Categoría.
+  - Estado.
+  - Cantidad disponible.
+
+- **Búsqueda en Vencimientos:**
+  - Producto.
+  - Número de lote.
+  - Fecha de vencimiento.
+  - Días restantes.
+  - Nivel de prioridad.
+
+- **Visualización de Resultados:**
+  - Los resultados se presentan principalmente mediante tablas.
+  - Los estados importantes se identifican mediante colores y etiquetas.
+  - Los resultados pueden organizarse por prioridad o fecha de vencimiento.
+  - Cuando no existan coincidencias se puede mostrar: **“No se encontraron resultados con los filtros seleccionados.”**
+
+---
+
 ### 4.2.5. Navigation Systems
 
 El sistema de navegación de BodeGo busca reducir la cantidad de pasos necesarios para acceder a las principales funciones del minimarket. La navegación se adapta de acuerdo con los permisos del Administrador y del Empleado.
