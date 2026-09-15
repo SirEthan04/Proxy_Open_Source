@@ -1692,6 +1692,43 @@ Impact Mapping
 
 ## 4.1. Style Guidelines
 ### 4.1.1. General Style Guidelines
+
+El sistema de diseño de **BodeGo** se basa en una estética moderna, limpia y funcional, orientada a facilitar la gestión diaria de inventarios en minimarkets. La interfaz busca mostrar la información de manera clara y ordenada, permitiendo que Administradores y Empleados puedan identificar rápidamente el estado del stock, los productos próximos a vencer y las operaciones realizadas.
+
+- **Branding & Tono:**
+  - **Tono:** Profesional, confiable y práctico.
+  - **Lenguaje:** Claro, directo y orientado a las operaciones del minimarket.
+  - **Personalidad:** BodeGo se presenta como una herramienta de apoyo para mantener el inventario organizado y reducir pérdidas por productos perecibles.
+  - **Identidad:** Se prioriza la sensación de control, rapidez y seguridad en las operaciones.
+
+- **Typography:**
+  - **Fuente principal:** Hanken Grotesk.
+  - **Títulos:** Uso de pesos Bold o SemiBold para destacar nombres de módulos, indicadores y datos importantes.
+  - **Contenido:** Peso Regular para tablas, descripciones y textos informativos.
+  - **Etiquetas:** Tamaño reducido para estados, categorías, fechas y datos secundarios.
+  - Se mantiene una jerarquía visual clara entre títulos, subtítulos, indicadores y contenido.
+
+- **Colors:**
+  - **Principal:** Azul `#2563EB`, utilizado para botones, acciones principales, elementos seleccionados y enlaces.
+  - **Secundario:** Azul oscuro `#0F172A`, empleado principalmente en textos importantes y elementos de alto contraste.
+  - **Terciario:** Verde `#10B981`, utilizado para indicar estados correctos, productos activos, ingresos o acciones exitosas.
+  - **Neutral:** Gris `#64748B`, empleado en información secundaria, iconos y etiquetas.
+  - **Rojo:** Utilizado para alertas críticas, productos vencidos, stock crítico y errores.
+  - **Amarillo/Naranja:** Utilizado para advertencias y productos próximos a vencer.
+
+- **Spacing:**
+  - Los módulos mantienen márgenes y separaciones constantes entre tarjetas, tablas y formularios.
+  - Las tarjetas utilizan bordes suavemente redondeados.
+  - La información se distribuye mediante bloques y columnas para evitar la saturación visual.
+  - Los indicadores principales cuentan con mayor espacio para facilitar su identificación.
+
+- **Iconografía:**
+  - Se utilizan iconos simples acompañados de texto para facilitar la comprensión.
+  - Los iconos permiten diferenciar rápidamente acciones como registrar ingreso, registrar salida, registrar merma, consultar inventario o acceder a reportes.
+  - Los colores de los iconos también ayudan a comunicar el estado de cada operación.
+
+---
+
 ### 4.1.2. Web Style Guidelines
 
 ## 4.2. Information Architecture
