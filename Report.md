@@ -400,8 +400,6 @@ Consideraremos que esta propuesta genera resultados positivos cuando los usuario
 
 ## 1.3. Segmentos objetivo
 
-## 1.3. Segmentos objetivo
-
 BodeGo está dirigido al personal involucrado en la gestión y operación de minimarkets de Lima Metropolitana. Para el desarrollo de la solución se consideran dos segmentos principales: los **Administradores**, responsables de supervisar y gestionar el negocio, y los **Empleados**, encargados de las actividades operativas relacionadas con el inventario, almacén y atención.
 
 ### Segmento: Administradores de minimarkets
