@@ -540,6 +540,15 @@ Respecto a una posible solución, el **66,7 % mencionó directamente que sería 
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
+
+## Administrador
+
+![User Persona Administrador](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/main/Recursos/UserPersona-Administrador.jpg)
+
+## Empleado
+
+![User Persona Empleado](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/main/Recursos/UserPersona-Empleado.jpg)
+
 ### 2.3.2. User Task Matrix
 
 ## Administradores
