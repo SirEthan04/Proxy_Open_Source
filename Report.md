@@ -451,6 +451,12 @@ Este segmento está compuesto por trabajadores encargados de realizar actividade
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
+
+| Competidor | Descripción |
+|---|---|
+| **Bsale** | Es una plataforma de gestión comercial orientada a pequeñas y medianas empresas. Integra punto de venta, facturación electrónica, control de inventario en tiempo real y reportes. Cada venta o ingreso de mercadería puede actualizar automáticamente el stock, por lo que compite con BodeGo en el control y seguimiento del inventario. |
+| **FácilVenta** | Es un software peruano dirigido a negocios como bodegas, minimarkets y tiendas. Integra punto de venta, facturación electrónica SUNAT y gestión de inventario. Para minimarkets incluye funciones como lector de códigos de barras, control de stock mínimo y alertas de productos próximos a vencer, por lo que es uno de los competidores más cercanos a la propuesta de BodeGo. |
+| **Adiasoft** | Es un sistema ERP que cuenta con una solución específica para minimarkets, bodegas y retail. Ofrece punto de venta, inventario en tiempo real, códigos de barras, promociones, facturación electrónica, reportes y gestión de múltiples áreas del negocio. Se diferencia por tener un enfoque más amplio y empresarial que BodeGo. |
 ### 2.1.1. Análisis competitivo
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
