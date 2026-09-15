@@ -1853,6 +1853,86 @@ El sistema de etiquetado de BodeGo utiliza palabras breves y relacionadas direct
 ---
 
 ### 4.2.3. SEO Tags and Meta Tags
+
+En esta sección se definen los principales **SEO Tags y Meta Tags** utilizados en BodeGo, tanto para la **Landing Page** como para las páginas principales de la **Web Application**.
+
+El objetivo es mejorar la identificación del sitio en los motores de búsqueda y mantener una estructura clara en los títulos y descripciones de cada página. En el caso de las secciones internas de la aplicación, se evita su indexación debido a que contienen información privada del minimarket.
+
+### Landing Page
+
+La Landing Page es la página pública principal de BodeGo y está orientada a presentar la solución, sus beneficios y funcionalidades.
+
+| Tag | Valor |
+|---|---|
+| **Title** | BodeGo \| Gestión de Inventario para Minimarkets |
+| **Description** | BodeGo es una plataforma web que ayuda a los minimarkets a controlar su stock, gestionar productos perecibles, reducir mermas y supervisar sus operaciones diarias. |
+| **Keywords** | BodeGo, gestión de inventario, minimarket, control de stock, productos perecibles, control de vencimientos, mermas, inventario digital |
+| **Author** | Equipo BodeGo |
+| **Robots** | index, follow |
+| **Language** | es |
+| **Viewport** | width=device-width, initial-scale=1.0 |
+
+**Implementación:**
+
+```html
+<title>BodeGo | Gestión de Inventario para Minimarkets</title>
+
+<meta
+  name="description"
+  content="BodeGo es una plataforma web que ayuda a los minimarkets a controlar su stock, gestionar productos perecibles, reducir mermas y supervisar sus operaciones diarias."
+/>
+
+<meta
+  name="keywords"
+  content="BodeGo, gestión de inventario, minimarket, control de stock, productos perecibles, control de vencimientos, mermas, inventario digital"
+/>
+
+<meta name="author" content="Equipo BodeGo" />
+<meta name="robots" content="index, follow" />
+<meta name="language" content="Spanish" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+```
+
+---
+
+### Web Application
+
+Las páginas internas de BodeGo están orientadas al uso de Administradores y Empleados. Debido a que contienen información operativa y requieren autenticación, no deben ser indexadas por los motores de búsqueda.
+
+| Página | Title | Description | Keywords | Author | Robots |
+|---|---|---|---|---|---|
+| **Inicio de Sesión** | Iniciar Sesión \| BodeGo | Accede a BodeGo para gestionar el inventario, productos, vencimientos y operaciones de tu minimarket. | BodeGo, iniciar sesión, inventario minimarket, gestión de stock | Equipo BodeGo | noindex, nofollow |
+| **Dashboard Administrador** | Dashboard Administrador \| BodeGo | Visualiza el estado general del inventario, alertas, productos por vencer y operaciones del minimarket. | dashboard, BodeGo, inventario, stock, alertas, vencimientos | Equipo BodeGo | noindex, nofollow |
+| **Inventario** | Inventario \| BodeGo | Consulta y administra los productos, categorías, stock y estado del inventario del minimarket. | inventario, productos, stock, BodeGo, minimarket | Equipo BodeGo | noindex, nofollow |
+| **Vencimientos** | Control de Vencimientos \| BodeGo | Supervisa lotes y productos próximos a vencer para reducir pérdidas y mejorar la rotación del inventario. | vencimientos, productos perecibles, lotes, mermas, BodeGo | Equipo BodeGo | noindex, nofollow |
+| **Alertas** | Centro de Alertas \| BodeGo | Revisa alertas relacionadas con stock crítico, productos próximos a vencer y operaciones del minimarket. | alertas, stock crítico, vencimientos, BodeGo | Equipo BodeGo | noindex, nofollow |
+| **Reportes** | Reportes y Analítica \| BodeGo | Consulta reportes e indicadores sobre inventario, movimientos, productos y mermas del minimarket. | reportes, analítica, inventario, mermas, stock, BodeGo | Equipo BodeGo | noindex, nofollow |
+| **Empleados** | Gestión de Empleados \| BodeGo | Administra empleados, roles, permisos y actividad operativa dentro del minimarket. | empleados, roles, permisos, personal, BodeGo | Equipo BodeGo | noindex, nofollow |
+| **Dashboard Empleado** | Dashboard Empleado \| BodeGo | Consulta operaciones diarias y accede al registro de ingresos, salidas y mermas del inventario. | empleado, operaciones, inventario, ingresos, salidas, mermas | Equipo BodeGo | noindex, nofollow |
+| **Operaciones** | Operaciones de Inventario \| BodeGo | Registra ingresos, salidas y mermas de productos para mantener actualizado el stock del minimarket. | operaciones, ingresos, salidas, mermas, stock, BodeGo | Equipo BodeGo | noindex, nofollow |
+
+---
+
+### Consideraciones de Indexación
+
+La **Landing Page** utiliza:
+
+```html
+<meta name="robots" content="index, follow" />
+```
+
+Esto permite que los motores de búsqueda puedan encontrar y mostrar BodeGo en los resultados de búsqueda.
+
+Por otro lado, las páginas internas de la **Web Application** utilizan:
+
+```html
+<meta name="robots" content="noindex, nofollow" />
+```
+
+Esto evita que páginas como Dashboard, Inventario, Empleados, Reportes u Operaciones sean indexadas, ya que contienen información interna y requieren autenticación para acceder.
+
+---
+
 ### 4.2.4. Searching Systems
 
 El sistema de búsqueda de BodeGo permite localizar rápidamente productos, lotes, empleados y operaciones, reduciendo el tiempo necesario para revisar grandes cantidades de información.
