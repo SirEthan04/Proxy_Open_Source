@@ -29,7 +29,7 @@
 | U20241G404 | Caldas Bravo, Mateo |
 | U20241G610 | Chavez Sandoval, Dany Yohel |
 | U202421082 | Saravia Hiso, Johan Álvaro |
-| [Código 3] | Trejo Espejo, Giordano Sebastian del Ángel |
+| U202316162 | Trejo Espejo, Giordano Sebastian del Ángel |
 
 ---
 
@@ -484,6 +484,26 @@ Este segmento está compuesto por trabajadores encargados de realizar actividade
 10. ¿Qué actividad relacionada con el inventario le parece más lenta o complicada de realizar?
 
 ### 2.2.2. Registro de entrevistas
+
+### Segmento objetivo 1:
+
+### Entrevista 1
+
+#### Datos de la entrevista:
+
+- **Nombres y Apellidos:** Lucía Dávila
+- **Edad:** 28 años
+- **Distrito:** San Martín de Porres
+- **Captura de pantalla:**
+<img width="742" height="394" alt="image" src="https://github.com/user-attachments/assets/9e991940-2105-4a09-ad6d-ef0c881ee5e2" />
+
+
+### Segmento objetivo 2:
+
+### Entrevista 1
+
+#### Datos de la entrevista:
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
