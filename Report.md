@@ -1856,6 +1856,48 @@ El sistema de etiquetado de BodeGo utiliza palabras breves y relacionadas direct
 ### 4.2.4. Searching Systems
 ### 4.2.5. Navigation Systems
 
+El sistema de navegación de BodeGo busca reducir la cantidad de pasos necesarios para acceder a las principales funciones del minimarket. La navegación se adapta de acuerdo con los permisos del Administrador y del Empleado.
+
+## Estructura de Navegación del Administrador
+
+La barra lateral puede incluir:
+
+**Dashboard | Inventario | Vencimientos | Alertas | Reportes | Empleados | Configuración**
+
+El Administrador tiene acceso a funciones de supervisión, análisis y configuración.
+
+## Estructura de Navegación del Empleado
+
+La navegación del Empleado debe concentrarse principalmente en las operaciones necesarias durante su jornada:
+
+**Dashboard | Inventario | Operaciones**
+
+Desde el Dashboard también dispone de accesos rápidos para:
+
+- Registrar ingreso.
+- Registrar salida.
+- Registrar merma.
+- Consultar inventario.
+
+## Técnicas de Navegación
+
+- **Menú lateral:** Permite desplazarse entre módulos sin regresar al inicio.
+- **Acciones rápidas:** Permiten realizar las operaciones más frecuentes desde el Dashboard.
+- **Breadcrumbs o rutas:** Facilitan regresar desde el detalle de un producto hacia el inventario.
+- **Paginación:** Utilizada en tablas con gran cantidad de productos, empleados u operaciones.
+- **Filtros:** Permiten reducir el contenido sin cambiar de pantalla.
+
+## Estados de Navegación
+
+- **Cargando:** Se muestran indicadores visuales mientras se obtiene la información.
+- **Sin resultados:** Se informa cuando una búsqueda o filtro no tiene coincidencias.
+- **Error:** Se muestra un mensaje indicando que no fue posible cargar la información.
+- **Operación exitosa:** Se confirma inmediatamente después de registrar un ingreso, salida o merma.
+- **Alerta crítica:** Los elementos que necesitan atención inmediata se destacan mediante rojo.
+- **Advertencia:** Los productos próximos a vencer o con stock bajo se identifican con amarillo o naranja.
+
+---
+
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 ### 4.3.2. Landing Page Mock-up
