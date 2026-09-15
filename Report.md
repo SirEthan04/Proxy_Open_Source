@@ -1,21 +1,23 @@
 # Carátula
 
-![Logo_UPC](http://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png)
+<p align="center">
+  <img src="http://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="100" alt="Descripción">
+</p>
 
-* **Nombre de la Universidad:** Universidad Peruana de Ciencias Aplicadas S.A.C
-* **Carrera:** Ingeniería de Software
-* **Ciclo:** 5
-* **Código del Curso:** 1ASI0729-2620
-* **Nombre del Curso:** Desarrollo de Aplicaciones Open Source
-* **NRC:** 7760
-* **Nombre del Profesor:** Juan Antonio Flores Moroco
+<p align="center"><b>Universidad Peruana de Ciencias Aplicadas S.A.C.</b></p>
+<p align="center"><b>Ingeniería de Software</b></p>
+<p align="center"><b>Ciclo: 5</b></p>
+<p align="center"><b>1ASI0729-2620</b></p>
+<p align="center"><b>Desarrollo de Aplicaciones Open Source</b></p>
+<p align="center"><b>NRC: 7760</b></p>
+<p align="center"><b>Docente: Juan Antonio Flores Moroco</b></p>
 
 ---
 
 ### **Informe de Trabajo Final**
 
-* **Nombre del Startup:** [Nombre del Startup]
-* **Nombre del Producto:** [Nombre del Producto]
+* **Nombre del Startup:** Proxy
+* **Nombre del Producto:** BodeGo
 
 ---
 
