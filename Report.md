@@ -541,6 +541,37 @@ Respecto a una posible solución, el **66,7 % mencionó directamente que sería 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 ### 2.3.2. User Task Matrix
+
+## Administradores
+
+| Tareas identificadas | Frecuencia | Importancia | Evidencia / Justificación |
+|---|---|---|---|
+| Revisar el estado general del inventario | Alta | Alta | El administrador necesita conocer el stock disponible y detectar diferencias entre el inventario registrado y el real. |
+| Supervisar productos próximos a vencer | Alta | Alta | Los productos perecibles pueden generar pérdidas si no se identifican y gestionan antes de su vencimiento. |
+| Revisar alertas de stock y vencimientos | Alta | Alta | Permite detectar rápidamente productos con stock crítico, bajo nivel de existencias o próximos a caducar. |
+| Consultar reportes e indicadores | Media | Alta | Los reportes ayudan a conocer mermas, movimientos y comportamiento del inventario para tomar mejores decisiones. |
+| Aplicar promociones u ofertas | Media | Alta | Las ofertas permiten liquidar productos próximos a vencer o con baja rotación antes de que se conviertan en merma. |
+| Revisar las operaciones realizadas por empleados | Alta | Media | El administrador necesita mantener control sobre ingresos, salidas y mermas registradas durante la jornada. |
+| Gestionar productos y datos del inventario | Media | Alta | Es necesario registrar, editar y mantener actualizada la información de los productos disponibles. |
+| Gestionar empleados y permisos | Baja | Media | El administrador debe controlar qué empleados tienen acceso al sistema y las acciones que pueden realizar según su rol. |
+| Configurar parámetros de stock y vencimiento | Baja | Media | Permite adaptar las alertas y reglas de inventario a las necesidades particulares del minimarket. |
+| Identificar productos con mayor cantidad de mermas | Media | Alta | Conocer qué productos generan más pérdidas facilita tomar decisiones sobre compras, rotación y promociones. |
+
+## Empleados
+
+| Tareas identificadas | Frecuencia | Importancia | Evidencia / Justificación |
+|---|---|---|---|
+| Registrar el ingreso de mercadería | Alta | Alta | La recepción de productos ocurre regularmente y debe registrarse para mantener actualizado el inventario. |
+| Registrar salidas de productos | Alta | Alta | Las salidas modifican constantemente las cantidades disponibles y deben reflejarse correctamente en el stock. |
+| Consultar el stock disponible | Alta | Alta | El empleado necesita conocer rápidamente cuántas unidades quedan sin realizar revisiones manuales del almacén. |
+| Registrar productos dañados, vencidos o perdidos como merma | Media | Alta | Registrar las mermas permite mantener el stock real y conocer las pérdidas generadas durante la operación. |
+| Revisar productos próximos a vencer | Alta | Alta | Permite detectar productos perecibles antes de que caduquen y comunicar la situación al administrador. |
+| Consultar información de un producto | Alta | Media | Durante la jornada puede necesitar verificar cantidades, categoría, estado o información relacionada con un producto. |
+| Actualizar el stock después de una operación | Alta | Alta | Mantener las cantidades actualizadas evita diferencias entre el inventario físico y el registrado en el sistema. |
+| Revisar sus operaciones realizadas durante el día | Media | Media | El historial permite verificar que los ingresos, salidas y mermas hayan sido registrados correctamente. |
+| Comunicar incidencias de inventario | Media | Alta | El empleado debe informar situaciones como stock crítico, productos dañados o inconsistencias encontradas durante su jornada. |
+| Buscar productos dentro del inventario | Alta | Media | Una búsqueda rápida reduce el tiempo necesario para localizar información entre una gran cantidad de productos. |
+
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 
