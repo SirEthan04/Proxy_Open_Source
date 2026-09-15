@@ -573,6 +573,33 @@ Respecto a una posible solución, el **66,7 % mencionó directamente que sería 
 | Buscar productos dentro del inventario | Alta | Media | Una búsqueda rápida reduce el tiempo necesario para localizar información entre una gran cantidad de productos. |
 
 ### 2.3.3. User Journey Mapping
+
+## Administrador
+
+|  | Etapa 1 | Etapa 2 | Etapa 3 | Etapa 4 | Etapa 5 |
+|---|---|---|---|---|---|
+| **Title** | Supervisión inicial del negocio | Revisión del inventario | Detección de problemas | Toma de decisiones | Seguimiento de resultados |
+| **User Goals** | Conocer el estado general del minimarket | Verificar stock y productos disponibles | Detectar stock crítico, mermas o vencimientos | Reducir pérdidas y mejorar la rotación | Comprobar si las acciones tomadas funcionaron |
+| **Process** | Revisa ventas, stock y operaciones del día | Consulta cantidades y revisa productos | Identifica productos próximos a vencer o con poco stock | Aplica promociones, repone productos o toma acciones | Revisa reportes, movimientos y resultados |
+| **Problems** | Información dispersa o poco actualizada | Diferencias entre stock registrado y real | Detección tardía de productos próximos a vencer | Falta de información para tomar decisiones rápidas | Dificultad para medir mermas y resultados |
+| **Experience** | Expectativa | Atención | Preocupación | Decisión | Tranquilidad / Incertidumbre |
+| **Ideas / Opportunities** | Dashboard con información resumida | Inventario actualizado y filtros | Alertas automáticas de stock y vencimiento | Recomendaciones y lanzamiento de ofertas | Reportes claros sobre inventario y mermas |
+
+---
+
+## Empleado
+
+|  | Etapa 1 | Etapa 2 | Etapa 3 | Etapa 4 | Etapa 5 |
+|---|---|---|---|---|---|
+| **Title** | Inicio de la jornada | Recepción de mercadería | Actualización del inventario | Gestión de incidencias | Revisión de operaciones |
+| **User Goals** | Conocer las tareas y estado del inventario | Registrar correctamente los productos recibidos | Mantener actualizado el stock durante el día | Registrar mermas y detectar productos próximos a vencer | Confirmar que sus operaciones fueron registradas correctamente |
+| **Process** | Revisa productos, stock y pendientes | Recibe productos y verifica cantidades | Registra ingresos, salidas y consulta existencias | Informa o registra productos dañados, vencidos o faltantes | Consulta el historial de operaciones realizadas |
+| **Problems** | Falta de información actualizada | Errores al registrar cantidades o lotes | Olvidar actualizar movimientos durante momentos de alta demanda | Dificultad para identificar vencimientos o comunicar incidencias | No saber si una operación fue registrada correctamente |
+| **Experience** | Atención | Concentración | Presión | Preocupación | Alivio |
+| **Ideas / Opportunities** | Dashboard simple con acciones rápidas | Registro sencillo de ingresos y lotes | Actualización rápida y automática del stock | Alertas y registro simplificado de mermas | Historial de operaciones fácil de consultar |
+
+---
+
 ### 2.3.4. Empathy Mapping
 
 ## 2.4. Big Picture EventStorming
