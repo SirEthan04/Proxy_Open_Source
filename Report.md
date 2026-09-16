@@ -2143,8 +2143,118 @@ Desde el Dashboard también dispone de accesos rápidos para:
 
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
+
+![Wireframe 1](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF1.png)
+
+---
+
+![Wireframe 2](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF2.png)
+
+---
+
+![Wireframe 3](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF3.png)
+
+---
+
+![Wireframe 4](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF4.png)
+
+---
+
+![Wireframe 5](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF5.png)
+
+---
+
+![Wireframe 6](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF6.png)
+
+---
+
+![Wireframe 7](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF7.png)
+
+---
+
+![Wireframe 8](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF8.png)
+
+---
+
+![Wireframe 9](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF9.png)
+
+---
+
+![Wireframe 10](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF10.png)
+
+---
+
+![Wireframe 11](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF11.png)
+
+---
+
+![Wireframe 12](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF12.png)
+
+---
+
+![Wireframe 13](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF13.png)
+
+---
+
+![Wireframe 14](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF14.png)
+
 ### 4.4.2. Web Applications Wireflow Diagrams
+![Wireflow 0](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Wireflow_App.png)
+
 ### 4.4.3. Web Applications Mock-ups
+![Mockup App 1](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App1.png)
+
+---
+
+![Mockup App 2](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App2.png)
+
+---
+
+![Mockup App 3](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App3.png)
+
+---
+
+![Mockup App 4](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App4.png)
+
+---
+
+![Mockup App 5](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App5.png)
+
+---
+
+![Mockup App 6](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App6.png)
+
+---
+
+![Mockup App 7](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App7.png)
+
+---
+
+![Mockup App 8](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App8.png)
+
+---
+
+![Mockup App 9](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App9.png)
+
+---
+
+![Mockup App 10](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App10.png)
+
+---
+
+![Mockup App 11](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App11.png)
+
+---
+
+![Mockup App 12](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App12.png)
+
+---
+
+![Mockup App 13](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App13.png)
+
+---
+
+![Mockup App 14](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App14.png)
 ### 4.4.4. Web Applications User Flow Diagrams
 
 ## LEYENDA
@@ -2169,24 +2279,88 @@ Desde el Dashboard también dispone de accesos rápidos para:
 
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level EventStorming
-### 4.6.2. Software Architecture Context Diagram
-### 4.6.3. Software Architecture Container Diagrams
-### 4.6.4. Software Architecture Components Diagrams
+![Estructura / Captura 1](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/es1.png)
 
+---
+
+![Estructura / Captura 2](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/es2.png)
+
+---
+
+![Estructura / Captura 3](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/es3.png)
+
+---
+
+![Estructura / Captura 4](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/es4.png)
+
+---
+
+![Estructura / Captura 5](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/es5.png)
+
+---
+
+![Estructura / Captura 6](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/es6.png)
+
+---
+
+![Estructura / Captura 7](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/es7.png)
+
+---
+
+![Estructura / Captura 8](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/es8.png)
+
+---
+
+![Estructura / Captura 9](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/es9.png)
+
+---
+
+![Estructura / Captura 9](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/es91.png)
+
+---
+
+![Estructura / Captura 9](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/es92.png)
+
+---
+
+![Estructura / Captura 9](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/es93.png)
+
+### 4.6.2. Software Architecture Context Diagram
+![Context](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/SystemContext.png)
+### 4.6.3. Software Architecture Container Diagrams
+![Container](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Containers.png)
+
+### 4.6.4. Software Architecture Components Diagrams
+![Components-Worker](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Components-Worker.png)
+
+---
+
+![Components-API](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Components-API.png)
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
-
+![Components-API](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/BodeGo-diagramaClases.png)
 ## 4.8. Database Design
-
 Se presenta el diseño de la base de datos relacional que permitirá graficar la información para los objetos de cada Bounded Context identificados en la aplicación BodeGo.
 
 ### 4.8.1. Database Diagrams
-
 El siguiente diagrama de base de datos Entity-Relationship contiene las tablas, columnas y tipos de datos que establecen las relaciones entre las entidades del sistema.
-
-![Entity-Relationship Diagram](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/main/Recursos/EntityRelationship-Diagram.jpg)
+![Diagrama / Diseño 1](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/d1.png)
 
 ---
+
+![Diagrama / Diseño 2](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/d2.png)
+
+---
+
+![Diagrama / Diseño 3](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/d3.png)
+
+---
+
+![Diagrama / Diseño 4](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/d4.png)
+
+---
+
+![Diagrama / Diseño 5](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/d5.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
