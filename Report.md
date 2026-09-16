@@ -2671,8 +2671,43 @@ Scenario: Register expired product as wastage
 ### 5.1.4. Software Deployment Configuration
 
 ## 5.2. Landing Page, Services & Applications Implementation
-### 5.2.1. Sprint n
-#### 5.2.1.1. Sprint Planning n
+### 5.2.1. Sprint 1
+## Sprint 1 - Desarrollo de la Landing Page de BodeGo
+Durante el Sprint 1, el equipo se enfocó en desarrollar la primera versión funcional de la Landing Page de BodeGo.
+El objetivo fue transformar los wireframes y diseños realizados previamente en una página web funcional que permitiera presentar de manera clara la solución propuesta para los minimarkets.
+
+#### 5.2.1.1. Sprint Planning 1
+
+El print Planning permitió organizar las actividades que serían desarrolladas durante el Sprint 1.
+En esta reunión se definió como objetivo principal implementar la Landing Page de BodeGo a partir de los diseños y wireframes
+# Sprint #1: Sprint Planning
+
+- **Fecha:** AAAA-MM-DD
+- **Hora:** HH:MM
+- **Ubicación:** Discord - Reunión virtual
+- **Preparado por:** [Nombre del integrante responsable]
+- **Asistentes (Reunión de planificación):** [Integrante 1] / [Integrante 2] / [Integrante 3] / ...
+
+---
+
+## 1. Resumen del Sprint 0
+
+- **Sprint 0 Review Summary:** No aplica, debido a que corresponde al primer Sprint del proyecto.
+- **Sprint 0 Retrospective Summary:** No aplica, debido a que corresponde al primer Sprint del proyecto.
+
+---
+
+## 2. Sprint Goal & User Stories
+
+- **Sprint 1 Goal:** Implementar una primera versión funcional y responsive de la Landing Page de BodeGo que permita comunicar la propuesta de valor, las principales funcionalidades y los beneficios de la plataforma para los minimarkets.
+
+---
+
+## 3. Métricas del Sprint
+
+- **Sprint 1 Velocity:** [Colocar Story Points aceptados para el Sprint]
+- **Suma de Story Points:** [Colocar suma total]
+
 #### 5.2.1.2. Aspect Leaders and Collaborators
 #### 5.2.1.3. Sprint Backlog n
 #### 5.2.1.4. Development Evidence for Sprint Review
