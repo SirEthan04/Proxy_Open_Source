@@ -2171,23 +2171,48 @@ El siguiente diagrama de base de datos Entity-Relationship contiene las tablas, 
 Para el desarrollo de BodeGo se establecerán un conjunto de herramientas que permitan mantener la consistencia del proyecto durante su ciclo de vida. Estas configuraciones permitirán que los integrantes del equipo trabajen bajo una misma estructura para el control de versiones, configuración del entorno de desarrollo y posterior despliegue de la aplicación.
 
 ### 5.1.1. Software Development Environment Configuration
-## . Project Management: 
-# - Discord: 
-Una  herramienta de comunicación y coordinación del equipo. Permite organizar conversaciones por canales, realizar reuniones de voz, compartir avances, resolver dudas y coordinar las actividades relacionadas con el desarrollo de BodeGo.
+## Project Management
+
+- **Discord:** Una herramienta de comunicación y coordinación del equipo. Permite organizar conversaciones por canales, realizar reuniones de voz, compartir avances, resolver dudas y coordinar las actividades relacionadas con el desarrollo de BodeGo.
+
 ![Imagen de reunión](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/43dc2e10f407b28b5fe139102347e314a732568c/Recursos/imagen%20de%20reunion.png?raw=true)
 
-##. Requirement Managetment: 
+## Requirement Management
+
 - **Miro:** Se utilizará como herramienta colaborativa para la gestión y análisis de requisitos de BodeGo. Permitirá organizar visualmente información obtenida durante la investigación, como User Personas, Empathy Maps, User Journey Maps e Impact Mapping.
 
 - **UXPressia:** Se utilizará para elaborar y documentar artefactos relacionados con la experiencia de usuario, como User Personas y User Journey Maps, permitiendo representar las características, necesidades, objetivos y experiencias de los segmentos de usuarios de BodeGo.
-  
+
 - **Structurizr:** Se utilizará para modelar y documentar la arquitectura de software de BodeGo mediante diagramas basados en el modelo C4. Permitirá representar la estructura general del sistema, sus principales contenedores, componentes y relaciones.
 
-## . Product UX/UI Design: 
+## Product UX/UI Design
 
-# - Figma: Una herramienta de colaboración que facilita el desarrollo conjunto de wireframes y mockups. 
+- **Figma:** Una herramienta de colaboración que facilita el desarrollo conjunto de wireframes y mockups.
 
-# - LucidChart: Una herramienta colaborativa que posibilita la creación conjunta de wireframes flow y mockups flow.
+- **LucidChart:** Una herramienta colaborativa que posibilita la creación conjunta de wireframes flow y mockups flow.
+
+## Software Development
+
+- **HTML5:** Es un lenguaje de etiquetado utilizado para crear la estructura de una página web. Se empleará para incluir componentes como texto, imágenes, enlaces, botones y videos.
+
+- **CSS:** Es un lenguaje de diseño gráfico utilizado para dar formato y estilo a la presentación de los documentos HTML.
+
+- **JavaScript:** Es un lenguaje de programación dinámico orientado a objetos que se utilizará para implementar funcionalidades e interactividad en la aplicación web.
+
+- **WebStorm:** Es un entorno de desarrollo integrado (IDE) que se empleará para trabajar con JavaScript y desarrollar la aplicación.
+
+## Software Testing
+
+- **Lenguaje Gherkin:** Es un Lenguaje Específico de Dominio (DSL) diseñado para describir el comportamiento esperado del sistema mediante escenarios comprensibles tanto para desarrolladores como para otros integrantes del equipo.
+
+## Software Documentation
+
+- **GitHub:** Es una plataforma utilizada para el alojamiento y control de versiones del código fuente de un proyecto. Facilita el trabajo colaborativo entre los integrantes del equipo y permite mantener un historial de los cambios realizados.
+
+## Software Deployment
+
+- **GitHub Pages:** Es una plataforma que permite realizar despliegues de aplicaciones web directamente desde un repositorio de GitHub.
+
 
 ### 5.1.2. Source Code Management
 ### 5.1.3. Source Code Style Guide & Conventions
