@@ -2290,9 +2290,11 @@ La estructura general será: git commit -m <type>[optional scope]: <title>“ -m
 | `perf` | Mejoras relacionadas con el rendimiento. |
 
 ### 5.1.3. Source Code Style Guide & Conventions
-
 Como norma general, todo el código desarrollado para **BodeGo** deberá utilizar nombres en inglés. Esto incluye variables, funciones, métodos, clases, archivos, atributos y demás elementos utilizados durante el desarrollo.
+
 La finalidad de estas reglas es mantener un código ordenado y fácil de entender para todos los integrantes del equipo.
+
+---
 
 ## HTML
 
@@ -2300,59 +2302,72 @@ La finalidad de estas reglas es mantener un código ordenado y fácil de entende
 
 Los elementos HTML se escribirán en minúsculas.
 
+```html
 <section>
     <h2>Inventory</h2>
     <p>Available products</p>
 </section>
+```
 
 ### Close All HTML Elements
 
 Todos los elementos HTML que necesiten una etiqueta de cierre deberán cerrarse correctamente.
 
+```html
 <section>
     <h2>Inventory</h2>
     <p>Available products</p>
 </section>
+```
 
 ### Use Lowercase Attribute Names
 
 Los atributos HTML también se escribirán en minúsculas.
 
+```html
 <a href="/inventory">View inventory</a>
-
-<input
-    type="text"
-    id="product-name"
-    name="product-name"
-    placeholder="Product name">
-
+```
 
 ### Use Alternative Text for Images
 
 Las imágenes utilizadas en BodeGo deberán incluir el atributo alt para indicar brevemente su contenido.
 
+```html
 <img
     src="assets/bodego-logo.png"
     alt="BodeGo logo">
-
+```
 
 ### Use Semantic HTML Elements
 
 Cuando sea posible, se utilizarán etiquetas semánticas para organizar mejor las páginas.
 Algunas de las etiquetas que se utilizarán son:
 
-header, nav, main, section, article, footer
+```text
+header
+nav
+main
+section
+article
+footer
+```
 
 ### Spaces and Equal Signs
 
 No se utilizarán espacios innecesarios alrededor del signo igual en los atributos.
 
 Correcto:
+
+```html
 <link rel="stylesheet" href="styles.css">
+```
 
 Incorrecto:
 
+```html
 <link rel = "stylesheet" href = "styles.css">
+```
+
 
 ## CSS
 
@@ -2360,6 +2375,7 @@ Incorrecto:
 
 Las clases e identificadores CSS deberán utilizar nombres claros y relacionados con el elemento que representan.
 
+```css
 #inventory {
 }
 
@@ -2371,21 +2387,22 @@ Las clases e identificadores CSS deberán utilizar nombres claros y relacionados
 
 .stock-alert {
 }
-
+```
 Se evitarán nombres poco descriptivos como:
 
+```css
 .box1 {
 }
 
 .element2 {
 }
+```
 
 ### ID and Class Name Style
 
 Para los nombres de clases e identificadores CSS se utilizará kebab-case.
 
-Ejemplos:
-
+```css
 .product-card {
 }
 
@@ -2394,28 +2411,36 @@ Ejemplos:
 
 .stock-alert {
 }
+```
 
 ### Shorthand Properties
 
 Cuando sea posible, se utilizarán propiedades abreviadas para evitar código innecesario.
 
 En lugar de:
+
+```css
 .product-card {
     margin-top: 16px;
     margin-right: 16px;
     margin-bottom: 16px;
     margin-left: 16px;
 }
+```
 
 Se utilizará:
+
+```css
 .product-card {
     margin: 16px;
 }
+```
 
 ### Declaration Order
 
 Las propiedades CSS deberán mantenerse ordenadas para facilitar la lectura del código.
 
+```css
 .product-card {
     background: white;
     border: 1px solid #e5e7eb;
@@ -2425,6 +2450,7 @@ Las propiedades CSS deberán mantenerse ordenadas para facilitar la lectura del 
     padding: 16px;
     text-align: left;
 }
+```
 
 ## JavaScript
 
@@ -2432,49 +2458,78 @@ Las propiedades CSS deberán mantenerse ordenadas para facilitar la lectura del 
 
 El código JavaScript deberá escribirse de manera clara y ordenada, colocando cada instrucción en una línea diferente cuando sea necesario.
 
+```javascript
 function calculateAvailableStock() {
     console.log("Calculating available stock");
 }
-
+```
 ### Variable Naming
 
 Las variables utilizarán camelCase y deberán tener nombres descriptivos en inglés.
 
+```javascript
 let availableStock = 20;
 let productName = "Milk";
 let expirationDate = "2026-10-20";
 let criticalStockThreshold = 5;
+```
 
 Se evitarán nombres poco claros como:
+
+```javascript
 let x;
 let data1;
 let thing;
+```
 
 ### Declaring Variables
 
 Se utilizará const cuando el valor no necesite cambiar.
 
+```javascript
 const productId = 10;
 const productName = "Milk";
+```
 
 Se utilizará let cuando el valor pueda modificarse.
 
+```javascript
 let availableStock = 20;
 
 availableStock = availableStock - 1;
+```
 
 ### Function Naming
 
 Las funciones utilizarán camelCase y sus nombres deberán indicar claramente la acción que realizan.
 
+Ejemplos:
+
+```javascript
 function registerProduct() {
 }
+```
 
+```javascript
 function calculateStock() {
 }
+```
 
+```javascript
 function showExpirationAlert() {
 }
+```
+
+### Constants
+
+Las constantes globales podrán utilizar UPPER_SNAKE_CASE.
+
+Ejemplos:
+
+```javascript
+const MAX_LOGIN_ATTEMPTS = 5;
+const DEFAULT_STOCK_THRESHOLD = 10;
+```
 
 ## C#
 
@@ -2482,80 +2537,78 @@ function showExpirationAlert() {
 
 Las clases, métodos y propiedades utilizarán PascalCase.
 
+```csharp
 public class ProductService
 {
 }
+```
 
+```csharp
 public class InventoryService
 {
 }
+```
 
+```csharp
 public class BatchService
 {
 }
-
-public class WastageService
-{
-}
+```
 
 ### camelCase
 
 Las variables locales y parámetros utilizarán camelCase.
 
+```csharp
 int productId;
 string productName;
 int availableStock;
 DateTime expirationDate;
+```
 
 ### Interface Naming
 
 Las interfaces utilizarán PascalCase y comenzarán con la letra I.
 
+```csharp
 public interface IProductService
 {
 }
+```
 
+```csharp
 public interface IInventoryService
 {
 }
+```
 
+```csharp
 public interface IWastageService
 {
 }
-
-### Reasonable Line Length
-
-Se evitarán líneas demasiado extensas para mantener una lectura clara del código.
-Cuando una instrucción sea muy larga, se dividirá de forma lógica.
-
-public bool IsProductNearExpiration(
-    DateTime expirationDate,
-    int alertDays)
-{
-    DateTime alertDate =
-        expirationDate.AddDays(-alertDays);
-
+```
 
 ### Clear Comments
 
-Los comentarios se utilizarán cuando ayuden a entender alguna  parte del código que no sea evidente.
+Los comentarios se utilizarán cuando ayuden a entender alguna regla de negocio o una parte del código que no sea evidente.
 Los comentarios deberán escribirse en inglés.
 
+```csharp
 // Checks whether the batch is close to its expiration date.
-
 public bool IsNearExpiration(DateTime expirationDate)
 {
     return expirationDate <= DateTime.Today.AddDays(7);
 }
+```
 
 ### Single Responsibility
 
 Cada clase deberá encargarse principalmente de una responsabilidad.
 
-- ProductService -> se encargará de las operaciones relacionadas con productos.
-- InventoryService -> se encargará de las operaciones relacionadas con inventario.
-- BatchService -> se encargará de la gestión de lotes.
-- WastageService -> se encargará del registro y gestión de mermas.
+- ProductService se encargará de las operaciones relacionadas con productos.
+- InventoryService se encargará de las operaciones relacionadas con inventario.
+- BatchService se encargará de la gestión de lotes.
+- WastageService se encargará del registro y gestión de mermas.
 
 ## Gherkin
 
@@ -2565,12 +2618,14 @@ Los escenarios y criterios de aceptación de BodeGo deberán seguir una estructu
 
 Los escenarios deberán tener títulos claros que permitan entender rápidamente qué comportamiento se está evaluando.
 
+```gherkin
 Feature: User authentication
 
 Scenario: Successful login
     Given the user has an active account
     When the user enters valid credentials
     Then the system should grant access according to the user role
+```
 
 ### Follow the Given-When-Then Structure Consistently
 
@@ -2580,28 +2635,34 @@ Los escenarios deberán utilizar la estructura Given, When y Then.
 - When: representa la acción realizada.
 - Then: representa el resultado esperado.
 
+
 ### Focus on Business-Readable Language
 
 Los escenarios deberán utilizar un lenguaje relacionado con las actividades del minimarket y evitar detalles técnicos de programación.
 
+```gherkin
 Scenario: Register damaged product as wastage
+
     Given the employee finds a damaged product
     When the employee registers the product as wastage
     Then the stock should be updated
     And the wastage should be recorded
-
+```
 ### Add Comments When Necessary
 
 Se podrán agregar comentarios cuando sea necesario explicar el propósito de un escenario.
 
+```gherkin
 # This scenario checks the registration of expired products as wastage.
 
 Scenario: Register expired product as wastage
+
     Given a product batch has expired
     When the employee registers the expired units
     Then the units should be recorded as wastage
     And the stock should be updated
-    
+```
+
 ### 5.1.4. Software Deployment Configuration
 
 ## 5.2. Landing Page, Services & Applications Implementation
