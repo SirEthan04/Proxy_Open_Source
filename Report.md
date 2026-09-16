@@ -2171,13 +2171,13 @@ El siguiente diagrama de base de datos Entity-Relationship contiene las tablas, 
 Para el desarrollo de BodeGo se establecerán un conjunto de herramientas que permitan mantener la consistencia del proyecto durante su ciclo de vida. Estas configuraciones permitirán que los integrantes del equipo trabajen bajo una misma estructura para el control de versiones, configuración del entorno de desarrollo y posterior despliegue de la aplicación.
 
 ### 5.1.1. Software Development Environment Configuration
-## Project Management
+## . Project Management
 
 - **Discord:** Una herramienta de comunicación y coordinación del equipo. Permite organizar conversaciones por canales, realizar reuniones de voz, compartir avances, resolver dudas y coordinar las actividades relacionadas con el desarrollo de BodeGo.
 
 ![Imagen de reunión](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/43dc2e10f407b28b5fe139102347e314a732568c/Recursos/imagen%20de%20reunion.png?raw=true)
 
-## Requirement Management
+## . Requirement Management
 
 - **Miro:** Se utilizará como herramienta colaborativa para la gestión y análisis de requisitos de BodeGo. Permitirá organizar visualmente información obtenida durante la investigación, como User Personas, Empathy Maps, User Journey Maps e Impact Mapping.
 
@@ -2185,13 +2185,13 @@ Para el desarrollo de BodeGo se establecerán un conjunto de herramientas que pe
 
 - **Structurizr:** Se utilizará para modelar y documentar la arquitectura de software de BodeGo mediante diagramas basados en el modelo C4. Permitirá representar la estructura general del sistema, sus principales contenedores, componentes y relaciones.
 
-## Product UX/UI Design
+## . Product UX/UI Design
 
 - **Figma:** Una herramienta de colaboración que facilita el desarrollo conjunto de wireframes y mockups.
 
 - **LucidChart:** Una herramienta colaborativa que posibilita la creación conjunta de wireframes flow y mockups flow.
 
-## Software Development
+## . Software Development
 
 - **HTML5:** Es un lenguaje de etiquetado utilizado para crear la estructura de una página web. Se empleará para incluir componentes como texto, imágenes, enlaces, botones y videos.
 
@@ -2201,20 +2201,76 @@ Para el desarrollo de BodeGo se establecerán un conjunto de herramientas que pe
 
 - **WebStorm:** Es un entorno de desarrollo integrado (IDE) que se empleará para trabajar con JavaScript y desarrollar la aplicación.
 
-## Software Testing
+## . Software Testing
 
 - **Lenguaje Gherkin:** Es un Lenguaje Específico de Dominio (DSL) diseñado para describir el comportamiento esperado del sistema mediante escenarios comprensibles tanto para desarrolladores como para otros integrantes del equipo.
 
-## Software Documentation
+## . Software Documentation
 
 - **GitHub:** Es una plataforma utilizada para el alojamiento y control de versiones del código fuente de un proyecto. Facilita el trabajo colaborativo entre los integrantes del equipo y permite mantener un historial de los cambios realizados.
 
-## Software Deployment
+## . Software Deployment
 
 - **GitHub Pages:** Es una plataforma que permite realizar despliegues de aplicaciones web directamente desde un repositorio de GitHub.
 
 
 ### 5.1.2. Source Code Management
+
+## GitFlow Implementation
+Para organizar el trabajo colaborativo del equipo se utilizará **GitFlow** como modelo de ramificación, empleando Git para el control de versiones.
+Este modelo permitirá separar el código estable de BodeGo de las funcionalidades que se encuentren en desarrollo, facilitando que diferentes integrantes del equipo puedan trabajar simultáneamente en módulos como inventario, productos, lotes, mermas, ofertas, usuarios y reportes.
+
+### Main Branch
+
+La rama main será la rama principal y contendrá las versiones estables de BodeGo que se encuentren preparadas para producción.
+No se desarrollarán funcionalidades directamente sobre esta rama. Los cambios llegarán a main mediante la integración de ramas release y hotfix.
+
+## Develop Branch
+
+La rama develop contendrá los cambios más recientes del proyecto que serán incluidos en próximas versiones de BodeGo.
+Funcionará como punto de integración de las diferentes funcionalidades desarrolladas por el equipo. Antes de que una versión sea incorporada a main, las nuevas características serán integradas y verificadas previamente en develop.
+
+## Feature Branch
+
+Las ramas feature serán utilizadas para desarrollar nuevas funcionalidades de **BodeGo** de forma independiente.
+Cada característica deberá contar con su propia rama, permitiendo que los integrantes del equipo trabajen en diferentes módulos sin modificar directamente la rama develop.
+
+## Release Branch
+
+Las ramas release serán utilizadas cuando las funcionalidades previstas para una nueva versión de BodeGo ya hayan sido integradas en develop.
+Su objetivo será preparar una versión antes de pasarla a producción. Durante esta etapa podrán realizarse pruebas, ajustes menores y correcciones de errores sin impedir que el equipo continúe desarrollando nuevas características en develop.
+
+## Hotfix Branch
+
+Las ramas hotfix serán utilizadas para corregir errores importantes encontrados en una versión de BodeGo que ya se encuentre en producción.
+Estas ramas permitirán solucionar rápidamente un problema sin interrumpir el desarrollo de nuevas funcionalidades que continúe realizándose en develop.
+
+## Support Branch
+
+Para la primera etapa del desarrollo de BodeGo no se utilizarán ramas supoort, debido a que el proyecto no contempla inicialmente el mantenimiento simultáneo de múltiples versiones antiguas del producto.
+En caso de que en el futuro BodeGo deba mantener diferentes versiones en producción, podrán incorporarse ramas de soporte específicas.
+
+## Conventional Commits
+
+Para mantener un historial de cambios claro y comprensible, los mensajes de los commits del proyecto BodeGo seguirán la especificación **Conventional Commits**.
+
+Esta convención permitirá identificar rápidamente el propósito de cada modificación realizada por los integrantes del equipo.
+
+La estructura general será: git commit -m <type>[optional scope]: <title>“ -m “<description” 
+
+### Tipos de Conventional Commits
+
+| Tipo | Uso |
+|---|---|
+| `feat` | Incorporación de una nueva funcionalidad. |
+| `fix` | Corrección de un error. |
+| `docs` | Cambios en documentación. |
+| `style` | Cambios de formato que no modifican el funcionamiento. |
+| `refactor` | Reestructuración del código sin agregar funcionalidades ni corregir errores. |
+| `test` | Adición o modificación de pruebas. |
+| `chore` | Tareas de mantenimiento o configuración. |
+| `perf` | Mejoras relacionadas con el rendimiento. |
+
 ### 5.1.3. Source Code Style Guide & Conventions
 ### 5.1.4. Software Deployment Configuration
 
