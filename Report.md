@@ -651,6 +651,11 @@ Respecto a una posible solución, el **66,7 % mencionó directamente que sería 
 
 ## 2.4. Big Picture EventStorming
 
+Nuestro equipo se enfocó en el dominio del negocio de los minimarkets, identificando los Domain Events más significativos a lo largo de la línea de tiempo operativo, desde que la mercadería ingresa al local hasta que es vendida o registrada como merma.
+A continuación se identificaron los siguientes flujos principales a través de Domain Events.
+
+![Big Picture EventStorming](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/main/Recursos/Bigpicture-eventstorming.png)
+
 ## 2.5. Ubiquitous Language
 
 # Capítulo III: Requirements Specification
