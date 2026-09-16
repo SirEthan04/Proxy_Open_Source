@@ -190,7 +190,12 @@
 ### 1.1.2. Perfiles de integrantes del equipo
 | **Mateo Caldas Bravo (U20241G404)** |
 | :--- |
-| Soy un estudiante de 19 años cursando el quito ciclo de la carrera de Ingeniería de Software. Considero que mi capacidad de tener un enfoque analítico y la eficiencia de desarrollar una solución eficiente. Mis habilidades blandas me permiten empatizar con los usuarios y acompañado de mi resiliencia, compromiso y productividad me permiten realizar propuestas mas estructuradas y optimas. |
+| Soy un estudiante de 19 años cursando el quinto ciclo de la carrera de Ingeniería de Software. Considero que mi capacidad de tener un enfoque analítico y la eficiencia de desarrollar una solución eficiente. Mis habilidades blandas me permiten empatizar con los usuarios y acompañado de mi resiliencia, compromiso y productividad me permiten realizar propuestas mas estructuradas y optimas. |
+| Foto |
+
+| **Johan Alvaro Saravia Hiso (U202421082)** |
+| :--- |
+| Soy un estudiante de 20 años actualmente en el quinto ciclo de la carrera de Ingeniería de Software. Me considero una persona responsable y comprometida con los demás, especialmente al trabajar en equipo. Tengo facilidad para analizar problemas y buscar soluciones prácticas. Además, procuro escuchar y comprender las ideas de mis compañeros para lograr un buen trabajo en conjunto. |
 | Foto |
 
 ## 1.2. Solution Profile
