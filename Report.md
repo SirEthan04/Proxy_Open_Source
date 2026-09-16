@@ -2688,7 +2688,6 @@ En esta reunión se definió como objetivo principal implementar la Landing Page
 | **Location** | Discord - Reunión virtual |
 | **Prepared By** | Mateo Caldas Bravo |
 | **Attendees (to planning meeting)** | Dany Yohel, Mateo, Yorch, Johan, Guior |
-| **Sprint Goal & User Stories** | |
 | **Sprint 1 Goal** | Implementar una primera versión funcional y responsive de la Landing Page de BodeGo que permita comunicar la propuesta de valor, las principales funcionalidades y los beneficios de la plataforma para los minimarkets. |
 | **Sprint 1 Velocity** | 23 Story Points |
 | **Sum of Story Points** | 23 Story Points |
@@ -2705,25 +2704,21 @@ Durante el Sprint 1 se identificaron los principales aspectos de trabajo necesar
 | Johan Saravia | `[username]` | C | C | C | L | C |
 | Guior | `[username]` | C | L | C | C | C |
 
-**Leyenda:**
-- **L:** Leader
-- **C:** Collaborator
-- 
 #### 5.2.1.3. Sprint Backlog 1
 Durante el Sprint 1, las actividades estuvieron orientadas principalmente a implementar la primera versión de la Landing Page de BodeGo.
 La implementación comprende la estructura general de navegación y las diferentes secciones que presentan las características y beneficios del producto.
 
 | User Story ID | Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 | --- | --- | --- | --- | --- | ---: | --- | --- |
-| — | Landing Page | TSK001 | Create Landing Page structure | Crear la estructura principal y los archivos HTML/CSS de la Landing Page. | 2 | Dany | Done |
-| — | Landing Page | TSK002 | Implement navigation bar | Implementar el logo, enlaces de navegación y botón de registro. | 2 | Dany | Done |
-| — | Landing Page | TSK003 | Implement hero section | Implementar título, subtítulo, descripción, imagen principal y CTA. | 3 | Dany | Done |
-| — | Landing Page | TSK004 | Implement value proposition section | Implementar las tarjetas de Control de Lotes, Alertas y Doble Rol. | 4 | Mateo | Done |
-| — | Landing Page | TSK005 | Implement solutions section | Implementar las tarjetas de Gestión Centralizada, Reportes Analíticos, Ofertas Estratégicas y Auditoría y Seguridad. | 3 | Yorch | Done |
-| — | Landing Page | TSK006 | Implement impact section | Implementar los beneficios de Reducción de Mermas y Ahorro de Tiempo. | 2 | Yorch | Done |
-| — | Landing Page | TSK007 | Implement contact section | Implementar el formulario de contacto para potenciales usuarios de BodeGo. | 3 | Johan | Done |
-| — | Landing Page | TSK008 | Implement footer | Implementar el logo, enlaces, información de contacto y datos de BodeGo en el footer. | 2 | Johan | Done |
-| — | Landing Page | TSK009 | Implement responsive design | Adaptar la Landing Page para computadoras, tablets y dispositivos móviles, además de realizar ajustes generales de estilos. | 5 | Guior | Done |
+| — | Landing Page | TSK001 | Create Landing Page structure | Crear la estructura principal y los archivos HTML/CSS de la Landing Page. | 2 | Dany | Hecho |
+| — | Landing Page | TSK002 | Implement navigation bar | Implementar el logo, enlaces de navegación y botón de registro. | 2 | Dany | Hecho |
+| — | Landing Page | TSK003 | Implement hero section | Implementar título, subtítulo, descripción, imagen principal y CTA. | 3 | Dany | Hecho |
+| — | Landing Page | TSK004 | Implement value proposition section | Implementar las tarjetas de Control de Lotes, Alertas y Doble Rol. | 4 | Mateo | Hecho |
+| — | Landing Page | TSK005 | Implement solutions section | Implementar las tarjetas de Gestión Centralizada, Reportes Analíticos, Ofertas Estratégicas y Auditoría y Seguridad. | 3 | Yorch | Hecho |
+| — | Landing Page | TSK006 | Implement impact section | Implementar los beneficios de Reducción de Mermas y Ahorro de Tiempo. | 2 | Yorch | Hecho |
+| — | Landing Page | TSK007 | Implement contact section | Implementar el formulario de contacto para potenciales usuarios de BodeGo. | 3 | Johan | Hecho |
+| — | Landing Page | TSK008 | Implement footer | Implementar el logo, enlaces, información de contacto y datos de BodeGo en el footer. | 2 | Johan | Hecho |
+| — | Landing Page | TSK009 | Implement responsive design | Adaptar la Landing Page para computadoras, tablets y dispositivos móviles, además de realizar ajustes generales de estilos. | 5 | Guior | Hecho |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 #### 5.2.1.5. Execution Evidence for Sprint Review
