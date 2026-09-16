@@ -2134,7 +2134,7 @@ Desde el Dashboard también dispone de accesos rápidos para:
 
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
-### 4.3.2. Landing Page Mock-up
+### 4.3.2. Landing Page Mock-ups
 
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
@@ -2154,7 +2154,14 @@ Desde el Dashboard también dispone de accesos rápidos para:
 ### 4.7.1. Class Diagrams
 
 ## 4.8. Database Design
+
+Se presenta el diseño de la base de datos relacional que permitirá graficar la información para los objetos de cada Bounded Context identificados en la aplicación BodeGo.
+
 ### 4.8.1. Database Diagrams
+
+El siguiente diagrama de base de datos Entity-Relationship contiene las tablas, columnas y tipos de datos que establecen las relaciones entre las entidades del sistema.
+
+![Entity-Relationship Diagram](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/main/Recursos/EntityRelationship-Diagram.jpg)
 
 ---
 
