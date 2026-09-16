@@ -658,6 +658,18 @@ A continuación se identificaron los siguientes flujos principales a través de 
 
 ## 2.5. Ubiquitous Language
 
+Para asegurar que entre los miembros del equipo y los stakeholders se comuniquen sin ambigüedades, se definieron los términos específicos correspondientes al Business Domain de BodeGo. Todos los términos tienen su nomenclatura en inglés.
+
+- **Product:** Artículo físico que se comercializa en el minimarket. Contiene información general como nombre, código de barras y categoría.
+- **Batch:** Conjunto de unidades de un mismo producto que ingresan al inventario en la misma fecha, también comparten la misma fecha de vencimiento.
+- **Stock / Inventory:** Cantidad física actual disponible de un producto o lote específico dentro del minimarket.
+- **Wastage:** Unidades de un producto que son retiradas del inventario, pudiendo ser por daño físico, vencimiento o robo.
+- **Expiration Date:** Día límite establecido por el fabricante para el consumo seguro de un lote.
+- **Threshold:** Límite preestablecido por el administrador que al ser sobrepasado, activa una alerta, como por ejemplo Stock mínimo o Días previos al vencimiento.
+- **Inventory Movement:** Registro de auditoría que registra cualquier actualización en el Stock (Entrada, Salida, Ajuste o Merma).
+- **Offer:** Descuento de precio aplicado a un lote específico que se encuentre próximo a su fecha de vencimiento para acelerar su rotación.
+- **Role:** Conjunto de permisos asignados a un usuario, que puede ser Admin o Employee, que define a qué módulos y acciones tiene acceso dentro de BodeGo.
+
 # Capítulo III: Requirements Specification
 
 ## 3.1. User Stories
