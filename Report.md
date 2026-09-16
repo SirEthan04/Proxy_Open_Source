@@ -2542,6 +2542,7 @@ Los comentarios se utilizarán cuando ayuden a entender alguna  parte del códig
 Los comentarios deberán escribirse en inglés.
 
 // Checks whether the batch is close to its expiration date.
+
 public bool IsNearExpiration(DateTime expirationDate)
 {
     return expirationDate <= DateTime.Today.AddDays(7);
