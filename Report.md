@@ -2142,6 +2142,24 @@ Desde el Dashboard también dispone de accesos rápidos para:
 ### 4.4.3. Web Applications Mock-ups
 ### 4.4.4. Web Applications User Flow Diagrams
 
+## LEYENDA
+
+![Leyenda Flow Diagram](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/main/Recursos/LEYENDA.jpg)
+
+## FLUJO DE USUARIO
+
+![Flujo de Usuario Flow Diagram](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/main/Recursos/FLUJO%20DE%20USUARIO.jpg)
+
+## FLUJO DE ADMINISTRADOR
+
+![Flujo de Administrador Flow Diagram](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/main/Recursos/FLUJO%20DE%20ADMINISTRADOR.jpg)
+
+## FLUJO DE EMPLEADO
+
+![Flujo de Empleado Flow Diagram](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/main/Recursos/FLUJO%20DE%20EMPLEADO.jpg)
+
+---
+
 ## 4.5. Web Applications Prototyping
 
 ## 4.6. Domain-Driven Software Architecture
