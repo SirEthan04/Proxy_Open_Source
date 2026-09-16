@@ -2139,6 +2139,18 @@ Desde el Dashboard también dispone de accesos rápidos para:
 
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
+
+![Wireframe 1](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/146b89f7eed9360ed87e28c9627dd97f81048fc6/Recursos/Landing1.png)
+---
+![Wireframe 1](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/146b89f7eed9360ed87e28c9627dd97f81048fc6/Recursos/Landing2.png)
+---
+![Wireframe 1](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/146b89f7eed9360ed87e28c9627dd97f81048fc6/Recursos/Landing3.png)
+---
+![Wireframe 1](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/146b89f7eed9360ed87e28c9627dd97f81048fc6/Recursos/Landing4.png)
+---
+![Wireframe 1](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/146b89f7eed9360ed87e28c9627dd97f81048fc6/Recursos/Landing5.png)
+---
+
 ### 4.3.2. Landing Page Mock-ups
 
 ## 4.4. Web Applications UX/UI Design
