@@ -1,6 +1,6 @@
 # Carátula
 
-![UPC](https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png)
+![UPC](Recursos/images/upc.png)
 
 **Universidad Peruana de Ciencias Aplicadas S.A.C.**
 
