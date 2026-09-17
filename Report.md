@@ -1928,20 +1928,23 @@ Durante el Sprint 1 se identificaron los principales aspectos de trabajo necesar
 | Guior | `[username]` | C | L | C | C | C |
 
 #### 5.2.1.3. Sprint Backlog 1
-Durante el Sprint 1, las actividades estuvieron orientadas principalmente a implementar la primera versión de la Landing Page de BodeGo.
-La implementación comprende la estructura general de navegación y las diferentes secciones que presentan las características y beneficios del producto.
 
-| User Story ID | Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+Durante el Sprint 1, las actividades estuvieron orientadas al desarrollo de la primera versión funcional de la Landing Page de BodeGo.
+
+El objetivo principal fue transformar los wireframes y mockups previamente diseñados en una interfaz web funcional que permita comunicar la propuesta de valor del producto, presentar sus principales funcionalidades y captar potenciales usuarios interesados en la solución.
+
+| **User Story ID** | **Story Title** | **Task ID** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
 | --- | --- | --- | --- | --- | ---: | --- | --- |
-| — | Landing Page | TSK001 | Create Landing Page structure | Crear la estructura principal y los archivos HTML/CSS de la Landing Page. | 2 | Dany | Hecho |
-| — | Landing Page | TSK002 | Implement navigation bar | Implementar el logo, enlaces de navegación y botón de registro. | 2 | Dany | Hecho |
-| — | Landing Page | TSK003 | Implement hero section | Implementar título, subtítulo, descripción, imagen principal y CTA. | 3 | Dany | Hecho |
-| — | Landing Page | TSK004 | Implement value proposition section | Implementar las tarjetas de Control de Lotes, Alertas y Doble Rol. | 4 | Mateo | Hecho |
-| — | Landing Page | TSK005 | Implement solutions section | Implementar las tarjetas de Gestión Centralizada, Reportes Analíticos, Ofertas Estratégicas y Auditoría y Seguridad. | 3 | Yorch | Hecho |
-| — | Landing Page | TSK006 | Implement impact section | Implementar los beneficios de Reducción de Mermas y Ahorro de Tiempo. | 2 | Yorch | Hecho |
-| — | Landing Page | TSK007 | Implement contact section | Implementar el formulario de contacto para potenciales usuarios de BodeGo. | 3 | Johan | Hecho |
-| — | Landing Page | TSK008 | Implement footer | Implementar el logo, enlaces, información de contacto y datos de BodeGo en el footer. | 2 | Johan | Hecho |
-| — | Landing Page | TSK009 | Implement responsive design | Adaptar la Landing Page para computadoras, tablets y dispositivos móviles, además de realizar ajustes generales de estilos. | 5 | Guior | Hecho |
+| US01 | Visualización del Hero Principal | TSK001 | Create Landing Page structure | Crear la estructura inicial de la Landing Page basada en los wireframes definidos, configurando componentes, archivos y estilos generales. | 2 | Dany | Hecho |
+| US01 | Visualización del Hero Principal | TSK002 | Implement navigation bar | Implementar la barra de navegación superior incluyendo logo de BodeGo, enlaces principales y botón de acción. | 2 | Dany | Hecho |
+| US01 | Visualización del Hero Principal | TSK003 | Implement hero section | Desarrollar la sección principal con título, descripción de valor, imagen representativa y CTA orientado a captar usuarios interesados. | 3 | Dany | Hecho |
+| US02 | Visualización de Beneficios del Producto | TSK004 | Implement benefits section | Implementar la sección de beneficios destacando el control de inventario, reducción de mermas y mejora de procesos operativos. | 4 | Mateo | Hecho |
+| US03 | Presentación de Funcionalidades Principales | TSK005 | Implement solutions section | Implementar la sección de soluciones mostrando las principales capacidades de BodeGo como inventario, alertas, reportes y control operativo. | 3 | Yorch | Hecho |
+| US04 | Explicación del Funcionamiento de BodeGo | TSK006 | Implement how it works section | Desarrollar la sección donde se explica el flujo general de funcionamiento de BodeGo y la interacción entre Administrador y Empleado. | 3 | Yorch | Hecho |
+| US02 | Visualización de Beneficios del Producto | TSK007 | Implement impact section | Implementar la sección de impacto mostrando los beneficios esperados de utilizar BodeGo dentro del negocio. | 2 | Mateo | Hecho |
+| US05 | Formulario de Contacto Comercial | TSK008 | Implement contact section | Implementar el formulario de contacto para que potenciales clientes puedan solicitar información sobre BodeGo. | 3 | Johan | Hecho |
+| US03 | Presentación de Funcionalidades Principales | TSK009 | Implement footer section | Implementar el footer con información general del producto, enlaces y datos de contacto. | 2 | Johan | Hecho |
+| US01 - US05 | Landing Page | TSK010 | Implement responsive design | Adaptar la Landing Page para dispositivos móviles, tablets y escritorio manteniendo la correcta visualización del diseño. | 5 | Guior | Hecho |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 #### 5.2.1.5. Execution Evidence for Sprint Review
