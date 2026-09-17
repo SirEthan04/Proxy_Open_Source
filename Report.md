@@ -1518,14 +1518,14 @@ Esta convención permitirá identificar rápidamente el propósito de cada modif
 La estructura general será: git commit -m <type>[optional scope]: <title>“ -m “<description” 
 
 ### Tipos de Conventional Commits
-feat: Incorporación de una nueva funcionalidad.
-fix: Corrección de un error. 
-docs: Cambios en documentación. 
-style: Cambios de formato que no modifican el funcionamiento. 
-refactor: Reestructuración del código sin agregar funcionalidades ni corregir errores. 
-test: Adición o modificación de pruebas. 
-chore: Tareas de mantenimiento o configuración. 
-perf: Mejoras relacionadas con el rendimiento. 
+- feat: Incorporación de una nueva funcionalidad.
+- fix: Corrección de un error. 
+- docs: Cambios en documentación. 
+- style: Cambios de formato que no modifican el funcionamiento. 
+- refactor: Reestructuración del código sin agregar funcionalidades ni corregir errores. 
+- test: Adición o modificación de pruebas. 
+- chore: Tareas de mantenimiento o configuración. 
+- perf: Mejoras relacionadas con el rendimiento. 
 
 ### 5.1.3. Source Code Style Guide & Conventions
 Como norma general, todo el código desarrollado para BodeGo deberá utilizar nombres en inglés. Esto incluye variables, funciones, métodos, clases, archivos, atributos y demás elementos utilizados durante el desarrollo.
