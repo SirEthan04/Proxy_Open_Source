@@ -681,14 +681,39 @@ Para asegurar que entre los miembros del equipo y los stakeholders se comuniquen
 
 Épicas
 
-| Epic ID | Nombre | Descripción |
-|---|---|---|
-| **EP01** | **Acceso, Roles y Configuración del Negocio** | **Como** responsable de una minimarket, **quiero** gestionar el acceso de administradores y empleados, así como los parámetros operativos del negocio, **para** asegurar que cada usuario utilice únicamente las funciones que le corresponden y que el sistema se adapte a la operación real del establecimiento. |
-| **EP02** | **Catálogo, Inventario y Gestión de Lotes** | **Como** administrador o empleado, **quiero** registrar productos, controlar existencias y gestionar lotes con fechas de vencimiento, **para** mantener un inventario confiable, actualizado y trazable. |
-| **EP03** | **Vencimientos, Mermas y Ofertas Estratégicas** | **Como** administrador, **quiero** detectar productos próximos a vencer, registrar mermas y generar ofertas estratégicas, **para** reducir pérdidas económicas y mejorar la rotación de productos perecibles. |
-| **EP04** | **Operación Diaria y Movimientos de Stock** | **Como** empleado, **quiero** registrar de forma rápida las operaciones diarias que afectan el inventario, **para** que el stock del sistema refleje lo que realmente ocurre en el punto de venta y almacén. |
-| **EP05** | **Reportes, Analítica y Alertas Operativas** | **Como** administrador, **quiero** visualizar indicadores, reportes y alertas sobre stock, ventas, rotación, vencimientos y mermas, **para** tomar decisiones operativas basadas en información actualizada. |
-| **EP06** | **Auditoría, Seguridad y Continuidad Operativa** | **Como** administrador, **quiero** contar con trazabilidad, controles de seguridad y herramientas de soporte, **para** proteger la información del negocio y supervisar las acciones realizadas dentro de BodeGo. |
+| **EPIC-01** | **Gestión de Presencia Digital y Landing Page** |
+|-------------|--------------------------------------------------|
+| **Descripción:** | **Como** negocio interesado en optimizar su operación, **quiero** conocer la propuesta de valor, funcionalidades y beneficios de BodeGo mediante una landing page clara y profesional **para** comprender cómo la plataforma ayuda a gestionar inventarios, reducir mermas y mejorar los procesos internos del minimarket. |
+
+<br>
+
+| **EPIC-02** | **Aplicación Web y Gestión Operativa** |
+|-------------|-----------------------------------------|
+| **Descripción:** | **Como** administrador o empleado, **quiero** contar con una aplicación web intuitiva con módulos organizados según mis necesidades operativas **para** gestionar inventario, productos y actividades diarias de manera rápida, sencilla y eficiente. |
+
+<br>
+
+| **EPIC-03** | **Control de Inventario y Productos** |
+|-------------|----------------------------------------|
+| **Descripción:** | **Como** administrador o empleado, **quiero** registrar, consultar y actualizar productos, cantidades, lotes y movimientos de inventario **para** mantener un control preciso del stock disponible y reducir diferencias entre el inventario físico y digital. |
+
+<br>
+
+| **EPIC-04** | **Gestión de Mermas, Alertas y Reportes Inteligentes** |
+|-------------|---------------------------------------------------------|
+| **Descripción:** | **Como** administrador, **quiero** visualizar alertas, indicadores y reportes sobre productos próximos a vencer, mermas y rotación de inventario **para** tomar decisiones oportunas que permitan reducir pérdidas y mejorar la rentabilidad del negocio. |
+
+<br>
+
+| **EPIC-05** | **Automatización de Procesos Operativos** |
+|-------------|--------------------------------------------|
+| **Descripción:** | **Como** administrador o empleado, **quiero** disponer de funcionalidades automatizadas para registrar operaciones, controlar vencimientos y gestionar acciones sobre productos críticos **para** agilizar las tareas diarias y mejorar la eficiencia del establecimiento. |
+
+<br>
+
+| **EPIC-06** | **Gestión de Usuarios y Seguridad del Sistema** |
+|-------------|-------------------------------------------------|
+| **Descripción:** | **Como** administrador o empleado, **quiero** contar con un sistema seguro de acceso, roles y permisos **para** proteger la información del negocio y garantizar que cada usuario pueda utilizar únicamente las funcionalidades correspondientes a su responsabilidad. |
 
 ---
 
