@@ -1419,6 +1419,8 @@ Para el desarrollo de BodeGo se establecerán un conjunto de herramientas que pe
 
 - **Discord:** Una herramienta de comunicación y coordinación del equipo. Permite organizar conversaciones por canales, realizar reuniones de voz, compartir avances, resolver dudas y coordinar las actividades relacionadas con el desarrollo de BodeGo.
 
+imagen para mostrar evidencia de uso: 
+
 ![Imagen de reunión](Recursos/images/imagenReunion.png)
 
 ## . Requirement Management
