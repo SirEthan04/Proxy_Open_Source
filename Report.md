@@ -791,58 +791,58 @@ User Stories
 
 # Product Backlog — BodeGo
 
-| **# Orden** | **User Story ID** | **Descripción** | **Story Point**<br>**(0 - 8)** |
-|---:|:---:|---|---:|
-| **1** | **US01** | Como usuario registrado, quiero iniciar sesión con mis credenciales, para acceder de forma segura a BodeGo. | **2** |
-| **2** | **US02** | Como usuario, quiero visualizar una interfaz adaptada a mi rol de Administrador o Empleado, para acceder únicamente a las funciones que me corresponden. | **3** |
-| **3** | **US03** | Como administrador, quiero crear cuentas para los empleados del negocio, para permitirles operar en el sistema con credenciales individuales. | **3** |
-| **4** | **US06** | Como administrador, quiero configurar nombre comercial, dirección, contacto y horarios, para mantener centralizada la información operativa del establecimiento. | **2** |
-| **5** | **US09** | Como administrador, quiero crear productos con su información comercial y operativa, para incorporarlos al catálogo interno y controlar sus existencias. | **3** |
-| **6** | **US12** | Como administrador, quiero clasificar los productos por categorías, para facilitar su búsqueda y análisis dentro del inventario. | **2** |
-| **7** | **US14** | Como empleado, quiero registrar el ingreso de mercadería indicando cantidad y lote, para actualizar el inventario cuando se recibe nueva mercadería. | **5** |
-| **8** | **US15** | Como empleado, quiero asociar una fecha de vencimiento a cada lote perecible, para permitir el control preventivo de productos próximos a caducar. | **3** |
-| **9** | **US16** | Como administrador o empleado, quiero visualizar las existencias separadas por lote, para conocer qué unidades deben utilizarse primero y mantener trazabilidad. | **3** |
-| **10** | **US13** | Como administrador o empleado, quiero buscar productos por nombre, código, categoría o estado de stock, para encontrar rápidamente el artículo que necesito gestionar. | **3** |
-| **11** | **US27** | Como empleado, quiero registrar los productos vendidos durante la atención, para descontar automáticamente las unidades del inventario. | **5** |
-| **12** | **US29** | Como empleado, quiero recibir una validación de disponibilidad antes de confirmar una salida, para evitar que el inventario quede con cantidades negativas. | **3** |
-| **13** | **US21** | Como empleado, quiero registrar unidades perdidas, dañadas o vencidas indicando su motivo, para mantener el stock real y documentar las pérdidas operativas. | **3** |
-| **14** | **US19** | Como administrador, quiero visualizar automáticamente los lotes que se aproximan a su vencimiento, para actuar antes de que se conviertan en merma. | **5** |
-| **15** | **US20** | Como administrador o empleado, quiero ordenar los lotes perecibles por fecha de vencimiento, para dar salida primero a los productos con menor vida útil. | **3** |
-| **16** | **US30** | Como empleado, quiero recibir una sugerencia del lote que debe salir primero, para priorizar la venta de unidades con vencimiento más cercano. | **5** |
-| **17** | **US07** | Como administrador, quiero definir niveles de stock bajo y crítico, para recibir alertas de reposición adaptadas a mi operación. | **2** |
-| **18** | **US08** | Como administrador, quiero definir cuántos días antes del vencimiento debe alertarme el sistema, para adaptar el control de perecibles a las políticas del negocio. | **2** |
-| **19** | **US43** | Como administrador, quiero recibir alertas sobre stock crítico, vencimientos y eventos relevantes, para reaccionar oportunamente ante riesgos operativos. | **5** |
-| **20** | **US17** | Como administrador, quiero corregir diferencias de stock indicando cantidad y motivo, para alinear el inventario digital con el conteo físico cuando exista una discrepancia. | **3** |
-| **21** | **US18** | Como administrador o empleado, quiero registrar un conteo físico de productos, para comparar las existencias reales con las registradas en BodeGo. | **5** |
-| **22** | **US33** | Como empleado, quiero registrar una recepción de productos de forma ágil, para actualizar existencias durante el abastecimiento diario. | **3** |
-| **23** | **US34** | Como empleado, quiero consultar las operaciones que registré durante mi turno, para verificar ventas, ingresos, devoluciones y mermas realizadas. | **3** |
-| **24** | **US36** | Como empleado, quiero visualizar un resumen de los movimientos realizados antes de terminar mi turno, para comprobar que las operaciones del día quedaron registradas. | **5** |
-| **25** | **US22** | Como administrador, quiero definir y consultar categorías de merma, para identificar las principales causas de pérdida del negocio. | **3** |
-| **26** | **US37** | Como administrador, quiero visualizar los principales indicadores del negocio en un solo panel, para conocer rápidamente el estado del inventario y la operación. | **5** |
-| **27** | **US38** | Como administrador, quiero consultar los productos que requieren reposición, para priorizar las compras y evitar quiebres de stock. | **3** |
-| **28** | **US39** | Como administrador, quiero consultar los lotes en riesgo de vencimiento, para planificar ofertas, rotación o retiro oportuno. | **3** |
-| **29** | **US40** | Como administrador, quiero analizar las pérdidas por producto, motivo y período, para identificar patrones y reducir costos operativos. | **5** |
-| **30** | **US41** | Como administrador, quiero identificar los productos con mayor frecuencia de salida, para priorizar reposición y ubicación física en el negocio. | **5** |
-| **31** | **US42** | Como administrador, quiero identificar los productos que concentran la mayor parte de las salidas o ventas, para enfocar la gestión en los artículos más relevantes. | **5** |
-| **32** | **US23** | Como administrador, quiero recibir propuestas de oferta para lotes próximos a vencer, para reducir mermas mediante acciones comerciales oportunas. | **8** |
-| **33** | **US24** | Como administrador, quiero crear una oferta para un producto o lote específico, para impulsar su rotación cuando lo considere necesario. | **3** |
-| **34** | **US25** | Como administrador, quiero aprobar o editar una oferta sugerida por BodeGo, para mantener control sobre las promociones antes de aplicarlas. | **3** |
-| **35** | **US28** | Como empleado, quiero visualizar y aplicar ofertas vigentes al registrar una venta, para utilizar correctamente las promociones definidas por el administrador. | **3** |
-| **36** | **US26** | Como administrador, quiero hacer que las ofertas terminen cuando vence su vigencia o se agota el stock asociado, para evitar promociones inválidas en la operación diaria. | **3** |
-| **37** | **US31** | Como empleado, quiero registrar una devolución e indicar si el producto retorna al stock, para mantener correctamente las existencias y el historial de operaciones. | **3** |
-| **38** | **US32** | Como administrador o empleado autorizado, quiero registrar unidades que salen del inventario para ser devueltas al proveedor, para controlar las salidas no asociadas a ventas. | **3** |
-| **39** | **US35** | Como empleado, quiero solicitar la corrección de una operación registrada por error, para evitar alterar el inventario sin trazabilidad. | **5** |
-| **40** | **US45** | Como administrador, quiero consultar todas las entradas y salidas que afectaron un producto, para auditar cómo se originó su stock actual. | **3** |
-| **41** | **US46** | Como administrador, quiero consultar acciones relevantes realizadas por los usuarios, para supervisar cambios sensibles dentro del sistema. | **5** |
-| **42** | **US44** | Como administrador, quiero filtrar los reportes por fechas y categorías, para analizar la evolución del negocio en intervalos específicos. | **2** |
-| **43** | **US10** | Como administrador, quiero modificar nombre, categoría, unidad, costo o precio de un producto, para mantener actualizada la información utilizada en la operación. | **2** |
-| **44** | **US11** | Como administrador, quiero desactivar productos que ya no comercializo, para evitar nuevos movimientos sin perder su historial. | **2** |
-| **45** | **US04** | Como administrador, quiero activar o desactivar cuentas de empleados, para controlar quién puede acceder a la información del negocio. | **2** |
-| **46** | **US05** | Como usuario, quiero actualizar mis datos personales y de contacto, para mantener correcta la información asociada a mi cuenta. | **1** |
-| **47** | **US47** | Como usuario, quiero cambiar mi contraseña desde la configuración de seguridad, para proteger mi cuenta frente a accesos no autorizados. | **2** |
-| **48** | **US48** | Como usuario, quiero recuperar el acceso cuando olvido mi contraseña, para volver a utilizar mi cuenta sin intervención manual innecesaria. | **3** |
-| **49** | **US49** | Como usuario, quiero cerrar mi sesión cuando termino de utilizar BodeGo, para evitar que terceros accedan a mi cuenta desde el mismo dispositivo. | **1** |
-| **50** | **US50** | Como administrador o empleado, quiero consultar ayuda sobre las funciones principales del sistema, para resolver dudas frecuentes durante la operación diaria. | **1** |
+| **# Orden** | **User Story ID** | **Título** | **Descripción** | **Story Points**<br>**(1 / 2 / 3 / 5 / 8)** |
+|---:|:---:|---|---|---:|
+| **1** | **US01** | Visualización del Hero Principal | **Como** visitante, **deseo** visualizar la propuesta de valor principal de BodeGo, **para** comprender cómo la plataforma ayuda a gestionar inventarios y reducir mermas en negocios minoristas. | **2** |
+| **2** | **US02** | Visualización de Beneficios del Producto | **Como** visitante, **deseo** conocer los beneficios principales de BodeGo, **para** identificar el valor que aporta la solución a la gestión del negocio. | **2** |
+| **3** | **US03** | Presentación de Funcionalidades Principales | **Como** visitante, **deseo** conocer las funcionalidades principales de BodeGo, **para** comprender las capacidades disponibles antes de utilizar la plataforma. | **3** |
+| **4** | **US04** | Explicación del Funcionamiento de BodeGo | **Como** visitante, **deseo** conocer cómo funciona BodeGo, **para** entender el flujo general de uso dentro de una bodega o minimarket. | **2** |
+| **5** | **US05** | Formulario de Contacto Comercial | **Como** visitante, **deseo** enviar una solicitud de contacto, **para** recibir información adicional sobre la solución BodeGo. | **3** |
+| **6** | **US06** | Dashboard Administrativo | **Como** Administrador, **deseo** visualizar indicadores principales del negocio, **para** conocer rápidamente el estado operativo del establecimiento. | **5** |
+| **7** | **US08** | Visualización del Inventario | **Como** Administrador o Empleado, **deseo** visualizar los productos registrados, **para** conocer la disponibilidad actual del inventario. | **3** |
+| **8** | **US11** | Búsqueda y Filtrado de Productos | **Como** Administrador o Empleado, **deseo** buscar productos mediante filtros, **para** encontrar rápidamente los artículos que necesito gestionar. | **3** |
+| **9** | **US09** | Consulta del Detalle del Producto | **Como** Administrador o Empleado, **deseo** visualizar la información detallada de un producto, **para** revisar sus características y estado actual. | **2** |
+| **10** | **US07** | Navegación entre Módulos | **Como** usuario de BodeGo, **deseo** navegar entre módulos disponibles, **para** acceder rápidamente a las funcionalidades necesarias. | **3** |
+| **11** | **US10** | Visualización de Operaciones del Empleado | **Como** Empleado, **deseo** consultar las operaciones que he realizado, **para** verificar los movimientos registrados durante mi jornada laboral. | **3** |
+| **12** | **US12** | Visualización de Alertas Operativas | **Como** Administrador, **deseo** visualizar alertas importantes del negocio, **para** identificar situaciones que requieren atención inmediata dentro del inventario. | **5** |
+| **13** | **US13** | Visualización de Reportes del Negocio | **Como** Administrador, **deseo** acceder a reportes visuales, **para** analizar el comportamiento del inventario y las operaciones realizadas. | **5** |
+| **14** | **US14** | Gestión Visual de Productos | **Como** Administrador, **deseo** acceder a opciones de gestión de productos, **para** administrar correctamente la información del catálogo interno. | **3** |
+| **15** | **US15** | Visualización de Información del Negocio | **Como** Administrador, **deseo** consultar la información general del establecimiento, **para** verificar que los datos operativos estén correctamente configurados. | **2** |
+| **16** | **US16** | Registro de Productos | **Como** Administrador, **deseo** registrar nuevos productos dentro del sistema, **para** mantener actualizado el catálogo de inventario del negocio. | **3** |
+| **17** | **US18** | Clasificación de Productos por Categoría | **Como** Administrador, **deseo** asignar categorías a los productos, **para** organizar el inventario y facilitar su búsqueda y análisis. | **2** |
+| **18** | **US17** | Edición de Información del Producto | **Como** Administrador, **deseo** modificar la información de productos registrados, **para** mantener actualizados los datos utilizados por la operación. | **2** |
+| **19** | **US19** | Registro de Ingreso de Inventario | **Como** Empleado, **deseo** registrar ingresos de productos al inventario, **para** mantener actualizado el stock disponible del negocio. | **5** |
+| **20** | **US20** | Gestión de Lotes y Fechas de Vencimiento | **Como** Empleado, **deseo** registrar lotes con fechas de vencimiento, **para** controlar productos perecibles y prevenir pérdidas por caducidad. | **3** |
+| **21** | **US21** | Consulta de Stock Actual | **Como** Administrador o Empleado, **deseo** consultar la cantidad disponible de cada producto, **para** conocer el estado actual del inventario antes de realizar operaciones. | **3** |
+| **22** | **US23** | Registro de Salida de Productos | **Como** Empleado, **deseo** registrar salidas de productos del inventario, **para** mantener actualizado el stock después de una venta u operación interna. | **5** |
+| **23** | **US22** | Actualización Automática de Stock | **Como** sistema, **deseo** actualizar automáticamente las cantidades disponibles después de cada movimiento, **para** mantener información precisa del inventario. | **5** |
+| **24** | **US24** | Validación de Stock Disponible | **Como** sistema, **deseo** validar la disponibilidad de productos antes de una salida, **para** evitar cantidades negativas o inconsistencias en el inventario. | **3** |
+| **25** | **US25** | Ajuste Manual de Inventario | **Como** Administrador, **deseo** realizar ajustes manuales de inventario, **para** corregir diferencias entre el stock físico y el registrado en el sistema. | **3** |
+| **26** | **US26** | Historial de Movimientos de Inventario | **Como** Administrador, **deseo** consultar el historial de movimientos de productos, **para** conocer la trazabilidad de entradas y salidas realizadas. | **3** |
+| **27** | **US29** | Registro de Conteo Físico de Inventario | **Como** Administrador o Empleado autorizado, **deseo** registrar conteos físicos del inventario, **para** comparar las existencias reales contra las registradas en BodeGo. | **5** |
+| **28** | **US30** | Trazabilidad de Producto y Lotes | **Como** Administrador, **deseo** consultar la trazabilidad completa de un producto y sus lotes, **para** conocer su historial dentro del negocio. | **5** |
+| **29** | **US27** | Control de Productos Próximos a Vencer | **Como** Administrador, **deseo** identificar productos próximos a vencer, **para** tomar acciones preventivas antes de generar pérdidas. | **5** |
+| **30** | **US28** | Priorización de Lotes por Vencimiento | **Como** Empleado, **deseo** conocer qué lote debe salir primero, **para** aplicar una rotación adecuada de productos perecibles. | **5** |
+| **31** | **US31** | Registro de Productos Dañados o Vencidos | **Como** Empleado, **deseo** registrar productos dañados o vencidos indicando la causa, **para** mantener actualizado el inventario y documentar las pérdidas generadas. | **3** |
+| **32** | **US32** | Clasificación de Motivos de Merma | **Como** Administrador, **deseo** clasificar las causas de las mermas registradas, **para** identificar los principales motivos de pérdida dentro del negocio. | **3** |
+| **33** | **US33** | Visualización de Productos con Riesgo de Merma | **Como** Administrador, **deseo** visualizar productos con riesgo de pérdida, **para** tomar acciones preventivas antes de generar desperdicios. | **5** |
+| **34** | **US34** | Alertas de Stock Bajo | **Como** Administrador, **deseo** recibir alertas cuando un producto alcance un nivel crítico de stock, **para** anticipar necesidades de reposición. | **3** |
+| **35** | **US35** | Configuración de Parámetros de Alertas | **Como** Administrador, **deseo** configurar los valores mínimos de stock y días de vencimiento, **para** adaptar las alertas según las necesidades del negocio. | **3** |
+| **36** | **US36** | Reporte de Productos Próximos a Vencer | **Como** Administrador, **deseo** consultar reportes de productos próximos a vencer, **para** planificar acciones que reduzcan pérdidas por caducidad. | **5** |
+| **37** | **US37** | Reporte de Mermas del Negocio | **Como** Administrador, **deseo** visualizar reportes de mermas, **para** analizar las pérdidas generadas dentro del establecimiento. | **5** |
+| **38** | **US38** | Reporte de Rotación de Productos | **Como** Administrador, **deseo** conocer la rotación de productos, **para** identificar cuáles tienen mayor o menor movimiento dentro del inventario. | **5** |
+| **39** | **US39** | Dashboard de Indicadores del Negocio | **Como** Administrador, **deseo** visualizar indicadores generales del negocio, **para** conocer rápidamente el estado del inventario y la operación. | **5** |
+| **40** | **US40** | Análisis de Productos de Alta Rotación | **Como** Administrador, **deseo** identificar productos con mayor frecuencia de salida, **para** mejorar la planificación de compras y organización del inventario. | **5** |
+| **41** | **US41** | Sugerencia Automática de Ofertas por Vencimiento | **Como** Administrador, **deseo** recibir sugerencias automáticas de ofertas para productos próximos a vencer, **para** reducir pérdidas y mejorar la rotación del inventario. | **8** |
+| **42** | **US42** | Creación de Ofertas Estratégicas | **Como** Administrador, **deseo** crear ofertas sobre productos seleccionados, **para** acelerar la salida de productos con baja rotación o próximos a vencer. | **3** |
+| **43** | **US43** | Ejecución Automática de Reglas de Negocio | **Como** sistema, **deseo** ejecutar reglas automáticas sobre inventario y productos críticos, **para** mantener procesos operativos eficientes sin intervención constante del usuario. | **8** |
+| **44** | **US44** | Actualización Automática de Estados Operativos | **Como** Administrador, **deseo** que el sistema actualice automáticamente estados de productos y alertas, **para** mantener información operativa actualizada. | **5** |
+| **45** | **US45** | Generación de Resúmenes Operativos | **Como** Administrador, **deseo** recibir resúmenes automáticos del estado del negocio, **para** revisar rápidamente la situación operativa del minimarket. | **5** |
+| **46** | **US46** | Registro de Usuarios del Sistema | **Como** Administrador, **deseo** registrar usuarios dentro de BodeGo, **para** permitir accesos autorizados al sistema según las necesidades del negocio. | **3** |
+| **47** | **US47** | Gestión de Roles y Permisos | **Como** Administrador, **deseo** asignar roles y permisos a los usuarios, **para** controlar el acceso a las funcionalidades según sus responsabilidades. | **5** |
+| **48** | **US48** | Inicio de Sesión Seguro | **Como** usuario registrado, **deseo** iniciar sesión mediante mis credenciales, **para** acceder de manera segura a las funcionalidades asignadas dentro de BodeGo. | **3** |
+| **49** | **US49** | Recuperación y Cambio de Contraseña | **Como** usuario, **deseo** recuperar o cambiar mi contraseña, **para** mantener protegido mi acceso a la plataforma. | **3** |
+| **50** | **US50** | Cierre de Sesión y Protección de Cuenta | **Como** usuario, **deseo** cerrar mi sesión correctamente, **para** evitar accesos no autorizados desde el dispositivo utilizado. | **1** |
 
 ---
 
