@@ -2347,7 +2347,7 @@ Desde el Dashboard también dispone de accesos rápidos para:
 
 ---
 
-![Components-API](Recursos/images/Recursos/Components-API.png)
+![Components-API](Recursos/images/Components-API.png)
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
 ![Components-API](Recursos/images/BodeGo-diagramaClases.png)
