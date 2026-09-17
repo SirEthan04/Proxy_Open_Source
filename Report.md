@@ -28,7 +28,7 @@
 | U20241F385 | Blanco Medina, Jhorch Jhoseff |
 | U20241G404 | Caldas Bravo, Mateo |
 | U20241G610 | Chavez Sandoval, Dany Yohel |
-| U202421082 | Saravia Hiso, Johan Álvaro |
+| U202421082 | Saravia Hiso, Johan Alvaro |
 | U202316162 | Trejo Espejo, Giordano Sebastian del Ángel |
 
 ---
