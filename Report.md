@@ -2291,7 +2291,7 @@ Desde el Dashboard también dispone de accesos rápidos para:
 
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level EventStorming
-![Estructura / Captura 1](Recursos/images/Recursos/es1.png)
+![Estructura / Captura 1](Recursos/images/es1.png)
 
 ---
 
