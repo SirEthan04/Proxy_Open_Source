@@ -1886,18 +1886,21 @@ El objetivo fue transformar los wireframes y diseños realizados previamente en 
 #### 5.2.1.1. Sprint Planning 1
 
 El print Planning permitió organizar las actividades que serían desarrolladas durante el Sprint 1.
-En esta reunión se definió como objetivo principal implementar la Landing Page de BodeGo a partir de los diseños y wireframes
+En esta reunión se definió como objetivo principal implementar la Landing Page de BodeGo.
 | Sprint # | Sprint 1 |
-| --- | --- |
-| **Sprint Planning Background** | |
-| **Date** | 2026-09-13 |
-| **Time** | 8:00 pm |
-| **Location** | Discord - Reunión virtual |
-| **Prepared By** | Mateo Caldas Bravo |
-| **Attendees (to planning meeting)** | Dany Yohel, Mateo, Yorch, Johan, Guior |
-| **Sprint 1 Goal** | Implementar una primera versión funcional y responsive de la Landing Page de BodeGo que permita comunicar la propuesta de valor, las principales funcionalidades y los beneficios de la plataforma para los minimarkets. |
-| **Sprint 1 Velocity** | 23 Story Points |
-| **Sum of Story Points** | 23 Story Points |
+|---|---|
+| **Sprint Planning Background** | El Sprint tiene como objetivo desarrollar la primera versión funcional de la Landing Page de BodeGo. |
+| **Date** | 2026-09-17 |
+| **Time** | 5:00 pm |
+| **Location** | Discord |
+| **Prepared By** | Equipo de desarrollo BodeGo |
+| **Attendees (to planning meeting)** | Day / Mateo / Yorch / Johan / Guior |
+| **Sprint 0 Review Summary** | No existe sprint previo |
+| **Sprint 0 Retrospective Summary** | No existe sprint previo |
+| **Sprint Goal & User Stories** | |
+| **Sprint 1 Goal** | Crear una Landing Page funcional para BodeGo que permita mostrar la información principal del producto, sus beneficios, funcionalidades y facilitar el contacto con potenciales usuarios mediante una interfaz clara y responsive. |
+| **Sprint 1 Velocity** | 29 Story Points |
+| **Sum of Story Points** | 29 Story Points |
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
