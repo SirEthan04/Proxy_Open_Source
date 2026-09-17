@@ -1,16 +1,20 @@
 # Carátula
 
-<p align="center">
-  <img src="http://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="100" alt="Descripción">
-</p>
+![UPC](https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png)
 
-<p align="center"><b>Universidad Peruana de Ciencias Aplicadas S.A.C.</b></p>
-<p align="center"><b>Ingeniería de Software</b></p>
-<p align="center"><b>Ciclo: 5</b></p>
-<p align="center"><b>1ASI0729-2620</b></p>
-<p align="center"><b>Desarrollo de Aplicaciones Open Source</b></p>
-<p align="center"><b>NRC: 7760</b></p>
-<p align="center"><b>Docente: Juan Antonio Flores Moroco</b></p>
+**Universidad Peruana de Ciencias Aplicadas S.A.C.**
+
+**Ingeniería de Software**
+
+**Ciclo: 5**
+
+**1ASI0729-2620**
+
+**Desarrollo de Aplicaciones Open Source**
+
+**NRC: 7760**
+
+**Docente: Juan Antonio Flores Moroco**
 
 ---
 
