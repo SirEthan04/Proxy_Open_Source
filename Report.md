@@ -1534,9 +1534,9 @@ La finalidad de estas reglas es mantener un código ordenado y fácil de entende
 
 ---
 
-## HTML
+HTML
 
-### Use Lowercase Element Names
+Use Lowercase Element Names
 
 Los elementos HTML se escribirán en minúsculas.
 
@@ -1547,7 +1547,7 @@ Los elementos HTML se escribirán en minúsculas.
 </section>
 ```
 
-### Close All HTML Elements
+Close All HTML Elements
 
 Todos los elementos HTML que necesiten una etiqueta de cierre deberán cerrarse correctamente.
 
@@ -1558,7 +1558,7 @@ Todos los elementos HTML que necesiten una etiqueta de cierre deberán cerrarse 
 </section>
 ```
 
-### Use Lowercase Attribute Names
+Use Lowercase Attribute Names
 
 Los atributos HTML también se escribirán en minúsculas.
 
@@ -1566,7 +1566,7 @@ Los atributos HTML también se escribirán en minúsculas.
 <a href="/inventory">View inventory</a>
 ```
 
-### Use Alternative Text for Images
+Use Alternative Text for Images
 
 Las imágenes utilizadas en BodeGo deberán incluir el atributo alt para indicar brevemente su contenido.
 
@@ -1576,7 +1576,7 @@ Las imágenes utilizadas en BodeGo deberán incluir el atributo alt para indicar
     alt="BodeGo logo">
 ```
 
-### Use Semantic HTML Elements
+Use Semantic HTML Elements
 
 Cuando sea posible, se utilizarán etiquetas semánticas para organizar mejor las páginas.
 Algunas de las etiquetas que se utilizarán son:
@@ -1590,7 +1590,7 @@ article
 footer
 ```
 
-### Spaces and Equal Signs
+Spaces and Equal Signs
 
 No se utilizarán espacios innecesarios alrededor del signo igual en los atributos.
 
@@ -1607,9 +1607,9 @@ Incorrecto:
 ```
 
 
-## CSS
+CSS
 
-### ID and Class Naming
+ID and Class Naming
 
 Las clases e identificadores CSS deberán utilizar nombres claros y relacionados con el elemento que representan.
 
@@ -1636,7 +1636,7 @@ Se evitarán nombres poco descriptivos como:
 }
 ```
 
-### ID and Class Name Style
+ID and Class Name Style
 
 Para los nombres de clases e identificadores CSS se utilizará kebab-case.
 
@@ -1651,7 +1651,7 @@ Para los nombres de clases e identificadores CSS se utilizará kebab-case.
 }
 ```
 
-### Shorthand Properties
+Shorthand Properties
 
 Cuando sea posible, se utilizarán propiedades abreviadas para evitar código innecesario.
 
@@ -1674,7 +1674,7 @@ Se utilizará:
 }
 ```
 
-### Declaration Order
+Declaration Order
 
 Las propiedades CSS deberán mantenerse ordenadas para facilitar la lectura del código.
 
@@ -1690,9 +1690,9 @@ Las propiedades CSS deberán mantenerse ordenadas para facilitar la lectura del 
 }
 ```
 
-## JavaScript
+JavaScript
 
-### Use Expanded Syntax
+Use Expanded Syntax
 
 El código JavaScript deberá escribirse de manera clara y ordenada, colocando cada instrucción en una línea diferente cuando sea necesario.
 
@@ -1701,7 +1701,7 @@ function calculateAvailableStock() {
     console.log("Calculating available stock");
 }
 ```
-### Variable Naming
+Variable Naming
 
 Las variables utilizarán camelCase y deberán tener nombres descriptivos en inglés.
 
@@ -1720,7 +1720,7 @@ let data1;
 let thing;
 ```
 
-### Declaring Variables
+Declaring Variables
 
 Se utilizará const cuando el valor no necesite cambiar.
 
@@ -1737,7 +1737,7 @@ let availableStock = 20;
 availableStock = availableStock - 1;
 ```
 
-### Function Naming
+Function Naming
 
 Las funciones utilizarán camelCase y sus nombres deberán indicar claramente la acción que realizan.
 
@@ -1758,7 +1758,7 @@ function showExpirationAlert() {
 }
 ```
 
-### Constants
+Constants
 
 Las constantes globales podrán utilizar UPPER_SNAKE_CASE.
 
@@ -1768,7 +1768,7 @@ Ejemplos:
 const MAX_LOGIN_ATTEMPTS = 5;
 const DEFAULT_STOCK_THRESHOLD = 10;
 ```
-# Java
+Java
 
 PascalCase
 
@@ -1813,7 +1813,7 @@ public boolean isNearExpiration(LocalDate expirationDate) {
 
 ---
 
-### Single Responsibility
+Single Responsibility
 
 Cada clase deberá encargarse principalmente de una responsabilidad.
 
@@ -1822,11 +1822,11 @@ Cada clase deberá encargarse principalmente de una responsabilidad.
 - BatchService se encargará de la gestión de lotes.
 - WastageService se encargará del registro y gestión de mermas.
 
-## Gherkin
+Gherkin
 
 Los escenarios y criterios de aceptación de BodeGo deberán seguir una estructura uniforme y utilizar nombres en inglés.
 
-### Descriptive and Concise Titles for Scenarios
+escriptive and Concise Titles for Scenarios
 
 Los escenarios deberán tener títulos claros que permitan entender rápidamente qué comportamiento se está evaluando.
 
@@ -1839,7 +1839,7 @@ Scenario: Successful login
     Then the system should grant access according to the user role
 ```
 
-### Follow the Given-When-Then Structure Consistently
+Follow the Given-When-Then Structure Consistently
 
 Los escenarios deberán utilizar la estructura Given, When y Then.
 
@@ -1848,7 +1848,7 @@ Los escenarios deberán utilizar la estructura Given, When y Then.
 - Then: representa el resultado esperado.
 
 
-### Focus on Business-Readable Language
+Focus on Business-Readable Language
 
 Los escenarios deberán utilizar un lenguaje relacionado con las actividades del minimarket y evitar detalles técnicos de programación.
 
@@ -1860,7 +1860,7 @@ Scenario: Register damaged product as wastage
     Then the stock should be updated
     And the wastage should be recorded
 ```
-### Add Comments When Necessary
+Add Comments When Necessary
 
 Se podrán agregar comentarios cuando sea necesario explicar el propósito de un escenario.
 
