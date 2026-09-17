@@ -545,7 +545,7 @@ Como parte de la estrategia, se realizarían pruebas con minimarkets para mostra
 
 | |
 |---|
-| ![Imagen de la entrevista](Recursos/images/Empelado2-Entrevista.png) |
+| ![Imagen de la entrevista](Recursos/images/Empleado2-Entrevista.png) |
 | **Nombres y apellidos:*Andres Marzano*  <br>**Edad:** 20  <br>**Distrito:** San Juan de Lurigancho <br><br>**Resumen:**  <br>Andrés Marzano, de 20 años, tiene experiencia trabajando en atención al cliente y almacén. Explica que las entradas de productos se registraban después de verificar que la mercadería recibida coincidiera con la información del documento de entrega, para luego ingresarla en el sistema. Las salidas, por su parte, se registraban mediante boletas electrónicas. <br><br>Uno de los principales problemas era conocer con precisión la cantidad disponible de productos, especialmente cuando se trataba de artículos pequeños, ya que podían cometerse errores al contarlos. Esta tarea se volvía más complicada cuando, al mismo tiempo, tenían que atender a los clientes. <br><br>Para controlar los productos próximos a vencer, colocaban adelante los que tenían menor tiempo de vida útil y dejaban al fondo los productos recién llegados. Además, revisaban las fechas de vencimiento en los turnos de día y noche. Cuando un producto estaba cerca de vencer, trataban de darle prioridad a su venta; si ya quedaban pocos días y no se lograba vender, se registraba como merma para calcular las pérdidas. <br><br>Finalmente, Andrés señala que los mayores errores en el control del inventario se presentaban principalmente durante las mañanas, cuando había mayor cantidad de clientes y debían dividir su atención entre las ventas y las tareas de inventario. <br><br>**URL:** |
 
 | |
@@ -578,11 +578,11 @@ Respecto a una posible solución, el **66,7 % mencionó directamente que sería 
 
 ## Administrador
 
-![User Persona Administrador](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/main/Recursos/UserPersona-Administrador.jpg)
+![User Persona Administrador](Recursos/images/UserPersona-Administrador.jpg)
 
 ## Empleado
 
-![User Persona Empleado](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/main/Recursos/UserPersona-Empleado.jpg)
+![User Persona Empleado](Recursos/images/UserPersona-Empleado.jpg)
 
 ### 2.3.2. User Task Matrix
 
@@ -648,18 +648,18 @@ Respecto a una posible solución, el **66,7 % mencionó directamente que sería 
 
 ## Administrador
 
-![Empathy Map Administrador](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/main/Recursos/EmphathyMapping-Administrador.jpg)
+![Empathy Map Administrador](Recursos/images/EmphathyMapping-Administrador.jpg)
 
 ## Empleado
 
-![Empathy Map Empleado](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/main/Recursos/EmphathyMapping-Empleado.jpg)
+![Empathy Map Empleado](Recursos/images/EmphathyMapping-Empleado.jpg)
 
 ## 2.4. Big Picture EventStorming
 
 Nuestro equipo se enfocó en el dominio del negocio de los minimarkets, identificando los Domain Events más significativos a lo largo de la línea de tiempo operativo, desde que la mercadería ingresa al local hasta que es vendida o registrada como merma.
 A continuación se identificaron los siguientes flujos principales a través de Domain Events.
 
-![Big Picture EventStorming](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/main/Recursos/Bigpicture-eventstorming.png)
+![Big Picture EventStorming](Recursos/images/Bigpicture-eventstorming.png)
 
 ## 2.5. Ubiquitous Language
 
@@ -2140,15 +2140,15 @@ Desde el Dashboard también dispone de accesos rápidos para:
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 
-![Wireframe 1](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/146b89f7eed9360ed87e28c9627dd97f81048fc6/Recursos/Landing1.png)
+![WireframeL1](Recursos/images/Landing1.png)
 ---
-![Wireframe 1](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/146b89f7eed9360ed87e28c9627dd97f81048fc6/Recursos/Landing2.png)
+![WireframeL2](Recursos/images/Landing2.png)
 ---
-![Wireframe 1](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/146b89f7eed9360ed87e28c9627dd97f81048fc6/Recursos/Landing3.png)
+![WireframeL3](Recursos/images/Landing3.png)
 ---
-![Wireframe 1](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/146b89f7eed9360ed87e28c9627dd97f81048fc6/Recursos/Landing4.png)
+![WireframeL4](Recursos/images/Landing4.png)
 ---
-![Wireframe 1](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/146b89f7eed9360ed87e28c9627dd97f81048fc6/Recursos/Landing5.png)
+![WireframeL5](Recursos/images/Landing5.png)
 ---
 
 ### 4.3.2. Landing Page Mock-ups
@@ -2156,134 +2156,134 @@ Desde el Dashboard también dispone de accesos rápidos para:
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 
-![Wireframe 1](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF1.png)
+![Wireframe 1](Recursos/images/Recursos/WF1.png)
 
 ---
 
-![Wireframe 2](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF2.png)
+![Wireframe 2](Recursos/images/Recursos/WF2.png)
 
 ---
 
-![Wireframe 3](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF3.png)
+![Wireframe 3](Recursos/images/WF3.png)
 
 ---
 
-![Wireframe 4](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF4.png)
+![Wireframe 4](Recursos/images/WF4.png)
 
 ---
 
-![Wireframe 5](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF5.png)
+![Wireframe 5](Recursos/images/WF5.png)
 
 ---
 
-![Wireframe 6](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF6.png)
+![Wireframe 6](Recursos/images/WF6.png)
 
 ---
 
-![Wireframe 7](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF7.png)
+![Wireframe 7](Recursos/images/WF7.png)
 
 ---
 
-![Wireframe 8](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF8.png)
+![Wireframe 8](Recursos/images/WF8.png)
 
 ---
 
-![Wireframe 9](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF9.png)
+![Wireframe 9](Recursos/images/WF9.png)
 
 ---
 
-![Wireframe 10](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF10.png)
+![Wireframe 10](Recursos/images/WF10.png)
 
 ---
 
-![Wireframe 11](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF11.png)
+![Wireframe 11](Recursos/images/WF11.png)
 
 ---
 
-![Wireframe 12](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF12.png)
+![Wireframe 12](Recursos/images/WF12.png)
 
 ---
 
-![Wireframe 13](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF13.png)
+![Wireframe 13](Recursos/images/WF13.png)
 
 ---
 
-![Wireframe 14](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/WF14.png)
+![Wireframe 14](Recursos/images/WF14.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams
-![Wireflow 0](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Wireflow_App.png)
+![Wireflow 0](Recursos/images/Wireflow_App.png)
 
 ### 4.4.3. Web Applications Mock-ups
-![Mockup App 1](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App1.png)
+![Mockup App 1](Recursos/images/Mockup-App1.png)
 
 ---
 
-![Mockup App 2](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App2.png)
+![Mockup App 2](Recursos/images/Mockup-App2.png)
 
 ---
 
-![Mockup App 3](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App3.png)
+![Mockup App 3](Recursos/images/Mockup-App3.png)
 
 ---
 
-![Mockup App 4](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App4.png)
+![Mockup App 4](Recursos/images/Mockup-App4.png)
 
 ---
 
-![Mockup App 5](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App5.png)
+![Mockup App 5](Recursos/images/Mockup-App5.png)
 
 ---
 
-![Mockup App 6](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App6.png)
+![Mockup App 6](Recursos/images/Mockup-App6.png)
 
 ---
 
-![Mockup App 7](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App7.png)
+![Mockup App 7](Recursos/images/Mockup-App7.png)
 
 ---
 
-![Mockup App 8](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App8.png)
+![Mockup App 8](Recursos/images/Mockup-App8.png)
 
 ---
 
-![Mockup App 9](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App9.png)
+![Mockup App 9](Recursos/images/Mockup-App9.png)
 
 ---
 
-![Mockup App 10](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App10.png)
+![Mockup App 10](Recursos/images/Mockup-App10.png)
 
 ---
 
-![Mockup App 11](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App11.png)
+![Mockup App 11](Recursos/images/Mockup-App11.png)
 
 ---
 
-![Mockup App 12](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App12.png)
+![Mockup App 12](Recursos/images/Mockup-App12.png)
 
 ---
 
-![Mockup App 13](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App13.png)
+![Mockup App 13](Recursos/images/Mockup-App13.png)
 
 ---
 
-![Mockup App 14](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Mockup-App14.png)
+![Mockup App 14](Recursos/images/Mockup-App14.png)
 ### 4.4.4. Web Applications User Flow Diagrams
 
 ## LEYENDA
 
-![Leyenda Flow Diagram](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/main/Recursos/LEYENDA.jpg)
+![Leyenda Flow Diagram](Recursos/images/LEYENDA.jpg)
 
 ## FLUJO DE USUARIO
 
-![Flujo de Usuario Flow Diagram](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/main/Recursos/FLUJO%20DE%20USUARIO.jpg)
+![Flujo de Usuario Flow Diagram](Recursos/images/FLUJO%20DE%20USUARIO.jpg)
 
 ## FLUJO DE ADMINISTRADOR
 
-![Flujo de Administrador Flow Diagram](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/main/Recursos/FLUJO%20DE%20ADMINISTRADOR.jpg)
+![Flujo de Administrador Flow Diagram](Recursos/images/FLUJO%20DE%20ADMINISTRADOR.jpg)
 
 ## FLUJO DE EMPLEADO
 
-![Flujo de Empleado Flow Diagram](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/main/Recursos/FLUJO%20DE%20EMPLEADO.jpg)
+![Flujo de Empleado Flow Diagram](Recursos/images/FLUJO%20DE%20EMPLEADO.jpg)
 
 ---
 
@@ -2291,88 +2291,88 @@ Desde el Dashboard también dispone de accesos rápidos para:
 
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level EventStorming
-![Estructura / Captura 1](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/es1.png)
+![Estructura / Captura 1](Recursos/images/Recursos/es1.png)
 
 ---
 
-![Estructura / Captura 2](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/es2.png)
+![Estructura / Captura 2](Recursos/images/es2.png)
 
 ---
 
-![Estructura / Captura 3](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/es3.png)
+![Estructura / Captura 3](Recursos/images/es3.png)
 
 ---
 
-![Estructura / Captura 4](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/es4.png)
+![Estructura / Captura 4](Recursos/images/es4.png)
 
 ---
 
-![Estructura / Captura 5](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/es5.png)
+![Estructura / Captura 5](Recursos/images/es5.png)
 
 ---
 
-![Estructura / Captura 6](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/es6.png)
+![Estructura / Captura 6](Recursos/images/es6.png)
 
 ---
 
-![Estructura / Captura 7](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/es7.png)
+![Estructura / Captura 7](Recursos/images/es7.png)
 
 ---
 
-![Estructura / Captura 8](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/es8.png)
+![Estructura / Captura 8](Recursos/images/es8.png)
 
 ---
 
-![Estructura / Captura 9](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/es9.png)
+![Estructura / Captura 9](Recursos/images/es9.png)
 
 ---
 
-![Estructura / Captura 9](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/es91.png)
+![Estructura / Captura 9](Recursos/images/es91.png)
 
 ---
 
-![Estructura / Captura 9](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/es92.png)
+![Estructura / Captura 9](Recursos/images/es92.png)
 
 ---
 
-![Estructura / Captura 9](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/es93.png)
+![Estructura / Captura 9](Recursos/images/es93.png)
 
 ### 4.6.2. Software Architecture Context Diagram
-![Context](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/SystemContext.png)
+![Context](Recursos/images/SystemContext.png)
 ### 4.6.3. Software Architecture Container Diagrams
-![Container](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Containers.png)
+![Container](Recursos/images/Containers.png)
 
 ### 4.6.4. Software Architecture Components Diagrams
-![Components-Worker](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Components-Worker.png)
+![Components-Worker](Recursos/images/Components-Worker.png)
 
 ---
 
-![Components-API](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/Components-API.png)
+![Components-API](Recursos/images/Recursos/Components-API.png)
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
-![Components-API](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/BodeGo-diagramaClases.png)
+![Components-API](Recursos/images/BodeGo-diagramaClases.png)
 ## 4.8. Database Design
 Se presenta el diseño de la base de datos relacional que permitirá graficar la información para los objetos de cada Bounded Context identificados en la aplicación BodeGo.
 
 ### 4.8.1. Database Diagrams
 El siguiente diagrama de base de datos Entity-Relationship contiene las tablas, columnas y tipos de datos que establecen las relaciones entre las entidades del sistema.
-![Diagrama / Diseño 1](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/d1.png)
+![Diagrama / Diseño 1](Recursos/images/d1.png)
 
 ---
 
-![Diagrama / Diseño 2](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/d2.png)
+![Diagrama / Diseño 2](Recursos/images/d2.png)
 
 ---
 
-![Diagrama / Diseño 3](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/d3.png)
+![Diagrama / Diseño 3](Recursos/images/d3.png)
 
 ---
 
-![Diagrama / Diseño 4](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/d4.png)
+![Diagrama / Diseño 4](Recursos/images/d4.png)
 
 ---
 
-![Diagrama / Diseño 5](https://raw.githubusercontent.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/647e801fb9e0a3960babde5d048f2178007875bf/Recursos/d5.png)
+![Diagrama / Diseño 5](Recursos/images/d5.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -2384,7 +2384,7 @@ Para el desarrollo de BodeGo se establecerán un conjunto de herramientas que pe
 
 - **Discord:** Una herramienta de comunicación y coordinación del equipo. Permite organizar conversaciones por canales, realizar reuniones de voz, compartir avances, resolver dudas y coordinar las actividades relacionadas con el desarrollo de BodeGo.
 
-![Imagen de reunión](https://github.com/SirEthan04/Repositorio_Aplicaciones_Open_Source/blob/43dc2e10f407b28b5fe139102347e314a732568c/Recursos/imagen%20de%20reunion.png?raw=true)
+![Imagen de reunión](Recursos/images/imagen%20de%20reunion.png?raw=true)
 
 ## . Requirement Management
 
