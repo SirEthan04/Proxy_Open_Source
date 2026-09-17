@@ -2156,11 +2156,11 @@ Desde el Dashboard también dispone de accesos rápidos para:
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 
-![Wireframe 1](Recursos/images/Recursos/WF1.png)
+![Wireframe 1](Recursos/images/WF1.png)
 
 ---
 
-![Wireframe 2](Recursos/images/Recursos/WF2.png)
+![Wireframe 2](Recursos/images/WF2.png)
 
 ---
 
