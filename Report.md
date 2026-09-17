@@ -1423,7 +1423,7 @@ Para el desarrollo de BodeGo se establecerán un conjunto de herramientas que pe
 
 imagen para mostrar evidencia de uso: 
 
-[imagen](Recursos/images/imagenReunion.png)
+![imagen](Recursos/images/imagenReunion.png)
 
 ## . Requirement Management
 
