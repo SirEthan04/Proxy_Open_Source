@@ -1511,27 +1511,24 @@ En caso de que en el futuro BodeGo deba mantener diferentes versiones en producc
 
 ## Conventional Commits
 
-Para mantener un historial de cambios claro y comprensible, los mensajes de los commits del proyecto BodeGo seguirán la especificación **Conventional Commits**.
+Para mantener un historial de cambios claro y comprensible, los mensajes de los commits del proyecto BodeGo seguirán la especificación Conventional Commits.
 
-Esta convención permitirá identificar rápidamente el propósito de cada modificación realizada por los integrantes del equipo.
+Esta convención permitirá identificar rápidamente el propósito de cada modificación realizada por los integrantes del equipo.¿
 
 La estructura general será: git commit -m <type>[optional scope]: <title>“ -m “<description” 
 
 ### Tipos de Conventional Commits
-
-| Tipo | Uso |
-|---|---|
-| `feat` | Incorporación de una nueva funcionalidad. |
-| `fix` | Corrección de un error. |
-| `docs` | Cambios en documentación. |
-| `style` | Cambios de formato que no modifican el funcionamiento. |
-| `refactor` | Reestructuración del código sin agregar funcionalidades ni corregir errores. |
-| `test` | Adición o modificación de pruebas. |
-| `chore` | Tareas de mantenimiento o configuración. |
-| `perf` | Mejoras relacionadas con el rendimiento. |
+feat: Incorporación de una nueva funcionalidad.
+fix: Corrección de un error. 
+docs: Cambios en documentación. 
+style: Cambios de formato que no modifican el funcionamiento. 
+refactor: Reestructuración del código sin agregar funcionalidades ni corregir errores. 
+test: Adición o modificación de pruebas. 
+chore: Tareas de mantenimiento o configuración. 
+perf: Mejoras relacionadas con el rendimiento. 
 
 ### 5.1.3. Source Code Style Guide & Conventions
-Como norma general, todo el código desarrollado para **BodeGo** deberá utilizar nombres en inglés. Esto incluye variables, funciones, métodos, clases, archivos, atributos y demás elementos utilizados durante el desarrollo.
+Como norma general, todo el código desarrollado para BodeGo deberá utilizar nombres en inglés. Esto incluye variables, funciones, métodos, clases, archivos, atributos y demás elementos utilizados durante el desarrollo.
 
 La finalidad de estas reglas es mantener un código ordenado y fácil de entender para todos los integrantes del equipo.
 
@@ -1771,76 +1768,50 @@ Ejemplos:
 const MAX_LOGIN_ATTEMPTS = 5;
 const DEFAULT_STOCK_THRESHOLD = 10;
 ```
+# Java
 
-## C#
+PascalCase
 
-### PascalCase
+Las clases utilizarán PascalCase.
 
-Las clases, métodos y propiedades utilizarán PascalCase.
-
-```csharp
-public class ProductService
-{
+```java
+public class ProductService {
 }
 ```
 
-```csharp
-public class InventoryService
-{
+```java
+public class InventoryService {
 }
 ```
 
-```csharp
-public class BatchService
-{
+```java
+public class BatchService {
 }
 ```
 
-### camelCase
+---
 
-Las variables locales y parámetros utilizarán camelCase.
+camelCase
 
-```csharp
-int productId;
-string productName;
-int availableStock;
-DateTime expirationDate;
+Los métodos, variables locales, parámetros y atributos utilizarán camelCase.
+
+```java
+private int productId;
+private String productName;
 ```
+---
+Clear Comments
 
-### Interface Naming
+Los comentarios se utilizarán cuando ayuden a entender partes del código que los demas integrantes del grupo no comprendan.
 
-Las interfaces utilizarán PascalCase y comenzarán con la letra I.
-
-```csharp
-public interface IProductService
-{
-}
-```
-
-```csharp
-public interface IInventoryService
-{
-}
-```
-
-```csharp
-public interface IWastageService
-{
-}
-```
-
-### Clear Comments
-
-Los comentarios se utilizarán cuando ayuden a entender alguna regla de negocio o una parte del código que no sea evidente.
-Los comentarios deberán escribirse en inglés.
-
-```csharp
+```java
 // Checks whether the batch is close to its expiration date.
-public bool IsNearExpiration(DateTime expirationDate)
-{
-    return expirationDate <= DateTime.Today.AddDays(7);
+public boolean isNearExpiration(LocalDate expirationDate) {
+    return expirationDate.isBefore(LocalDate.now().plusDays(7));
 }
 ```
+
+---
 
 ### Single Responsibility
 
