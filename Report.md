@@ -1418,7 +1418,7 @@ enlace: https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=
 ![Components-API](Recursos/images/Components-API.png)
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
-![Components-API](Recursos/images/BodeGo-diagramaClases.png)
+![Class-Diagram](Recursos/images/DiagramaClases.jpg)
 ## 4.8. Database Design
 Se presenta el diseño de la base de datos relacional que permitirá graficar la información para los objetos de cada Bounded Context identificados en la aplicación BodeGo.
 
