@@ -589,8 +589,8 @@ Respecto a una posible solución, el **66,7 % mencionó directamente que sería 
 ![User Persona Empleado](Recursos/images/UserPersona-Empleado.jpg)
 
 ### 2.3.2. User Task Matrix
-
-## Administradores
+---
+ Administradores
 
 | Tareas identificadas | Frecuencia | Importancia | Evidencia / Justificación |
 |---|---|---|---|
@@ -604,8 +604,8 @@ Respecto a una posible solución, el **66,7 % mencionó directamente que sería 
 | Gestionar empleados y permisos | Baja | Media | El administrador debe controlar qué empleados tienen acceso al sistema y las acciones que pueden realizar según su rol. |
 | Configurar parámetros de stock y vencimiento | Baja | Media | Permite adaptar las alertas y reglas de inventario a las necesidades particulares del minimarket. |
 | Identificar productos con mayor cantidad de mermas | Media | Alta | Conocer qué productos generan más pérdidas facilita tomar decisiones sobre compras, rotación y promociones. |
-
-## Empleados
+---
+ Empleados
 
 | Tareas identificadas | Frecuencia | Importancia | Evidencia / Justificación |
 |---|---|---|---|
