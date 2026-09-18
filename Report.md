@@ -2037,7 +2037,15 @@ Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509
 #### 5.2.1.4. Development Evidence for Sprint Review
 ---
 
-![Estructura / Captura 9](Recursos/images/gh1.jpg)
+| Repository              | Branch                    | Commit ID | Commit Message                          | Commit Message Body                                                            | Committed on |
+| ----------------------- | ------------------------- | --------- | --------------------------------------- | ------------------------------------------------------------------------------ | ------------ |
+| Landing Page Repository | feature/hero-section      | 371ee21   | feat: improve hero section design       | Implementación y mejora del diseño de la sección principal de la Landing Page. | 17/09/2026   |
+| Landing Page Repository | feature/value-proposition | fa49632   | feat: improve value proposition section | Desarrollo de la sección de beneficios y propuesta de valor del producto.      | 17/09/2026   |
+| Landing Page Repository | feature/solutions-section | 003f372   | feat: improve solutions section         | Implementación de la sección de soluciones y funcionalidades principales.      | 17/09/2026   |
+| Landing Page Repository | feature/impact-section    | 7182b63   | feat: improve impact section            | Desarrollo de la sección de impacto mostrando beneficios del producto.         | 17/09/2026   |
+| Landing Page Repository | feature/contact-form      | e281064   | feat: improve contact form              | Implementación del formulario de contacto comercial.                           | 17/09/2026   |
+| Landing Page Repository | feature/footer            | dfb92c0   | feat: improve footer section            | Implementación del footer con información general y enlaces.                   | 17/09/2026   |
+
 
 ---
 #### 5.2.1.5. Execution Evidence for Sprint Review
