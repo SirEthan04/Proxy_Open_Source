@@ -2052,7 +2052,18 @@ una etapa posterior del desarrollo.
 # Conclusiones
 
 ## Conclusiones y recomendaciones
+El proyecto BodeGo busca solucionar el problema de la falta de control y organización del inventario en los minimarkets, especialmente en la gestión de productos perecibles, diferencias de stock y pérdidas ocasionadas por vencimientos. A través de una plataforma web de gestión, permitiendo que los Administradores y Empleados puedan realizar sus actividades de manera más ordenada y eficiente.
 
+Las validaciones realizadas permitieron confirmar que los usuarios presentan dificultades al utilizar métodos manuales como cuadernos, Excel o revisiones físicas constantes. Por ello, funcionalidades como el control de inventario, alertas de vencimiento, reportes y gestión de roles representan una solución alineada con las necesidades identificadas durante el proceso de investigación.
+
+La aplicación busca ofrecer una experiencia sencilla e intuitiva, enfocándose en reducir el tiempo empleado en tareas operativas y mejorar la toma de decisiones dentro del minimarket. Entre sus principales características destacan:
+
+- Control actualizado del inventario.
+- Alertas sobre productos próximos a vencer.
+- Reportes para conocer el estado del negocio.
+- Gestión de usuarios según sus responsabilidades.
+
+Estas funcionalidades están diseñadas para disminuir los errores en el registro de productos, evitar pérdidas innecesarias y brindar mayor visibilidad sobre el estado real del inventario. De esta manera, BodeGo permite que los Administradores puedan tomar decisiones más oportunas y que los Empleados puedan realizar sus tareas de forma rápida y organizada.
 ---
 
 # Video About-the-Team
