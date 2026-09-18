@@ -2030,7 +2030,32 @@ Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509
 | US01 - US05 | Landing Page | TSK010 | Implement responsive design | Adaptar la Landing Page para dispositivos móviles, tablets y escritorio manteniendo la correcta visualización del diseño. | 5 | Giordano | Hecho |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
+---
+
+![Estructura / Captura 9](Recursos/images/gh1.jpg)
+
+---
 #### 5.2.1.5. Execution Evidence for Sprint Review
+---
+
+![Estructura / Captura 9](Recursos/images/lpd1.jpg)
+
+---
+---
+
+![Estructura / Captura 9](Recursos/images/lpd2.jpg)
+
+---
+---
+
+![Estructura / Captura 9](Recursos/images/lpd3.jpg)
+
+---
+---
+
+![Estructura / Captura 9](Recursos/images/lpd4.jpg)
+
+---
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 Se ha omitido la sección de la aplicación web debido a que solo se ha desarrollado la Landing Page. Se ofrecerá más información sobre la aplicación en
