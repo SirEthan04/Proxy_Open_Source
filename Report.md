@@ -1418,44 +1418,77 @@ Para el desarrollo de BodeGo se establecerán un conjunto de herramientas que pe
 ## . Project Management
 
 - **Discord:** Una herramienta de comunicación y coordinación del equipo. Permite organizar conversaciones por canales, realizar reuniones de voz, compartir avances, resolver dudas y coordinar las actividades relacionadas con el desarrollo de BodeGo.
-
+---
+![Imagen de la entrevista](Recursos/images/dc1.jpg)
+---
 [link de inicio sesion](https://discord.com/)
+
+---
 
 imagen para mostrar evidencia de uso: 
 
-![imagen](Recursos/images/imagenReunion.png)
+![imagen](Recursos/images/dc2.jpg)
 
 ## . Requirement Management
 
 - **Miro:** Se utilizará como herramienta colaborativa para la gestión y análisis de requisitos de BodeGo. Permitirá organizar visualmente información obtenida durante la investigación, como User Personas, Empathy Maps, User Journey Maps e Impact Mapping.
+---
+![Imagen de la entrevista](Recursos/images/miro.png)
+
+---
+
 [link de inicio de sesion](https://miro.com/es/)
 
 - **UXPressia:** Se utilizará para elaborar y documentar artefactos relacionados con la experiencia de usuario, como User Personas y User Journey Maps, permitiendo representar las características, necesidades, objetivos y experiencias de los segmentos de usuarios de BodeGo.
+---
+![Imagen de la entrevista](Recursos/images/ux.png)
+---
+
 [link de inicio de sesion](https://uxpressia.com/)
 
 - **Structurizr:** Se utilizará para modelar y documentar la arquitectura de software de BodeGo mediante diagramas basados en el modelo C4. Permitirá representar la estructura general del sistema, sus principales contenedores, componentes y relaciones.
-[link de inicio de sesion](https://structurizr.com/)
+---
+![Imagen de la entrevista](Recursos/images/struc.png)
+---
 
 ## . Product UX/UI Design
 
 - **Figma:** Una herramienta de colaboración que facilita el desarrollo conjunto de wireframes y mockups.
+---
+![Imagen de la entrevista](Recursos/images/figma.png)
+---
 [link de inicio de sesion](https://www.figma.com/es-la/)
 
 - **LucidChart:** Una herramienta colaborativa que posibilita la creación conjunta de wireframes flow y mockups flow.
+---
+![Imagen de la entrevista](Recursos/images/lucid.png)
+---
 [link de inicio de sesion](https://lucid.co/es/lucidchart)
 
 ## . Software Development
 
 - **HTML5:** Es un lenguaje de etiquetado utilizado para crear la estructura de una página web. Se empleará para incluir componentes como texto, imágenes, enlaces, botones y videos.
+---
+![Imagen de la entrevista](Recursos/images/html.png)
+---
 [informacion relacionada](https://www.esic.edu/rethink/tecnologia/html5-que-es-caracteristicas-y-como-funciona-c#:~:text=El%20HTML5%20es%20un%20est%C3%A1ndar,%2C%20estilo%20de%20letra%2C%20etc.)
 
 - **CSS:** Es un lenguaje de diseño gráfico utilizado para dar formato y estilo a la presentación de los documentos HTML.
+---
+![Imagen de la entrevista](Recursos/images/css.png)
+---
 [informacion relacionada](https://developer.mozilla.org/es/docs/Web/CSS)
 
 - **JavaScript:** Es un lenguaje de programación dinámico orientado a objetos que se utilizará para implementar funcionalidades e interactividad en la aplicación web.
+---
+![Imagen de la entrevista](Recursos/images/js.png)
+---
 [informacion relacionada](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
 - **intellJ IDEA** Es un entorno de desarrollo integrado (IDE) diseñado para programar en Java.
+---
+![Imagen de la entrevista](Recursos/images/intell.jpg)
+---
 [link de descarga](https://www.jetbrains.com/es-es/idea/download/?section=windows)
 
 ## . Software Testing
@@ -1465,11 +1498,17 @@ imagen para mostrar evidencia de uso:
 ## . Software Documentation
 
 - **GitHub:** Es una plataforma utilizada para el alojamiento y control de versiones del código fuente de un proyecto. Facilita el trabajo colaborativo entre los integrantes del equipo y permite mantener un historial de los cambios realizados.
+---
+![Imagen de la entrevista](Recursos/images/gh6.jpgg)
+---
 
 
 ## . Software Deployment
 
 - **GitHub Pages:** Es una plataforma que permite realizar despliegues de aplicaciones web directamente desde un repositorio de GitHub.
+---
+![Imagen de la entrevista](Recursos/images/gh7.png)
+---
 [link de inicio](https://github.com/?locale=es-419)
 [link de descarga](https://github.com/apps/desktop?locale=es-419)
 
