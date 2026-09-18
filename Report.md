@@ -2056,6 +2056,11 @@ Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509
 ![Estructura / Captura 9](Recursos/images/lpd4.jpg)
 
 ---
+---
+
+![Landing Page Desplegada](https://sirethan04.github.io/Proxy_Open_Source_LandingPage/?nombre=r&correo=rtuj%40pene.com&telefono=ewrdgfh&mensaje=sgfdbhnm+n#solucion)
+
+---
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 Se ha omitido la sección de la aplicación web debido a que solo se ha desarrollado la Landing Page. Se ofrecerá más información sobre la aplicación en
