@@ -2031,7 +2031,7 @@ Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509
 | US04 | Explicación del Funcionamiento de BodeGo | TSK006 | Implement how it works section | Desarrollar la sección donde se explica el flujo general de funcionamiento de BodeGo y la interacción entre Administrador y Empleado. | 3 | Yorch | Hecho |
 | US02 | Visualización de Beneficios del Producto | TSK007 | Implement impact section | Implementar la sección de impacto mostrando los beneficios esperados de utilizar BodeGo dentro del negocio. | 2 | Mateo | Hecho |
 | US05 | Formulario de Contacto Comercial | TSK008 | Implement contact section | Implementar el formulario de contacto para que potenciales clientes puedan solicitar información sobre BodeGo. | 3 | Johan | Hecho |
-| US03 | Presentación de Funcionalidades Principales | TSK009 | Implement footer section | Implementar el footer con información general del producto, enlaces y datos de contacto. | 2 | Johan | Hecho |
+| US03 | Presentación de Funcionalidades Principales | TSK009 | Implement footer section | Implementar el footer con información general del producto, enlaces y datos de contacto. | 2 | Guiordano | Hecho |
 | US01 - US05 | Landing Page | TSK010 | Implement responsive design | Adaptar la Landing Page para dispositivos móviles, tablets y escritorio manteniendo la correcta visualización del diseño. | 5 | Giordano | Hecho |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
@@ -2039,12 +2039,12 @@ Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509
 
 | Repository              | Branch                    | Commit ID | Commit Message                          | Commit Message Body                                                            | Committed on |
 | ----------------------- | ------------------------- | --------- | --------------------------------------- | ------------------------------------------------------------------------------ | ------------ |
-| Landing Page Repository | feature/hero-section      | 371ee21   | feat: improve hero section design       | Implementación y mejora del diseño de la sección principal de la Landing Page. | 17/09/2026   |
-| Landing Page Repository | feature/value-proposition | fa49632   | feat: improve value proposition section | Desarrollo de la sección de beneficios y propuesta de valor del producto.      | 17/09/2026   |
-| Landing Page Repository | feature/solutions-section | 003f372   | feat: improve solutions section         | Implementación de la sección de soluciones y funcionalidades principales.      | 17/09/2026   |
-| Landing Page Repository | feature/impact-section    | 7182b63   | feat: improve impact section            | Desarrollo de la sección de impacto mostrando beneficios del producto.         | 17/09/2026   |
-| Landing Page Repository | feature/contact-form      | e281064   | feat: improve contact form              | Implementación del formulario de contacto comercial.                           | 17/09/2026   |
-| Landing Page Repository | feature/footer            | dfb92c0   | feat: improve footer section            | Implementación del footer con información general y enlaces.                   | 17/09/2026   |
+| Danysss-cmd/Landing Page Repository | feature/hero-section      | 371ee21   | feat: improve hero section design       | Implementación y mejora del diseño de la sección principal de la Landing Page. | 17/09/2026   |
+| SirEthan04/Landing Page Repository | feature/value-proposition | fa49632   | feat: improve value proposition section | Desarrollo de la sección de beneficios y propuesta de valor del producto.      | 17/09/2026   |
+| Bleim-154/Landing Page Repository | feature/solutions-section | 003f372   | feat: improve solutions section         | Implementación de la sección de soluciones y funcionalidades principales.      | 17/09/2026   |
+| SirEthan04//Landing Page Repository | feature/impact-section    | 7182b63   | feat: improve impact section            | Desarrollo de la sección de impacto mostrando beneficios del producto.         | 17/09/2026   |
+| yowuan/Landing Page Repository | feature/contact-form      | e281064   | feat: improve contact form              | Implementación del formulario de contacto comercial.                           | 17/09/2026   |
+| giorgiorgiorgior/Landing Page Repository | feature/footer            | dfb92c0   | feat: improve footer section            | Implementación del footer con información general y enlaces.                   | 17/09/2026   |
 
 
 ---
