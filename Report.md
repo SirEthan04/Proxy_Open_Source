@@ -195,27 +195,27 @@
 | **Mateo Caldas Bravo (U20241G404)** |
 | :--- |
 | Soy un estudiante de 19 años cursando el quinto ciclo de la carrera de Ingeniería de Software. Considero que mi capacidad de tener un enfoque analítico y la eficiencia de desarrollar una solución eficiente. Mis habilidades blandas me permiten empatizar con los usuarios y acompañado de mi resiliencia, compromiso y productividad me permiten realizar propuestas mas estructuradas y optimas. |
-| Foto |
+| ![Foto Mateo](https://github.com/SirEthan04/Proxy_Open_Source/blob/main/Recursos/images/mateofoto.jpg) |
 
 | **Johan Alvaro Saravia Hiso (U202421082)** |
 | :--- |
 | Soy un estudiante de 20 años actualmente en el quinto ciclo de la carrera de Ingeniería de Software. Me considero una persona responsable y comprometida con los demás, especialmente al trabajar en equipo. Tengo facilidad para analizar problemas y buscar soluciones prácticas. Además, procuro escuchar y comprender las ideas de mis compañeros para lograr un buen trabajo en conjunto. |
-| Foto |
+| ![Foto Johan](https://github.com/SirEthan04/Proxy_Open_Source/blob/main/Recursos/images/johanfoto.jpg) |
 
 | **Chavez Sandoval, Dany Yohel (U20241G610)** |
 | :--- |
 | Soy un estudiante de 20 años actualmente en el quinto ciclo de la carrera de Ingeniería de Software. Me considero una persona responsable y comprometida con los demás, especialmente al trabajar en equipo. Tengo facilidad para analizar problemas y buscar soluciones prácticas. Además, procuro escuchar y comprender las ideas de mis compañeros para lograr un buen trabajo en conjunto. |
-| Foto |
+| ![Flujo Dany](https://github.com/SirEthan04/Proxy_Open_Source/blob/main/Recursos/images/danyfoto.jpg) |
 
 | **Blanco Medina, Jhorch Jhoseff (U20241F385)** |
 | :--- |
 | Soy un estudiante de 20 años actualmente en el quinto ciclo de la carrera de Ingeniería de Software. Me considero una persona responsable y comprometida con los demás, especialmente al trabajar en equipo. Tengo facilidad para analizar problemas y buscar soluciones prácticas. Además, procuro escuchar y comprender las ideas de mis compañeros para lograr un buen trabajo en conjunto. |
-| Foto |
+| ![Foto Jhorch](https://github.com/SirEthan04/Proxy_Open_Source/blob/main/Recursos/images/jhorch%20foto.jpg) |
 
 | **Trejo Espejo, Giordano Sebastian del Ángel (U202316162)** |
 | :--- |
 | Soy un estudiante de 20 años actualmente en el quinto ciclo de la carrera de Ingeniería de Software. Me considero una persona responsable y comprometida con los demás, especialmente al trabajar en equipo. Tengo facilidad para analizar problemas y buscar soluciones prácticas. Además, procuro escuchar y comprender las ideas de mis compañeros para lograr un buen trabajo en conjunto. |
-| Foto |
+| ![Foto Gio](https://github.com/SirEthan04/Proxy_Open_Source/blob/main/Recursos/images/giofoto.jpg) |
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
