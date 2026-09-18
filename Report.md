@@ -580,11 +580,13 @@ Respecto a una posible solución, el **66,7 % mencionó directamente que sería 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 
-## Administrador
+---
+Administrador
 
 ![User Persona Administrador](Recursos/images/UserPersona-Administrador.jpg)
 
-## Empleado
+---
+Empleado
 
 ![User Persona Empleado](Recursos/images/UserPersona-Empleado.jpg)
 
