@@ -1945,13 +1945,13 @@ En esta reunión se definió como objetivo principal implementar la Landing Page
 
 Durante el Sprint 1 se identificaron los principales aspectos de trabajo necesarios para implementar la Landing Page de BodeGo.
 
-| Team Member | GitHub Username | Landing Page Structure | UI & Styling | Content | Documentation | GitHub / SCM |
-| --- | --- | --- | --- | --- | --- | --- |
-| Dany Chavez | Danysss-cmd | L | C | C | C | C |
-| Mateo Caldas| `[username]` | C | C | L | C | C |
-| Yorch Blanco | `[username]` | C | C | C | C | L |
-| Johan Saravia | `[username]` | C | C | C | L | C |
-| Guior | `[username]` | C | L | C | C | C |
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page Structure & Navigation | Product Benefits & Impact | Product Features & Explanation | Contact & Footer Section | Responsive Design |
+|---|---|---|---|---|---|---|
+| Dany | Danysss-cmd | L | C | C | - | C |
+| Mateo | Ethan.Matt | C | L | C | - | C |
+| Yorch | Bleim-154 | C | C | L | - | C |
+| Johan | yowuan | - | C | C | L | C |
+| Guior | igogriogriorgiori | C | C | C | C | L |
 
 #### 5.2.1.3. Sprint Backlog 1
 
