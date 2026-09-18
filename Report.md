@@ -1245,8 +1245,17 @@ Desde el Dashboard también dispone de accesos rápidos para:
 
 ![Wireframe 14](Recursos/images/WF14.png)
 
+---
+enlace: https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=4-2&t=ZKhGhyVBP4tT2C8g-1
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 ![Wireflow 0](Recursos/images/Wireflow_App.png)
+
+---
+
+enlace: https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=9-8766&t=ZKhGhyVBP4tT2C8g-1
+
+---
 
 ### 4.4.3. Web Applications Mock-ups
 ![Mockup App 1](Recursos/images/Mockup-App1.png)
@@ -1302,6 +1311,9 @@ Desde el Dashboard también dispone de accesos rápidos para:
 ---
 
 ![Mockup App 14](Recursos/images/Mockup-App14.png)
+
+---
+enlace: https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=0-1&t=ZKhGhyVBP4tT2C8g-1
 ### 4.4.4. Web Applications User Flow Diagrams
 
 ## LEYENDA
@@ -1371,6 +1383,10 @@ Desde el Dashboard también dispone de accesos rápidos para:
 ---
 
 ![Estructura / Captura 9](Recursos/images/es93.png)
+
+---
+[Nuestro link del miro](https://miro.com/app/board/uXjVHm55KfI=/)
+---
 
 ### 4.6.2. Software Architecture Context Diagram
 ![Context](Recursos/images/SystemContext.png)
@@ -1510,10 +1526,23 @@ imagen para mostrar evidencia de uso:
 ![Imagen de la entrevista](Recursos/images/gh7.png)
 ---
 [link de inicio](https://github.com/?locale=es-419)
+---
 [link de descarga](https://github.com/apps/desktop?locale=es-419)
-
+---
+[Nuestro repositorio de documentación](https://github.com/SirEthan04/Proxy_Open_Source)
+---
+[Nuestro repositorio de landingpage](https://github.com/SirEthan04/Proxy_Open_Source_LandingPage)
+---
+[Nuestro repositorio de frontend](https://github.com/SirEthan04/Proxy_Open_Source_Front-end)
+---
+[Nuestro repositorio de web aplication](https://github.com/SirEthan04/Proxy_Open_Source_Web-Application)
+---
 ### 5.1.2. Source Code Management
+---
 
+![Estructura / Captura 9](Recursos/images/gh9.jpg)
+
+---
 ## GitFlow Implementation
 Para organizar el trabajo colaborativo del equipo se utilizará **GitFlow** como modelo de ramificación, empleando Git para el control de versiones.
 Este modelo permitirá separar el código estable de BodeGo de las funcionalidades que se encuentren en desarrollo, facilitando que diferentes integrantes del equipo puedan trabajar simultáneamente en módulos como inventario, productos, lotes, mermas, ofertas, usuarios y reportes.
@@ -1979,6 +2008,7 @@ Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 #### 5.2.1.5. Execution Evidence for Sprint Review
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 Se ha omitido la sección de la aplicación web debido a que solo se ha desarrollado la Landing Page. Se ofrecerá más información sobre la aplicación en
 una etapa posterior del desarrollo.
@@ -1988,7 +2018,11 @@ Se ha omitido la sección de la aplicación web debido a que solo se ha desarrol
 una etapa posterior del desarrollo.
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+---
 
+![Estructura / Captura 9](Recursos/images/gh8.png)
+
+---
 ## 5.3. Validation Interviews
 ### 5.3.1. Diseño de Entrevistas
 ### 5.3.2. Registro de Entrevistas
