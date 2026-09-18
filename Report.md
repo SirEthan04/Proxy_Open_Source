@@ -1205,6 +1205,12 @@ Desde el Dashboard también dispone de accesos rápidos para:
 
 ### 4.3.2. Landing Page Mock-ups
 
+![LPMock-Up1](Recursos/images/LandingPage-mockup1.jpg)
+---
+
+![LPMock-Up2](Recursos/images/LandingPage-mockup2.jpg)
+---
+
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 
