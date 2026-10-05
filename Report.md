@@ -1431,29 +1431,58 @@ enlace: https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=
 ![Components-API](Recursos/images/Components-API.png)
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
-![Class-Diagram](Recursos/images/DiagramaClases.jpg)
+
+- **Configuración Empresarial y Acceso BC:**
+![DiagramaCL / BC1](Recursos/images/dcl1_confacceso.jpg)
+
+---
+
+- **Catálogo e Inventario BC:**
+![DiagramaCL / BC2](Recursos/images/dcl2_catinv.jpg)
+
+---
+
+- **Operaciones diarias y Mermas BC:**
+![DiagramaCL / BC3](Recursos/images/dcl3_opemerma.jpg)
+
+---
+
+- **Ofertas estratégicas BC:**
+![DiagramaCL / BC4](Recursos/images/dcl4_recoferta.jpg)
+
+---
+
+- **Auditoría y Seguimiento BC:**
+![DiagramaCL / BC5](Recursos/images/dcl5_audseg.jpg)
+
 ## 4.8. Database Design
 Se presenta el diseño de la base de datos relacional que permitirá graficar la información para los objetos de cada Bounded Context identificados en la aplicación BodeGo.
 
 ### 4.8.1. Database Diagrams
-El siguiente diagrama de base de datos Entity-Relationship contiene las tablas, columnas y tipos de datos que establecen las relaciones entre las entidades del sistema.
-![Diagrama / Diseño 1](Recursos/images/d1.png)
+El siguiente diagrama de base de datos Entity-Relationship contiene las tablas, columnas y tipos de datos que establecen las relaciones entre las entidades del sistema separados por Bounded Context.
+
+- **Configuración Empresarial y Acceso BC:**
+![DiagramaDB / BC1](Recursos/images/d1_confaccesoBC.jpg)
 
 ---
 
-![Diagrama / Diseño 2](Recursos/images/d2.png)
+- **Catálogo e Inventario BC:**
+![DiagramaDB / BC2](Recursos/images/d2_catinv.jpg)
 
 ---
 
-![Diagrama / Diseño 3](Recursos/images/d3.png)
+- **Operaciones diarias y Mermas BC:**
+![DiagramaDB / BC3](Recursos/images/d3_opmermaBC.jpg)
 
 ---
 
-![Diagrama / Diseño 4](Recursos/images/d4.png)
+- **Ofertas estratégicas BC:**
+![DiagramaDB / BC4](Recursos/images/d4_recofertaBC.jpg)
 
 ---
 
-![Diagrama / Diseño 5](Recursos/images/d5.png)
+- **Auditoría y Seguimiento BC:**
+![DiagramaDB / BC5](Recursos/images/d5_audsegBC.jpg)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
