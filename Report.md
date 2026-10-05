@@ -1992,7 +1992,7 @@ En esta reunión se definió como objetivo principal implementar la Landing Page
 | **Time** | 5:00 pm |
 | **Location** | Discord |
 | **Prepared By** | Equipo de desarrollo BodeGo |
-| **Attendees (to planning meeting)** | Day / Mateo / Yorch / Johan / Guior |
+| **Attendees (to planning meeting)** | Day / Mateo / Yorch / Johan / Gior |
 | **Sprint 0 Review Summary** | No existe sprint previo |
 | **Sprint 0 Retrospective Summary** | No existe sprint previo |
 | **Sprint Goal & User Stories** | |
@@ -2091,6 +2091,93 @@ una etapa posterior del desarrollo.
 ![Estructura / Captura 9](Recursos/images/gh8.png)
 
 ---
+
+### 5.2.2. Sprint 2
+
+## Sprint 2 - Desarrollo del Frontend Web de BodeGo
+
+Durante el Sprint 2, el equipo se enfocó en desarrollar la primera versión funcional del Frontend Web de BodeGo.
+
+El objetivo fue implementar las principales vistas de la aplicación, permitiendo la navegación entre módulos, consulta del inventario, visualización de productos, alertas, reportes y demás funcionalidades definidas para esta etapa.
+
+#### 5.2.2.1. Sprint Planning 2
+
+El Sprint Planning permitió organizar las actividades que serían desarrolladas durante el Sprint 2. En esta reunión se definió como objetivo principal implementar la primera versión funcional del Frontend Web de BodeGo.
+
+| **Sprint #** | **Sprint 2** |
+|---|---|
+| **Sprint Planning Background** | El Sprint tiene como objetivo desarrollar la primera versión funcional del Frontend Web de BodeGo. |
+| **Date** | 2026-10-4 |
+| **Time** | 2:00 pm |
+| **Location** | Discord |
+| **Prepared By** | Equipo de desarrollo BodeGo |
+| **Attendees (to planning meeting)** | Dany / Mateo / Jhorch / Johan / Gior |
+| **Sprint 1 Review Summary** | Se desarrolló la primera versión funcional de la Landing Page de BodeGo. |
+| **Sprint 1 Retrospective Summary** | Se identificó la necesidad de continuar con el desarrollo de la aplicación web manteniendo la estructura visual y responsive. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 2 Goal** | Desarrollar la primera versión funcional del Frontend Web de BodeGo, implementando las principales vistas y funcionalidades de la aplicación. |
+| **Sprint 2 Velocity** | 34 Story Points |
+| **Sum of Story Points** | 34 Story Points |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+Durante el Sprint 2 se identificaron los principales aspectos de trabajo necesarios para implementar el Frontend Web de BodeGo.
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Frontend Structure & Navigation** | **Dashboard & Modules** | **Inventory & Products** | **Alerts & Reports** | **Responsive Design** |
+| --------------------------------------- | ------------------- | ----------------------------------- | ----------------------- | ----------------------- | -------------------- | --------------------- |
+| Dany Chavez                             | Danysss-cmd         | L                                   | C                       | C                       | C                    | C                     |
+| Mateo Caldas                            | Ethan.Matt          | C                                   | L                       | C                       | C                    | C                     |
+| Yorch Blanco                            | Bleim-154           | C                                   | C                       | L                       | C                    | C                     |
+| Johan Saravia                           | yowuan              | C                                   | C                       | C                       | L                    | C                     |
+| Giordano Trejo                          | igogriogriorgiori   | C                                   | C                       | C                       | C                    | L                     |
+
+#### 5.2.2.3. Sprint Backlog 2
+
+Durante el Sprint 2, las actividades estuvieron orientadas al desarrollo de la primera versión funcional del Frontend Web de BodeGo.
+
+El objetivo principal fue implementar las principales vistas de la aplicación y permitir la navegación entre sus diferentes módulos.
+
+![Evidencia Sprint Backlog N2](Recursos/images/Evidencia%20Sprint%20Backlog%20n2.jpg)
+
+Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509f8439a763ed2f3081F674FEDD/bodego
+
+---
+
+| **User Story ID** | **Story Title** | **Task ID** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|---|---|---|---|---|---:|---|---|
+| US06 | Visualización del Dashboard Administrativo | TSK011 | Implement dashboard | Desarrollar el dashboard administrativo mostrando los principales indicadores y datos del negocio. | 4 | Mateo | Hecho |
+| US07 | Navegación entre Módulos del Sistema | TSK012 | Implement application navigation | Implementar la navegación entre los principales módulos de la aplicación web. | 3 | Dany | Hecho |
+| US08 | Visualización del Módulo de Inventario | TSK013 | Implement inventory view | Desarrollar la vista principal del inventario mostrando los productos y su información disponible. | 4 | Yorch | Hecho |
+| US09 | Consulta del Detalle de Producto | TSK014 | Implement product detail | Desarrollar la vista con la información detallada de cada producto seleccionado. | 3 | Johan | Hecho |
+| US10 | Visualización de Operaciones del Empleado | TSK015 | Implement employee operations | Desarrollar la vista para consultar las operaciones realizadas por el empleado. | 3 | Johan | Hecho |
+| US11 | Búsqueda y Filtrado de Productos | TSK016 | Implement search and filters | Implementar la búsqueda y los filtros necesarios para localizar productos dentro del inventario. | 3 | Yorch | Hecho |
+| US12 | Visualización de Alertas Operativas | TSK017 | Implement alerts view | Desarrollar la vista para mostrar las alertas relacionadas con el inventario y la operación del negocio. | 4 | Mateo | Hecho |
+| US13 | Visualización de Reportes del Negocio | TSK018 | Implement reports view | Desarrollar la vista para consultar los principales reportes disponibles en la aplicación. | 3 | Gior | Hecho |
+| US14 | Gestión Visual de Productos | TSK019 | Implement product management | Desarrollar la interfaz para gestionar visualmente los productos registrados en BodeGo. | 3 | Dany | Hecho |
+| US15 | Visualización de Información del Negocio | TSK020 | Implement business information | Desarrollar la vista para mostrar la información general del negocio. | 2 | Gior | Hecho |
+
+#### 5.2.2.4. Development Evidence for Sprint Review.
+---
+
+---
+#### 5.2.2.5. Execution Evidence for Sprint Review
+---
+
+---
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+---
+
+![Estructura / Captura 10](recursos/imagenes/gh9.png)
+
+---
+
 ## 5.3. Validation Interviews
 ### 5.3.1. Diseño de Entrevistas
 ### 5.3.2. Registro de Entrevistas
