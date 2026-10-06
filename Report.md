@@ -2261,7 +2261,7 @@ Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 ---
 
-![Estructura / Captura 10](recursos/imagenes/gh9.png)
+![Estructura / Captura 10](recursos/images/gh9.png)
 
 ---
 
