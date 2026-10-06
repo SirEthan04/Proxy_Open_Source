@@ -2194,6 +2194,9 @@ una etapa posterior del desarrollo.
 ![Estructura / Captura 9](Recursos/images/gh8.png)
 
 ---
+![Estructura / Captura 9](Recursos/images/ghe.png)
+
+---
 
 ### 5.2.2. Sprint 2
 
