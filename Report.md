@@ -2300,9 +2300,33 @@ Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509
 ---
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
+Durante el Sprint 2 no se desarrollaron ni documentaron servicios web, debido a que el objetivo principal del sprint fue la implementación del Frontend Web de BodeGo.
+
+La documentación de los servicios y endpoints correspondientes a la lógica del negocio será desarrollada durante el Sprint 3, cuando se inicie la implementación del Backend.
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
+Durante el Sprint 2 se realizó el despliegue de la primera versión del Frontend Web de BodeGo utilizando GitHub Pages.
+
+El despliegue permitió publicar la aplicación web y verificar el correcto funcionamiento de las principales vistas desarrolladas durante el sprint.
+
+Actividades realizadas:
+
+1. Integración de los cambios desarrollados en el repositorio del Frontend.
+2. Configuración del despliegue mediante GitHub Pages.
+3. Publicación de la primera versión del Frontend Web.
+4. Verificación de las principales vistas y rutas de la aplicación.
+5. Validación del acceso a la aplicación desde el entorno publicado.
+
+**Evidencias del despliegue:**
+
+1. Configuración de GitHub Pages. (img)
+2. Despliegue exitoso del Frontend. (img)
+3. Aplicación Web publicada. (img)
+4. Verificación de las principales vistas del sistema. (img)
+
+**Enlace de la aplicación:**  
+[Por completar]
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 ---
