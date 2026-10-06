@@ -2314,13 +2314,27 @@ Actividades realizadas:
 
 **Evidencias del despliegue:**
 
-1. Configuración de GitHub Pages. (img)
-2. Despliegue exitoso del Frontend. (img)
-3. Aplicación Web publicada. (img)
-4. Verificación de las principales vistas del sistema. (img)
+1. Configuración dentro del Github:
+---
+![Imagen de la entrevista](Recursos/images/efe3.jpeg)
+---
+3. Despliegue exitoso del Frontend (Firebase):
+---
+![Imagen de la entrevista](Recursos/images/efe1.jpeg)
+---
+5. Verificación y autorizacion en el IntellIdea:
+ ---
+![Imagen de la entrevista](Recursos/images/efe2.jpeg)
+---
+7. Aplicación Web publicada.
+---
+![Imagen de la entrevista](Recursos/images/efe4.jpeg)
+---
 
 **Enlace de la aplicación:**  
-[Por completar]
+Enlace: https://proxy-open-source.web.app/dashboard
+
+Únicamente funciona por ahora el enlace para iniciar sesión y muestra los datos de los productos  pero no permite cambiar por el momento porque requiere datos de categoría que no se pueden implementar categorías en mockapi.
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 ---
