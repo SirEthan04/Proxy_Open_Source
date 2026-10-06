@@ -1495,10 +1495,10 @@ Se presenta el diseño de la base de datos relacional que permitirá graficar la
 
 ### 4.8.1. Database Diagrams
 El siguiente diagrama de base de datos Entity-Relationship contiene las tablas, columnas y tipos de datos que establecen las relaciones entre las entidades del sistema separados por Bounded Context.
-
+![DiagramaDB / BC1](Recursos/images/d1_confaccesoBC.jpg)
 - **Configuración Empresarial y Acceso BC:**
 
-  ![DiagramaDB / BC1](Recursos/images/d1_confaccesoBC.jpg)
+  ![DiagramaDB / BC1](Recursos/images/bd-complete.jpeg)
 
 ---
 
