@@ -2281,7 +2281,7 @@ Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 ---
 
-![Estructura / Captura 10](recursos/images/gh9.png)
+![Estructura / Captura 10](recursos/images/gh9.jpg)
 
 ---
 
@@ -2324,13 +2324,13 @@ Estas funcionalidades están diseñadas para disminuir los errores en el registr
 ---
 [Enlace de Figma](https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=4-2&t=ZKhGhyVBP4tT2C8g-1)
 ---
-[Nuestro link del miro](https://miro.com/app/board/uXjVHm55KfI=/)
+Nuestro link del miro: https://miro.com/app/board/uXjVHm55KfI=/
 ---
-[Nuestro repositorio de documentación](https://github.com/SirEthan04/Proxy_Open_Source)
+Nuestro repositorio de documentación: https://github.com/SirEthan04/Proxy_Open_Source
 ---
-[Nuestro repositorio de landingpage](https://github.com/SirEthan04/Proxy_Open_Source_LandingPage)
+Nuestro repositorio de landingpage: https://github.com/SirEthan04/Proxy_Open_Source_LandingPage
 ---
-[Nuestro repositorio de frontend](https://github.com/SirEthan04/Proxy_Open_Source_Front-end)
+Nuestro repositorio de frontend: https://github.com/SirEthan04/Proxy_Open_Source_Front-end
 ---
-[Nuestro repositorio de web aplication](https://github.com/SirEthan04/Proxy_Open_Source_Web-Application)
+Nuestro repositorio de web aplication: https://github.com/SirEthan04/Proxy_Open_Source_Web-Application
 ---
