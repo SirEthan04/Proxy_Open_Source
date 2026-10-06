@@ -2146,7 +2146,7 @@ Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509
 #### 5.2.1.5. Execution Evidence for Sprint Review
 ---
 
-![Estructura / Captura 9](Recursos/images/nl1.jpeg)
+![Estructura / Captura 9](Recursos/images/nl1.jpg)
 
 ---
 ![Estructura / Captura 9](Recursos/images/nl2.jpeg)
