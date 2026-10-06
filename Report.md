@@ -2322,7 +2322,7 @@ Estas funcionalidades están diseñadas para disminuir los errores en el registr
 
 # Anexos
 ---
-[Enlace de Figma](https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=4-2&t=ZKhGhyVBP4tT2C8g-1)
+Enlace de Figma: https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=4-2&t=ZKhGhyVBP4tT2C8g-1
 ---
 Nuestro link del miro: https://miro.com/app/board/uXjVHm55KfI=/
 ---
