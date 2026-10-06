@@ -2268,6 +2268,14 @@ Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509
 #### 5.2.2.4. Development Evidence for Sprint Review.
 ---
 
+| Repository              | Branch                    | Commit ID | Commit Message                          | Commit Message Body                                                            | Committed on |
+| ----------------------- | ------------------------- | --------- | --------------------------------------- | ------------------------------------------------------------------------------ | ------------ |
+| Danysss-cmd/Proxy_Open_Source_Front-end | develop      | a4069a8   | feat: add dashboard       | Implementación de la vista principal del dashboard de BodeGo. | 05/10/2026   |
+| SirEthan04/Proxy_Open_Source_Front-end | develop | 9e1b553   | feat: add lots products | Implementación de la funcionalidad para gestionar lotes de productos.      | 05/10/2026   |
+| Bleim-154/Proxy_Open_Source_Front-end | develop | 5c41ea5   | feat: add iam | Implementación de la gestión de accesos y permisos de los usuarios.      | 05/10/2026   |
+| igogriogriorgiori/Proxy_Open_Source_Front-end | develop    | 808803e   | feat: add physical count  | Implementación de la funcionalidad para realizar y gestionar conteos físicos de inventario.         | 06/10/2026   |
+| yowuan/Proxy_Open_Source_Front-end | develop     | 4b74f3d   | feature: add movementsV2              | Implementación de la funcionalidad para registrar y consultar movimientos de inventario.                      | 06/10/2026   |
+
 ---
 #### 5.2.2.5. Execution Evidence for Sprint Review
 ---
