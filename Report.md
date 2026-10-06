@@ -2331,14 +2331,9 @@ Actividades realizadas:
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 ---
 
-![Estructura / Captura 10](recursos/images/gh9.jpg)
+![Estructura / TeamColaborations](Recursos/images/TeamColaborationsSprint2.jpg)
 
 ---
-
-## 5.3. Validation Interviews
-### 5.3.1. Diseño de Entrevistas
-### 5.3.2. Registro de Entrevistas
-### 5.3.3. Evaluaciones según heurísticas
 
 ## 5.4. Video About-the-Product
 
