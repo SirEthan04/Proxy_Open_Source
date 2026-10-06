@@ -1459,7 +1459,7 @@ Los diagramas de clases de BodeGo representan las principales entidades, atribut
 Siguiendo los principios de Diseño Orientado al Dominio (DDD), la solución se divide en distintos Contextos Acotados (Bounded Contexts), manteniendo separadas sus responsabilidades y reduciendo el acoplamiento entre módulos.
 
 - **Diagrama de clases**
-  ![Diagrama de clases](Recursos/images/Diagrama_de_clase.png)
+  ![Diagrama de clases](Recursos/images/DiagramaClase.jpg)
 
 
 - **Configuración Empresarial y Acceso BC:**
