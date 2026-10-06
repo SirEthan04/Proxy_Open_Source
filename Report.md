@@ -1464,31 +1464,31 @@ Siguiendo los principios de Diseño Orientado al Dominio (DDD), la solución se 
 
 - **Configuración Empresarial y Acceso BC:**
 
-  ![DiagramaCL / BC1](Recursos/images/dcl1_confacceso.jpg)
+  ![DiagramaCL / BC1](Recursos/images/dcl1_confacceso.png)
 
 ---
 
 - **Catálogo e Inventario BC:**
 
-  ![DiagramaCL / BC2](Recursos/images/dcl2_catinv.jpg)
+  ![DiagramaCL / BC2](Recursos/images/dcl2_catinv.png)
 
 ---
 
 - **Operaciones diarias y Mermas BC:**
 
-  ![DiagramaCL / BC3](Recursos/images/dcl3_opemerma.jpg)
+  ![DiagramaCL / BC3](Recursos/images/dcl3_opemerma.png)
 
 ---
 
 - **Ofertas estratégicas BC:**
 
-  ![DiagramaCL / BC4](Recursos/images/dcl4_recoferta.jpg)
+  ![DiagramaCL / BC4](Recursos/images/dcl4_recoferta.png)
 
 ---
 
 - **Auditoría y Seguimiento BC:**
 
-  ![DiagramaCL / BC5](Recursos/images/dcl5_audseg.jpg)
+  ![DiagramaCL / BC5](Recursos/images/dcl5_audseg.png)
 
 ## 4.8. Database Design
 Se presenta el diseño de la base de datos relacional que permitirá graficar la información para los objetos de cada Bounded Context identificados en la aplicación BodeGo.
