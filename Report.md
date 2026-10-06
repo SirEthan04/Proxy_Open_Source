@@ -1455,6 +1455,8 @@ Enlace de Figma: https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy
 ![Components-API](Recursos/images/Components-API.png)
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
+Los diagramas de clases de BodeGo representan las principales entidades, atributos, comportamientos y relaciones del sistema.
+Siguiendo los principios de Diseño Orientado al Dominio (DDD), la solución se divide en distintos Contextos Acotados (Bounded Contexts), manteniendo separadas sus responsabilidades y reduciendo el acoplamiento entre módulos.
 
 - **Configuración Empresarial y Acceso BC:**
 
