@@ -1458,6 +1458,8 @@ Enlace de Figma: https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy
 Los diagramas de clases de BodeGo representan las principales entidades, atributos, comportamientos y relaciones del sistema.
 Siguiendo los principios de Diseño Orientado al Dominio (DDD), la solución se divide en distintos Contextos Acotados (Bounded Contexts), manteniendo separadas sus responsabilidades y reduciendo el acoplamiento entre módulos.
 
+- **Diagrama de clases**
+  ![Diagrama de clases](Recursos/images/Diagrama_de_clase.png)
 
 
 - **Configuración Empresarial y Acceso BC:**
