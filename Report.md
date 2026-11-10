@@ -2315,24 +2315,37 @@ Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509
 #### 5.2.2.5. Execution Evidence for Sprint Review
 ---
 
-![Estructura / login](Recursos/images/ExecusionReview_login.jpg)
+![Estructura / selecuser](Recursos/images/selecuser.jpg)
 
 ---
-![Estructura / panel](Recursos/images/ExecusionReview_panel.jpg)
+![Estructura / productos](Recursos/images/productosbodego_av3.jpg)
 
 ---
-![Estructura / productos](Recursos/images/ExecusionReview_productos.jpg)
+![Estructura / panel](Recursos/images/panel_bodego_av3.jpg)
 
 ---
-![Estructura / lotes](Recursos/images/ExecusionReview_lotes.jpg)
+![Estructura / categorias](Recursos/images/categorias_bodego_av3.jpg)
 
 ---
-![Estructura / movimientos](Recursos/images/ExecusionReview_movimientos.jpg)
+![Estructura / lotes](Recursos/images/lotes_bodego_av3.jpg)
 
 ---
-![Estructura / alertas](Recursos/images/ExecusionReview_alertas.jpg)
+![Estructura / movimientos](Recursos/images/movimientos_bodego_av3.jpg)
 
 ---
+![Estructura / confis](Recursos/images/confis_bodego_av3.jpg)
+
+---
+![Estructura / ajusstock](Recursos/images/ajusstock_bodego_av3.jpg)
+
+---
+![Estructura / solicitudes](Recursos/images/solicitudes_bodego_av3.jpg)
+
+---
+![Estructura / mermas](Recursos/images/mermas_bodego_av3.jpg)
+
+---
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 Durante el Sprint 2 no se desarrollaron ni documentaron servicios web, debido a que el objetivo principal del sprint fue la implementación del Frontend Web de BodeGo.
