@@ -2285,27 +2285,31 @@ Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509
 
 | **User Story ID** | **Story Title** | **Task ID** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
 |---|---|---|---|---|---:|---|---|
-| US06 | Visualización del Dashboard Administrativo | TSK011 | Implement dashboard | Desarrollar el dashboard administrativo mostrando los principales indicadores y datos del negocio. | 4 | Mateo | Hecho |
-| US07 | Navegación entre Módulos del Sistema | TSK012 | Implement application navigation | Implementar la navegación entre los principales módulos de la aplicación web. | 3 | Dany | Hecho |
-| US08 | Visualización del Módulo de Inventario | TSK013 | Implement inventory view | Desarrollar la vista principal del inventario mostrando los productos y su información disponible. | 4 | Yorch | Hecho |
-| US09 | Consulta del Detalle de Producto | TSK014 | Implement product detail | Desarrollar la vista con la información detallada de cada producto seleccionado. | 3 | Johan | Hecho |
-| US10 | Visualización de Operaciones del Empleado | TSK015 | Implement employee operations | Desarrollar la vista para consultar las operaciones realizadas por el empleado. | 3 | Johan | Hecho |
-| US11 | Búsqueda y Filtrado de Productos | TSK016 | Implement search and filters | Implementar la búsqueda y los filtros necesarios para localizar productos dentro del inventario. | 3 | Yorch | Hecho |
-| US12 | Visualización de Alertas Operativas | TSK017 | Implement alerts view | Desarrollar la vista para mostrar las alertas relacionadas con el inventario y la operación del negocio. | 4 | Mateo | Hecho |
-| US13 | Visualización de Reportes del Negocio | TSK018 | Implement reports view | Desarrollar la vista para consultar los principales reportes disponibles en la aplicación. | 3 | Gior | Hecho |
-| US14 | Gestión Visual de Productos | TSK019 | Implement product management | Desarrollar la interfaz para gestionar visualmente los productos registrados en BodeGo. | 3 | Dany | Hecho |
-| US15 | Visualización de Información del Negocio | TSK020 | Implement business information | Desarrollar la vista para mostrar la información general del negocio. | 2 | Gior | Hecho |
+| US06 | Visualización del Dashboard Administrativo | TSK011 | Implement dashboard | Desarrollar el dashboard administrativo con indicadores de productos, lotes, stock bajo, alertas y movimientos recientes. | 2 | Mateo | Hecho |
+| US07 | Navegación entre Módulos del Sistema | TSK012 | Implement application navigation | Implementar la navegación y configuración de rutas entre los principales módulos de la aplicación web. | 4 | Dany | Hecho |
+| US08 | Visualización del Inventario | TSK013 | Implement inventory view | Desarrollar la vista principal del inventario con el listado de productos y la información disponible. | 5 | Yorch | Hecho |
+| US09 | Consulta de Información de Productos y Lotes | TSK014 | Implement product and lot details | Implementar la consulta visual de la información del producto seleccionado y de los datos asociados a sus lotes. | 4 | Johan | Hecho |
+| US10 | Visualización de Operaciones | TSK015 | Implement employee operations | Desarrollar la vista para consultar movimientos de inventario con tipo, cantidad, producto y fecha. | 4 | Johan | Hecho |
+| US11 | Búsqueda y Filtrado de Productos | TSK016 | Implement search and filters | Implementar la búsqueda y los filtros del inventario, contemplando resultados coincidentes y búsquedas sin resultados. | 5 | Yorch | Hecho |
+| US12 | Visualización de Alertas | TSK017 | Implement alerts view | Desarrollar la vista para consultar las alertas del inventario y sus estados de atención. | 2 | Mateo | Hecho |
+| US13 | Visualización de Reportes | TSK018 | Implement reports view | Desarrollar la vista para consultar los tipos de reportes disponibles de inventario y operaciones. | 3 | Gior | Hecho |
+| US14 | Gestión Visual de Productos | TSK019 | Implement product management | Desarrollar las opciones visuales para consultar y administrar los productos registrados en el catálogo. | 4 | Dany | Hecho |
+| US15 | Gestión Visual de Negocios | TSK020 | Implement business management view | Preparar la vista de información del negocio y sus acciones visuales de administración. | 3 | Gior | Hecho |
+| **TS01** | **Consulta REST Inicial del Catálogo** | **TSK021** | **Configure catalog REST queries** | Preparar el recurso REST inicial para responder a `GET /products` y `GET /products/{id}`, considerando respuestas exitosas, catálogo vacío y producto inexistente. | **2** | **Por asignar** | **To Do** |
+| **TS01** | **Consulta REST Inicial del Catálogo** | **TSK022** | **Integrate catalog REST service** | Preparar el consumo de las consultas REST desde el Frontend y controlar los estados de carga y error de las solicitudes. | **2** | **Por asignar** | **To Do** |
+| US06–US15 | Validación de las vistas del Frontend | TSK023 | Validate frontend views and navigation | Verificar navegación, presentación de información, estados sin datos y adaptación visual de las vistas del Sprint 2. Registrar incidencias para su revisión. | 4 | Por asignar | To Do |
+| **TS01** | **Consulta REST Inicial del Catálogo** | **TSK024** | **Test catalog REST responses** | Comprobar mediante pruebas las respuestas del catálogo: `200` con productos, `200` con colección vacía y `404` para un producto inexistente; registrar resultados. | **4** | **Por asignar** | **To Do** |
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
 ---
 
-| Repository              | Branch                    | Commit ID | Commit Message                          | Commit Message Body                                                            | Committed on |
-| ----------------------- | ------------------------- | --------- | --------------------------------------- | ------------------------------------------------------------------------------ | ------------ |
-| Danysss-cmd/Proxy_Open_Source_Front-end | develop      | a4069a8   | feat: add dashboard       | Implementación de la vista principal del dashboard de BodeGo. | 05/10/2026   |
-| SirEthan04/Proxy_Open_Source_Front-end | develop | 9e1b553   | feat: add lots products | Implementación de la funcionalidad para gestionar lotes de productos.      | 05/10/2026   |
-| Bleim-154/Proxy_Open_Source_Front-end | develop | 5c41ea5   | feat: add iam | Implementación de la gestión de accesos y permisos de los usuarios.      | 05/10/2026   |
-| igogriogriorgiori/Proxy_Open_Source_Front-end | develop    | 808803e   | feat: add physical count  | Implementación de la funcionalidad para realizar y gestionar conteos físicos de inventario.         | 06/10/2026   |
-| yowuan/Proxy_Open_Source_Front-end | develop     | 4b74f3d   | feature: add movementsV2              | Implementación de la funcionalidad para registrar y consultar movimientos de inventario.                      | 06/10/2026   |
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on |
+|---|---|---|---|---|---|
+| Danysss-cmd/Proxy_Open_Source_Front-end | develop | a4069a8 | feat: implement administrative dashboard view | Desarrollo de la vista del Dashboard Administrativo de BodeGo para visualizar indicadores generales del inventario y el estado operativo del negocio. | 05/10/2026 |
+| SirEthan04/Proxy_Open_Source_Front-end | develop | 9e1b553 | feat: implement product lots management view | Desarrollo de la interfaz para consultar y gestionar lotes de productos, incluyendo información de cantidades y fechas de vencimiento. | 05/10/2026 |
+| Bleim-154/Proxy_Open_Source_Front-end | develop | 5c41ea5 | feat: implement user access and permissions management | Desarrollo de funcionalidades del Frontend relacionadas con la gestión de accesos, roles y permisos de los usuarios de BodeGo. | 05/10/2026 |
+| igogriogriorgiori/Proxy_Open_Source_Front-end | develop | 808803e | feat: implement physical inventory count view | Desarrollo de la interfaz para registrar y consultar conteos físicos, facilitando la comparación entre las existencias registradas y las cantidades verificadas. | 06/10/2026 |
+| yowuan/Proxy_Open_Source_Front-end | develop | 4b74f3d | feat: implement inventory movements management view | Desarrollo de la interfaz para registrar y consultar movimientos de inventario, incluyendo entradas, salidas e información de las operaciones realizadas. | 06/10/2026 |
 
 ---
 #### 5.2.2.5. Execution Evidence for Sprint Review
