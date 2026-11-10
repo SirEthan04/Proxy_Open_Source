@@ -848,7 +848,7 @@ Para asegurar que entre los miembros del equipo y los stakeholders se comuniquen
 
 # Product Backlog — BodeGo
 
-| **# Orden** | **User Story ID** | **Título** | **Descripción** | **Story Points**<br>**(1 / 2 / 3 / 5 / 8)** |
+| **# Orden** | **User Story ID** | **Título** | **Descripción** | **Story Points** (1 / 2 / 3 / 5 / 8) |
 |---:|:---:|---|---|---:|
 | **1** | **US01** | Visualización del Hero Principal | **Como** visitante, **deseo** visualizar la propuesta de valor principal de BodeGo, **para** comprender cómo la plataforma ayuda a gestionar inventarios y reducir mermas en negocios minoristas. | **2** |
 | **2** | **US02** | Visualización de Beneficios del Producto | **Como** visitante, **deseo** conocer los beneficios principales de BodeGo, **para** identificar el valor que aporta la solución a la gestión del negocio. | **2** |
@@ -890,9 +890,9 @@ Para asegurar que entre los miembros del equipo y los stakeholders se comuniquen
 | **38** | **US38** | Reporte de Rotación de Productos | **Como** Administrador, **deseo** conocer la rotación de productos, **para** identificar cuáles tienen mayor o menor movimiento dentro del inventario. | **5** |
 | **39** | **US39** | Dashboard de Indicadores del Negocio | **Como** Administrador, **deseo** visualizar indicadores generales del negocio, **para** conocer rápidamente el estado del inventario y la operación. | **5** |
 | **40** | **US40** | Análisis de Productos de Alta Rotación | **Como** Administrador, **deseo** identificar productos con mayor frecuencia de salida, **para** mejorar la planificación de compras y organización del inventario. | **5** |
-| **41** | **US41** | Sugerencia Automática de Ofertas por Vencimiento | **Como** Administrador, **deseo** recibir sugerencias automáticas de ofertas para productos próximos a vencer, **para** reducir pérdidas y mejorar la rotación del inventario. | **8** |
+| **41** | **US41** | Sugerencia Automática de Ofertas por Vencimiento | **Como** Administrador, **deseo** recibir sugerencias automáticas de ofertas para productos próximos a vencer, **para** reducir pérdidas y mejorar la rotación del inventario. | **5** |
 | **42** | **US42** | Creación de Ofertas Estratégicas | **Como** Administrador, **deseo** crear ofertas sobre productos seleccionados, **para** acelerar la salida de productos con baja rotación o próximos a vencer. | **3** |
-| **43** | **US43** | Ejecución Automática de Reglas de Negocio | **Como** sistema, **deseo** ejecutar reglas automáticas sobre inventario y productos críticos, **para** mantener procesos operativos eficientes sin intervención constante del usuario. | **8** |
+| **43** | **US43** | Ejecución Automática de Reglas de Negocio | **Como** sistema, **deseo** ejecutar reglas automáticas sobre inventario y productos críticos, **para** mantener procesos operativos eficientes sin intervención constante del usuario. | **5** |
 | **44** | **US44** | Actualización Automática de Estados Operativos | **Como** Administrador, **deseo** que el sistema actualice automáticamente estados de productos y alertas, **para** mantener información operativa actualizada. | **5** |
 | **45** | **US45** | Generación de Resúmenes Operativos | **Como** Administrador, **deseo** recibir resúmenes automáticos del estado del negocio, **para** revisar rápidamente la situación operativa del minimarket. | **5** |
 | **46** | **US46** | Registro de Usuarios del Sistema | **Como** Administrador, **deseo** registrar usuarios dentro de BodeGo, **para** permitir accesos autorizados al sistema según las necesidades del negocio. | **3** |
