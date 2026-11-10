@@ -2101,22 +2101,24 @@ El objetivo fue transformar los wireframes y diseños realizados previamente en 
 
 #### 5.2.1.1. Sprint Planning 1
 
-El print Planning permitió organizar las actividades que serían desarrolladas durante el Sprint 1.
-En esta reunión se definió como objetivo principal implementar la Landing Page de BodeGo.
-| Sprint # | Sprint 1 |
+El Sprint Planning permitió organizar y definir las actividades que serían desarrolladas durante el Sprint 1 de BodeGo.
+
+Durante esta reunión, el equipo estableció como objetivo principal desarrollar la primera versión funcional de la Landing Page de BodeGo, con el propósito de presentar la propuesta de valor del producto, sus beneficios, sus principales funcionalidades y un medio de contacto para los visitantes.
+
+| **Sprint #** | **Sprint 1** |
 |---|---|
-| **Sprint Planning Background** | El Sprint tiene como objetivo desarrollar la primera versión funcional de la Landing Page de BodeGo. |
+| **Sprint Planning Background** | El Sprint tiene como objetivo desarrollar la primera versión funcional de la Landing Page de BodeGo, enfocándose en la presentación del producto y sus principales características. |
 | **Date** | 2026-09-17 |
 | **Time** | 5:00 pm |
 | **Location** | Discord |
 | **Prepared By** | Equipo de desarrollo BodeGo |
 | **Attendees (to planning meeting)** | Day / Mateo / Yorch / Johan / Gior |
-| **Sprint 0 Review Summary** | No existe sprint previo |
-| **Sprint 0 Retrospective Summary** | No existe sprint previo |
-| **Sprint Goal & User Stories** | |
-| **Sprint 1 Goal** | Crear una Landing Page funcional para BodeGo que permita mostrar la información principal del producto, sus beneficios, funcionalidades y facilitar el contacto con potenciales usuarios mediante una interfaz clara y responsive. |
-| **Sprint 1 Velocity** | 29 Story Points |
-| **Sum of Story Points** | 29 Story Points |
+| **Sprint 0 Review Summary** | No existe un sprint previo, debido a que este es el primer sprint del proyecto. |
+| **Sprint 0 Retrospective Summary** | No existe un sprint previo del cual obtener conclusiones o acciones de mejora. |
+| **Sprint Goal & User Stories** | US01 – Visualización de la Propuesta de Valor (2 SP); US02 – Consulta de Beneficios de BodeGo (2 SP); US03 – Presentación de Funcionalidades Principales (3 SP); US04 – Explicación del Funcionamiento de BodeGo (2 SP); US05 – Formulario de Contacto Comercial (3 SP). |
+| **Sprint 1 Goal** | Desarrollar una Landing Page funcional y responsive para BodeGo que permita a los visitantes conocer la propuesta de valor de la plataforma, sus beneficios, sus principales funcionalidades y su funcionamiento general, además de proporcionar un formulario de contacto para solicitar información adicional. |
+| **Sprint 1 Velocity** | 12 Story Points (estimación inicial del trabajo comprometido). |
+| **Sum of Story Points** | 12 Story Points. |
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
@@ -2142,30 +2144,31 @@ Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509
 ---
 
 | **User Story ID** | **Story Title** | **Task ID** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-| --- | --- | --- | --- | --- | ---: | --- | --- |
-| US01 | Visualización del Hero Principal | TSK001 | Create Landing Page structure | Crear la estructura inicial de la Landing Page basada en los wireframes definidos, configurando componentes, archivos y estilos generales. | 2 | Dany | Hecho |
-| US01 | Visualización del Hero Principal | TSK002 | Implement navigation bar | Implementar la barra de navegación superior incluyendo logo de BodeGo, enlaces principales y botón de acción. | 2 | Dany | Hecho |
-| US01 | Visualización del Hero Principal | TSK003 | Implement hero section | Desarrollar la sección principal con título, descripción de valor, imagen representativa y CTA orientado a captar usuarios interesados. | 3 | Dany | Hecho |
-| US02 | Visualización de Beneficios del Producto | TSK004 | Implement benefits section | Implementar la sección de beneficios destacando el control de inventario, reducción de mermas y mejora de procesos operativos. | 4 | Mateo | Hecho |
-| US03 | Presentación de Funcionalidades Principales | TSK005 | Implement solutions section | Implementar la sección de soluciones mostrando las principales capacidades de BodeGo como inventario, alertas, reportes y control operativo. | 3 | Yorch | Hecho |
-| US04 | Explicación del Funcionamiento de BodeGo | TSK006 | Implement how it works section | Desarrollar la sección donde se explica el flujo general de funcionamiento de BodeGo y la interacción entre Administrador y Empleado. | 3 | Yorch | Hecho |
-| US02 | Visualización de Beneficios del Producto | TSK007 | Implement impact section | Implementar la sección de impacto mostrando los beneficios esperados de utilizar BodeGo dentro del negocio. | 2 | Mateo | Hecho |
-| US05 | Formulario de Contacto Comercial | TSK008 | Implement contact section | Implementar el formulario de contacto para que potenciales clientes puedan solicitar información sobre BodeGo. | 3 | Johan | Hecho |
-| US03 | Presentación de Funcionalidades Principales | TSK009 | Implement footer section | Implementar el footer con información general del producto, enlaces y datos de contacto. | 2 | Diego | Hecho |
-| US01 - US05 | Landing Page | TSK010 | Implement responsive design | Adaptar la Landing Page para dispositivos móviles, tablets y escritorio manteniendo la correcta visualización del diseño. | 5 | Diego | Hecho |
+|---|---|---|---|---|---:|---|---|
+| US01 | Visualización de la Propuesta de Valor | TSK001 | Create Landing Page Structure | Crear la estructura inicial de la Landing Page tomando como referencia los wireframes definidos, incluyendo componentes, archivos y estilos generales. | 2 | Dany | Hecho |
+| US01 | Visualización de la Propuesta de Valor | TSK002 | Implement Navigation Bar | Implementar la barra de navegación principal con el logo de BodeGo, enlaces de navegación y acceso a las secciones informativas. | 2 | Dany | Hecho |
+| US01 | Visualización de la Propuesta de Valor | TSK003 | Implement Hero Section | Desarrollar la sección principal de la Landing Page para comunicar la propuesta de valor de BodeGo mediante un título, descripción e información destacada del producto. | 3 | Dany | Hecho |
+| US02 | Consulta de Beneficios de BodeGo | TSK004 | Implement Benefits Section | Implementar la sección de beneficios para presentar las ventajas de BodeGo relacionadas con el control de inventario, reducción de mermas y organización del negocio. | 4 | Mateo | Hecho |
+| US03 | Presentación de Funcionalidades Principales | TSK005 | Implement Solutions Section | Desarrollar la sección que presenta las funcionalidades principales de BodeGo, incluyendo inventario, movimientos, alertas y reportes. | 3 | Yorch | Hecho |
+| US04 | Explicación del Funcionamiento de BodeGo | TSK006 | Implement How It Works Section | Implementar la sección que explica el funcionamiento general de BodeGo y las actividades que pueden realizar el Administrador y el Empleado. | 3 | Yorch | Hecho |
+| US02 | Consulta de Beneficios de BodeGo | TSK007 | Implement Impact Section | Desarrollar la sección de impacto para explicar cómo BodeGo contribuye a mejorar el control de productos y reducir pérdidas operativas. | 2 | Mateo | Hecho |
+| US05 | Formulario de Contacto Comercial | TSK008 | Implement Contact Section | Implementar el formulario de contacto para permitir que los visitantes interesados proporcionen sus datos y soliciten información adicional sobre BodeGo. | 3 | Johan | Hecho |
+| US05 | Formulario de Contacto Comercial | TSK009 | Implement Footer Section | Implementar el pie de página con información general de BodeGo, enlaces relevantes y datos de contacto. | 2 | Johan | Hecho |
+| US01–US05 | Landing Page de BodeGo | TSK010 | Implement Responsive Design | Adaptar las secciones de la Landing Page para su correcta visualización en dispositivos móviles, tablets y computadoras de escritorio. | 5 | Diego | Hecho |
+
+---
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 ---
 
-| Repository              | Branch                    | Commit ID | Commit Message                          | Commit Message Body                                                            | Committed on |
-| ----------------------- | ------------------------- | --------- | --------------------------------------- | ------------------------------------------------------------------------------ | ------------ |
-| Danysss-cmd/Landing Page Repository | feature/hero-section      | 371ee21   | feat: improve hero section design       | Implementación y mejora del diseño de la sección principal de la Landing Page. | 17/09/2026   |
-| SirEthan04/Landing Page Repository | feature/value-proposition | fa49632   | feat: improve value proposition section | Desarrollo de la sección de beneficios y propuesta de valor del producto.      | 17/09/2026   |
-| Bleim-154/Landing Page Repository | feature/solutions-section | 003f372   | feat: improve solutions section         | Implementación de la sección de soluciones y funcionalidades principales.      | 17/09/2026   |
-| SirEthan04//Landing Page Repository | feature/impact-section    | 7182b63   | feat: improve impact section            | Desarrollo de la sección de impacto mostrando beneficios del producto.         | 17/09/2026   |
-| yowuan/Landing Page Repository | feature/contact-form      | e281064   | feat: improve contact form              | Implementación del formulario de contacto comercial.                           | 17/09/2026   |
-| Diego27-16/Landing Page Repository | feature/footer            | dfb92c0   | feat: improve footer section            | Implementación del footer con información general y enlaces.                   | 17/09/2026   |
-
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on |
+|---|---|---|---|---|---|
+| Danysss-cmd/Landing Page Repository | feature/hero-section | 371ee21 | feat: implement BodeGo value proposition section | Desarrollo de la sección principal de la Landing Page para presentar la propuesta de valor de BodeGo y comunicar su propósito a los visitantes. | 17/09/2026 |
+| SirEthan04/Landing Page Repository | feature/value-proposition | fa49632 | feat: implement product benefits section | Implementación de la sección de beneficios de BodeGo, destacando el control de inventario, la reducción de pérdidas y la organización operativa del negocio. | 17/09/2026 |
+| Bleim-154/Landing Page Repository | feature/solutions-section | 003f372 | feat: implement main product features section | Desarrollo de la sección de funcionalidades principales de BodeGo, presentando las capacidades de inventario, movimientos, alertas y reportes. | 17/09/2026 |
+| SirEthan04//Landing Page Repository | feature/impact-section | 7182b63 | feat: implement BodeGo business impact section | Implementación de la sección de impacto para explicar cómo BodeGo contribuye a mejorar la gestión del minimarket y reducir las pérdidas operativas. | 17/09/2026 |
+| yowuan/Landing Page Repository | feature/contact-form | e281064 | feat: implement commercial contact form | Desarrollo del formulario de contacto comercial para permitir que los visitantes interesados proporcionen sus datos y soliciten información adicional sobre BodeGo. | 17/09/2026 |
+| Diego27-16/Landing Page Repository | feature/footer | dfb92c0 | feat: implement landing page footer section | Implementación del pie de página de BodeGo con información general del producto, enlaces relevantes y datos de contacto. | 17/09/2026 |
 
 ---
 #### 5.2.1.5. Execution Evidence for Sprint Review
