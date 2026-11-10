@@ -2112,10 +2112,10 @@ Durante esta reunión, el equipo estableció como objetivo principal desarrollar
 | **Time** | 5:00 pm |
 | **Location** | Discord |
 | **Prepared By** | Equipo de desarrollo BodeGo |
-| **Attendees (to planning meeting)** | Day / Mateo / Yorch / Johan / Gior |
+| **Attendees (to planning meeting)** | Dany / Mateo / Yorch / Johan / Gior |
 | **Sprint 0 Review Summary** | No existe un sprint previo, debido a que este es el primer sprint del proyecto. |
 | **Sprint 0 Retrospective Summary** | No existe un sprint previo del cual obtener conclusiones o acciones de mejora. |
-| **Sprint Goal & User Stories** | US01 – Visualización de la Propuesta de Valor (2 SP); US02 – Consulta de Beneficios de BodeGo (2 SP); US03 – Presentación de Funcionalidades Principales (3 SP); US04 – Explicación del Funcionamiento de BodeGo (2 SP); US05 – Formulario de Contacto Comercial (3 SP). |
+| **Sprint Goal & User Stories** ||
 | **Sprint 1 Goal** | Desarrollar una Landing Page funcional y responsive para BodeGo que permita a los visitantes conocer la propuesta de valor de la plataforma, sus beneficios, sus principales funcionalidades y su funcionamiento general, además de proporcionar un formulario de contacto para solicitar información adicional. |
 | **Sprint 1 Velocity** | 12 Story Points (estimación inicial del trabajo comprometido). |
 | **Sum of Story Points** | 12 Story Points. |
@@ -2240,34 +2240,36 @@ El objetivo fue implementar las principales vistas de la aplicación, permitiend
 
 #### 5.2.2.1. Sprint Planning 2
 
-El Sprint Planning permitió organizar las actividades que serían desarrolladas durante el Sprint 2. En esta reunión se definió como objetivo principal implementar la primera versión funcional del Frontend Web de BodeGo.
+El Sprint Planning permitió organizar y definir las actividades que serían desarrolladas durante el Sprint 2 de BodeGo.
+
+Durante esta reunión, el equipo estableció como objetivo principal desarrollar la primera versión funcional del Frontend Web de BodeGo, implementando las vistas de los principales módulos de la aplicación y preparando la integración inicial con los servicios REST del catálogo.
 
 | **Sprint #** | **Sprint 2** |
 |---|---|
-| **Sprint Planning Background** | El Sprint tiene como objetivo desarrollar la primera versión funcional del Frontend Web de BodeGo. |
-| **Date** | 2026-10-4 |
+| **Sprint Planning Background** | El Sprint tiene como objetivo desarrollar la primera versión funcional del Frontend Web de BodeGo, incluyendo las vistas principales del sistema, la navegación entre módulos y la consulta inicial del catálogo mediante un servicio REST. |
+| **Date** | 2026-10-04 |
 | **Time** | 2:00 pm |
 | **Location** | Discord |
 | **Prepared By** | Equipo de desarrollo BodeGo |
 | **Attendees (to planning meeting)** | Dany / Mateo / Jhorch / Johan / Gior |
-| **Sprint 1 Review Summary** | Se desarrolló la primera versión funcional de la Landing Page de BodeGo. |
-| **Sprint 1 Retrospective Summary** | Se identificó la necesidad de continuar con el desarrollo de la aplicación web manteniendo la estructura visual y responsive. |
-| **Sprint Goal & User Stories** | |
-| **Sprint 2 Goal** | Desarrollar la primera versión funcional del Frontend Web de BodeGo, implementando las principales vistas y funcionalidades de la aplicación. |
-| **Sprint 2 Velocity** | 34 Story Points |
-| **Sum of Story Points** | 34 Story Points |
+| **Sprint 1 Review Summary** | Durante el Sprint 1 se desarrolló la primera versión funcional de la Landing Page de BodeGo, incluyendo la propuesta de valor, beneficios, funcionalidades, explicación del funcionamiento y formulario de contacto. |
+| **Sprint 1 Retrospective Summary** | Se identificó la necesidad de mantener la consistencia visual, la adaptabilidad a diferentes dispositivos y la organización del trabajo durante el desarrollo de los módulos internos de la aplicación web. |
+| **Sprint Goal & User Stories** ||
+| **Sprint 2 Goal** | Desarrollar la primera versión funcional del Frontend Web de BodeGo, implementando el Dashboard Administrativo, la navegación entre módulos y las vistas de inventario, productos, lotes, operaciones, alertas, reportes y negocios. Asimismo, preparar la integración inicial del Frontend con un servicio REST de consulta del catálogo de productos. |
+| **Sprint 2 Velocity** | 36 Story Points (estimación del trabajo comprometido para el Sprint 2). |
+| **Sum of Story Points** | 36 Story Points. |
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
 Durante el Sprint 2 se identificaron los principales aspectos de trabajo necesarios para implementar el Frontend Web de BodeGo.
 
-| **Team Member (Last Name, First Name)** | **GitHub Username** | **Frontend Structure & Navigation** | **Dashboard & Modules** | **Inventory & Products** | **Alerts & Reports** | **Responsive Design** |
-| --------------------------------------- | ------------------- | ----------------------------------- | ----------------------- | ----------------------- | -------------------- | --------------------- |
-| Dany Chavez                             | Danysss-cmd         | L                                   | C                       | C                       | C                    | C                     |
-| Mateo Caldas                            | Ethan.Matt          | C                                   | L                       | C                       | C                    | C                     |
-| Yorch Blanco                            | Bleim-154           | C                                   | C                       | L                       | C                    | C                     |
-| Johan Saravia                           | yowuan              | C                                   | C                       | C                       | L                    | C                     |
-| Giordano Trejo                          | igogriogriorgiori   | C                                   | C                       | C                       | C                    | L                     |
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Frontend Structure & Navigation** | **Dashboard & Business Views** | **Inventory, Products & Lots** | **Operations, Alerts & Reports** | **Responsive Design & UI Consistency** |
+|---|---|---|---|---|---|---|
+| Dany Chavez | Danysss-cmd | L | C | C | C | C |
+| Mateo Caldas | Ethan.Matt | C | L | C | C | C |
+| Yorch Blanco | Bleim-154 | C | C | L | C | C |
+| Johan Saravia | yowuan | C | C | C | L | C |
+| Giordano Trejo | igogriogriorgiori | C | C | C | C | L |
 
 #### 5.2.2.3. Sprint Backlog 2
 
