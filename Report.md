@@ -1657,13 +1657,13 @@ La gestión de la configuración de software de BodeGo establece las herramienta
 
 ## 5.1.1. Software Development Environment Configuration
 
-Para las actividades de gestión, análisis, diseño, implementación, documentación, pruebas y despliegue, el equipo utiliza o considera las siguientes herramientas. Se presentan agrupadas según su propósito, con sus enlaces de referencia e imágenes de identificación.
+Para las actividades de gestión, análisis, diseño, implementación, documentación, pruebas y despliegue, el equipo utiliza o considera las siguientes herramientas. Se presentan agrupadas según su propósito, con las direcciones web oficiales visibles y sus imágenes de identificación.
 
 #### Project Management
 
 | Herramienta | Propósito en BodeGo | Imagen |
 | :--- | :--- | :---: |
-| **Discord** | Facilita la comunicación del equipo, las reuniones de voz, el intercambio de avances y la coordinación de actividades. [Sitio oficial](https://discord.com/) | <img src="Recursos/images/dc1.jpg" alt="Logo de Discord" width="100"> |
+| **Discord** | Facilita la comunicación del equipo, las reuniones de voz, el intercambio de avances y la coordinación de actividades. https://discord.com/ | <img src="Recursos/images/dc1.jpg" alt="Logo de Discord" width="100"> |
 
 **Evidencia de coordinación del equipo:**
 
@@ -1676,16 +1676,16 @@ Para las actividades de gestión, análisis, diseño, implementación, documenta
 
 | Herramienta | Propósito en BodeGo | Imagen |
 | :--- | :--- | :---: |
-| **Miro** | Apoya el análisis visual y colaborativo de requisitos y los ejercicios de EventStorming e Impact Mapping. [Sitio oficial](https://miro.com/es/) | <img src="Recursos/images/miro.png" alt="Logo de Miro" width="100"> |
-| **UXPressia** | Permite elaborar y organizar artefactos de investigación y UX, como User Personas y User Journey Maps. [Sitio oficial](https://uxpressia.com/) | <img src="Recursos/images/ux.png" alt="Logo de UXPressia" width="100"> |
-| **Structurizr** | Permite modelar y documentar la arquitectura mediante el modelo C4 y sus vistas de contexto, contenedores y componentes. [Sitio oficial](https://structurizr.com/) | <img src="Recursos/images/struc.png" alt="Logo de Structurizr" width="100"> |
+| **Miro** | Apoya el análisis visual y colaborativo de requisitos y los ejercicios de EventStorming e Impact Mapping. https://miro.com/es/ | <img src="Recursos/images/miro.png" alt="Logo de Miro" width="100"> |
+| **UXPressia** | Permite elaborar y organizar artefactos de investigación y UX, como User Personas y User Journey Maps. https://uxpressia.com/ | <img src="Recursos/images/ux.png" alt="Logo de UXPressia" width="100"> |
+| **Structurizr** | Permite modelar y documentar la arquitectura mediante el modelo C4 y sus vistas de contexto, contenedores y componentes. https://structurizr.com/ | <img src="Recursos/images/struc.png" alt="Logo de Structurizr" width="100"> |
 
 #### Product UX/UI Design
 
 | Herramienta | Propósito en BodeGo | Imagen |
 | :--- | :--- | :---: |
-| **Figma** | Facilita la creación colaborativa de wireframes, mock-ups, wireflows y prototipos de la aplicación web. [Sitio oficial](https://www.figma.com/es-la/) | <img src="Recursos/images/figma.png" alt="Logo de Figma" width="100"> |
-| **Lucidchart** | Apoya la elaboración de diagramas UML, flujos y diagramas de base de datos para documentar el diseño del sistema. [Sitio oficial](https://lucid.co/es/lucidchart) | <img src="Recursos/images/lucid.png" alt="Logo de Lucidchart" width="100"> |
+| **Figma** | Facilita la creación colaborativa de wireframes, mock-ups, wireflows y prototipos de la aplicación web. https://www.figma.com/es-la/ | <img src="Recursos/images/figma.png" alt="Logo de Figma" width="100"> |
+| **Lucidchart** | Apoya la elaboración de diagramas UML, flujos y diagramas de base de datos para documentar el diseño del sistema. https://lucid.co/es/lucidchart | <img src="Recursos/images/lucid.png" alt="Logo de Lucidchart" width="100"> |
 
 #### Software Development
 
@@ -1693,10 +1693,10 @@ La solución contempla tecnologías web para la Landing Page y el Frontend, y Ja
 
 | Herramienta o tecnología | Propósito en BodeGo | Imagen |
 | :--- | :--- | :---: |
-| **HTML5** | Define la estructura y el contenido de las páginas web. [Referencia](https://developer.mozilla.org/es/docs/Web/HTML) | <img src="Recursos/images/html.png" alt="Logo de HTML5" width="85"> |
-| **CSS** | Define estilos y presentación visual de las interfaces web. [Referencia](https://developer.mozilla.org/es/docs/Web/CSS) | <img src="Recursos/images/css.png" alt="Logo de CSS" width="85"> |
-| **JavaScript** | Permite implementar interactividad y comportamientos en componentes web cuando corresponde. [Referencia](https://developer.mozilla.org/es/docs/Web/JavaScript) | <img src="Recursos/images/js.png" alt="Logo de JavaScript" width="85"> |
-| **IntelliJ IDEA** | Entorno de desarrollo utilizado para trabajar con el código Java del Backend. [Descarga](https://www.jetbrains.com/es-es/idea/download/) | <img src="Recursos/images/intell.jpg" alt="Logo de IntelliJ IDEA" width="100"> |
+| **HTML5** | Define la estructura y el contenido de las páginas web. https://developer.mozilla.org/es/docs/Web/HTML | <img src="Recursos/images/html.png" alt="Logo de HTML5" width="85"> |
+| **CSS** | Define estilos y presentación visual de las interfaces web. https://developer.mozilla.org/es/docs/Web/CSS | <img src="Recursos/images/css.png" alt="Logo de CSS" width="85"> |
+| **JavaScript** | Permite implementar interactividad y comportamientos en componentes web cuando corresponde. https://developer.mozilla.org/es/docs/Web/JavaScript | <img src="Recursos/images/js.png" alt="Logo de JavaScript" width="85"> |
+| **IntelliJ IDEA** | Entorno de desarrollo utilizado para trabajar con el código Java del Backend. https://www.jetbrains.com/es-es/idea/download/ | <img src="Recursos/images/intell.jpg" alt="Logo de IntelliJ IDEA" width="100"> |
 
 #### Software Testing
 
@@ -1706,24 +1706,14 @@ La solución contempla tecnologías web para la Landing Page y el Frontend, y Ja
 
 | Herramienta | Propósito en BodeGo | Imagen |
 | :--- | :--- | :---: |
-| **GitHub** | Aloja el informe y los repositorios de código fuente; permite organizar cambios y revisar contribuciones mediante el historial de versiones. [Sitio oficial](https://github.com/) | <img src="Recursos/images/gh6.jpg" alt="Logo de GitHub" width="100"> |
+| **GitHub** | Aloja el informe y los repositorios de código fuente; permite organizar cambios y revisar contribuciones mediante el historial de versiones. https://github.com/ | <img src="Recursos/images/gh6.jpg" alt="Logo de GitHub" width="100"> |
 
 #### Software Deployment
 
 | Herramienta | Propósito en BodeGo | Imagen |
 | :--- | :--- | :---: |
-| **GitHub Pages** | Servicio de publicación de sitios estáticos, adecuado para la Landing Page del proyecto. [Sitio oficial](https://pages.github.com/) | <img src="Recursos/images/gh7.png" alt="Logo de GitHub Pages" width="100"> |
-
-##### Swagger
-
-**Swagger UI**, integrado con **OpenAPI** mediante la dependencia `springdoc-openapi` del Backend, facilita la exploración y documentación de los endpoints REST de BodeGo. Permite consultar las operaciones de la API, sus parámetros y las respuestas definidas por los controladores. Aunque no constituye una plataforma de despliegue, complementa la revisión técnica de los servicios en el entorno donde se ejecuta el Backend.
-
-<p align="center">
-  <img src="Recursos/images/Swagger-logo.png" alt="Logo de Swagger" width="150">
-</p>
-<p align="center"><em>Figura. Swagger, herramienta de documentación de la API REST de BodeGo.</em></p>
-
-**Evidencia de Swagger UI:** [EVIDENCIA POR AGREGAR] — Incorporar una captura real de la interfaz con los endpoints documentados y, si existe, la URL accesible del entorno donde se ejecuta el Backend. No confundir la configuración de OpenAPI con un despliegue público confirmado.
+| **GitHub Pages** | Servicio de publicación de sitios estáticos utilizado para alojar la Landing Page de BodeGo. https://pages.github.com/ | <img src="Recursos/images/gh7.png" alt="Logo de GitHub Pages" width="100"> |
+| **Swagger UI** | Herramienta de documentación interactiva de los endpoints REST del Backend de BodeGo, integrada con OpenAPI mediante `springdoc-openapi`. Permite explorar operaciones, parámetros y respuestas de la API. No constituye por sí misma un servicio de despliegue. https://swagger.io/open-source/swagger-ui/ | <img src="Recursos/images/Swagger-logo.png" alt="Logo de Swagger" width="100"> |
 
 #### Repositorios del proyecto
 
@@ -1734,9 +1724,7 @@ Los siguientes enlaces corresponden a los repositorios identificados para los ar
 | Informe y documentación | https://github.com/SirEthan04/Proxy_Open_Source |
 | Landing Page | https://github.com/SirEthan04/Proxy_Open_Source_LandingPage |
 | Frontend | https://github.com/SirEthan04/Proxy_Open_Source_Front-end |
-| Backend REST | https://github.com/Bleim-154/bodego-platform-backend |
-
----
+| Backend | https://github.com/Bleim-154/bodego-platform-backend |
 ---
 ### 5.1.2. Source Code Management
 ---
