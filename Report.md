@@ -1,22 +1,52 @@
-# Carátula
+<div align="center">
 
 ![UPC](Recursos/images/upc.png)
 
-**Universidad Peruana de Ciencias Aplicadas S.A.C.**
+<br>
 
-**Ingeniería de Software**
+# Universidad Peruana de Ciencias Aplicadas
 
-**Ciclo: 5**
+# Carrera de Ingeniería de Software
 
-**1ASI0729-2620**
+# 1ASI0729
 
-**Desarrollo de Aplicaciones Open Source**
+# Desarrollo de Aplicaciones Open Source
 
-**NRC: 7760**
+## NRC
 
-**Docente: Juan Antonio Flores Moroco**
+# 7760
 
----
+# Informe del Trabajo Final
+
+## Docente
+
+# Flores Moroco, Juan Antonio
+
+## Equipo
+
+# Proxy
+
+## Proyecto
+
+# BodeGo
+
+# Integrantes:
+
+| Código | Nombre |
+| :---: | :--- |
+| U20241F385 | Blanco Medina, Jhorch Jhoseff |
+| U20241G404 | Caldas Bravo, Mateo |
+| U20241G610 | Chavez Sandoval, Dany Yohel |
+| U202421082 | Saravia Hiso, Johan Alvaro |
+| U202316162 | Trejo Espejo, Giordano Sebastian del Ángel |
+
+<br>
+
+# Período 202620
+
+# Noviembre 2026
+
+</div>
 
 ### **Informe de Trabajo Final**
 
