@@ -1647,139 +1647,96 @@ La siguiente vista presenta las tablas dentro de los límites conceptuales de `c
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
+En este capítulo se documenta el proceso de implementación, validación y despliegue de BodeGo, plataforma web desarrollada por la startup Proxy para apoyar la gestión de inventarios y las operaciones de minimarkets. Se presentan las decisiones de configuración del entorno de trabajo, las convenciones de desarrollo y las evidencias correspondientes a los Sprints.
+
+La solución contempla una Landing Page, una aplicación web Frontend y un Backend REST basado en Java y Spring Boot con PostgreSQL. La documentación distingue las actividades planificadas de los resultados implementados, probados y desplegados, de acuerdo con las evidencias disponibles.
+
 ## 5.1. Software Configuration Management
-Para el desarrollo de BodeGo se establecerán un conjunto de herramientas que permitan mantener la consistencia del proyecto durante su ciclo de vida. Estas configuraciones permitirán que los integrantes del equipo trabajen bajo una misma estructura para el control de versiones, configuración del entorno de desarrollo y posterior despliegue de la aplicación.
 
-### 5.1.1. Software Development Environment Configuration
-## . Project Management
+La gestión de la configuración de software de BodeGo establece las herramientas, convenciones y recursos que permiten organizar el trabajo del equipo durante el ciclo de vida del proyecto. Esta sección comprende la configuración del entorno de desarrollo, el control de versiones, las convenciones de código y la configuración de despliegue.
 
-- **Discord:** Una herramienta de comunicación y coordinación del equipo. Permite organizar conversaciones por canales, realizar reuniones de voz, compartir avances, resolver dudas y coordinar las actividades relacionadas con el desarrollo de BodeGo.
----
-![Logo Discord](Recursos/images/dc1.jpg)
----
-Link de inicio de sesión Discord: https://discord.com/
+## 5.1.1. Software Development Environment Configuration
 
----
+Para las actividades de gestión, análisis, diseño, implementación, documentación, pruebas y despliegue, el equipo utiliza o considera las siguientes herramientas. Se presentan agrupadas según su propósito, con sus enlaces de referencia e imágenes de identificación.
 
-Evidencia de uso:
+#### Project Management
 
-![Reunion Discord](Recursos/images/dc2.jpg)
+| Herramienta | Propósito en BodeGo | Imagen |
+| :--- | :--- | :---: |
+| **Discord** | Facilita la comunicación del equipo, las reuniones de voz, el intercambio de avances y la coordinación de actividades. [Sitio oficial](https://discord.com/) | <img src="Recursos/images/dc1.jpg" alt="Logo de Discord" width="100"> |
 
-## . Requirement Management
+**Evidencia de coordinación del equipo:**
 
-- **Miro:** Se utilizará como herramienta colaborativa para la gestión y análisis de requisitos de BodeGo. Permitirá organizar visualmente información obtenida durante la investigación, como User Personas, Empathy Maps, User Journey Maps e Impact Mapping.
----
+<p align="center">
+  <img src="Recursos/images/dc2.jpg" alt="Evidencia de reunión del equipo de BodeGo en Discord" width="78%">
+</p>
+<p align="center"><em>Figura. Evidencia de comunicación y coordinación mediante Discord.</em></p>
 
-  ![Logo Miro](Recursos/images/miro.png)
+#### Requirements Management
 
-  Link de inicio de sesión Miro: https://miro.com/es/
+| Herramienta | Propósito en BodeGo | Imagen |
+| :--- | :--- | :---: |
+| **Miro** | Apoya el análisis visual y colaborativo de requisitos y los ejercicios de EventStorming e Impact Mapping. [Sitio oficial](https://miro.com/es/) | <img src="Recursos/images/miro.png" alt="Logo de Miro" width="100"> |
+| **UXPressia** | Permite elaborar y organizar artefactos de investigación y UX, como User Personas y User Journey Maps. [Sitio oficial](https://uxpressia.com/) | <img src="Recursos/images/ux.png" alt="Logo de UXPressia" width="100"> |
+| **Structurizr** | Permite modelar y documentar la arquitectura mediante el modelo C4 y sus vistas de contexto, contenedores y componentes. [Sitio oficial](https://structurizr.com/) | <img src="Recursos/images/struc.png" alt="Logo de Structurizr" width="100"> |
 
----
+#### Product UX/UI Design
 
-- **UXPressia:** Se utilizará para elaborar y documentar artefactos relacionados con la experiencia de usuario, como User Personas y User Journey Maps, permitiendo representar las características, necesidades, objetivos y experiencias de los segmentos de usuarios de BodeGo.
----
+| Herramienta | Propósito en BodeGo | Imagen |
+| :--- | :--- | :---: |
+| **Figma** | Facilita la creación colaborativa de wireframes, mock-ups, wireflows y prototipos de la aplicación web. [Sitio oficial](https://www.figma.com/es-la/) | <img src="Recursos/images/figma.png" alt="Logo de Figma" width="100"> |
+| **Lucidchart** | Apoya la elaboración de diagramas UML, flujos y diagramas de base de datos para documentar el diseño del sistema. [Sitio oficial](https://lucid.co/es/lucidchart) | <img src="Recursos/images/lucid.png" alt="Logo de Lucidchart" width="100"> |
 
-  ![Logo UXPressia](Recursos/images/ux.png)
+#### Software Development
 
-  Link de inicio de sesión UXPressia: https://uxpressia.com/
+La solución contempla tecnologías web para la Landing Page y el Frontend, y Java con Spring Boot y PostgreSQL para el Backend REST. Las siguientes herramientas y tecnologías forman parte del entorno de desarrollo descrito en el informe:
 
----
+| Herramienta o tecnología | Propósito en BodeGo | Imagen |
+| :--- | :--- | :---: |
+| **HTML5** | Define la estructura y el contenido de las páginas web. [Referencia](https://developer.mozilla.org/es/docs/Web/HTML) | <img src="Recursos/images/html.png" alt="Logo de HTML5" width="85"> |
+| **CSS** | Define estilos y presentación visual de las interfaces web. [Referencia](https://developer.mozilla.org/es/docs/Web/CSS) | <img src="Recursos/images/css.png" alt="Logo de CSS" width="85"> |
+| **JavaScript** | Permite implementar interactividad y comportamientos en componentes web cuando corresponde. [Referencia](https://developer.mozilla.org/es/docs/Web/JavaScript) | <img src="Recursos/images/js.png" alt="Logo de JavaScript" width="85"> |
+| **IntelliJ IDEA** | Entorno de desarrollo utilizado para trabajar con el código Java del Backend. [Descarga](https://www.jetbrains.com/es-es/idea/download/) | <img src="Recursos/images/intell.jpg" alt="Logo de IntelliJ IDEA" width="100"> |
 
-- **Structurizr:** Se utilizará para modelar y documentar la arquitectura de software de BodeGo mediante diagramas basados en el modelo C4. Permitirá representar la estructura general del sistema, sus principales contenedores, componentes y relaciones.
----
-![Logo structurizr](Recursos/images/struc.png)
----
+#### Software Testing
 
-## . Product UX/UI Design
+**Gherkin** es un lenguaje utilizado para expresar escenarios de comportamiento y criterios de aceptación con la estructura **Given–When–Then**. Su redacción facilita que los integrantes del equipo comprendan las condiciones iniciales, las acciones y los resultados esperados, sin confundir los escenarios documentados con pruebas efectivamente ejecutadas.
 
-- **Figma:** Una herramienta de colaboración que facilita el desarrollo conjunto de wireframes y mockups.
----
+#### Software Documentation
 
-  ![Imagen de la entrevista](Recursos/images/figma.png)
+| Herramienta | Propósito en BodeGo | Imagen |
+| :--- | :--- | :---: |
+| **GitHub** | Aloja el informe y los repositorios de código fuente; permite organizar cambios y revisar contribuciones mediante el historial de versiones. [Sitio oficial](https://github.com/) | <img src="Recursos/images/gh6.jpg" alt="Logo de GitHub" width="100"> |
 
-  Link de inicio de sesión Figma: https://www.figma.com/es-la/
+#### Software Deployment
 
----
+| Herramienta | Propósito en BodeGo | Imagen |
+| :--- | :--- | :---: |
+| **GitHub Pages** | Servicio de publicación de sitios estáticos, adecuado para la Landing Page del proyecto. [Sitio oficial](https://pages.github.com/) | <img src="Recursos/images/gh7.png" alt="Logo de GitHub Pages" width="100"> |
 
-- **LucidChart:** Una herramienta colaborativa que posibilita la creación conjunta de wireframes flow y mockups flow.
----
+##### Swagger
 
-  ![Imagen de la entrevista](Recursos/images/lucid.png)
+**Swagger UI**, integrado con **OpenAPI** mediante la dependencia `springdoc-openapi` del Backend, facilita la exploración y documentación de los endpoints REST de BodeGo. Permite consultar las operaciones de la API, sus parámetros y las respuestas definidas por los controladores. Aunque no constituye una plataforma de despliegue, complementa la revisión técnica de los servicios en el entorno donde se ejecuta el Backend.
 
-  Link de inicio de sesión LucidChart: https://lucid.co/es/lucidchart
+<p align="center">
+  <img src="Recursos/images/Swagger-logo.png" alt="Logo de Swagger" width="150">
+</p>
+<p align="center"><em>Figura. Swagger, herramienta de documentación de la API REST de BodeGo.</em></p>
 
----
+**Evidencia de Swagger UI:** [EVIDENCIA POR AGREGAR] — Incorporar una captura real de la interfaz con los endpoints documentados y, si existe, la URL accesible del entorno donde se ejecuta el Backend. No confundir la configuración de OpenAPI con un despliegue público confirmado.
 
-## . Software Development
+#### Repositorios del proyecto
 
-- **HTML5:** Es un lenguaje de etiquetado utilizado para crear la estructura de una página web. Se empleará para incluir componentes como texto, imágenes, enlaces, botones y videos.
----
+Los siguientes enlaces corresponden a los repositorios identificados para los artefactos y componentes de BodeGo:
 
-  ![Logo HTML5](Recursos/images/html.png)
-
-  Informacion relacionada: https://www.esic.edu/rethink/tecnologia/html5-que-es-caracteristicas-y-como-funciona-c#:~:text=El%20HTML5%20es%20un%20est%C3%A1ndar,%2C%20estilo%20de%20letra%2C%20etc.
-
----
-
-- **CSS:** Es un lenguaje de diseño gráfico utilizado para dar formato y estilo a la presentación de los documentos HTML.
----
-  ![Logo CSS](Recursos/images/css.png)
-
-  Informacion relacionada: https://developer.mozilla.org/es/docs/Web/CSS
-
----
-
-- **JavaScript:** Es un lenguaje de programación dinámico orientado a objetos que se utilizará para implementar funcionalidades e interactividad en la aplicación web.
----
-  ![Logo Javascript](Recursos/images/js.png)
-
-  Informacion relacionada: https://developer.mozilla.org/es/docs/Web/JavaScript
-
----
-
-- **intellJ IDEA** Es un entorno de desarrollo integrado (IDE) diseñado para programar en Java.
----
-  ![Logo intellJIdea](Recursos/images/intell.jpg)
-
-  Link de descarga: https://www.jetbrains.com/es-es/idea/download/?section=windows
-
-## . Software Testing
-
-- **Lenguaje Gherkin:** Es un Lenguaje Específico de Dominio (DSL) diseñado para describir el comportamiento esperado del sistema mediante escenarios comprensibles tanto para desarrolladores como para otros integrantes del equipo.
-
-## . Software Documentation
-
-- **GitHub:** Es una plataforma utilizada para el alojamiento y control de versiones del código fuente de un proyecto. Facilita el trabajo colaborativo entre los integrantes del equipo y permite mantener un historial de los cambios realizados.
----
-  ![Logo GitHub](Recursos/images/gh6.jpg)
-
----
-
-## . Software Deployment
-
-- **GitHub Pages:** Es una plataforma que permite realizar despliegues de aplicaciones web directamente desde un repositorio de GitHub.
-
-  ![Logo GitHub Pages](Recursos/images/gh7.png)
-
----
-
-  Link de inicio: https://github.com/?locale=es-419
-
----
-
-  Link de descarga: https://github.com/apps/desktop?locale=es-419
-
----
-
-  **Nuestros repositorios:**
-
-| Nombre del repositorio | Link |
+| Repositorio | Enlace |
 | :--- | :--- |
-| Documentación | https://github.com/SirEthan04/Proxy_Open_Source |
-| LandingPage | https://github.com/SirEthan04/Proxy_Open_Source_LandingPage |
-| FrontEnd | https://github.com/SirEthan04/Proxy_Open_Source_Front-end |
-| WebApplication | https://github.com/SirEthan04/Proxy_Open_Source_Web-Application |
+| Informe y documentación | https://github.com/SirEthan04/Proxy_Open_Source |
+| Landing Page | https://github.com/SirEthan04/Proxy_Open_Source_LandingPage |
+| Frontend | https://github.com/SirEthan04/Proxy_Open_Source_Front-end |
+| Backend REST | https://github.com/Bleim-154/bodego-platform-backend |
 
+---
 ---
 ### 5.1.2. Source Code Management
 ---
