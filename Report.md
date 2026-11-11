@@ -43,7 +43,22 @@
 
 # Registro de Versiones del Informe
 
-* **Project Report Collaboration Insights**
+# Registro de Versiones del Informe
+
+| Versión | Fecha | Autor | Descripción de modificación |
+| :---: | :---: | :--- | :--- |
+| 1.0 | 08/09/2026 | Caldas Bravo, Mateo | Creación y estructuración del documento de trabajo en formato Markdown. |
+| 1.0 | 10/09/2026 | Saravia Hiso, Johan Alvaro | Desarrollo de los capítulos I y II. |
+| 1.0 | 10/09/2026 | Blanco Medina, Jhorch Jhoseff | Desarrollo de los capítulos III y IV. |
+| 1.0 | 10/09/2026 | Chavez Sandoval, Dany Yohel | Desarrollo de los capítulos III y IV. |
+| 1.0 | 10/09/2026 | Trejo Espejo, Giordano Sebastian del Ángel | Desarrollo del capítulo IV. |
+| 2.0 | 08/10/2026 | Caldas Bravo, Mateo | Desarrollo del capítulo 5.2: planificación de los Sprints y documentación de los avances de implementación. |
+| 2.0 | 10/10/2026 | Saravia Hiso, Johan Alvaro | Desarrollo del capítulo 5.2: planificación de los Sprints y documentación de los avances de implementación. |
+| 2.0 | 10/10/2026 | Chavez Sandoval, Dany Yohel | Desarrollo del capítulo 5.2: planificación de los Sprints y documentación de los avances de implementación. |
+| 2.0 | 10/10/2026 | Blanco Medina, Jhorch Jhoseff | Desarrollo del capítulo 5.2: elaboración de evidencias de desarrollo, ejecución y revisión de los Sprints. |
+| 2.0 | 10/10/2026 | Trejo Espejo, Giordano Sebastian del Ángel | Desarrollo del capítulo 5.2: elaboración de evidencias de desarrollo, ejecución y revisión de los Sprints. |
+| 3.0 | 10/11/2026 | Saravia Hiso, Johan Alvaro; Chavez Sandoval, Dany Yohel; Caldas Bravo, Mateo | Desarrollo del capítulo 5.3: diseño y registro de entrevistas de validación (secciones 5.3.1 y 5.3.2). |
+| 3.0 | 10/11/2026 | Trejo Espejo, Giordano Sebastian del Ángel; Blanco Medina, Jhorch Jhoseff | Desarrollo del capítulo 5.3: evaluaciones según heurísticas (sección 5.3.3). |
 
 ---
 
@@ -165,7 +180,6 @@
 
 ---
 
-# Student Outcome
 
 # Student Outcome
 
