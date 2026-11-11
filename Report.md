@@ -1549,78 +1549,101 @@ Enlace de Figma: https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy
 ---
 
 ![Components-API](Recursos/images/Components-API.png)
+
+---
 ## 4.7. Software Object-Oriented Design
+
 ### 4.7.1. Class Diagrams
-Los diagramas de clases de BodeGo representan las principales entidades, atributos, comportamientos y relaciones del sistema.
-Siguiendo los principios de Diseño Orientado al Dominio (DDD), la solución se divide en distintos Contextos Acotados (Bounded Contexts), manteniendo separadas sus responsabilidades y reduciendo el acoplamiento entre módulos.
 
-- **Diagrama de clases**
-  ![Diagrama de clases](Recursos/images/DiagramaClases.jpg)
+Los diagramas de clases UML presentan las principales clases, atributos, métodos y relaciones del Backend REST de BodeGo, desarrollado con Java y Spring Boot. El diseño sigue una organización basada en Domain-Driven Design (DDD) y distingue cinco Bounded Contexts: `catalog`, `inventory`, `monitoring`, `operations` y `strategicoffers`.
 
+A continuación, se presenta primero una vista general y luego un diagrama individual para cada Bounded Context. El módulo `shared` contiene componentes reutilizables y no constituye un sexto Bounded Context.
 
-- **Configuración Empresarial y Acceso BC:**
+#### Diagrama de clases general
 
-  ![DiagramaCL / BC1](Recursos/images/dcl1_confacceso.png)
+<p align="center">
+  <img src="Recursos/Imagenes/diagramaClasesOpen.png" alt="Diagrama UML general de clases de BodeGo, organizado en cinco Bounded Contexts" width="95%" />
+</p>
 
----
+<p align="center"><em>Figura 1. Diagrama general de clases UML de BodeGo.</em></p>
 
-- **Catálogo e Inventario BC:**
+#### Bounded Context: Catalog
 
-  ![DiagramaCL / BC2](Recursos/images/dcl2_catinv.png)
+Contiene las clases relacionadas con la administración de categorías y productos del minimarket.
 
----
+<p align="center">
+  <img src="Recursos/Imagenes/catalogOpen.png" alt="Diagrama UML de clases del Bounded Context Catalog" width="90%" />
+</p>
 
-- **Operaciones diarias y Mermas BC:**
+<p align="center"><em>Figura 2. Diagrama de clases del Bounded Context Catalog.</em></p>
 
-  ![DiagramaCL / BC3](Recursos/images/dcl3_opemerma.png)
+#### Bounded Context: Inventory
 
----
+Se centra en la gestión de lotes y sus existencias, de acuerdo con la separación actual del Backend.
 
-- **Ofertas estratégicas BC:**
+<p align="center">
+  <img src="Recursos/Imagenes/InventoryOpen.png" alt="Diagrama UML de clases del Bounded Context Inventory" width="85%" />
+</p>
 
-  ![DiagramaCL / BC4](Recursos/images/dcl4_recoferta.png)
+<p align="center"><em>Figura 3. Diagrama de clases del Bounded Context Inventory.</em></p>
 
----
+#### Bounded Context: Monitoring
 
-- **Auditoría y Seguimiento BC:**
+Agrupa las clases relacionadas con alertas de inventario y registros de auditoría.
 
-  ![DiagramaCL / BC5](Recursos/images/dcl5_audseg.png)
+<p align="center">
+  <img src="Recursos/Imagenes/MonitoringOpen.png" alt="Diagrama UML de clases del Bounded Context Monitoring" width="90%" />
+</p>
+
+<p align="center"><em>Figura 4. Diagrama de clases del Bounded Context Monitoring.</em></p>
+
+#### Bounded Context: Operations
+
+Representa las operaciones de inventario, incluyendo movimientos, conteos físicos, ajustes de stock, mermas y solicitudes de corrección.
+
+<p align="center">
+  <img src="Recursos/Imagenes/OperationsOpen.png" alt="Diagrama UML de clases del Bounded Context Operations" width="95%" />
+</p>
+
+<p align="center"><em>Figura 5. Diagrama de clases del Bounded Context Operations.</em></p>
+
+#### Bounded Context: Strategic Offers
+
+Contiene las clases correspondientes a las ofertas y recomendaciones estratégicas relacionadas con productos y existencias.
+
+<p align="center">
+  <img src="Recursos/Imagenes/StrategicOfferts.png" alt="Diagrama UML de clases del Bounded Context Strategic Offers" width="90%" />
+</p>
+
+<p align="center"><em>Figura 6. Diagrama de clases del Bounded Context Strategic Offers.</em></p>
 
 ## 4.8. Database Design
-Se presenta el diseño de la base de datos relacional que permitirá graficar la información para los objetos de cada Bounded Context identificados en la aplicación BodeGo.
 
- ![DiagramaDB / BC1](Recursos/images/bd-complete.jpeg)
- 
+El diseño de base de datos de BodeGo representa la persistencia relacional de los agregados del Backend en PostgreSQL. Los siguientes diagramas muestran las tablas documentadas y sus referencias lógicas, así como su organización según los cinco Bounded Contexts. Las relaciones por identificador representadas en el diseño lógico no deben interpretarse automáticamente como claves foráneas físicas de PostgreSQL.
+
 ### 4.8.1. Database Diagrams
-El siguiente diagrama de base de datos Entity-Relationship contiene las tablas, columnas y tipos de datos que establecen las relaciones entre las entidades del sistema separados por Bounded Context.
 
-- **Configuración Empresarial y Acceso BC:**
+#### Diagrama entidad-relación general
 
-  ![DiagramaDB / BC1](Recursos/images/d1_confaccesoBC.jpg)
+La vista general reúne las tablas y referencias lógicas del sistema para facilitar el análisis de sus relaciones.
 
----
+<p align="center">
+  <img src="Recursos/Imagenes/dbOpen.png" alt="Diagrama entidad-relación general de la base de datos de BodeGo" width="95%" />
+</p>
 
-- **Catálogo e Inventario BC:**
+<p align="center"><em>Figura 7. Diagrama entidad-relación general de BodeGo.</em></p>
 
-  ![DiagramaDB / BC2](Recursos/images/d2_catinv.jpg)
+#### Diagrama de base de datos por Bounded Context
 
----
+La siguiente vista presenta las tablas dentro de los límites conceptuales de `catalog`, `inventory`, `monitoring`, `operations` y `strategicoffers`. Esta separación visual corresponde a la organización del dominio, no necesariamente a bases de datos físicas independientes.
 
-- **Operaciones diarias y Mermas BC:**
+<p align="center">
+  <img src="Recursos/Imagenes/dbOpenBC.png" alt="Diagrama de base de datos de BodeGo agrupado por cinco Bounded Contexts" width="95%" />
+</p>
 
-  ![DiagramaDB / BC3](Recursos/images/d3_opmermaBC.jpg)
-
----
-
-- **Ofertas estratégicas BC:**
-
-  ![DiagramaDB / BC4](Recursos/images/d4_recofertaBC.jpg)
+<p align="center"><em>Figura 8. Diagrama de base de datos agrupado por Bounded Context.</em></p>
 
 ---
-
-- **Auditoría y Seguimiento BC:**
-
-  ![DiagramaDB / BC5](Recursos/images/d5_audsegBC.jpg)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
