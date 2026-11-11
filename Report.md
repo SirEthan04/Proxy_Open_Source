@@ -1562,7 +1562,7 @@ A continuación, se presenta primero una vista general y luego un diagrama indiv
 #### Diagrama de clases general
 
 <p align="center">
-  <img src="Recursos/Imagenes/diagramaClasesOpen.jpeg" alt="Diagrama UML general de clases de BodeGo, organizado en cinco Bounded Contexts" width="95%" />
+  <img src="Recursos/images/diagramaClasesOpen.jpeg" alt="Diagrama UML general de clases de BodeGo, organizado en cinco Bounded Contexts" width="95%" />
 </p>
 
 <p align="center"><em>Figura 1. Diagrama general de clases UML de BodeGo.</em></p>
@@ -1572,7 +1572,7 @@ A continuación, se presenta primero una vista general y luego un diagrama indiv
 Contiene las clases relacionadas con la administración de categorías y productos del minimarket.
 
 <p align="center">
-  <img src="Recursos/Imagenes/catalogOpen.jpeg" alt="Diagrama UML de clases del Bounded Context Catalog" width="90%" />
+  <img src="Recursos/images/catalogOpen.jpeg" alt="Diagrama UML de clases del Bounded Context Catalog" width="90%" />
 </p>
 
 <p align="center"><em>Figura 2. Diagrama de clases del Bounded Context Catalog.</em></p>
@@ -1582,7 +1582,7 @@ Contiene las clases relacionadas con la administración de categorías y product
 Se centra en la gestión de lotes y sus existencias, de acuerdo con la separación actual del Backend.
 
 <p align="center">
-  <img src="Recursos/Imagenes/InventoryOpen.jpeg" alt="Diagrama UML de clases del Bounded Context Inventory" width="85%" />
+  <img src="Recursos/images/InventoryOpen.jpeg" alt="Diagrama UML de clases del Bounded Context Inventory" width="85%" />
 </p>
 
 <p align="center"><em>Figura 3. Diagrama de clases del Bounded Context Inventory.</em></p>
@@ -1592,7 +1592,7 @@ Se centra en la gestión de lotes y sus existencias, de acuerdo con la separaci�
 Agrupa las clases relacionadas con alertas de inventario y registros de auditoría.
 
 <p align="center">
-  <img src="Recursos/Imagenes/MonitoringOpen.jpeg" alt="Diagrama UML de clases del Bounded Context Monitoring" width="90%" />
+  <img src="Recursos/images/MonitoringOpen.jpeg" alt="Diagrama UML de clases del Bounded Context Monitoring" width="90%" />
 </p>
 
 <p align="center"><em>Figura 4. Diagrama de clases del Bounded Context Monitoring.</em></p>
@@ -1602,7 +1602,7 @@ Agrupa las clases relacionadas con alertas de inventario y registros de auditor�
 Representa las operaciones de inventario, incluyendo movimientos, conteos físicos, ajustes de stock, mermas y solicitudes de corrección.
 
 <p align="center">
-  <img src="Recursos/Imagenes/OperationsOpen.jpeg" alt="Diagrama UML de clases del Bounded Context Operations" width="95%" />
+  <img src="Recursos/images/OperationsOpen.jpeg" alt="Diagrama UML de clases del Bounded Context Operations" width="95%" />
 </p>
 
 <p align="center"><em>Figura 5. Diagrama de clases del Bounded Context Operations.</em></p>
@@ -1612,7 +1612,7 @@ Representa las operaciones de inventario, incluyendo movimientos, conteos físic
 Contiene las clases correspondientes a las ofertas y recomendaciones estratégicas relacionadas con productos y existencias.
 
 <p align="center">
-  <img src="Recursos/Imagenes/StrategicOfferts.jpeg" alt="Diagrama UML de clases del Bounded Context Strategic Offers" width="90%" />
+  <img src="Recursos/images/StrategicOfferts.jpeg" alt="Diagrama UML de clases del Bounded Context Strategic Offers" width="90%" />
 </p>
 
 <p align="center"><em>Figura 6. Diagrama de clases del Bounded Context Strategic Offers.</em></p>
@@ -1628,7 +1628,7 @@ El diseño de base de datos de BodeGo representa la persistencia relacional de l
 La vista general reúne las tablas y referencias lógicas del sistema para facilitar el análisis de sus relaciones.
 
 <p align="center">
-  <img src="Recursos/Imagenes/dbOpen.jpeg" alt="Diagrama entidad-relación general de la base de datos de BodeGo" width="95%" />
+  <img src="Recursos/images/dbOpen.jpeg" alt="Diagrama entidad-relación general de la base de datos de BodeGo" width="95%" />
 </p>
 
 <p align="center"><em>Figura 7. Diagrama entidad-relación general de BodeGo.</em></p>
@@ -1638,7 +1638,7 @@ La vista general reúne las tablas y referencias lógicas del sistema para facil
 La siguiente vista presenta las tablas dentro de los límites conceptuales de `catalog`, `inventory`, `monitoring`, `operations` y `strategicoffers`. Esta separación visual corresponde a la organización del dominio, no necesariamente a bases de datos físicas independientes.
 
 <p align="center">
-  <img src="Recursos/Imagenes/dbOpenBC.jpeg" alt="Diagrama de base de datos de BodeGo agrupado por cinco Bounded Contexts" width="95%" />
+  <img src="Recursos/images/dbOpenBC.jpeg" alt="Diagrama de base de datos de BodeGo agrupado por cinco Bounded Contexts" width="95%" />
 </p>
 
 <p align="center"><em>Figura 8. Diagrama de base de datos agrupado por Bounded Context.</em></p>
