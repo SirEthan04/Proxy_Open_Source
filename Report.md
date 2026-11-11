@@ -2632,6 +2632,36 @@ Estas funcionalidades están diseñadas para disminuir los errores en el registr
 
 # Bibliografía
 
+Angular. (s. f.). *What is Angular?* Angular Documentation. https://angular.dev/overview
+
+Brown, S. (s. f.). *The C4 model for visualising software architecture*. https://c4model.com/
+
+ESIC Business & Marketing School. (2023, mayo). *HTML5: qué es, características y cómo funciona*. ESIC. https://www.esic.edu/rethink/tecnologia/html5-que-es-caracteristicas-y-como-funciona-c
+
+Evans, E. (2003). *Domain-driven design: Tackling complexity in the heart of software*. Addison-Wesley Professional. https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/
+
+GitHub. (s. f.). *About pull requests*. GitHub Docs. https://docs.github.com/en/pull-requests/get-started/about-pull-requests
+
+Gothelf, J., & Seiden, J. (2021). *Lean UX: Designing great products with agile teams* (3.ª ed.). O'Reilly Media. https://www.oreilly.com/library/view/lean-ux-3rd/9781098116293/
+
+JetBrains. (s. f.). *IntelliJ IDEA*. https://www.jetbrains.com/es-es/idea/download/
+
+MDN Web Docs. (s. f.-a). *CSS*. Mozilla. https://developer.mozilla.org/es/docs/Web/CSS
+
+MDN Web Docs. (s. f.-b). *JavaScript*. Mozilla. https://developer.mozilla.org/es/docs/Web/JavaScript
+
+Microsoft. (s. f.). *TypeScript documentation*. https://www.typescriptlang.org/docs/
+
+OpenAPI Initiative. (2025, 19 de septiembre). *OpenAPI Specification* (versión 3.1.2). https://spec.openapis.org/oas/v3.1
+
+PostgreSQL Global Development Group. (s. f.). *PostgreSQL documentation*. https://www.postgresql.org/docs/
+
+Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide: The definitive guide to Scrum: The rules of the game*. https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf
+
+Spring. (s. f.). *Spring Boot reference documentation*. https://docs.spring.io/spring-boot/reference/
+
+Universidad Peruana de Ciencias Aplicadas. (2026). *Enunciado del trabajo final: Desarrollo de Aplicaciones Open Source (1ASI0729), ciclo académico 2026-20* (versión 1.0) [Documento académico del curso].
+
 ---
 
 # Anexos
@@ -2719,5 +2749,3 @@ Estas funcionalidades están diseñadas para disminuir los errores en el registr
 - **Documentación de CSS - MDN Web Docs:** https://developer.mozilla.org/es/docs/Web/CSS
 - **Documentación de JavaScript - MDN Web Docs:** https://developer.mozilla.org/es/docs/Web/JavaScript
 - **Documentación y herramientas de IntelliJ IDEA:** https://www.jetbrains.com/es-es/idea/download/?section=windows
-
-**Nota:** Las referencias bibliográficas completas deben incorporarse a la sección Bibliografía del informe, siguiendo el formato APA solicitado por la rúbrica oficial.
