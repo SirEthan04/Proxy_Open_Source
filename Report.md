@@ -2635,16 +2635,89 @@ Estas funcionalidades están diseñadas para disminuir los errores en el registr
 ---
 
 # Anexos
----
-Enlace de Figma: https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=4-2&t=ZKhGhyVBP4tT2C8g-1
----
-Nuestro link del miro: https://miro.com/app/board/uXjVHm55KfI=/
----
-Nuestro repositorio de documentación: https://github.com/SirEthan04/Proxy_Open_Source
----
-Nuestro repositorio de landingpage: https://github.com/SirEthan04/Proxy_Open_Source_LandingPage
----
-Nuestro repositorio de frontend: https://github.com/SirEthan04/Proxy_Open_Source_Front-end
----
-Nuestro repositorio de web aplication: https://github.com/SirEthan04/Proxy_Open_Source_Web-Application
----
+
+## Anexo A. Videos de exposiciones
+
+- **Exposición AV1:** [EVIDENCIA POR AGREGAR] — Incorporar el enlace al video de exposición de AV1 publicado en Microsoft Stream/Clipchamp.
+- **Exposición TB1:** [EVIDENCIA POR AGREGAR] — Incorporar el enlace al video de exposición de TB1 publicado en Microsoft Stream/Clipchamp.
+- **Exposición AV2:** [EVIDENCIA POR AGREGAR] — Incorporar el enlace al video de exposición correspondiente a los avances del Frontend y Backend de BodeGo.
+- **Video About-the-Product:** https://youtu.be/VCTRhL0PRmo
+
+## Anexo B. Videos de entrevistas
+
+### Entrevistas al segmento de Administradores
+
+- **Entrevista 1 - Lucía, administradora de minimarket:** https://drive.google.com/file/d/1-8vfUZq2TVlsaK8B5TCyhvH-dXwfndUl/view?usp=drive_link
+- **Entrevista 2 - Jimmy Ruiz, administrador de minimarket:** https://drive.google.com/file/d/1eAsgHwrdiH4P3uMjAwPBXgNagRQ5b_eY/view?usp=drive_link
+- **Entrevista 3 - Silvia Bravo, administradora de minimarket:** https://drive.google.com/file/d/1pg_DvKHgaqZ3YP34jLtGyl6jV7oni1yI/view?usp=drive_link
+
+### Entrevistas al segmento de Empleados
+
+- **Entrevista 4 - Joseph, empleado de minimarket:** https://drive.google.com/file/d/1TD5vcQrjeOiQnoPlT7bziEpWkTBYGCBs/view?usp=drive_link
+- **Entrevista 5 - Andrés Marzano, empleado de minimarket:** https://drive.google.com/file/d/1BCO2lHzXeeZyN7DED3hQVZv_ULh0Zdx2/view?usp=drive_link
+- **Entrevista 6 - Pablo Moreno, empleado de minimarket:** https://drive.google.com/file/d/1_V2W7VMWYRneIBc2ZAb0kEKlw-TLDnwO/view?usp=drive_link
+
+## Anexo C. Materiales de validación
+
+- **Entrevistas de validación de BodeGo (AV2):** [EVIDENCIA POR AGREGAR] — Incorporar los enlaces a los videos de las entrevistas de validación correspondientes a la sección 5.3.
+- **Registro de resultados de entrevistas de validación:** [EVIDENCIA POR AGREGAR] — Incorporar el enlace al documento o recurso con los resultados obtenidos.
+- **Evaluaciones según heurísticas:** [EVIDENCIA POR AGREGAR] — Incorporar el enlace a las evaluaciones realizadas sobre la experiencia de usuario de BodeGo.
+- **Evidencias de observaciones y correcciones del Frontend:** [EVIDENCIA POR AGREGAR] — Incorporar las capturas o el registro de las mejoras efectuadas.
+
+## Anexo D. Materiales de ideación y diseño
+
+- **Big Picture EventStorming y Design-Level EventStorming:** https://miro.com/app/board/uXjVHm55KfI=/
+- **Proyecto de diseño UX/UI de BodeGo en Figma:** https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=4-2&t=ZKhGhyVBP4tT2C8g-1
+- **Wireframes de la aplicación web:** https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=4-2&t=ZKhGhyVBP4tT2C8g-1
+- **Wireflow Diagrams de la aplicación web:** https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=9-8766&t=ZKhGhyVBP4tT2C8g-1
+- **Mock-ups de la aplicación web:** https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=4-2&t=ZKhGhyVBP4tT2C8g-1
+- **Diseños de la Landing Page:** https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=4-2&t=ZKhGhyVBP4tT2C8g-1
+- **Prototipado y diseños de navegación de BodeGo:** https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=4-2&t=ZKhGhyVBP4tT2C8g-1
+
+## Anexo E. Repositorios y despliegues
+
+### Repositorios de GitHub
+
+- **Repositorio del informe del proyecto:** https://github.com/SirEthan04/Proxy_Open_Source
+- **Archivo principal Report.md:** https://github.com/SirEthan04/Proxy_Open_Source/blob/main/Report.md
+- **Repositorio de la Landing Page:** https://github.com/SirEthan04/Proxy_Open_Source_LandingPage
+- **Repositorio del Frontend:** https://github.com/SirEthan04/Proxy_Open_Source_Front-end
+- **Repositorio de la Web Application:** https://github.com/SirEthan04/Proxy_Open_Source_Web-Application
+- **Repositorio del Backend REST:** https://github.com/Bleim-154/bodego-platform-backend
+- **Historial de commits del Backend:** https://github.com/Bleim-154/bodego-platform-backend/commits/master/
+
+### Despliegues de la aplicación
+
+- **Despliegue de la Landing Page:** https://sirethan04.github.io/Proxy_Open_Source_LandingPage/
+- **Despliegue del Frontend Web de BodeGo:** https://proxy-open-source.web.app/dashboard
+- **Despliegue público del Backend REST:** [EVIDENCIA POR AGREGAR] — Incorporar la URL del servicio cuando se encuentre desplegado y se haya verificado su funcionamiento.
+- **Documentación Swagger/OpenAPI del Backend:** [EVIDENCIA POR AGREGAR] — Incorporar el enlace a la documentación REST cuando se encuentre disponible.
+
+### Gestión del proyecto
+
+- **Tablero de Sprint Backlogs de BodeGo:** https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509f8439a763ed2f3081F674FEDD/bodego
+- **Evidencia del Sprint Backlog 1:** https://github.com/SirEthan04/Proxy_Open_Source/blob/main/Recursos/images/EvidenciaSprintBacklog%20N1.jpg
+
+## Anexo F. Herramientas utilizadas
+
+- **Discord**, para la comunicación y coordinación de actividades del equipo: https://discord.com/
+- **Trello**, para la gestión de los Sprint Backlogs y seguimiento de tareas: https://trello.com/
+- **Miro**, para la elaboración de Big Picture EventStorming y Design-Level EventStorming: https://miro.com/
+- **Figma**, para wireframes, wireflows, mock-ups y prototipos de la aplicación: https://www.figma.com/
+- **UXPressia**, para el desarrollo de User Personas y User Journey Maps: https://uxpressia.com/
+- **Lucidchart**, para la elaboración de diagramas de arquitectura y diseño: https://lucid.co/es/lucidchart
+- **GitHub**, para el control de versiones y la colaboración del equipo: https://github.com/
+- **GitHub Desktop**, para la gestión local de repositorios y commits: https://github.com/apps/desktop?locale=es-419
+- **GitHub Pages**, para el despliegue de la Landing Page: https://pages.github.com/
+- **IntelliJ IDEA**, como entorno de desarrollo para aplicaciones Java y Spring Boot: https://www.jetbrains.com/es-es/idea/download/?section=windows
+
+## Anexo G. Referencias bibliográficas con enlace
+
+### Recursos técnicos referenciados en el informe
+
+- **Documentación sobre HTML5:** https://www.esic.edu/rethink/tecnologia/html5-que-es-caracteristicas-y-como-funciona-c
+- **Documentación de CSS - MDN Web Docs:** https://developer.mozilla.org/es/docs/Web/CSS
+- **Documentación de JavaScript - MDN Web Docs:** https://developer.mozilla.org/es/docs/Web/JavaScript
+- **Documentación y herramientas de IntelliJ IDEA:** https://www.jetbrains.com/es-es/idea/download/?section=windows
+
+**Nota:** Las referencias bibliográficas completas deben incorporarse a la sección Bibliografía del informe, siguiendo el formato APA solicitado por la rúbrica oficial.
