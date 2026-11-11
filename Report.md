@@ -2396,6 +2396,186 @@ Enlace: https://proxy-open-source.web.app/dashboard
 ![Estructura / TeamColaborations](Recursos/images/TeamColaborationsSprint2.jpg)
 
 ---
+## 5.2.3. Sprint 3
+
+**Sprint 3 – Desarrollo de los servicios Backend de BodeGo**
+
+Durante el Sprint 3 se planificó desarrollar los servicios REST asociados al catálogo, las categorías, los lotes, los movimientos de inventario, las mermas, los conteos físicos y las solicitudes de corrección. El objetivo es trasladar al Backend la lógica del negocio requerida por las interfaces elaboradas en el Sprint 2 y facilitar la persistencia y consulta de la información mediante una API.
+
+#### 5.2.3.1. Sprint Planning 3
+
+El Sprint Planning permitió organizar y definir las actividades que serían desarrolladas durante el Sprint 3 de BodeGo.
+
+Durante esta reunión, se estableció como objetivo principal implementar los servicios REST del Backend de BodeGo para la gestión de productos, categorías, lotes, inventario, movimientos, mermas y conteos físicos, así como el registro y revisión de solicitudes de corrección.
+
+Estas actividades corresponden a las User Stories US16–US34 y las Technical Stories TS02–TS09.
+
+| **Sprint #** | **Sprint 3** |
+|---|---|
+| **Sprint Planning Background** | El Sprint tiene como objetivo desarrollar los servicios principales del Backend de BodeGo, implementando operaciones REST para productos, categorías, lotes, disponibilidad de inventario, movimientos, ajustes de stock, mermas, conteos físicos y solicitudes de corrección. |
+| **Date** | 8/11/2026 |
+| **Time** | 2:00 pm |
+| **Location** | Discord |
+| **Prepared By** | Equipo de desarrollo BodeGo |
+| **Attendees (to planning meeting)** | Dany / Mateo / Jhorch / Johan / Gior |
+| **Sprint 2 Review Summary** | Durante el Sprint 2 se desarrollaron las vistas principales del Frontend Web de BodeGo, incluyendo Dashboard, navegación, inventario, productos, operaciones, alertas, reportes y negocios. Las tareas de integración inicial del catálogo correspondientes a TS01 quedaron registradas como pendientes en el Sprint Backlog compartido. |
+| **Sprint 2 Retrospective Summary** | Se identificó la necesidad de integrar las vistas del Frontend con servicios REST reales, mantener la coherencia entre los modelos del inventario y las rutas de la API, y mejorar la validación y el seguimiento de las operaciones implementadas. |
+| **Sprint Goal & User Stories** ||
+| **Sprint 3 Goal** | Desarrollar los servicios REST principales de BodeGo para registrar, consultar y actualizar productos, categorías y lotes; gestionar la disponibilidad y los movimientos de inventario; registrar mermas, ajustes y conteos físicos; y administrar solicitudes de corrección, aplicando validaciones y manteniendo la trazabilidad operativa. Historias planificadas: US16–US34 y TS02–TS09. |
+| **Sprint 3 Velocity** | 103 Story Points (estimación del trabajo comprometido para el Sprint 3). |
+| **Sum of Story Points** | 103 Story Points (71 SP de User Stories y 32 SP de Technical Stories). |
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+Durante el Sprint 3 se identificaron los principales aspectos de trabajo necesarios para implementar el Backend de BodeGo, utilizando Java, Spring Boot y una arquitectura basada en Domain-Driven Design (DDD).
+
+Las responsabilidades se distribuyeron considerando las User Stories US16–US34 y las Technical Stories TS02–TS09, relacionadas con la implementación de servicios REST para productos, categorías, lotes, inventario, movimientos, mermas, conteos físicos, ajustes de stock y solicitudes de corrección.
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Backend Architecture & Catalog Services** | **Inventory, Lots & Stock Management** | **Movements, Wastes & Stock Adjustments** | **Physical Counts & Corrections** | **API Testing & Documentation** |
+|---|---|---|---|---|---|---|
+| Dany Chavez | Danysss-cmd | C | C | C | C | L |
+| Mateo Caldas | Ethan.Matt | C | C | L | C | C |
+| Yorch Blanco | Bleim-154 | L | C | C | C | C |
+| Johan Saravia | yowuan | C | L | C | C | C |
+| Giordano Trejo | igogriogriorgiori | C | C | C | L | C |
+
+#### 5.2.3.3. Sprint Backlog 3
+
+Durante el Sprint 3, las actividades estuvieron orientadas a la implementación de los servicios REST del Backend de BodeGo para productos, categorías, lotes, movimientos, mermas, ajustes de stock, conteos físicos y solicitudes de corrección.
+
+Evidencia
+
+Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509f8439a763ed2f3081F674FEDD/bodego
+
+---
+
+| **User Story ID** | **Story Title** | **Task ID** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|---|---|---|---|---|---:|---|---|
+| US16 | Registro de Productos | TSK025 | Implement product registration | Implementar el registro de productos mediante `POST /api/v1/products` y verificar los campos requeridos y la categoría asociada. | 4 | Jhorch | To Review |
+| US17 | Actualización de Productos | TSK026 | Implement product update | Actualizar la información del producto mediante PUT /api/v1/products/{id} y validar la existencia del recurso. | 4 | Jhorch | To Review |
+| US18 | Desactivación de Productos | TSK027 | Implement product status | Implementar la activación y desactivación lógica del producto mediante PATCH sin eliminar su historial. | 3 | Jhorch | To Review |
+| US19 | Clasificación de Productos por Categoría | TSK028 | Implement product category association | Asociar productos a categorías existentes, comprobando la relación con el mismo negocio y las validaciones del catálogo. | 5 | Jhorch | To Review |
+| TS02 | Gestión REST de Productos | TSK029 | Implement products REST contract | Revisar controladores, DTO/assemblers y manejo de respuestas para el ciclo de registro, consulta y actualización de productos. | 5 | Jhorch | To Review |
+| TS03 | Gestión REST de Categorías | TSK030 | Implement categories REST contract | Preparar endpoints de categorías y validar solicitudes de consulta, creación, actualización y eliminación. | 4 | Jhorch | To Review |
+| US20 | Registro de Lotes | TSK031 | Implement lot registration | Registrar lotes mediante `POST /api/v1/lots`, asociados a productos activos. El código exige que **todo lote nuevo empiece con cantidad 0**; las existencias aumentan por movimientos posteriores. | 5 | Johan | Done |
+| US21 | Consulta de Lotes y Vencimientos | TSK032 | Implement lots search and expiration data | Consultar los lotes de un producto y sus fechas de vencimiento mediante `GET /api/v1/lots?productId={id}`. | 3 | Johan | To Review |
+| TS04 | Gestión REST de Lotes | TSK033 | Implement lots REST contract | Revisar los contratos REST `GET`, `POST` y `PUT` de `/api/v1/lots`, validando el vínculo con el producto, la fecha de vencimiento y la cantidad inicial cero. | 5 | Johan | To Review |
+| US22 | Consulta de Disponibilidad de Inventario | TSK034 | Implement available stock calculation | Implementar o validar la consulta de disponibilidad a partir de la suma de las cantidades de los lotes del producto; **no existe todavía un endpoint agregado específico de stock**. | 5 | Johan | In Process |
+| TS05 | Consulta REST de Disponibilidad de Inventario | TSK035 | Validate inventory availability queries | Verificar `GET /api/v1/lots?productId={id}` como consulta de lotes y documentar la necesidad de una consulta agregada si el Frontend la requiere. | 4 | Johan | In Process |
+| US23 | Registro de Entradas de Inventario | TSK036 | Implement inventory entry movement | Registrar entradas mediante `POST /api/v1/inventory-movements` y comprobar la lógica que incrementa la cantidad del lote. | 4 | Jhorch | Done |
+| US24 | Registro de Salidas de Inventario | TSK037 | Implement inventory exit movement | Registrar salidas mediante `POST /api/v1/inventory-movements` y revisar la disminución de cantidad del lote y el manejo de errores. | 5 | Jhorch | To Review |
+| US25 | Validación de Disponibilidad | TSK038 | Validate available quantity before exits | Verificar la regla que impide disminuir un lote por encima de su disponibilidad y su comportamiento ante cantidades inválidas. | 3 | Jhorch | Done |
+| US26 | Registro de Ajustes de Stock | TSK039 | Implement stock adjustments | Registrar ajustes a partir de un conteo físico, mediante `/api/v1/stock-adjustments`, creando el movimiento correspondiente y evitando ajustes duplicados. | 5 | Jhorch | Done |
+| US27 | Historial de Movimientos de Inventario | TSK040 | Implement inventory movement history | Consultar movimientos mediante `GET /api/v1/inventory-movements` y los filtros por `businessId` o `lotId` (no combinables). | 4 | Jhorch | To Review |
+| TS06 | Registro REST de Movimientos de Inventario | TSK041 | Implement movements REST contract | Revisar POST y GET de /api/v1/inventory-movements y su persistencia y trazabilidad. | 5 | Jhorch | To Review |
+| TS07 | Validación REST de Salidas y Ajustes | TSK042 | Validate exits and stock adjustments | Revisar los escenarios de salida sin stock, modificaciones del lote y diferencias de conteo; comprobar la respuesta HTTP real antes de documentar códigos de error. | 5 | Jhorch | To Review |
+| US28 | Registro de Mermas | TSK043 | Implement waste registration | Registrar mermas con `POST /api/v1/wastes`, asociando lote y cantidad, y generando una salida de inventario. | 4 | Jhorch | Done |
+| US29 | Clasificación de Motivos de Merma | TSK044 | Implement waste reason classification | Verificar los motivos disponibles en el modelo: `EXPIRED`, `DAMAGED`, `DETERIORATED` y `OTHER`. | 2 | Jhorch | To Review |
+| TS08 | Gestión REST de Mermas | TSK045 | Implement wastes REST contract | Revisar POST y GET de /api/v1/wastes, DTO/assemblers y casos inválidos. | 4 | Jhorch | To Review |
+| US30 | Registro de Conteo Físico | TSK046 | Implement physical count registration | Registrar conteos físicos con `POST /api/v1/physical-counts`, recuperando la cantidad actual del lote y conservando la cantidad contada y la observación. | 5 | Gior (por confirmar) | Done |
+| US31 | Cálculo de Diferencia de Inventario | TSK047 | Implement inventory count difference | Calcular y almacenar la diferencia `countedQuantity - systemQuantity` en el registro de conteo físico. | 3 | Gior (por confirmar) | Done |
+| US32 | Consulta del Historial de Conteos | TSK048 | Implement physical counts history | Consultar conteos físicos mediante `GET /api/v1/physical-counts` y filtros disponibles por negocio o lote. | 4 | Gior (por confirmar) | To Review |
+| US33 | Registro de Solicitudes de Corrección | TSK049 | Implement correction request registration | Crear solicitudes mediante `POST /api/v1/correction-requests`, referenciando un conteo con diferencia y evitando solicitudes pendientes duplicadas. | 5 | Gior (por confirmar) | Done |
+| US34 | Revisión de Solicitudes de Corrección | TSK050 | Implement correction request review | Aprobar o rechazar solicitudes mediante `PATCH /api/v1/correction-requests/{id}/review`. La aprobación puede aplicar un ajuste de stock; **la restricción por rol Administrador todavía debe verificarse**. | 5 | Gior (por confirmar) | Done |
+| TS09 | Gestión REST de Conteos Físicos y Solicitudes de Corrección | TSK051 | Implement physical counts and correction REST contract | Revisar contratos de conteos físicos y solicitudes de corrección, incluyendo errores de negocio, aprobación, rechazo y la autorización pendiente de integrar con IAM. | 6 | Gior (por confirmar) | To Review |
+| TS02, TS03 | Gestión REST de Productos / Gestión REST de Categorías | TSK052 | Test catalog REST operations | Preparar y ejecutar pruebas de controladores y reglas REST de productos y categorías (registro, duplicados, recurso no encontrado y datos inválidos). | 4 | Por asignar | To Do |
+| TS04, TS05 | Gestión REST de Lotes / Consulta REST de Disponibilidad de Inventario | TSK053 | Test lot and availability operations | Ampliar los tests existentes de creación de lote con cantidad cero y verificar la consulta por producto y los casos inválidos. | 4 | Por asignar | In Process |
+| TS06, TS07 | Registro REST de Movimientos de Inventario / Validación REST de Salidas y Ajustes | TSK054 | Test movement and stock validation | Ampliar las pruebas de movimientos y ajustes (entrada, salida, falta de stock y consistencia). Existen pruebas unitarias parciales; falta ejecución/evidencia del API. | 5 | Por asignar | In Process |
+| TS08 | Gestión REST de Mermas | TSK055 | Test waste REST operations | Completar las pruebas del registro de mermas, motivos permitidos y salida de inventario; conservar las evidencias de las respuestas reales. | 4 | Por asignar | In Process |
+| TS09 | Gestión REST de Conteos Físicos y Solicitudes de Corrección | TSK056 | Test physical counts and correction review | Completar pruebas de conteos, cálculo de diferencias, solicitudes pendientes, aprobación y rechazo, y verificar las respuestas del controlador. | 5 | Por asignar | In Process |
+| TS02–TS09 | Gestión REST de Productos / Gestión REST de Conteos Físicos y Solicitudes de Corrección | TSK057 | Document REST API with Swagger | Revisar Swagger/OpenAPI habilitado en dependencias y obtener capturas de las rutas del Sprint 3, verificando su disponibilidad con el backend ejecutándose. | 3 | Por asignar | In Process |
+| TS02–TS09 | Gestión REST de Productos / Gestión REST de Conteos Físicos y Solicitudes de Corrección | TSK058 | Verify local backend configuration | Comprobar la ejecución del backend, la compatibilidad del JDK configurado en `pom.xml`, la conexión con PostgreSQL y el arranque del servidor; registrar evidencia del resultado. | 4 | Por asignar | To Do |
+
+---
+
+#### 5.2.3.4. Development Evidence for Sprint Review.
+
+Durante el Sprint 3 se registraron avances en el desarrollo del Backend de BodeGo, relacionados con la configuración inicial del proyecto, el catálogo de productos, las operaciones de inventario, el monitoreo y los servicios de recomendaciones y ofertas estratégicas.
+
+EVIDENCIA
+Enlace: https://github.com/Bleim-154/bodego-platform-backend/commits/master/
+
+---
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on |
+|---|---|---|---|---|---|
+| Bleim-154/bodego-platform-backend | master | `d59adbf` | Primer commit | Inicialización del repositorio del Backend de BodeGo y establecimiento de la estructura inicial del proyecto. | 08/11/2026 |
+| Bleim-154/bodego-platform-backend | master | `0272e10` | Catalog | Primer avance del contexto de Catálogo, relacionado con la gestión de productos y categorías. | 08/11/2026 |
+| Bleim-154/bodego-platform-backend | master | `92a4a51` | Catalog | Continuación del desarrollo del contexto de Catálogo y sus componentes. | 10/11/2026 |
+| SirEthan04/bodego-platform-backend | master | `c526cb9` | operations | Incorporación de cambios relacionados con el contexto de Operaciones del Backend. | 10/11/2026 |
+| Bleim-154/bodego-platform-backend | master | `bfbb78c` | feature/monitoring | Avance en el desarrollo de funcionalidades correspondientes al módulo de monitoreo. | 10/11/2026 |
+| Danysss-cmd/bodego-platform-backend | master | `9ad4570` | context | Modificaciones relacionadas con la organización de los contextos del Backend de BodeGo. | 10/11/2026 |
+| Danysss-cmd/bodego-platform-backend | master | `304d1ff` | feat(strategic-offers): implement domain aggregates and value objects | Implementación de agregados de dominio y objetos de valor para recomendaciones y ofertas estratégicas. | 10/11/2026 |
+| Danysss-cmd/bodego-platform-backend | master | `0f1c757` | feat(strategic-offers): define commands queries and domain service contracts | Definición de comandos, consultas y contratos de servicios de dominio para las funcionalidades estratégicas. | 10/11/2026 |
+| Danysss-cmd/bodego-platform-backend | master | `4bf7c3b` | feat(strategic-offers): implement JPA repositories and recommendation locking | Incorporación de repositorios JPA y mecanismos de bloqueo para la gestión de recomendaciones. | 10/11/2026 |
+| Danysss-cmd/bodego-platform-backend | master | `e394670` | feat(strategic-offers): integrate catalog and monitoring through ACL | Integración entre los contextos de Catálogo y Monitoreo mediante una capa anticorrupción (ACL). | 10/11/2026 |
+| Danysss-cmd/bodego-platform-backend | master | `5f9017c` | feat(strategic-offers): implement offer and recommendation application services | Implementación de servicios de aplicación para la gestión de ofertas y recomendaciones estratégicas. | 10/11/2026 |
+| Danysss-cmd/bodego-platform-backend | master | `08f850b` | feat(strategic-offers): expose offers and recommendations REST endpoints | Exposición de endpoints REST para consultar y administrar ofertas y recomendaciones. | 10/11/2026 |
+| Danysss-cmd/bodego-platform-backend | master | `01b124b` | test(strategic-offers): add automated tests and implementation documentation | Incorporación de pruebas automatizadas y documentación técnica de las funcionalidades estratégicas. | 10/11/2026 |
+| yowuan/bodego-platform-backend | master | `e33db52` | separate invetory from catalog. | Separación del contexto de Inventario respecto del contexto de Catálogo para diferenciar sus responsabilidades. | 10/11/2026 |
+
+---
+#### 5.2.3.5. Execution Evidence for Sprint Review
+---
+Durante el Sprint 3 se desarrolló la primera versión de los servicios REST del Backend de BodeGo, orientada a la gestión del catálogo, los lotes y las operaciones de inventario.
+EVIDENCIAS SPRINT REVIEW
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+Durante el Sprint 3 se avanzó en la implementación y documentación de los servicios REST del Backend de BodeGo.
+Estos servicios permiten gestionar productos, categorías, lotes y operaciones de inventario, además de registrar mermas, conteos físicos y solicitudes de corrección.
+
+---
+
+**Servicios REST correspondientes al Sprint 3**
+
+| **Technical Story** | **Módulo** | **Método HTTP** | **Endpoint** | **Descripción** |
+|---|---|---|---|---|
+| TS02 | Productos | GET, POST | `/api/v1/products` | Consultar y registrar productos. |
+| TS02 | Productos | GET, PUT | `/api/v1/products/{id}` | Consultar y actualizar un producto. |
+| TS02 | Productos | PATCH | `/api/v1/products/{id}/activate` | Activar un producto. |
+| TS02 | Productos | PATCH | `/api/v1/products/{id}/deactivate` | Desactivar un producto. |
+| TS03 | Categorías | GET, POST | `/api/v1/categories` | Consultar y registrar categorías. |
+| TS03 | Categorías | GET, PUT, DELETE | `/api/v1/categories/{id}` | Consultar, modificar y eliminar una categoría. |
+| TS04 | Lotes | GET, POST | `/api/v1/lots` | Consultar y registrar lotes. |
+| TS04 | Lotes | GET, PUT | `/api/v1/lots/{id}` | Consultar y actualizar un lote. |
+| TS05 | Disponibilidad de inventario | GET | `/api/v1/lots?productId={id}` | Consultar los lotes de un producto y sus cantidades disponibles. |
+| TS06 | Movimientos de inventario | GET, POST | `/api/v1/inventory-movements` | Consultar y registrar movimientos. |
+| TS06 | Movimientos de inventario | GET | `/api/v1/inventory-movements/{id}` | Consultar un movimiento. |
+| TS07 | Ajustes de stock | GET, POST | `/api/v1/stock-adjustments` | Consultar y registrar ajustes de stock. |
+| TS07 | Ajustes de stock | GET | `/api/v1/stock-adjustments/{id}` | Consultar un ajuste. |
+| TS08 | Mermas | GET, POST | `/api/v1/wastes` | Consultar y registrar mermas. |
+| TS08 | Mermas | GET | `/api/v1/wastes/{id}` | Consultar una merma. |
+| TS09 | Conteos físicos | GET, POST | `/api/v1/physical-counts` | Consultar y registrar conteos físicos. |
+| TS09 | Conteos físicos | GET | `/api/v1/physical-counts/{id}` | Consultar un conteo físico. |
+| TS09 | Solicitudes de corrección | GET, POST | `/api/v1/correction-requests` | Consultar y registrar solicitudes de corrección. |
+| TS09 | Solicitudes de corrección | GET | `/api/v1/correction-requests/{id}` | Consultar una solicitud. |
+| TS09 | Solicitudes de corrección | PATCH | `/api/v1/correction-requests/{id}/review` | Revisar una solicitud de corrección. |
+
+EVIDENCIAS
+
+---
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+Durante el Sprint 3 se preparó la primera versión del Backend de BodeGo, desarrollada con Java y Spring Boot, para su ejecución y posterior publicación como servicio REST.
+
+Esta versión está orientada a las funcionalidades de catálogo, inventario, movimientos, lotes, mermas, conteos físicos y solicitudes de corrección, correspondientes a las User Stories US16–US34 y las Technical Stories TS02–TS09.
+
+El propósito de esta sección es presentar las evidencias de configuración, ejecución y despliegue de los servicios disponibles al cierre del Sprint 3.
+
+EVIDENCIAS
+
+---
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+---
+
+EVIDENCIA
+
+---
+
 
 # Conclusiones
 
