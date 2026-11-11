@@ -2419,6 +2419,14 @@ Estas funcionalidades están diseñadas para disminuir los errores en el registr
 
 ---
 
+# Video About-the-Product
+
+[![BodeGo - About the Product](https://img.youtube.com/vi/VCTRhL0PRmo/hqdefault.jpg)](https://youtu.be/VCTRhL0PRmo)
+
+[Ver video en YouTube](https://youtu.be/VCTRhL0PRmo)
+
+---
+
 # Bibliografía
 
 ---
