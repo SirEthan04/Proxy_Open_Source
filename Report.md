@@ -2507,7 +2507,7 @@ Durante el Sprint 3, el equipo planificó la implementación y verificación de 
 
 El sprint comprende 29 User Stories (US16–US34 y US51–US60) y 8 Technical Stories (TS02–TS09), que representan 154 Story Points. Cada US tiene exactamente dos tareas propias, sin tareas compartidas. Las TS cuentan también con dos tareas específicas cada una. La numeración comienza en TSK035, porque las 34 tareas anteriores pertenecen a los Sprints 1 y 2.
 
-[Evidencia](https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509f8439a763ed2f3081F674FEDD/bodego)
+![Evidencia Sprint Backlog N3](Recursos/images/sprintbacklogN3OP.jpg)
 
 Enlace: [https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509f8439a763ed2f3081F674FEDD/bodego](https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509f8439a763ed2f3081F674FEDD/bodego)
 
