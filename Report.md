@@ -1486,6 +1486,18 @@ Enlace de Figma: https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy
 
 ## 4.5. Web Applications Prototyping
 
+---
+
+![WireflowApp](Recursos/images/wireflowapp45.jpg)
+
+Enlance de Figma: https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=4-2&t=ZKhGhyVBP4tT2C8g-1
+
+![PrototypingVideo](Recursos/images/prototypingvideo.jpg)
+
+Enlace del video: 
+
+---
+
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level EventStorming
 ![Estructura / Captura 1](Recursos/images/es1.png)
@@ -2454,7 +2466,7 @@ Enlace: https://proxy-open-source.web.app/dashboard
 
 **Sprint 3 – Desarrollo de los servicios Backend de BodeGo**
 
-Durante el Sprint 3 se planificó desarrollar los servicios REST asociados al catálogo, las categorías, los lotes, los movimientos de inventario, las mermas, los conteos físicos y las solicitudes de corrección. El objetivo es trasladar al Backend la lógica del negocio requerida por las interfaces elaboradas en el Sprint 2 y facilitar la persistencia y consulta de la información mediante una API.
+Durante el Sprint 3 se planificó avanzar en el desarrollo de los servicios REST del Backend de BodeGo, con el propósito de implementar la lógica de negocio necesaria para gestionar el inventario y sus principales operaciones. Asimismo, se realizaron mejoras en la Landing Page y el Frontend Web, orientadas a fortalecer la presentación del producto, optimizar la experiencia de usuario y mejorar las funcionalidades existentes.
 
 #### 5.2.3.1. Sprint Planning 3
 
@@ -2515,9 +2527,9 @@ Enlace: [https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c1950
 
 #### 5.2.3.3. Sprint Backlog 3
 
-Durante el Sprint 3, el equipo planificó la implementación de los servicios REST del Backend de BodeGo para productos, categorías, lotes, inventario, movimientos, mermas, conteos físicos y solicitudes de corrección. También incorporó las mejoras de la Landing Page (US51–US53) y del Frontend Web (US54–US60).
+Durante el Sprint 3, el equipo planificó el desarrollo de los principales servicios REST del Backend de BodeGo, orientados a la gestión del catálogo, inventario y operaciones del negocio. Asimismo, se incorporaron mejoras en la Landing Page, correspondientes a las **User Stories US51–US53**, y en el Frontend Web, correspondientes a las **US54–US60**, con el propósito de fortalecer la presentación del producto y mejorar la experiencia de usuario.
 
-El sprint reúne **29 User Stories (US16–US34 y US51–US60)** y **8 Technical Stories (TS02–TS09)**, con **154 Story Points planificados**. Las User Stories se presentan primero y las Technical Stories al final. Cada historia cuenta con exactamente dos tareas exclusivas, identificadas consecutivamente desde TSK035 hasta TSK108.
+El sprint comprende **29 User Stories (US16–US34 y US51–US60)** y **8 Technical Stories (TS02–TS09)**, con un total de **154 Story Points planificados**.
 
 ---
 
