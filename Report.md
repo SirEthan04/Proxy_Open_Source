@@ -2179,8 +2179,8 @@ Durante el Sprint 1, las actividades estuvieron orientadas al desarrollo de la p
 
 El objetivo principal fue transformar los wireframes y mockups previamente diseñados en una interfaz web funcional que permita comunicar la propuesta de valor del producto, presentar sus principales funcionalidades y captar potenciales usuarios interesados en la solución.
 
-![Evidencia Sprint Backlog n1](https://github.com/SirEthan04/Proxy_Open_Source/blob/main/Recursos/images/EvidenciaSprintBacklog%20N1.jpg)
-Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509f8439a763ed2f3081F674FEDD/bodego
+![Evidencia Sprint Backlog N1](Recursos/images/sprintbacklogN1OP.jpg)
+Enlace: [https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509f8439a763ed2f3081F674FEDD/bodego](https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509f8439a763ed2f3081F674FEDD/bodego)
 
 ---
 
@@ -2321,9 +2321,9 @@ Durante el Sprint 2, las actividades estuvieron orientadas al desarrollo de la p
 
 El objetivo principal fue implementar las principales vistas de la aplicación y permitir la navegación entre sus diferentes módulos.
 
-![Evidencia Sprint Backlog N2](Recursos/images/Evidencia%20Sprint%20Backlog%20n2.jpg)
+![Evidencia Sprint Backlog N2](Recursos/images/sprintbacklogN2OP.jpg)
 
-Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509f8439a763ed2f3081F674FEDD/bodego
+Enlace: [https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509f8439a763ed2f3081F674FEDD/bodego](https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509f8439a763ed2f3081F674FEDD/bodego)
 
 ---
 
@@ -2507,9 +2507,9 @@ Durante el Sprint 3, el equipo planificó la implementación y verificación de 
 
 El sprint comprende 29 User Stories (US16–US34 y US51–US60) y 8 Technical Stories (TS02–TS09), que representan 154 Story Points. Cada US tiene exactamente dos tareas propias, sin tareas compartidas. Las TS cuentan también con dos tareas específicas cada una. La numeración comienza en TSK035, porque las 34 tareas anteriores pertenecen a los Sprints 1 y 2.
 
-Evidencia
+[Evidencia](https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509f8439a763ed2f3081F674FEDD/bodego)
 
-Enlace: https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509f8439a763ed2f3081F674FEDD/bodego
+Enlace: [https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509f8439a763ed2f3081F674FEDD/bodego](https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509f8439a763ed2f3081F674FEDD/bodego)
 
 ---
 
@@ -2830,6 +2830,7 @@ Universidad Peruana de Ciencias Aplicadas. (2026). *Enunciado del trabajo final:
 - **Mock-ups de la aplicación web:** https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=4-2&t=ZKhGhyVBP4tT2C8g-1
 - **Diseños de la Landing Page:** https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=4-2&t=ZKhGhyVBP4tT2C8g-1
 - **Prototipado y diseños de navegación de BodeGo:** https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Proxy?node-id=4-2&t=ZKhGhyVBP4tT2C8g-1
+- **Sprint Backlog distribuido desde Trello:** https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509f8439a763ed2f3081F674FEDD/bodego
 
 ## Anexo E. Repositorios y despliegues
 
