@@ -2750,13 +2750,13 @@ A continuación, se presentan los endpoints correspondientes al Sprint 3, detall
 
 ---
 
-![Estructura / selecuser](Recursos/images/endpointsEV1.jpg)
+![Estructura / selecuser](Recursos/images/endpointsEv1.jpg)
 
-![Estructura / selecuser](Recursos/images/endpointsEV2.jpg)
+![Estructura / selecuser](Recursos/images/endpointsEv2.jpg)
 
-![Estructura / selecuser](Recursos/images/endpointsEV3.jpg)
+![Estructura / selecuser](Recursos/images/endpointsEv3.jpg)
 
-![Estructura / selecuser](Recursos/images/endpointsEV4.jpg)
+![Estructura / selecuser](Recursos/images/endpointsEv4.jpg)
 
 ---
 
