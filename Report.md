@@ -2849,9 +2849,131 @@ Durante el Sprint 3, el equipo trabajó en la implementación de los servicios R
 
 ### 5.3.3. Evaluaciones según heurísticas
 
-En este apartado se presentan las evaluaciones de usabilidad de BodeGo basadas en principios heurísticos, con el propósito de identificar dificultades de interacción, problemas de navegación y oportunidades de mejora en las interfaces del sistema.
+**BodeGo - Landing Page y Aplicación Web**
 
-**[EVIDENCIA POR AGREGAR]**
+La evaluación se realizó tomando como referencia las entrevistas de validación de los segmentos Administradores y Empleados de minimarkets, considerando las opiniones de Ian Figueroa, Silvia Bravo, Andrés Marzano y Joseph.
+
+#### TAREAS A EVALUAR
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Explorar la Landing Page y comprender la propuesta de valor de BodeGo.
+2. Navegar por el Dashboard y consultar los indicadores del inventario.
+3. Buscar productos y revisar sus categorías.
+4. Consultar lotes y fechas de vencimiento.
+5. Revisar alertas y movimientos de inventario.
+6. Realizar conteos físicos y gestionar solicitudes de corrección.
+7. Registrar mermas.
+8. Explorar recomendaciones y ofertas.
+
+#### ESCALA DE SEVERIDAD
+
+Los problemas identificados se clasifican utilizando la siguiente escala:
+
+| Nivel | Descripción                                                                                                         |
+| ----- | ------------------------------------------------------------------------------------------------------------------- |
+| **1** | **Problema superficial:** No impide utilizar la aplicación y puede resolverse fácilmente.                           |
+| **2** | **Problema menor:** Puede generar pequeñas dificultades de uso, pero permite continuar con las actividades.         |
+| **3** | **Problema mayor:** Dificulta considerablemente completar una tarea y requiere una corrección prioritaria.          |
+| **4** | **Problema muy grave:** Impide continuar utilizando una funcionalidad importante y requiere una corrección urgente. |
+
+#### TABLA RESUMEN
+
+| # | Problema                                                                                                      | Escala de severidad | Heurística / Principio violado     |
+| - | ------------------------------------------------------------------------------------------------------------- | :-----------------: | ---------------------------------- |
+| 1 | Algunas opciones de conteos físicos, ajustes y solicitudes de corrección requieren mayor orientación inicial. |          2          | Ayuda y documentación              |
+| 2 | Las alertas importantes podrían destacarse mejor en el Dashboard.                                             |          2          | Visibilidad del estado del sistema |
+| 3 | Los lotes próximos a vencer podrían identificarse más rápidamente mediante indicadores visuales.              |          1          | Reconocimiento antes que recuerdo  |
+| 4 | El botón para ingresar a la aplicación desde la Landing Page podría ser más visible.                          |          1          | Reconocimiento antes que recuerdo  |
+
+#### DESCRIPCIÓN DE PROBLEMAS
+
+**PROBLEMA #1: Orientación inicial en conteos físicos y solicitudes de corrección**
+
+**Severidad:** 2
+**Heurística relacionada:** Ayuda y documentación.
+
+**Problema:**
+
+Durante las entrevistas, algunos participantes señalaron que inicialmente necesitaron explorar las opciones de conteos físicos, ajustes y solicitudes de corrección para comprender sus diferencias. Sin embargo, después de revisar las funcionalidades, lograron entender su propósito y continuar utilizando la plataforma.
+
+**Recomendación:**
+
+Incorporar pequeñas descripciones o mensajes de ayuda que expliquen cuándo utilizar cada funcionalidad, facilitando el aprendizaje de los usuarios nuevos.
+
+**Captura de pantalla:**
+<p align="center">
+  <img src="Recursos/images/heuristica1.png" alt="Evidencia de conteos físicos y solicitudes de corrección" width="650">
+</p>
+
+---
+
+**PROBLEMA #2: Visibilidad de alertas importantes en el Dashboard**
+
+**Severidad:** 2
+**Heurística relacionada:** Visibilidad del estado del sistema.
+
+**Problema:**
+
+Ian Figueroa sugirió que las alertas más importantes, como los productos con stock bajo o próximos a vencer, tengan mayor presencia en el Dashboard. Esto permitiría identificar rápidamente las situaciones que requieren atención.
+
+**Recomendación:**
+
+Destacar las alertas prioritarias mediante indicadores visuales o tarjetas informativas dentro del panel principal, facilitando su identificación.
+
+**Captura de pantalla:**
+<p align="center">
+  <img src="Recursos/images/heuristica1.png" alt="Evidencia de conteos físicos y solicitudes de corrección" width="650">
+</p>
+
+---
+
+**PROBLEMA #3: Identificación visual de lotes próximos a vencer**
+
+**Severidad:** 1
+**Heurística relacionada:** Reconocimiento antes que recuerdo.
+
+**Problema:**
+
+Joseph consideró que la información de los lotes es clara y fácil de comprender. No obstante, recomendó resaltar los lotes próximos a vencer para identificarlos más rápidamente, sin tener que revisar individualmente todas las fechas.
+
+**Recomendación:**
+
+Incorporar etiquetas o indicadores de color acompañados de texto que permitan diferenciar los lotes vigentes, próximos a vencer y vencidos.
+
+**Captura de pantalla:**
+<p align="center">
+  <img src="Recursos/images/heuristica1.png" alt="Evidencia de conteos físicos y solicitudes de corrección" width="650">
+</p>
+
+---
+
+**PROBLEMA #4: Visibilidad del acceso a la aplicación desde la Landing Page**
+
+**Severidad:** 1
+**Heurística relacionada:** Reconocimiento antes que recuerdo.
+
+**Problema:**
+
+Ian Figueroa destacó que la Landing Page presenta información organizada y un diseño agradable. Como oportunidad de mejora, comentó que el botón para ingresar a BodeGo podría ser más visible para los usuarios que visitan la página por primera vez.
+
+**Recomendación:**
+
+Destacar el botón **«Ingresar a BodeGo»** en una ubicación visible de la Landing Page, facilitando el acceso directo a la aplicación.
+
+**Captura de pantalla:**
+<p align="center">
+  <img src="Recursos/images/heuristica1.png" alt="Evidencia de conteos físicos y solicitudes de corrección" width="650">
+</p>
+
+#### CONCLUSIONES DE LA EVALUACIÓN HEURÍSTICA
+
+Las entrevistas de validación reflejaron una percepción positiva sobre la usabilidad de BodeGo. Los participantes destacaron la organización de la información, la facilidad de navegación y la utilidad de las funcionalidades relacionadas con productos, lotes, inventario y alertas de vencimiento.
+
+Se identificaron únicamente **cuatro oportunidades de mejora**, clasificadas con severidades 1 y 2, relacionadas principalmente con la orientación inicial y la visibilidad de información importante.
+
+En general, los entrevistados consideraron que BodeGo es una plataforma comprensible y útil para mejorar la gestión de inventarios en minimarkets. Las recomendaciones recopiladas permitirán perfeccionar la experiencia de usuario sin requerir cambios significativos en la estructura general de la aplicación.
+
 
 ## 5.4. Video About-the-Product
 
@@ -2878,14 +3000,6 @@ Estas funcionalidades están diseñadas para disminuir los errores en el registr
 ---
 
 # Video About-the-Team
-
----
-
-# Video About-the-Product
-
-[![BodeGo - About the Product](https://img.youtube.com/vi/VCTRhL0PRmo/hqdefault.jpg)](https://youtu.be/VCTRhL0PRmo)
-
-[Ver video en YouTube](https://youtu.be/VCTRhL0PRmo)
 
 ---
 
