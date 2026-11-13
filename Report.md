@@ -2820,15 +2820,60 @@ A continuación, se presentan los endpoints correspondientes al Sprint 3, detall
 
 ---
 
-#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-Durante el Sprint 3 se preparó la primera versión del Backend de BodeGo, desarrollada con Java y Spring Boot, para su ejecución y posterior publicación como servicio REST.
+Durante el Sprint 3 se realizaron actividades de configuración y despliegue de los productos digitales de BodeGo utilizando la plataforma Render. Se configuró una base de datos PostgreSQL y se publicó una primera versión del Backend desarrollado con Java y Spring Boot. Asimismo, se realizó el despliegue del Frontend Web para disponer de una versión accesible en línea.
 
-Esta versión está orientada a las funcionalidades de catálogo, inventario, movimientos, lotes, mermas, conteos físicos y solicitudes de corrección, correspondientes a las User Stories US16–US34 y las Technical Stories TS02–TS09.
+A continuación, se describen los pasos realizados y se presentan las evidencias correspondientes.
 
-El propósito de esta sección es presentar las evidencias de configuración, ejecución y despliegue de los servicios disponibles al cierre del Sprint 3.
+**Paso 1. Configuración de la base de datos PostgreSQL**
 
-EVIDENCIAS
+Se configuró una base de datos PostgreSQL en Render para permitir el almacenamiento y la persistencia de la información utilizada por el Backend. En la sección *Connections* se muestran los parámetros necesarios para establecer la conexión, incluyendo el host, puerto, nombre de la base de datos y direcciones de conexión.
+
+![Estructura / selecuser](Recursos/images/deployOP1.jpg)
+*Configuración de la base de datos PostgreSQL en Render.*
+
+**Paso 2. Configuración del servicio Backend en Render**
+
+Se configuró el servicio web `bodego-platform-backend` en Render, estableciendo los parámetros generales necesarios para su ejecución. Se seleccionó la región Oregon (US West) y se preparó el servicio para alojar la API REST de BodeGo.
+
+![Estructura / selecuser](Recursos/images/deployOP2.jpg)
+*Configuración general del servicio Backend en Render.*
+
+**Paso 3. Vinculación del repositorio y configuración de Docker**
+
+Se vinculó el repositorio `Bleim-154/bodego-platform-backend` con Render, seleccionando la rama `master` como origen del despliegue. Asimismo, se configuró el uso de Docker mediante el archivo `Dockerfile`, permitiendo construir y ejecutar el Backend en el entorno de Render.
+
+![Estructura / selecuser](Recursos/images/deployOP3.jpg)
+*Configuración del repositorio de GitHub y del proceso de construcción mediante Docker.*
+
+**Paso 4. Configuración de variables de entorno**
+
+Se registraron las variables de entorno necesarias para el funcionamiento del Backend, incluyendo la conexión a PostgreSQL, la configuración de CORS y los parámetros generales de ejecución de Spring Boot. Esta configuración permite administrar los valores del entorno sin incorporarlos directamente en el código fuente.
+
+![Estructura / selecuser](Recursos/images/deployOP4.jpg)
+*Variables de entorno configuradas para el Backend de BodeGo.*
+
+**Paso 5. Ejecución del despliegue del Backend**
+
+Una vez configurado el servicio, se inició el proceso de despliegue en Render. Durante esta etapa se revisaron los registros de ejecución para verificar el inicio de Spring Boot, la inicialización de los componentes y el proceso de conexión con la base de datos.
+
+![Estructura / selecuser](Recursos/images/deployOP5.jpg)
+*Registros de ejecución durante el proceso de despliegue del Backend.*
+
+**Paso 6. Verificación del despliegue exitoso del Backend**
+
+Después de completar el proceso de despliegue, Render mostró el servicio Backend en estado **Deploy succeeded / Live**. Los registros permitieron confirmar el inicio de la aplicación y la disponibilidad del servicio en la plataforma.
+
+![Estructura / selecuser](Recursos/images/deployOP6.jpg)
+*Confirmación del despliegue exitoso del Backend de BodeGo en Render.*
+
+**Paso 7. Despliegue del Frontend Web**
+
+Adicionalmente, se realizó el despliegue del Frontend Web de BodeGo mediante Render. La plataforma ejecutó el proceso de construcción y publicación de la aplicación, mostrando posteriormente el estado **Deploy succeeded / Live**, que confirma la finalización exitosa del despliegue.
+
+![Estructura / selecuser](Recursos/images/deployOP7.jpg)
+*Confirmación del despliegue exitoso del Frontend Web de BodeGo en Render.*
 
 ---
 
