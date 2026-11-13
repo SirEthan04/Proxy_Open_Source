@@ -2903,7 +2903,7 @@ Incorporar pequeñas descripciones o mensajes de ayuda que expliquen cuándo uti
 
 **Captura de pantalla:**
 <p align="center">
-  <img src="Recursos/images/heuristica1.png" alt="Evidencia de conteos físicos y solicitudes de corrección" width="650">
+  <img src="Recursos/images/heuristica1.jpg" alt="Evidencia de conteos físicos y solicitudes de corrección" width="650">
 </p>
 
 ---
@@ -2923,7 +2923,7 @@ Destacar las alertas prioritarias mediante indicadores visuales o tarjetas infor
 
 **Captura de pantalla:**
 <p align="center">
-  <img src="Recursos/images/heuristica1.png" alt="Evidencia de conteos físicos y solicitudes de corrección" width="650">
+  <img src="Recursos/images/heuristica2.jpg" alt="Evidencia de conteos físicos y solicitudes de corrección" width="650">
 </p>
 
 ---
@@ -2943,7 +2943,7 @@ Incorporar etiquetas o indicadores de color acompañados de texto que permitan d
 
 **Captura de pantalla:**
 <p align="center">
-  <img src="Recursos/images/heuristica1.png" alt="Evidencia de conteos físicos y solicitudes de corrección" width="650">
+  <img src="Recursos/images/heuristica3.jpg" alt="Evidencia de conteos físicos y solicitudes de corrección" width="650">
 </p>
 
 ---
@@ -2963,7 +2963,7 @@ Destacar el botón **«Ingresar a BodeGo»** en una ubicación visible de la Lan
 
 **Captura de pantalla:**
 <p align="center">
-  <img src="Recursos/images/heuristica1.png" alt="Evidencia de conteos físicos y solicitudes de corrección" width="650">
+  <img src="Recursos/images/heuristica4.jpg" alt="Evidencia de conteos físicos y solicitudes de corrección" width="650">
 </p>
 
 #### CONCLUSIONES DE LA EVALUACIÓN HEURÍSTICA
