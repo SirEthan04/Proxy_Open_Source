@@ -2827,7 +2827,7 @@ Durante el Sprint 3, el equipo trabajó en la implementación de los servicios R
 
 | |
 |---|
-| ![Entrevista de validación a administrador](Recursos/images/ianvalidation.png) |
+| ![Entrevista de validación a Ian Figueroa](Recursos/images/ianvalidation.png) |
 | **Nombres y apellidos:** Ian figueroa <br> **Edad:** 21 años <br> **Distrito:** Pueblo libre <br><br> **Resumen de la entrevista:** <br><br> El entrevistado, administrador de un minimarket, participó en la validación de la Landing Page y el Frontend de BodeGo. Consideró que ambas interfaces presentan un diseño agradable, organizado y fácil de comprender. Destacó especialmente la gestión de productos, el control de lotes y las alertas de vencimiento, ya que estas funcionalidades permitirían mantener el inventario ordenado y prevenir pérdidas. <br><br> Durante la exploración del Frontend, señaló que la navegación es sencilla y que la información de productos y lotes resulta clara. Sin embargo, presentó algunas dificultades iniciales para comprender los movimientos de inventario y los conteos físicos. Como mejoras, sugirió incorporar explicaciones breves en ciertas opciones, hacer más visible el botón de acceso a la aplicación y mostrar las alertas importantes directamente en el Dashboard. En general, expresó una opinión favorable de BodeGo y consideró que sería útil para administrar un minimarket. <br><br> **URL:** https://drive.google.com/file/d/1QDDfA513IN4V9-ISeddfb7UXCcF5LJZo/view?usp=sharing |
 
 | |
