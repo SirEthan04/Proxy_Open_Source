@@ -2678,7 +2678,9 @@ Durante el Sprint 3 se avanzó en la implementación de los servicios REST del B
 
 Durante este sprint se incorporaron mejoras en la presentación visual de BodeGo, permitiendo mostrar de manera más clara las características de la plataforma y sus principales módulos.
 
+![Estructura / landingmejora ](Recursos/images/landingUp1.jpg)
 
+![Estructura / landingmejora ](Recursos/images/landingUp2.jpg)
 
 ---
 
