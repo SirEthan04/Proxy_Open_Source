@@ -2827,24 +2827,24 @@ Durante el Sprint 3, el equipo trabajó en la implementación de los servicios R
 
 | |
 |---|
-| ![Entrevista de validación a administrador](Recursos/images/Administrador-Validacion.png) |
+| ![Entrevista de validación a Ian Figueroa](Recursos/images/ianvalidation.png) |
 | **Nombres y apellidos:** Ian figueroa <br> **Edad:** 21 años <br> **Distrito:** Pueblo libre <br><br> **Resumen de la entrevista:** <br><br> El entrevistado, administrador de un minimarket, participó en la validación de la Landing Page y el Frontend de BodeGo. Consideró que ambas interfaces presentan un diseño agradable, organizado y fácil de comprender. Destacó especialmente la gestión de productos, el control de lotes y las alertas de vencimiento, ya que estas funcionalidades permitirían mantener el inventario ordenado y prevenir pérdidas. <br><br> Durante la exploración del Frontend, señaló que la navegación es sencilla y que la información de productos y lotes resulta clara. Sin embargo, presentó algunas dificultades iniciales para comprender los movimientos de inventario y los conteos físicos. Como mejoras, sugirió incorporar explicaciones breves en ciertas opciones, hacer más visible el botón de acceso a la aplicación y mostrar las alertas importantes directamente en el Dashboard. En general, expresó una opinión favorable de BodeGo y consideró que sería útil para administrar un minimarket. <br><br> **URL:** https://drive.google.com/file/d/1QDDfA513IN4V9-ISeddfb7UXCcF5LJZo/view?usp=sharing |
 
 | |
 |---|
-| ![Entrevista de validación a Silvia Bravo](Recursos/images/Silvia-Validacion.png) |
+| ![Entrevista de validación a Silvia Bravo](Recursos/images/silviavalidation.png) |
 | **Nombres y apellidos:** Silvia Bravo <br> **Edad:** 49 años <br> **Distrito:** Independencia <br><br> **Resumen de la entrevista:** <br><br> Silvia Bravo, administradora de un minimarket, participó en la validación de la Landing Page y el Frontend de BodeGo. Comprendió que la plataforma permite administrar productos y analizar información del negocio. Destacó especialmente las alertas de vencimiento, ya que considera importante identificar los productos próximos a vencer para evitar pérdidas económicas. <br><br> Durante la exploración del Frontend, señaló que el Dashboard, los productos, categorías y lotes presentan información clara y ordenada, facilitando la identificación de cantidades y fechas de vencimiento. También consideró útiles las alertas de inventario para reconocer problemas de stock y encontró comprensible el proceso de creación de ofertas. Finalmente, expresó satisfacción con la aplicación y no propuso mejoras adicionales durante la entrevista. <br><br> **URL:** https://drive.google.com/file/d/1PbotiWeN0J_HhGiSwgg5suCbzT8MPkfL/view?usp=sharing |
 
 #### Segmento Empleados
 
 | |
 |---|
-| ![Entrevista de validación a Andres Marzano](Recursos/images/Andres-Validacion.png) |
+| ![Entrevista de validación a Andres Marzano](Recursos/images/andrevalidation.png) |
 | **Nombres y apellidos:** Andres Marzano <br> **Edad:** 20 años <br> **Distrito:** San Juan de Lurigancho <br><br> **Resumen de la entrevista:** <br><br> Andrés Marzano, empleado de un minimarket, participó en la validación de la Landing Page y el Frontend de BodeGo. Consideró que la plataforma permite organizar y controlar el inventario de manera sencilla, destacando especialmente la consulta de productos, el control de lotes y las fechas de vencimiento, ya que estas funcionalidades facilitarían las actividades diarias y ayudarían a prevenir pérdidas. <br><br> Durante la exploración del Frontend, señaló que la navegación es intuitiva y que los módulos de productos, movimientos de inventario, conteos físicos y mermas presentan procesos claros y ordenados. Sin embargo, mencionó que inicialmente necesitó explorar con mayor detenimiento la sección de ajustes y solicitudes de corrección. Como mejora, sugirió incorporar pequeñas indicaciones para orientar a los usuarios nuevos. En general, consideró que BodeGo es una aplicación organizada, fácil de utilizar y útil para mejorar el control del inventario. <br><br> **URL:** https://drive.google.com/file/d/1kbf-Qn4dSuX-iFd8flkezSBHotO6Bovf/view?usp=sharing |
 
 | |
 |---|
-| ![Entrevista de validación a Joseph](Recursos/images/Joseph-Validacion.png) |
+| ![Entrevista de validación a Joseph](Recursos/images/josephvalidation.png) |
 | **Nombres y apellidos:** Joseph <br> **Edad:** 23 años <br> **Distrito:** Puente Piedra <br><br> **Resumen de la entrevista:** <br><br> Joseph, empleado de un minimarket, participó en la validación de la Landing Page y el Frontend de BodeGo. Consideró que la plataforma es fácil de utilizar y destacó la organización del menú, la consulta de productos y lotes, el registro de movimientos y las mermas. Valoró especialmente la posibilidad de controlar las cantidades disponibles y las fechas de vencimiento. <br><br> Sin embargo, mencionó algunas dificultades iniciales para comprender los conteos físicos, ajustes y solicitudes de corrección. Como mejoras, sugirió incorporar un buscador de productos, resaltar con colores los lotes próximos a vencer y agregar explicaciones breves en algunas funcionalidades. En general, consideró que BodeGo ayudaría a ahorrar tiempo, organizar el inventario y mejorar el control de la mercadería. <br><br> **URL:** https://drive.google.com/file/d/15XCPZ9IbjHR71gtagHLYNYeGB1Hx49IP/view?usp=sharing |
 
 ### 5.3.3. Evaluaciones según heurísticas
