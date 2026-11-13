@@ -2781,9 +2781,53 @@ Durante el Sprint 3, el equipo trabajó en la implementación de los servicios R
 
 ### 5.3.1. Diseño de Entrevistas
 
-En este apartado se presenta la planificación de las entrevistas de validación, incluyendo los objetivos, las preguntas y las actividades propuestas para evaluar la experiencia de los usuarios con BodeGo.
+#### Preguntas para el Segmento 1: Administradores o Dueños de Minimarkets
 
-**[EVIDENCIA POR AGREGAR]**
+**Datos del entrevistado**
+
+1. ¿Cuál es tu nombre completo?
+2. ¿Qué edad tienes y en qué distrito resides?
+3. ¿Cuál es tu función dentro del minimarket o negocio?
+
+**Validación de la Landing Page**
+
+1. Después de revisar la Landing Page, ¿qué entiendes que ofrece BodeGo y cuál crees que es su propósito?
+2. ¿Qué beneficios o funcionalidades presentadas consideras más útiles para administrar tu negocio?
+
+**Validación del Frontend**
+
+3. **Dashboard:** Al observar los indicadores del panel principal, ¿qué tan fácil te resulta identificar el estado general del inventario?
+4. **Productos y categorías:** Al buscar y revisar un producto, ¿qué tan sencillo te resulta encontrar su información y comprender cómo está organizado el catálogo?
+5. **Lotes:** Al consultar los lotes de un producto, ¿qué tan clara te parece la información sobre cantidades y fechas de vencimiento?
+6. **Alertas:** Al revisar las alertas de inventario, ¿puedes identificar fácilmente qué productos necesitan atención y por qué?
+7. **Auditoría:** Al explorar los registros de auditoría, ¿consideras que la información presentada te permitiría realizar un seguimiento de las operaciones del negocio?
+8. **Recomendaciones y ofertas:** Después de explorar estas secciones, ¿qué tan claras te resultan las opciones para consultar recomendaciones y crear ofertas para determinados productos?
+9. **Gestión de negocios:** Al revisar las opciones para administrar la información del negocio, ¿qué tan fácil te resulta comprender las acciones disponibles?
+10. **Evaluación general:** Después de utilizar BodeGo, ¿qué funcionalidad consideras más útil para administrar tu minimarket y qué mejorarías de la aplicación?
+
+#### Preguntas para el Segmento 2: Empleados de Minimarkets
+
+**Datos del entrevistado**
+
+1. ¿Cuál es tu nombre completo?
+2. ¿Qué edad tienes y en qué distrito resides?
+3. ¿Cuál es tu función dentro del minimarket o negocio?
+
+**Validación de la Landing Page**
+
+1. Después de revisar la Landing Page, ¿qué entiendes que permite hacer BodeGo dentro de un minimarket?
+2. ¿Qué funcionalidad presentada en la página consideras que podría facilitar más tus actividades diarias?
+
+**Validación del Frontend**
+
+3. **Navegación:** Al ingresar a la aplicación, ¿qué tan sencillo te resulta encontrar las diferentes secciones y comprender para qué sirven?
+4. **Consulta de productos:** Al buscar un producto específico, ¿qué tan fácil te resulta encontrarlo y revisar su información?
+5. **Lotes:** Al consultar los lotes de un producto, ¿puedes identificar claramente las cantidades disponibles y las fechas de vencimiento?
+6. **Movimientos de inventario:** Al explorar el registro de entradas y salidas, ¿qué tan sencillo te resulta comprender el proceso para registrar un movimiento?
+7. **Conteos físicos:** Al realizar un conteo físico de ejemplo, ¿qué tan claras te resultan las cantidades que debes ingresar y la información que muestra el sistema?
+8. **Ajustes y solicitudes de corrección:** Al explorar estas opciones, ¿comprendes cuándo utilizarías una solicitud de corrección y qué información deberías proporcionar?
+9. **Mermas:** Al intentar registrar una merma, ¿qué tan sencillo te resulta identificar el producto, indicar la cantidad y seleccionar el motivo de la pérdida?
+10. **Evaluación general:** Después de utilizar BodeGo, ¿qué actividad te pareció más sencilla, cuál te generó dificultades y qué mejorarías para facilitar tu trabajo diario?
 
 ### 5.3.2. Registro de Entrevistas
 
@@ -2871,9 +2915,6 @@ Universidad Peruana de Ciencias Aplicadas. (2026). *Enunciado del trabajo final:
 
 ## Anexo A. Videos de exposiciones
 
-- **Exposición AV1:** [EVIDENCIA POR AGREGAR] — Incorporar el enlace al video de exposición de AV1 publicado en Microsoft Stream/Clipchamp.
-- **Exposición TB1:** [EVIDENCIA POR AGREGAR] — Incorporar el enlace al video de exposición de TB1 publicado en Microsoft Stream/Clipchamp.
-- **Exposición AV2:** [EVIDENCIA POR AGREGAR] — Incorporar el enlace al video de exposición correspondiente a los avances del Frontend y Backend de BodeGo.
 - **Video About-the-Product:** https://youtu.be/VCTRhL0PRmo
 
 ## Anexo B. Videos de entrevistas
@@ -2916,8 +2957,7 @@ Universidad Peruana de Ciencias Aplicadas. (2026). *Enunciado del trabajo final:
 - **Archivo principal Report.md:** https://github.com/SirEthan04/Proxy_Open_Source/blob/main/Report.md
 - **Repositorio de la Landing Page:** https://github.com/SirEthan04/Proxy_Open_Source_LandingPage
 - **Repositorio del Frontend:** https://github.com/SirEthan04/Proxy_Open_Source_Front-end
-- **Repositorio de la Web Application:** https://github.com/SirEthan04/Proxy_Open_Source_Web-Application
-- **Repositorio del Backend REST:** https://github.com/Bleim-154/bodego-platform-backend
+- **Repositorio del Backend:** https://github.com/Bleim-154/bodego-platform-backend
 - **Historial de commits del Backend:** https://github.com/Bleim-154/bodego-platform-backend/commits/master/
 
 ### Despliegues de la aplicación
