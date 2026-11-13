@@ -2732,9 +2732,49 @@ EVIDENCIAS
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
+Durante el Sprint 3, los integrantes del equipo de BodeGo colaboraron en el desarrollo de los servicios REST del Backend y en la implementación de mejoras para la Landing Page y el Frontend Web. Las actividades se organizaron de acuerdo con las responsabilidades establecidas en el Sprint Planning y se gestionaron mediante los repositorios de GitHub del proyecto.
+
+Para evidenciar el trabajo colaborativo, se presentan las estadísticas de contribuciones y los historiales de commits de los repositorios utilizados durante el sprint. Estas evidencias permiten identificar la participación de los integrantes y el avance realizado en cada uno de los productos desarrollados.
+
+**Colaboración en la Landing Page**
+
+Durante el Sprint 3 se realizaron mejoras en la Landing Page de BodeGo, orientadas a fortalecer la presentación de la plataforma y facilitar el acceso de los visitantes a sus funcionalidades.
+
+Insights
+![Estructura / Landing Insight](Recursos/images/insightsLan.jpg)
+
+Contributors
+![Estructura / Landing Contributors](Recursos/images/contributorsLan.jpg)
+
+Commits
+![Estructura / Landing Commits](Recursos/images/commitsLan.jpg)
+
 ---
 
-EVIDENCIA
+**Colaboración en el Frontend Web**
+
+En el Frontend Web, el equipo continuó con el desarrollo de la aplicación y la incorporación de mejoras orientadas a la experiencia de usuario y al funcionamiento de sus interfaces.
+
+Insights
+![Estructura / Front Insight](Recursos/images/insightsFron.jpg)
+
+Contributors
+![Estructura / Front Contributors](Recursos/images/contributorsFron.jpg)
+
+Commits
+![Estructura / Front Commits](Recursos/images/commitsFron.jpg)
+
+---
+
+**Colaboración en el Backend**
+
+Durante el Sprint 3, el equipo trabajó en la implementación de los servicios REST del Backend de BodeGo, utilizando Java y Spring Boot. Estas actividades permitieron avanzar en el desarrollo de las funcionalidades relacionadas con el catálogo, inventario y operaciones del negocio.
+
+![Estructura / Back Insight](Recursos/images/insightsBack.jpg)
+
+![Estructura / Back Contributors](Recursos/images/contributorsBack.jpg)
+
+![Estructura / Back Commits](Recursos/images/commitsBack.jpg)
 
 ---
 
