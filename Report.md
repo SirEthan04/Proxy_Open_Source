@@ -3090,8 +3090,8 @@ Universidad Peruana de Ciencias Aplicadas. (2026). *Enunciado del trabajo final:
 
 - **Despliegue de la Landing Page:** https://sirethan04.github.io/Proxy_Open_Source_LandingPage/
 - **Despliegue del Frontend Web de BodeGo:** https://proxy-open-source.web.app/dashboard
-- **Despliegue público del Backend REST:** [EVIDENCIA POR AGREGAR] — Incorporar la URL del servicio cuando se encuentre desplegado y se haya verificado su funcionamiento.
-- **Documentación Swagger/OpenAPI del Backend:** [EVIDENCIA POR AGREGAR] — Incorporar el enlace a la documentación REST cuando se encuentre disponible.
+- **Despliegue público del Backend REST:** 
+- **Documentación Swagger/OpenAPI del Backend:** 
 
 ### Gestión del proyecto
 
