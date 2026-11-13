@@ -2827,31 +2827,153 @@ Durante el Sprint 3, el equipo trabajó en la implementación de los servicios R
 
 | |
 |---|
-| ![Entrevista de validación a administrador](Recursos/images/Administrador-Validacion.png) |
+| ![Entrevista de validación a administrador](Recursos/images/ianvalidation.png) |
 | **Nombres y apellidos:** Ian figueroa <br> **Edad:** 21 años <br> **Distrito:** Pueblo libre <br><br> **Resumen de la entrevista:** <br><br> El entrevistado, administrador de un minimarket, participó en la validación de la Landing Page y el Frontend de BodeGo. Consideró que ambas interfaces presentan un diseño agradable, organizado y fácil de comprender. Destacó especialmente la gestión de productos, el control de lotes y las alertas de vencimiento, ya que estas funcionalidades permitirían mantener el inventario ordenado y prevenir pérdidas. <br><br> Durante la exploración del Frontend, señaló que la navegación es sencilla y que la información de productos y lotes resulta clara. Sin embargo, presentó algunas dificultades iniciales para comprender los movimientos de inventario y los conteos físicos. Como mejoras, sugirió incorporar explicaciones breves en ciertas opciones, hacer más visible el botón de acceso a la aplicación y mostrar las alertas importantes directamente en el Dashboard. En general, expresó una opinión favorable de BodeGo y consideró que sería útil para administrar un minimarket. <br><br> **URL:** https://drive.google.com/file/d/1QDDfA513IN4V9-ISeddfb7UXCcF5LJZo/view?usp=sharing |
 
 | |
 |---|
-| ![Entrevista de validación a Silvia Bravo](Recursos/images/Silvia-Validacion.png) |
+| ![Entrevista de validación a Silvia Bravo](Recursos/images/silviavalidation.png) |
 | **Nombres y apellidos:** Silvia Bravo <br> **Edad:** 49 años <br> **Distrito:** Independencia <br><br> **Resumen de la entrevista:** <br><br> Silvia Bravo, administradora de un minimarket, participó en la validación de la Landing Page y el Frontend de BodeGo. Comprendió que la plataforma permite administrar productos y analizar información del negocio. Destacó especialmente las alertas de vencimiento, ya que considera importante identificar los productos próximos a vencer para evitar pérdidas económicas. <br><br> Durante la exploración del Frontend, señaló que el Dashboard, los productos, categorías y lotes presentan información clara y ordenada, facilitando la identificación de cantidades y fechas de vencimiento. También consideró útiles las alertas de inventario para reconocer problemas de stock y encontró comprensible el proceso de creación de ofertas. Finalmente, expresó satisfacción con la aplicación y no propuso mejoras adicionales durante la entrevista. <br><br> **URL:** https://drive.google.com/file/d/1PbotiWeN0J_HhGiSwgg5suCbzT8MPkfL/view?usp=sharing |
 
 #### Segmento Empleados
 
 | |
 |---|
-| ![Entrevista de validación a Andres Marzano](Recursos/images/Andres-Validacion.png) |
+| ![Entrevista de validación a Andres Marzano](Recursos/images/andrevalidation.png) |
 | **Nombres y apellidos:** Andres Marzano <br> **Edad:** 20 años <br> **Distrito:** San Juan de Lurigancho <br><br> **Resumen de la entrevista:** <br><br> Andrés Marzano, empleado de un minimarket, participó en la validación de la Landing Page y el Frontend de BodeGo. Consideró que la plataforma permite organizar y controlar el inventario de manera sencilla, destacando especialmente la consulta de productos, el control de lotes y las fechas de vencimiento, ya que estas funcionalidades facilitarían las actividades diarias y ayudarían a prevenir pérdidas. <br><br> Durante la exploración del Frontend, señaló que la navegación es intuitiva y que los módulos de productos, movimientos de inventario, conteos físicos y mermas presentan procesos claros y ordenados. Sin embargo, mencionó que inicialmente necesitó explorar con mayor detenimiento la sección de ajustes y solicitudes de corrección. Como mejora, sugirió incorporar pequeñas indicaciones para orientar a los usuarios nuevos. En general, consideró que BodeGo es una aplicación organizada, fácil de utilizar y útil para mejorar el control del inventario. <br><br> **URL:** https://drive.google.com/file/d/1kbf-Qn4dSuX-iFd8flkezSBHotO6Bovf/view?usp=sharing |
 
 | |
 |---|
-| ![Entrevista de validación a Joseph](Recursos/images/Joseph-Validacion.png) |
+| ![Entrevista de validación a Joseph](Recursos/images/josephvalidation.png) |
 | **Nombres y apellidos:** Joseph <br> **Edad:** 23 años <br> **Distrito:** Puente Piedra <br><br> **Resumen de la entrevista:** <br><br> Joseph, empleado de un minimarket, participó en la validación de la Landing Page y el Frontend de BodeGo. Consideró que la plataforma es fácil de utilizar y destacó la organización del menú, la consulta de productos y lotes, el registro de movimientos y las mermas. Valoró especialmente la posibilidad de controlar las cantidades disponibles y las fechas de vencimiento. <br><br> Sin embargo, mencionó algunas dificultades iniciales para comprender los conteos físicos, ajustes y solicitudes de corrección. Como mejoras, sugirió incorporar un buscador de productos, resaltar con colores los lotes próximos a vencer y agregar explicaciones breves en algunas funcionalidades. En general, consideró que BodeGo ayudaría a ahorrar tiempo, organizar el inventario y mejorar el control de la mercadería. <br><br> **URL:** https://drive.google.com/file/d/15XCPZ9IbjHR71gtagHLYNYeGB1Hx49IP/view?usp=sharing |
 
 ### 5.3.3. Evaluaciones según heurísticas
 
-En este apartado se presentan las evaluaciones de usabilidad de BodeGo basadas en principios heurísticos, con el propósito de identificar dificultades de interacción, problemas de navegación y oportunidades de mejora en las interfaces del sistema.
+**BodeGo - Landing Page y Aplicación Web**
 
-**[EVIDENCIA POR AGREGAR]**
+La evaluación se realizó tomando como referencia las entrevistas de validación de los segmentos Administradores y Empleados de minimarkets, considerando las opiniones de Ian Figueroa, Silvia Bravo, Andrés Marzano y Joseph.
+
+#### TAREAS A EVALUAR
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Explorar la Landing Page y comprender la propuesta de valor de BodeGo.
+2. Navegar por el Dashboard y consultar los indicadores del inventario.
+3. Buscar productos y revisar sus categorías.
+4. Consultar lotes y fechas de vencimiento.
+5. Revisar alertas y movimientos de inventario.
+6. Realizar conteos físicos y gestionar solicitudes de corrección.
+7. Registrar mermas.
+8. Explorar recomendaciones y ofertas.
+
+#### ESCALA DE SEVERIDAD
+
+Los problemas identificados se clasifican utilizando la siguiente escala:
+
+| Nivel | Descripción                                                                                                         |
+| ----- | ------------------------------------------------------------------------------------------------------------------- |
+| **1** | **Problema superficial:** No impide utilizar la aplicación y puede resolverse fácilmente.                           |
+| **2** | **Problema menor:** Puede generar pequeñas dificultades de uso, pero permite continuar con las actividades.         |
+| **3** | **Problema mayor:** Dificulta considerablemente completar una tarea y requiere una corrección prioritaria.          |
+| **4** | **Problema muy grave:** Impide continuar utilizando una funcionalidad importante y requiere una corrección urgente. |
+
+#### TABLA RESUMEN
+
+| # | Problema                                                                                                      | Escala de severidad | Heurística / Principio violado     |
+| - | ------------------------------------------------------------------------------------------------------------- | :-----------------: | ---------------------------------- |
+| 1 | Algunas opciones de conteos físicos, ajustes y solicitudes de corrección requieren mayor orientación inicial. |          2          | Ayuda y documentación              |
+| 2 | Las alertas importantes podrían destacarse mejor en el Dashboard.                                             |          2          | Visibilidad del estado del sistema |
+| 3 | Los lotes próximos a vencer podrían identificarse más rápidamente mediante indicadores visuales.              |          1          | Reconocimiento antes que recuerdo  |
+| 4 | El botón para ingresar a la aplicación desde la Landing Page podría ser más visible.                          |          1          | Reconocimiento antes que recuerdo  |
+
+#### DESCRIPCIÓN DE PROBLEMAS
+
+**PROBLEMA #1: Orientación inicial en conteos físicos y solicitudes de corrección**
+
+**Severidad:** 2
+**Heurística relacionada:** Ayuda y documentación.
+
+**Problema:**
+
+Durante las entrevistas, algunos participantes señalaron que inicialmente necesitaron explorar las opciones de conteos físicos, ajustes y solicitudes de corrección para comprender sus diferencias. Sin embargo, después de revisar las funcionalidades, lograron entender su propósito y continuar utilizando la plataforma.
+
+**Recomendación:**
+
+Incorporar pequeñas descripciones o mensajes de ayuda que expliquen cuándo utilizar cada funcionalidad, facilitando el aprendizaje de los usuarios nuevos.
+
+**Captura de pantalla:**
+<p align="center">
+  <img src="Recursos/images/heuristica1.png" alt="Evidencia de conteos físicos y solicitudes de corrección" width="650">
+</p>
+
+---
+
+**PROBLEMA #2: Visibilidad de alertas importantes en el Dashboard**
+
+**Severidad:** 2
+**Heurística relacionada:** Visibilidad del estado del sistema.
+
+**Problema:**
+
+Ian Figueroa sugirió que las alertas más importantes, como los productos con stock bajo o próximos a vencer, tengan mayor presencia en el Dashboard. Esto permitiría identificar rápidamente las situaciones que requieren atención.
+
+**Recomendación:**
+
+Destacar las alertas prioritarias mediante indicadores visuales o tarjetas informativas dentro del panel principal, facilitando su identificación.
+
+**Captura de pantalla:**
+<p align="center">
+  <img src="Recursos/images/heuristica1.png" alt="Evidencia de conteos físicos y solicitudes de corrección" width="650">
+</p>
+
+---
+
+**PROBLEMA #3: Identificación visual de lotes próximos a vencer**
+
+**Severidad:** 1
+**Heurística relacionada:** Reconocimiento antes que recuerdo.
+
+**Problema:**
+
+Joseph consideró que la información de los lotes es clara y fácil de comprender. No obstante, recomendó resaltar los lotes próximos a vencer para identificarlos más rápidamente, sin tener que revisar individualmente todas las fechas.
+
+**Recomendación:**
+
+Incorporar etiquetas o indicadores de color acompañados de texto que permitan diferenciar los lotes vigentes, próximos a vencer y vencidos.
+
+**Captura de pantalla:**
+<p align="center">
+  <img src="Recursos/images/heuristica1.png" alt="Evidencia de conteos físicos y solicitudes de corrección" width="650">
+</p>
+
+---
+
+**PROBLEMA #4: Visibilidad del acceso a la aplicación desde la Landing Page**
+
+**Severidad:** 1
+**Heurística relacionada:** Reconocimiento antes que recuerdo.
+
+**Problema:**
+
+Ian Figueroa destacó que la Landing Page presenta información organizada y un diseño agradable. Como oportunidad de mejora, comentó que el botón para ingresar a BodeGo podría ser más visible para los usuarios que visitan la página por primera vez.
+
+**Recomendación:**
+
+Destacar el botón **«Ingresar a BodeGo»** en una ubicación visible de la Landing Page, facilitando el acceso directo a la aplicación.
+
+**Captura de pantalla:**
+<p align="center">
+  <img src="Recursos/images/heuristica1.png" alt="Evidencia de conteos físicos y solicitudes de corrección" width="650">
+</p>
+
+#### CONCLUSIONES DE LA EVALUACIÓN HEURÍSTICA
+
+Las entrevistas de validación reflejaron una percepción positiva sobre la usabilidad de BodeGo. Los participantes destacaron la organización de la información, la facilidad de navegación y la utilidad de las funcionalidades relacionadas con productos, lotes, inventario y alertas de vencimiento.
+
+Se identificaron únicamente **cuatro oportunidades de mejora**, clasificadas con severidades 1 y 2, relacionadas principalmente con la orientación inicial y la visibilidad de información importante.
+
+En general, los entrevistados consideraron que BodeGo es una plataforma comprensible y útil para mejorar la gestión de inventarios en minimarkets. Las recomendaciones recopiladas permitirán perfeccionar la experiencia de usuario sin requerir cambios significativos en la estructura general de la aplicación.
+
 
 ## 5.4. Video About-the-Product
 
@@ -2878,14 +3000,6 @@ Estas funcionalidades están diseñadas para disminuir los errores en el registr
 ---
 
 # Video About-the-Team
-
----
-
-# Video About-the-Product
-
-[![BodeGo - About the Product](https://img.youtube.com/vi/VCTRhL0PRmo/hqdefault.jpg)](https://youtu.be/VCTRhL0PRmo)
-
-[Ver video en YouTube](https://youtu.be/VCTRhL0PRmo)
 
 ---
 
