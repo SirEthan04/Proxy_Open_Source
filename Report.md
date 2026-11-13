@@ -2729,7 +2729,9 @@ A continuación se presentan las evidencias organizadas por repositorio. La colu
 ![Estructura / Front Commits](Recursos/images/commitsFron.jpg)
 
 ---
+
 #### 5.2.3.5. Execution Evidence for Sprint Review
+
 ---
 
 Durante el Sprint 3 se avanzó en la implementación de los servicios REST del Backend de BodeGo, orientados a la gestión del catálogo, inventario y operaciones del negocio. Asimismo, se realizaron mejoras en la Landing Page y el Frontend Web, con el propósito de fortalecer la presentación del producto, mejorar la experiencia de usuario y continuar con el desarrollo de las funcionalidades de la plataforma.
@@ -2742,13 +2744,21 @@ Durante este sprint se incorporaron mejoras en la presentación visual de BodeGo
 
 ![Estructura / landingmejora ](Recursos/images/landingUp2.jpg)
 
+![Estructura / landingmejora ](Recursos/images/landingUp3.jpg)
+
+![Estructura / landingmejora ](Recursos/images/landingUp4.jpg)
+
 ---
 
 **Evidencias del Frontend Web**
 
 En el Frontend Web se continuó con la implementación y mejora de las interfaces del sistema, optimizando la interacción de los usuarios con las funcionalidades disponibles.
 
-Fotos
+![Estructura / selecuser](Recursos/images/selecuser.jpg)
+
+![Estructura / categorias](Recursos/images/categorias_bodego_av3.jpg)
+
+![Estructura / movimientos](Recursos/images/movimientos_bodego_av3.jpg)
 
 ---
 
@@ -2756,7 +2766,15 @@ Fotos
 
 En el Backend se desarrollaron servicios REST utilizando Java y Spring Boot para gestionar la información y las operaciones principales de BodeGo.
 
-Fotos
+![Estructura / movimientos](Recursos/images/swagger1.jpg)
+
+![Estructura / movimientos](Recursos/images/swagger2.jpg)
+
+![Estructura / movimientos](Recursos/images/swagger3.jpg)
+
+![Estructura / movimientos](Recursos/images/swagger4.jpg)
+
+![Estructura / movimientos](Recursos/images/swagger5.jpg)
 
 ---
 
