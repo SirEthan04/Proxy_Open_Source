@@ -2874,7 +2874,7 @@ A continuación, se presentan los endpoints correspondientes al Sprint 3, detall
 
 Durante el Sprint 3 se realizaron actividades de configuración y despliegue de los productos digitales de BodeGo utilizando la plataforma Render. Se configuró una base de datos PostgreSQL y se publicó una primera versión del Backend desarrollado con Java y Spring Boot. Asimismo, se realizó el despliegue del Frontend Web para disponer de una versión accesible en línea.
 
-A continuación, se describen los pasos realizados y se presentan las evidencias correspondientes.
+A continuación, se describen los pasos realizados y se presentan las evidencias correspondientes del Deploy del Backend junto al Frontend.
 
 **Paso 1. Configuración de la base de datos PostgreSQL**
 
