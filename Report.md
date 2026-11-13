@@ -2777,7 +2777,31 @@ Durante el Sprint 3, el equipo trabajó en la implementación de los servicios R
 ![Estructura / Back Commits](Recursos/images/commitsBack.jpg)
 
 ---
+## 5.3. Validation Interviews
 
+### 5.3.1. Diseño de Entrevistas
+
+En este apartado se presenta la planificación de las entrevistas de validación, incluyendo los objetivos, las preguntas y las actividades propuestas para evaluar la experiencia de los usuarios con BodeGo.
+
+**[EVIDENCIA POR AGREGAR]**
+
+### 5.3.2. Registro de Entrevistas
+
+En este apartado se documentarán las entrevistas de validación realizadas a los representantes de los segmentos objetivo, incluyendo sus respuestas, observaciones y evidencias audiovisuales correspondientes.
+
+**[EVIDENCIA POR AGREGAR]**
+
+### 5.3.3. Evaluaciones según heurísticas
+
+En este apartado se presentan las evaluaciones de usabilidad de BodeGo basadas en principios heurísticos, con el propósito de identificar dificultades de interacción, problemas de navegación y oportunidades de mejora en las interfaces del sistema.
+
+**[EVIDENCIA POR AGREGAR]**
+
+## 5.4. Video About-the-Product
+
+En esta sección se presenta el video de BodeGo, en el cual se comunica la problemática que aborda la plataforma, su propuesta de valor y las principales funcionalidades destinadas a mejorar la gestión de inventarios y las operaciones de los minimarkets.
+
+**Video About-the-Product:** https://youtu.be/VCTRhL0PRmo
 
 # Conclusiones
 
