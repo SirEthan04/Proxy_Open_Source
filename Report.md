@@ -2703,10 +2703,11 @@ Fotos
 Las evidencias presentadas permiten visualizar los avances alcanzados durante el Sprint 3 en los tres productos de BodeGo, así como identificar las funcionalidades implementadas y los aspectos que continuarán desarrollándose en los siguientes sprints.
 
 ---
-#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
-Durante el Sprint 3 se avanzó en la implementación y documentación de los servicios REST del Backend de BodeGo.
-Estos servicios permiten gestionar productos, categorías, lotes y operaciones de inventario, además de registrar mermas, conteos físicos y solicitudes de corrección.
+Durante el Sprint 3 se avanzó en la implementación y documentación de los servicios REST del Backend de BodeGo. Estos servicios permiten gestionar productos, categorías, lotes y operaciones de inventario, además de registrar mermas, conteos físicos y solicitudes de corrección.
+
+A continuación, se presentan los endpoints correspondientes al Sprint 3, detallando individualmente cada método HTTP y la operación que permite realizar.
 
 ---
 
@@ -2714,28 +2715,48 @@ Estos servicios permiten gestionar productos, categorías, lotes y operaciones d
 
 | **Technical Story** | **Módulo** | **Método HTTP** | **Endpoint** | **Descripción** |
 |---|---|---|---|---|
-| TS02 | Productos | GET, POST | `/api/v1/products` | Consultar y registrar productos. |
-| TS02 | Productos | GET, PUT | `/api/v1/products/{id}` | Consultar y actualizar un producto. |
-| TS02 | Productos | PATCH | `/api/v1/products/{id}/activate` | Activar un producto. |
-| TS02 | Productos | PATCH | `/api/v1/products/{id}/deactivate` | Desactivar un producto. |
-| TS03 | Categorías | GET, POST | `/api/v1/categories` | Consultar y registrar categorías. |
-| TS03 | Categorías | GET, PUT, DELETE | `/api/v1/categories/{id}` | Consultar, modificar y eliminar una categoría. |
-| TS04 | Lotes | GET, POST | `/api/v1/lots` | Consultar y registrar lotes. |
-| TS04 | Lotes | GET, PUT | `/api/v1/lots/{id}` | Consultar y actualizar un lote. |
-| TS05 | Disponibilidad de inventario | GET | `/api/v1/lots?productId={id}` | Consultar los lotes de un producto y sus cantidades disponibles. |
-| TS06 | Movimientos de inventario | GET, POST | `/api/v1/inventory-movements` | Consultar y registrar movimientos. |
-| TS06 | Movimientos de inventario | GET | `/api/v1/inventory-movements/{id}` | Consultar un movimiento. |
-| TS07 | Ajustes de stock | GET, POST | `/api/v1/stock-adjustments` | Consultar y registrar ajustes de stock. |
-| TS07 | Ajustes de stock | GET | `/api/v1/stock-adjustments/{id}` | Consultar un ajuste. |
-| TS08 | Mermas | GET, POST | `/api/v1/wastes` | Consultar y registrar mermas. |
-| TS08 | Mermas | GET | `/api/v1/wastes/{id}` | Consultar una merma. |
-| TS09 | Conteos físicos | GET, POST | `/api/v1/physical-counts` | Consultar y registrar conteos físicos. |
-| TS09 | Conteos físicos | GET | `/api/v1/physical-counts/{id}` | Consultar un conteo físico. |
-| TS09 | Solicitudes de corrección | GET, POST | `/api/v1/correction-requests` | Consultar y registrar solicitudes de corrección. |
-| TS09 | Solicitudes de corrección | GET | `/api/v1/correction-requests/{id}` | Consultar una solicitud. |
-| TS09 | Solicitudes de corrección | PATCH | `/api/v1/correction-requests/{id}/review` | Revisar una solicitud de corrección. |
+| TS02 | Productos | GET | `/api/v1/products` | Consultar el listado de productos registrados. |
+| TS02 | Productos | POST | `/api/v1/products` | Registrar un nuevo producto en el catálogo. |
+| TS02 | Productos | GET | `/api/v1/products/{id}` | Consultar la información de un producto mediante su identificador. |
+| TS02 | Productos | PUT | `/api/v1/products/{id}` | Actualizar la información de un producto existente. |
+| TS02 | Productos | PATCH | `/api/v1/products/{id}/activate` | Activar un producto previamente registrado. |
+| TS02 | Productos | PATCH | `/api/v1/products/{id}/deactivate` | Desactivar un producto sin eliminar su historial. |
+| TS03 | Categorías | GET | `/api/v1/categories` | Consultar el listado de categorías registradas. |
+| TS03 | Categorías | POST | `/api/v1/categories` | Registrar una nueva categoría de productos. |
+| TS03 | Categorías | GET | `/api/v1/categories/{id}` | Consultar los datos de una categoría mediante su identificador. |
+| TS03 | Categorías | PUT | `/api/v1/categories/{id}` | Actualizar la información de una categoría existente. |
+| TS03 | Categorías | DELETE | `/api/v1/categories/{id}` | Eliminar una categoría conforme a las reglas del catálogo. |
+| TS04 | Lotes | GET | `/api/v1/lots` | Consultar los lotes registrados en el sistema. |
+| TS04 | Lotes | POST | `/api/v1/lots` | Registrar un nuevo lote asociado a un producto. |
+| TS04 | Lotes | GET | `/api/v1/lots/{id}` | Consultar los datos de un lote mediante su identificador. |
+| TS04 | Lotes | PUT | `/api/v1/lots/{id}` | Actualizar la información de un lote existente. |
+| TS05 | Disponibilidad de inventario | GET | `/api/v1/lots?productId={id}` | Consultar los lotes asociados a un producto y sus cantidades registradas para determinar la disponibilidad del inventario. |
+| TS06 | Movimientos de inventario | GET | `/api/v1/inventory-movements` | Consultar el historial de movimientos de inventario. |
+| TS06 | Movimientos de inventario | POST | `/api/v1/inventory-movements` | Registrar un movimiento de entrada o salida de inventario. |
+| TS06 | Movimientos de inventario | GET | `/api/v1/inventory-movements/{id}` | Consultar la información de un movimiento mediante su identificador. |
+| TS07 | Ajustes de stock | GET | `/api/v1/stock-adjustments` | Consultar los ajustes de stock registrados. |
+| TS07 | Ajustes de stock | POST | `/api/v1/stock-adjustments` | Registrar un ajuste de stock para corregir diferencias de inventario. |
+| TS07 | Ajustes de stock | GET | `/api/v1/stock-adjustments/{id}` | Consultar los detalles de un ajuste de stock mediante su identificador. |
+| TS08 | Mermas | GET | `/api/v1/wastes` | Consultar las mermas registradas en el inventario. |
+| TS08 | Mermas | POST | `/api/v1/wastes` | Registrar una merma asociada a un producto o lote, indicando cantidad y motivo. |
+| TS08 | Mermas | GET | `/api/v1/wastes/{id}` | Consultar los detalles de una merma mediante su identificador. |
+| TS09 | Conteos físicos | GET | `/api/v1/physical-counts` | Consultar los conteos físicos registrados. |
+| TS09 | Conteos físicos | POST | `/api/v1/physical-counts` | Registrar un nuevo conteo físico para comparar las existencias reales con las del sistema. |
+| TS09 | Conteos físicos | GET | `/api/v1/physical-counts/{id}` | Consultar los detalles de un conteo físico mediante su identificador. |
+| TS09 | Solicitudes de corrección | GET | `/api/v1/correction-requests` | Consultar las solicitudes de corrección registradas. |
+| TS09 | Solicitudes de corrección | POST | `/api/v1/correction-requests` | Registrar una solicitud de corrección asociada a una diferencia de inventario. |
+| TS09 | Solicitudes de corrección | GET | `/api/v1/correction-requests/{id}` | Consultar los detalles y el estado de una solicitud de corrección. |
+| TS09 | Solicitudes de corrección | PATCH | `/api/v1/correction-requests/{id}/review` | Aprobar o rechazar una solicitud de corrección pendiente de revisión. |
 
-EVIDENCIAS
+---
+
+![Estructura / selecuser](Recursos/images/endpointsEV1.jpg)
+
+![Estructura / selecuser](Recursos/images/endpointsEV2.jpg)
+
+![Estructura / selecuser](Recursos/images/endpointsEV3.jpg)
+
+![Estructura / selecuser](Recursos/images/endpointsEV4.jpg)
 
 ---
 
