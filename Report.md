@@ -2644,29 +2644,89 @@ Enlace: [https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c1950
 
 #### 5.2.3.4. Development Evidence for Sprint Review.
 
-Durante el Sprint 3 se registraron avances en el desarrollo del Backend de BodeGo, relacionados con la configuración inicial del proyecto, el catálogo de productos, las operaciones de inventario, el monitoreo y los servicios de recomendaciones y ofertas estratégicas.
+Durante el Sprint 3 se registraron avances en el desarrollo del Backend de BodeGo y en la mejora de la Landing Page y el Frontend Web. Las contribuciones se documentan mediante los historiales de commits de GitHub, respetando los identificadores, mensajes y fechas que aparecen en las capturas compartidas.
 
-EVIDENCIA
-Enlace: https://github.com/Bleim-154/bodego-platform-backend/commits/master/
+A continuación se presentan las evidencias organizadas por repositorio. La columna **Commit Message Body** contiene resúmenes explicativos elaborados para el informe, no los cuerpos originales de los commits, ya que estos no aparecen en las capturas.
 
----
+**Backend — Servicios REST de BodeGo**
 
 | Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on |
 |---|---|---|---|---|---|
-| Bleim-154/bodego-platform-backend | master | `d59adbf` | Primer commit | Inicialización del repositorio del Backend de BodeGo y establecimiento de la estructura inicial del proyecto. | 08/11/2026 |
-| Bleim-154/bodego-platform-backend | master | `0272e10` | Catalog | Primer avance del contexto de Catálogo, relacionado con la gestión de productos y categorías. | 08/11/2026 |
+| Bleim-154/bodego-platform-backend | master | `d59adbf` | Primer commit | Inicialización del repositorio del Backend y establecimiento de la estructura inicial del proyecto. | 08/11/2026 |
+| Bleim-154/bodego-platform-backend | master | `0272e10` | Catalog | Primer avance del contexto de Catálogo, relacionado con productos y categorías. | 08/11/2026 |
 | Bleim-154/bodego-platform-backend | master | `92a4a51` | Catalog | Continuación del desarrollo del contexto de Catálogo y sus componentes. | 10/11/2026 |
-| SirEthan04/bodego-platform-backend | master | `c526cb9` | operations | Incorporación de cambios relacionados con el contexto de Operaciones del Backend. | 10/11/2026 |
-| Bleim-154/bodego-platform-backend | master | `bfbb78c` | feature/monitoring | Avance en el desarrollo de funcionalidades correspondientes al módulo de monitoreo. | 10/11/2026 |
-| Danysss-cmd/bodego-platform-backend | master | `9ad4570` | context | Modificaciones relacionadas con la organización de los contextos del Backend de BodeGo. | 10/11/2026 |
-| Danysss-cmd/bodego-platform-backend | master | `304d1ff` | feat(strategic-offers): implement domain aggregates and value objects | Implementación de agregados de dominio y objetos de valor para recomendaciones y ofertas estratégicas. | 10/11/2026 |
-| Danysss-cmd/bodego-platform-backend | master | `0f1c757` | feat(strategic-offers): define commands queries and domain service contracts | Definición de comandos, consultas y contratos de servicios de dominio para las funcionalidades estratégicas. | 10/11/2026 |
-| Danysss-cmd/bodego-platform-backend | master | `4bf7c3b` | feat(strategic-offers): implement JPA repositories and recommendation locking | Incorporación de repositorios JPA y mecanismos de bloqueo para la gestión de recomendaciones. | 10/11/2026 |
-| Danysss-cmd/bodego-platform-backend | master | `e394670` | feat(strategic-offers): integrate catalog and monitoring through ACL | Integración entre los contextos de Catálogo y Monitoreo mediante una capa anticorrupción (ACL). | 10/11/2026 |
-| Danysss-cmd/bodego-platform-backend | master | `5f9017c` | feat(strategic-offers): implement offer and recommendation application services | Implementación de servicios de aplicación para la gestión de ofertas y recomendaciones estratégicas. | 10/11/2026 |
-| Danysss-cmd/bodego-platform-backend | master | `08f850b` | feat(strategic-offers): expose offers and recommendations REST endpoints | Exposición de endpoints REST para consultar y administrar ofertas y recomendaciones. | 10/11/2026 |
-| Danysss-cmd/bodego-platform-backend | master | `01b124b` | test(strategic-offers): add automated tests and implementation documentation | Incorporación de pruebas automatizadas y documentación técnica de las funcionalidades estratégicas. | 10/11/2026 |
-| yowuan/bodego-platform-backend | master | `e33db52` | separate invetory from catalog. | Separación del contexto de Inventario respecto del contexto de Catálogo para diferenciar sus responsabilidades. | 10/11/2026 |
+| Bleim-154/bodego-platform-backend | master | `c526cb9` | operations | Incorporación de cambios relacionados con el contexto de Operaciones del Backend. | 10/11/2026 |
+| SirEthan04/bodego-platform-backend | master | `bfbb78c` | feature/monitoring | Avance en funcionalidades del módulo de monitoreo, previstas para continuar en el Sprint 4. | 10/11/2026 |
+| Bleim-154/bodego-platform-backend | master | `9ad4570` | context | Cambios relacionados con la organización de contextos del Backend. | 10/11/2026 |
+| Danysss-cmd/bodego-platform-backend | master | `304d1ff` | feat(strategic-offers): implement domain aggregates and value objects | Implementación de agregados y objetos de valor para recomendaciones y ofertas estratégicas. | 10/11/2026 |
+| Danysss-cmd/bodego-platform-backend | master | `0f1c757` | feat(strategic-offers): define commands queries and domain service contracts | Definición de comandos, consultas y contratos de servicio de dominio para funcionalidades estratégicas. | 10/11/2026 |
+| Danysss-cmd/bodego-platform-backend | master | `4bf7c3b` | feat(strategic-offers): implement JPA repositories and recommendation locking | Incorporación de repositorios JPA y manejo de bloqueo relacionado con recomendaciones. | 10/11/2026 |
+| Danysss-cmd/bodego-platform-backend | master | `e394670` | feat(strategic-offers): integrate catalog and monitoring through ACL | Integración de los contextos de Catálogo y Monitoreo mediante una capa anticorrupción (ACL). | 10/11/2026 |
+| Danysss-cmd/bodego-platform-backend | master | `5f9017c` | feat(strategic-offers): implement offer and recommendation application services | Implementación de servicios de aplicación para ofertas y recomendaciones. | 10/11/2026 |
+| Danysss-cmd/bodego-platform-backend | master | `08f850b` | feat(strategic-offers): expose offers and recommendations REST endpoints | Exposición de endpoints REST para recomendaciones y ofertas estratégicas. | 10/11/2026 |
+| Danysss-cmd/bodego-platform-backend | master | `01b124b` | test(strategic-offers): add automated tests and implementation documentation | Incorporación de pruebas automatizadas y documentación de implementación del módulo estratégico. | 10/11/2026 |
+| yowuan/bodego-platform-backend | master | `e33db52` | separate invetory from catalog. | Separación del contexto de Inventario respecto del de Catálogo para diferenciar responsabilidades. | 10/11/2026 |
+
+**EVIDENCIA:** 
+![Estructura / Back Commits](Recursos/images/commitsBack.jpg)
+
+---
+
+**Landing Page — Mejoras de BodeGo**
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on |
+|---|---|---|---|---|---|
+| yowuan/Proxy_Open_Source_LandingPage | main | `be88072` | Update index.html | Actualización del archivo principal de la Landing Page; el detalle de los cambios requiere revisar el diff. | 13/11/2026 |
+| yowuan/Proxy_Open_Source_LandingPage | main | `3d8f936` | Update print statement from 'Hello' to 'Goodbye' | Cambio de una instrucción de texto, según el mensaje del commit; no acredita una funcionalidad de BodeGo. | 13/11/2026 |
+| yowuan/Proxy_Open_Source_LandingPage | main | `85ea87d` | Change greeting from 'Hello' to 'Goodbye' | Cambio de texto de saludo; no se identifica una funcionalidad concreta en el mensaje. | 13/11/2026 |
+| yowuan/Proxy_Open_Source_LandingPage | main | `3b2aa60` | Merge pull request #26 from SirEthan04/feature/videoadds | Integración de la rama de incorporación de secciones para videos. | 13/11/2026 |
+| yowuan/Proxy_Open_Source_LandingPage | main | `a63a029` | Merge branch 'main' into feature/videoadds | Sincronización de la rama de videos con la rama principal. | 13/11/2026 |
+| yowuan/Proxy_Open_Source_LandingPage | main | `f05196c` | Seecciones para videos agregadas | Incorporación de secciones para videos, de acuerdo con el mensaje del commit. | 13/11/2026 |
+| SirEthan04/Proxy_Open_Source_LandingPage | main | `bf2f744` | Update index.html | Actualización del archivo index.html; la captura no permite detallar los cambios exactos. | 12/11/2026 |
+| SirEthan04/Proxy_Open_Source_LandingPage | main | `8a0da28` | Update index.html | Ajustes en el archivo index.html de la Landing Page. | 12/11/2026 |
+| SirEthan04/Proxy_Open_Source_LandingPage | main | `98fa3a8` | Update print statement from 'Hello' to 'Goodbye' | Actualización textual indicada en el mensaje, pendiente de contrastar con el diff. | 12/11/2026 |
+| SirEthan04/Proxy_Open_Source_LandingPage | main | `79d1020` | Update index.html | Modificaciones del documento HTML principal de la Landing Page. | 12/11/2026 |
+| yowuan/Proxy_Open_Source_LandingPage | main | `64dcb14` | Merge pull request #25 from SirEthan04/develop | Integración de los avances de la rama develop en main. | 12/11/2026 |
+| yowuan/Proxy_Open_Source_LandingPage | main | `14a7766` | Merge pull request #24 from SirEthan04/feature/landing-changes | Integración de los cambios desarrollados en la rama feature/landing-changes. | 12/11/2026 |
+| yowuan/Proxy_Open_Source_LandingPage | main | `bfadb57` | Fix some error with index.html | Corrección de un problema en el archivo index.html; detalle no especificado. | 12/11/2026 |
+| yowuan/Proxy_Open_Source_LandingPage | main | `aa83c2d` | Cambios en la landing | Modificaciones generales de la Landing Page, de acuerdo con el mensaje del commit. | 12/11/2026 |
+
+**EVIDENCIA:** 
+![Estructura / Landing Commits](Recursos/images/commitsLan.jpg)
+
+---
+
+**Frontend Web — Mejoras Implementadas**
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on |
+|---|---|---|---|---|---|
+| Bleim-154/Proxy_Open_Source_Front-end | main | `0accf5f` | Merge pull request #51 from SirEthan04/develop | Integración de cambios de develop en la rama principal. | 12/11/2026 |
+| Bleim-154/Proxy_Open_Source_Front-end | main | `49e9943` | Merge pull request #50 from SirEthan04/hotfix/TMR | Integración del hotfix TMR. | 12/11/2026 |
+| Bleim-154/Proxy_Open_Source_Front-end | main | `ae4955f` | hot:TMRTMRTMR | Cambio de corrección indicado por el autor; el mensaje no especifica su alcance. | 12/11/2026 |
+| SirEthan04/Proxy_Open_Source_Front-end | main | `219db26` | Merge pull request #48 from SirEthan04/develop | Integración de cambios desde develop. | 12/11/2026 |
+| SirEthan04/Proxy_Open_Source_Front-end | main | `7824785` | Merge pull request #47 from SirEthan04/main | Integración de la rama main, conforme al historial. | 12/11/2026 |
+| SirEthan04/Proxy_Open_Source_Front-end | main | `a74f6fb` | Merge pull request #45 from SirEthan04/feature/New_Version | Integración de la rama feature/New_Version. | 12/11/2026 |
+| SirEthan04/Proxy_Open_Source_Front-end | main | `c6c73bc` | feat: add New_version | Incorporación de una nueva versión de la aplicación, según el mensaje del commit. | 12/11/2026 |
+| SirEthan04/Proxy_Open_Source_Front-end | main | `ef857c4` | Merge pull request #44 from SirEthan04/revert-43-develop | Integración de la reversión relacionada con develop. | 12/11/2026 |
+| SirEthan04/Proxy_Open_Source_Front-end | main | `c3b018c` | Revert "Develop" | Reversión de cambios identificados como Develop. | 12/11/2026 |
+| SirEthan04/Proxy_Open_Source_Front-end | main | `861f41a` | Merge pull request #43 from SirEthan04/develop | Integración de modificaciones de develop. | 12/11/2026 |
+| Bleim-154/Proxy_Open_Source_Front-end | main | `1c7d5d3` | Merge pull request #42 from SirEthan04/feature/physical-count | Integración de la rama de conteos físicos. | 12/11/2026 |
+| giorgiorgiorgior/Proxy_Open_Source_Front-end | main | `808803e` | feat: add physical count | Avance de la interfaz para conteos físicos. | 12/11/2026 |
+| giorgiorgiorgior/Proxy_Open_Source_Front-end | main | `f56fc5c` | feat: add physical count | Continuación de la incorporación de conteos físicos. | 12/11/2026 |
+| giorgiorgiorgior/Proxy_Open_Source_Front-end | main | `9d17168` | Merge pull request #40 from SirEthan04/feature/physical-count | Integración de una versión de la funcionalidad de conteos físicos. | 12/11/2026 |
+| giorgiorgiorgior/Proxy_Open_Source_Front-end | main | `43cebc9` | Merge branch 'develop' into feature/physical-count | Sincronización de la rama de conteos físicos con develop. | 12/11/2026 |
+| giorgiorgiorgior/Proxy_Open_Source_Front-end | main | `3d9d621` | feat: add physical count | Implementación de cambios relacionados con conteos físicos. | 12/11/2026 |
+| SirEthan04/Proxy_Open_Source_Front-end | main | `5fae73a` | Merge pull request #39 from SirEthan04/develop | Integración de la rama develop. | 06/10/2026 |
+| SirEthan04/Proxy_Open_Source_Front-end | main | `59f5d3f` | Merge pull request #38 from SirEthan04/feature/colors_interface | Integración de cambios de colores de la interfaz. | 12/11/2026 |
+| yowuan/Proxy_Open_Source_Front-end | main | `eae4d27` | Merge pull request #37 from SirEthan04/feature/alerts | Integración de cambios del módulo visual de alertas. | 12/11/2026 |
+| yowuan/Proxy_Open_Source_Front-end | main | `4f47fde` | feature: add alerts | Incorporación de componentes relacionados con las alertas. | 12/11/2026 |
+| SirEthan04/Proxy_Open_Source_Front-end | main | `56a4838` | feat: add colors on the app | Modificaciones de los colores de la aplicación. | 12/11/2026 |
+| SirEthan04/Proxy_Open_Source_Front-end | main | `efa5e4a` | Merge pull request #36 from SirEthan04/develop | Integración de cambios de develop. | 12/11/2026 |
+| yowuan/Proxy_Open_Source_Front-end | main | `7993e1a` | Merge pull request #35 from SirEthan04/feature/movements | Integración de los cambios del módulo de movimientos. | 12/11/2026 |
+| yowuan/Proxy_Open_Source_Front-end | main | `4b74f3d` | feature: add movementsV2 | Desarrollo de una versión de las vistas de movimientos. | 12/11/2026 |
+
+**EVIDENCIA :** 
+![Estructura / Front Commits](Recursos/images/commitsFron.jpg)
 
 ---
 #### 5.2.3.5. Execution Evidence for Sprint Review
