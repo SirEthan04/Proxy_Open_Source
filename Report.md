@@ -1494,7 +1494,7 @@ Enlance de Figma: https://www.figma.com/design/lkkyQ42TCu70ZypY4hiuMi/Figma-Prox
 
 ![PrototypingVideo](Recursos/images/prototypingvideo.jpg)
 
-Enlace del video: 
+Enlace del video: https://drive.google.com/drive/folders/1l4HlhDxX7ZoHEbH96fOAfosutOivB_S6?usp=sharing
 
 ---
 
