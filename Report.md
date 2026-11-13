@@ -2671,9 +2671,36 @@ Enlace: https://github.com/Bleim-154/bodego-platform-backend/commits/master/
 ---
 #### 5.2.3.5. Execution Evidence for Sprint Review
 ---
-Durante el Sprint 3 se desarrolló la primera versión de los servicios REST del Backend de BodeGo, orientada a la gestión del catálogo, los lotes y las operaciones de inventario.
-EVIDENCIAS SPRINT REVIEW
 
+Durante el Sprint 3 se avanzó en la implementación de los servicios REST del Backend de BodeGo, orientados a la gestión del catálogo, inventario y operaciones del negocio. Asimismo, se realizaron mejoras en la Landing Page y el Frontend Web, con el propósito de fortalecer la presentación del producto, mejorar la experiencia de usuario y continuar con el desarrollo de las funcionalidades de la plataforma.
+
+**Evidencias de la Landing Page**
+
+Durante este sprint se incorporaron mejoras en la presentación visual de BodeGo, permitiendo mostrar de manera más clara las características de la plataforma y sus principales módulos.
+
+
+
+---
+
+**Evidencias del Frontend Web**
+
+En el Frontend Web se continuó con la implementación y mejora de las interfaces del sistema, optimizando la interacción de los usuarios con las funcionalidades disponibles.
+
+Fotos
+
+---
+
+**Evidencias del Backend**
+
+En el Backend se desarrollaron servicios REST utilizando Java y Spring Boot para gestionar la información y las operaciones principales de BodeGo.
+
+Fotos
+
+---
+
+Las evidencias presentadas permiten visualizar los avances alcanzados durante el Sprint 3 en los tres productos de BodeGo, así como identificar las funcionalidades implementadas y los aspectos que continuarán desarrollándose en los siguientes sprints.
+
+---
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
 Durante el Sprint 3 se avanzó en la implementación y documentación de los servicios REST del Backend de BodeGo.
