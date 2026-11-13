@@ -2146,6 +2146,38 @@ Scenario: Register expired product as wastage
 
 ### 5.1.4. Software Deployment Configuration
 
+En esta sección se describe la arquitectura y configuración técnica del despliegue de BodeGo para el curso **Desarrollo de Aplicaciones Open Source**, considerando las plataformas y herramientas utilizadas para publicar sus componentes, gestionar la base de datos y permitir la comunicación entre el Frontend Web y los servicios REST.
+
+El ecosistema de BodeGo se compone de tres productos de software diferenciados:
+
+1. **Landing Page y Documentación del Proyecto:** la Landing Page está desarrollada utilizando **HTML, CSS y JavaScript**, permitiendo su publicación mediante alojamiento estático. El informe del proyecto y sus evidencias se administran en el repositorio `Proxy_Open_Source` de GitHub.
+
+2. **Frontend Web Application (Web App):** desarrollada con **Angular 22, TypeScript y Angular Material**. El proyecto utiliza Angular CLI para generar los archivos de producción mediante `npm run build`. Las evidencias del Sprint 3 muestran un despliegue exitoso del Frontend en **Render**, plataforma utilizada para la publicación de la aplicación web.
+
+3. **Backend REST API:** desarrollado con **Java 25, Spring Boot 4, Spring Data JPA y PostgreSQL**. El Backend se encuentra configurado como servicio web en **Render**, utilizando Docker para su construcción y ejecución. La base de datos se administra mediante una instancia PostgreSQL de Render y la documentación REST se proporciona mediante OpenAPI y Swagger UI.
+
+**Configuración técnica del despliegue**
+
+| Componente | Plataforma / Tecnología | Configuración |
+|---|---|---|
+| Landing Page | HTML, CSS y JavaScript | Publicación mediante alojamiento estático; URL de producción pendiente de verificación. |
+| Documentación | GitHub | Almacenamiento del informe, imágenes y evidencias del proyecto. |
+| Frontend Web | Angular 22 y Render | Compilación con `npm run build` y publicación de la aplicación web. |
+| Backend REST | Java 25, Spring Boot 4, Docker y Render | Construcción del servicio desde GitHub utilizando `Dockerfile`. |
+| Base de datos | PostgreSQL y Render | Servicio de base de datos administrado, con conexión configurada mediante variables de entorno. |
+
+La configuración del Backend en Render contempla la vinculación con su repositorio de GitHub, la selección de la rama `master` y la construcción mediante Docker. Asimismo, se utilizan variables de entorno para la conexión con PostgreSQL, la configuración de CORS y los parámetros de seguridad necesarios para ejecutar la API.
+
+Durante el proceso de despliegue se verificaron los registros de inicio de Spring Boot y el estado del servicio en Render. Las evidencias recopiladas para el Sprint 3 muestran la creación de la instancia PostgreSQL, la configuración del Backend y el despliegue exitoso tanto del Backend como del Frontend Web.
+
+Para completar la validación funcional del sistema publicado, se requiere comprobar que el Frontend utilice la URL pública correcta del Backend y que las solicitudes REST puedan realizarse desde el dominio autorizado.
+
+**Repositorio del informe:**
+
+https://github.com/SirEthan04/Proxy_Open_Source
+
+---
+
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
 ## Sprint 1 - Desarrollo de la Landing Page de BodeGo
