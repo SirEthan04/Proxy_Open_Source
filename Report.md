@@ -2515,21 +2515,13 @@ En la Landing Page, se contemplaron mejoras relacionadas con la presentación vi
 
 #### 5.2.3.3. Sprint Backlog 3
 
-Durante el Sprint 3, el equipo planificó la implementación y verificación de los servicios REST del Backend de BodeGo para productos, categorías, lotes, inventario, movimientos, mermas, conteos físicos y solicitudes de corrección. Adicionalmente, se incorporaron mejoras en la Landing Page (US51–US53) y el Frontend Web (US54–US60), de acuerdo con el Product Backlog actualizado.
+Durante el Sprint 3, el equipo planificó el desarrollo de los principales servicios REST del Backend de BodeGo, orientados a la gestión del catálogo, inventario y operaciones del negocio. Asimismo, se incorporaron mejoras en la Landing Page, correspondientes a las **User Stories US51–US53**, y en el Frontend Web, correspondientes a las **US54–US60**, con el propósito de fortalecer la presentación del producto y mejorar la experiencia de usuario.
 
-El sprint comprende 29 User Stories (US16–US34 y US51–US60) y 8 Technical Stories (TS02–TS09), que representan 154 Story Points. Cada US tiene exactamente dos tareas propias, sin tareas compartidas. Las TS cuentan también con dos tareas específicas cada una. La numeración comienza en TSK035, porque las 34 tareas anteriores pertenecen a los Sprints 1 y 2.
+El sprint comprende **29 User Stories (US16–US34 y US51–US60)** y **8 Technical Stories (TS02–TS09)**, con un total de **154 Story Points planificados**.
 
 ![Evidencia Sprint Backlog N3](Recursos/images/sprintbacklogN3OP.jpg)
 
 Enlace: [https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509f8439a763ed2f3081F674FEDD/bodego](https://trello.com/invite/b/6aac64ebaf51e9bfb4c107de/ATTI7980c4d39c19509f8439a763ed2f3081F674FEDD/bodego)
-
----
-
-#### 5.2.3.3. Sprint Backlog 3
-
-Durante el Sprint 3, el equipo planificó el desarrollo de los principales servicios REST del Backend de BodeGo, orientados a la gestión del catálogo, inventario y operaciones del negocio. Asimismo, se incorporaron mejoras en la Landing Page, correspondientes a las **User Stories US51–US53**, y en el Frontend Web, correspondientes a las **US54–US60**, con el propósito de fortalecer la presentación del producto y mejorar la experiencia de usuario.
-
-El sprint comprende **29 User Stories (US16–US34 y US51–US60)** y **8 Technical Stories (TS02–TS09)**, con un total de **154 Story Points planificados**.
 
 ---
 
