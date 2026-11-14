@@ -2772,13 +2772,21 @@ Durante el Sprint 3 se avanzó en la implementación de los servicios REST del B
 
 Durante este sprint se incorporaron mejoras en la presentación visual de BodeGo, permitiendo mostrar de manera más clara las características de la plataforma y sus principales módulos.
 
-![Estructura / landingmejora ](Recursos/images/landingUp1.jpg)
+![Mejoras en la presentación de la plataforma BodeGo](Recursos/images/landingUp1.jpg)
 
-![Estructura / landingmejora ](Recursos/images/landingUp2.jpg)
+*Vista de la sección Nuestra Plataforma, donde se presentan las funcionalidades de historial de movimientos y recomendaciones estratégicas.*
 
-![Estructura / landingmejora ](Recursos/images/landingUp3.jpg)
+![Presentación de la gestión de usuarios de BodeGo](Recursos/images/landingUp2.jpg)
 
-![Estructura / landingmejora ](Recursos/images/landingUp4.jpg)
+*Vista de la sección de gestión de usuarios y la incorporación de contenido informativo sobre el producto.*
+
+![Sección About the Product de BodeGo](Recursos/images/landingUp3.jpg)
+
+*Sección About the Product, que incorpora un video demostrativo sobre el funcionamiento de la aplicación y sus principales características.*
+
+![Sección About the Team de BodeGo](Recursos/images/landingUp4.jpg)
+
+*Sección About the Team, destinada a presentar al equipo de desarrollo mediante un video informativo.*
 
 ---
 
@@ -2786,33 +2794,50 @@ Durante este sprint se incorporaron mejoras en la presentación visual de BodeGo
 
 En el Frontend Web se continuó con la implementación y mejora de las interfaces del sistema, optimizando la interacción de los usuarios con las funcionalidades disponibles.
 
-![Estructura / selecuser](Recursos/images/selecuser.jpg)
+![Selección de usuario de BodeGo](Recursos/images/selecuser.jpg)
 
-![Estructura / categorias](Recursos/images/categorias_bodego_av3.jpg)
+*Interfaz de selección de usuario que permite identificar el perfil con el que se accederá a la plataforma.*
 
-![Estructura / movimientos](Recursos/images/movimientos_bodego_av3.jpg)
+![Gestión de categorías de BodeGo](Recursos/images/categorias_bodego_av3.jpg)
+
+*Interfaz de gestión de categorías, donde se visualizan las categorías registradas y las opciones disponibles para su administración.*
+
+![Historial de movimientos de BodeGo](Recursos/images/movimientos_bodego_av3.jpg)
+
+*Interfaz de consulta del historial de movimientos de inventario, mostrando información sobre lotes, tipos de movimiento, cantidades y motivos registrados.*
 
 ---
 
 **Evidencias del Backend**
 
-En el Backend se desarrollaron servicios REST utilizando Java y Spring Boot para gestionar la información y las operaciones principales de BodeGo.
+En el Backend se desarrollaron servicios REST utilizando Java y Spring Boot para gestionar la información y las operaciones principales de BodeGo. La documentación de los endpoints se presenta mediante Swagger UI, permitiendo visualizar los métodos HTTP, parámetros, estructuras de solicitud y respuestas definidas para los servicios.
 
-![Estructura / movimientos](Recursos/images/swagger1.jpg)
+![Documentación del servicio de alertas en Swagger UI](Recursos/images/swagger1.jpg)
 
-![Estructura / movimientos](Recursos/images/swagger2.jpg)
+*Documentación del endpoint GET /api/v1/alerts, utilizado para consultar las alertas registradas, incluyendo sus parámetros de filtrado y el esquema de respuesta.*
 
-![Estructura / movimientos](Recursos/images/swagger3.jpg)
+![Documentación del servicio de recomendaciones en Swagger UI](Recursos/images/swagger2.jpg)
 
-![Estructura / movimientos](Recursos/images/swagger4.jpg)
+*Documentación del endpoint GET /api/v1/recommendations, que permite consultar recomendaciones estratégicas relacionadas con el estado del inventario.*
 
-![Estructura / movimientos](Recursos/images/swagger5.jpg)
+![Documentación del servicio de auditoría en Swagger UI](Recursos/images/swagger3.jpg)
+
+*Documentación del endpoint GET /api/v1/audit-logs, destinado a consultar los registros de auditoría y mantener la trazabilidad de las acciones realizadas en el sistema.*
+
+![Documentación de actualización de productos en Swagger UI](Recursos/images/swagger4.jpg)
+
+*Documentación del endpoint PUT /api/v1/products/{id}, utilizado para actualizar la información de un producto existente mediante su identificador.*
+
+![Documentación de ajustes de stock en Swagger UI](Recursos/images/swagger5.jpg)
+
+*Documentación del endpoint GET /api/v1/stock-adjustments, utilizado para consultar los ajustes de existencias registrados y sus datos asociados.*
 
 ---
 
 Las evidencias presentadas permiten visualizar los avances alcanzados durante el Sprint 3 en los tres productos de BodeGo, así como identificar las funcionalidades implementadas y los aspectos que continuarán desarrollándose en los siguientes sprints.
 
 ---
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 Durante el Sprint 3 se avanzó en la implementación y documentación de los servicios REST del Backend de BodeGo. Estos servicios permiten gestionar productos, categorías, lotes y operaciones de inventario, además de registrar mermas, conteos físicos y solicitudes de corrección.
