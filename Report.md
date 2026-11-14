@@ -1735,7 +1735,7 @@ Los siguientes enlaces corresponden a los repositorios identificados para los ar
 | :--- | :--- |
 | Informe y documentación | https://github.com/SirEthan04/Proxy_Open_Source |
 | Landing Page | https://github.com/SirEthan04/Proxy_Open_Source_LandingPage |
-| Frontend | https://github.com/SirEthan04/Proxy_Open_Source_Front-end |
+| Frontend | https://github.com/Bleim-154/Bodego-frontend.git |
 | Backend | https://github.com/Bleim-154/bodego-platform-backend |
 ---
 ### 5.1.2. Source Code Management
