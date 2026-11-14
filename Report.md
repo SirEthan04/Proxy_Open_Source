@@ -3656,13 +3656,6 @@ Universidad Peruana de Ciencias Aplicadas. (2026). *Enunciado del trabajo final:
 - **Entrevista 5 - Andrés Marzano, empleado de minimarket:** https://drive.google.com/file/d/1BCO2lHzXeeZyN7DED3hQVZv_ULh0Zdx2/view?usp=drive_link
 - **Entrevista 6 - Pablo Moreno, empleado de minimarket:** https://drive.google.com/file/d/1_V2W7VMWYRneIBc2ZAb0kEKlw-TLDnwO/view?usp=drive_link
 
-## Anexo C. Materiales de validación
-
-- **Entrevistas de validación de BodeGo (AV2):** [EVIDENCIA POR AGREGAR] — Incorporar los enlaces a los videos de las entrevistas de validación correspondientes a la sección 5.3.
-- **Registro de resultados de entrevistas de validación:** [EVIDENCIA POR AGREGAR] — Incorporar el enlace al documento o recurso con los resultados obtenidos.
-- **Evaluaciones según heurísticas:** [EVIDENCIA POR AGREGAR] — Incorporar el enlace a las evaluaciones realizadas sobre la experiencia de usuario de BodeGo.
-- **Evidencias de observaciones y correcciones del Frontend:** [EVIDENCIA POR AGREGAR] — Incorporar las capturas o el registro de las mejoras efectuadas.
-
 ## Anexo D. Materiales de ideación y diseño
 
 - **Big Picture EventStorming y Design-Level EventStorming:** https://miro.com/app/board/uXjVHm55KfI=/
