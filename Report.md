@@ -2836,6 +2836,8 @@ En el Backend se desarrollaron servicios REST utilizando Java y Spring Boot para
 
 Las evidencias presentadas permiten visualizar los avances alcanzados durante el Sprint 3 en los tres productos de BodeGo, así como identificar las funcionalidades implementadas y los aspectos que continuarán desarrollándose en los siguientes sprints.
 
+Video de demostración y ejecución del Sprint 3: https://www.youtube.com/watch?v=gbl2YDa-Ydg
+
 ---
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
@@ -3302,6 +3304,11 @@ Adicionalmente, se realizó el despliegue del Frontend Web de BodeGo mediante Re
 ![Estructura / selecuser](Recursos/images/deployOP7.jpg)
 *Confirmación del despliegue exitoso del Frontend Web de BodeGo en Render.*
 
+Credenciales:
+correo: shupapisteam@gmail.com
+contra: HolaMundo123+
+Link del deploy: https://bodego-frontend.onrender.com/session
+
 ---
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
@@ -3570,23 +3577,27 @@ En esta sección se presenta el video de BodeGo, en el cual se comunica la probl
 
 # Conclusiones
 
-## Conclusiones y recomendaciones
-El proyecto BodeGo busca solucionar el problema de la falta de control y organización del inventario en los minimarkets, especialmente en la gestión de productos perecibles, diferencias de stock y pérdidas ocasionadas por vencimientos. A través de una plataforma web de gestión, se permite que los Administradores y Empleados puedan realizar sus actividades de manera más ordenada, rápida y eficiente.
+### Conclusiones de los Sprints
 
-Las validaciones realizadas permitieron confirmar que los usuarios presentan dificultades al utilizar métodos manuales como cuadernos, archivos de Excel o revisiones físicas constantes. Por ello, funcionalidades como el control de inventario, alertas de vencimiento, reportes y gestión de roles representan una solución alineada con las necesidades identificadas durante el proceso de investigación.
+**Sprint 1:**
 
-La aplicación busca ofrecer una experiencia sencilla e intuitiva, enfocándose en reducir el tiempo empleado en tareas operativas y mejorar la toma de decisiones dentro del minimarket. Entre sus principales características destacan:
+Durante el Sprint 1 se desarrolló la primera versión de la Landing Page de BodeGo, permitiendo presentar la propuesta de valor, los beneficios y las principales funcionalidades de la plataforma. Este avance permitió establecer la identidad visual del producto y proporcionar un medio de contacto para los potenciales usuarios. Asimismo, el equipo fortaleció sus capacidades de organización y colaboración mediante la distribución de responsabilidades y el seguimiento de las actividades planificadas.
 
-- Control actualizado del inventario.
-- Alertas sobre productos próximos a vencer.
-- Reportes para conocer el estado del negocio.
-- Gestión de usuarios según sus responsabilidades.
+**Sprint 2:**
 
-Estas funcionalidades están diseñadas para disminuir los errores en el registro de productos, evitar pérdidas innecesarias y brindar mayor visibilidad sobre el estado real del inventario. De esta manera, BodeGo permite que los Administradores puedan tomar decisiones más oportunas y que los Empleados puedan realizar sus tareas de forma rápida y organizada.
+Durante el Sprint 2 se avanzó en el desarrollo del Frontend Web de BodeGo utilizando Angular, implementando interfaces orientadas a la gestión de productos, categorías y operaciones de inventario. Se priorizó la organización de los módulos, la navegación entre las diferentes secciones y la experiencia de usuario. Este sprint permitió transformar los diseños iniciales en interfaces interactivas, estableciendo las bases necesarias para su posterior integración con los servicios del Backend.
+
+**Sprint 3:**
+
+Durante el Sprint 3 se avanzó en la implementación de los servicios REST del Backend utilizando Java y Spring Boot, desarrollando funcionalidades relacionadas con productos, categorías, lotes, movimientos de inventario, mermas, conteos físicos y solicitudes de corrección. Asimismo, se incorporaron mejoras en la Landing Page y el Frontend Web, complementadas con la documentación de endpoints mediante Swagger UI. Los avances permitieron fortalecer la arquitectura de la solución y continuar con la integración de sus componentes, además de mejorar la coordinación del equipo y la trazabilidad de las actividades realizadas.
 
 ---
 
 # Video About-the-Team
+
+En esta sección se presenta el video **About-the-Team de BodeGo**, en el cual los integrantes del equipo comparten sus experiencias durante el desarrollo del proyecto, describiendo las actividades realizadas, las responsabilidades asumidas y los principales desafíos enfrentados a lo largo de los sprints. Asimismo, se destacan los logros alcanzados, el trabajo colaborativo y las competencias desarrolladas durante la implementación de la plataforma.
+
+**Video About-the-Team:** [Agregar enlace de YouTube](https://youtu.be/cPALUICdu7U)
 
 ---
 
@@ -3629,6 +3640,7 @@ Universidad Peruana de Ciencias Aplicadas. (2026). *Enunciado del trabajo final:
 ## Anexo A. Videos de exposiciones
 
 - **Video About-the-Product:** https://youtu.be/VCTRhL0PRmo
+- **Video About-the-Team:** https://youtu.be/cPALUICdu7U
 
 ## Anexo B. Videos de entrevistas
 
