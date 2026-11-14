@@ -1737,6 +1737,15 @@ Los siguientes enlaces corresponden a los repositorios identificados para los ar
 | Landing Page | https://github.com/SirEthan04/Proxy_Open_Source_LandingPage |
 | Frontend | https://github.com/Bleim-154/Bodego-frontend.git |
 | Backend | https://github.com/Bleim-154/bodego-platform-backend |
+
+#### Software Deployment
+
+| Servicio | Componente y dirección registrada en el informe |
+| :--- | :--- |
+| **GitHub Pages** | Landing Page pública de BodeGo: https://sirethan04.github.io/Proxy_Open_Source_LandingPage/ |
+| **Frontend** | Frontend web desarrollado en Angular: https://bodego-frontend.onrender.com/session |
+| **Render** | URL base del Backend: user: shupapisteam@gmail.com password: HolaMundo123+ |
+
 ---
 ### 5.1.2. Source Code Management
 ---
