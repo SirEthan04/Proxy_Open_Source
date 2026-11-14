@@ -2840,9 +2840,9 @@ Las evidencias presentadas permiten visualizar los avances alcanzados durante el
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
-Durante el Sprint 3 se avanzó en la implementación y documentación de los servicios REST del Backend de BodeGo. Estos servicios permiten gestionar productos, categorías, lotes y operaciones de inventario, además de registrar mermas, conteos físicos y solicitudes de corrección.
+Durante el Sprint 3 se avanzó en la implementación y documentación de los servicios REST del Backend de BodeGo, desarrollado con **Java y Spring Boot** y organizado en módulos de catálogo, inventario y operaciones. Los servicios permiten gestionar productos, categorías, lotes, movimientos de inventario, ajustes de stock, mermas, conteos físicos y solicitudes de corrección. Su documentación interactiva se presenta mediante **OpenAPI y Swagger UI**.
 
-A continuación, se presentan los endpoints correspondientes al Sprint 3, detallando individualmente cada método HTTP y la operación que permite realizar.
+A continuación, se enumeran los endpoints correspondientes al Sprint 3, indicando individualmente los métodos HTTP y las operaciones disponibles. Posteriormente, se describen sus parámetros y se presentan ejemplos de solicitudes y respuestas elaborados a partir de los contratos del Backend.
 
 ---
 
@@ -2873,25 +2873,377 @@ A continuación, se presentan los endpoints correspondientes al Sprint 3, detall
 | TS07 | Ajustes de stock | POST | `/api/v1/stock-adjustments` | Registrar un ajuste de stock para corregir diferencias de inventario. |
 | TS07 | Ajustes de stock | GET | `/api/v1/stock-adjustments/{id}` | Consultar los detalles de un ajuste de stock mediante su identificador. |
 | TS08 | Mermas | GET | `/api/v1/wastes` | Consultar las mermas registradas en el inventario. |
-| TS08 | Mermas | POST | `/api/v1/wastes` | Registrar una merma asociada a un producto o lote, indicando cantidad y motivo. |
+| TS08 | Mermas | POST | `/api/v1/wastes` | Registrar una merma asociada a un lote, indicando cantidad y motivo. |
 | TS08 | Mermas | GET | `/api/v1/wastes/{id}` | Consultar los detalles de una merma mediante su identificador. |
 | TS09 | Conteos físicos | GET | `/api/v1/physical-counts` | Consultar los conteos físicos registrados. |
-| TS09 | Conteos físicos | POST | `/api/v1/physical-counts` | Registrar un nuevo conteo físico para comparar las existencias reales con las del sistema. |
+| TS09 | Conteos físicos | POST | `/api/v1/physical-counts` | Registrar un conteo físico para comparar las existencias reales con las del sistema. |
 | TS09 | Conteos físicos | GET | `/api/v1/physical-counts/{id}` | Consultar los detalles de un conteo físico mediante su identificador. |
 | TS09 | Solicitudes de corrección | GET | `/api/v1/correction-requests` | Consultar las solicitudes de corrección registradas. |
 | TS09 | Solicitudes de corrección | POST | `/api/v1/correction-requests` | Registrar una solicitud de corrección asociada a una diferencia de inventario. |
 | TS09 | Solicitudes de corrección | GET | `/api/v1/correction-requests/{id}` | Consultar los detalles y el estado de una solicitud de corrección. |
 | TS09 | Solicitudes de corrección | PATCH | `/api/v1/correction-requests/{id}/review` | Aprobar o rechazar una solicitud de corrección pendiente de revisión. |
 
+La tabla contiene **32 filas de operaciones documentadas**. La consulta `/api/v1/lots?productId={id}` utiliza la misma operación HTTP que `GET /api/v1/lots`, incorporando el parámetro `productId` como filtro.
+
 ---
+
+**Parámetros y respuestas de los servicios REST**
+
+Los parámetros `id`, `businessId`, `categoryId`, `productId`, `lotId` y `physicalCountId` utilizan identificadores numéricos positivos, de acuerdo con los contratos del Backend.
+
+Las operaciones GET permiten consultar registros mediante sus identificadores o aplicar filtros según el recurso. Las operaciones POST y PUT reciben información en formato JSON, mientras que PATCH permite realizar cambios específicos sobre el estado de determinados recursos.
+
+| **Módulo** | **Parámetros principales** | **Respuesta esperada** |
+|---|---|---|
+| Productos | `businessId`, `categoryId`, `name`, `description`, `price`, `minimumStock` | `200 OK` o `201 Created`, con información del producto. |
+| Categorías | `businessId`, `name`, `description` | `200 OK` o `201 Created`, con los datos de la categoría. |
+| Lotes | `businessId`, `productId`, `batchNumber`, `quantity`, `expirationDate` | `200 OK` o `201 Created`, con información del lote. |
+| Movimientos de inventario | `businessId`, `lotId`, `type`, `quantity`, `reason` | `200 OK` o `201 Created`, con el movimiento registrado. |
+| Ajustes de stock | `businessId`, `physicalCountId`, `reason` | `200 OK` o `201 Created`, con las cantidades anteriores y nuevas. |
+| Mermas | `businessId`, `lotId`, `quantity`, `reason`, `observation` | `200 OK` o `201 Created`, con la información de la merma. |
+| Conteos físicos | `businessId`, `lotId`, `countedQuantity`, `observation` | `200 OK` o `201 Created`, con la diferencia entre existencias. |
+| Solicitudes de corrección | `businessId`, `physicalCountId`, `reason`, `decision`, `reviewComment` | `200 OK` o `201 Created`, con el estado de la solicitud. |
+
+Para los listados se admiten filtros opcionales dependiendo del módulo. En productos se utiliza `businessId` o `categoryId`; en categorías, `businessId`; y en lotes, movimientos, mermas y conteos físicos se utiliza `businessId` o `lotId`/`productId`, según corresponda.
+
+En ajustes de stock se admite un filtro entre `businessId`, `lotId` y `physicalCountId`. Para solicitudes de corrección se puede consultar por `physicalCountId`, por `businessId` o por `businessId` junto con `status`.
+
+---
+
+**Ejemplos de solicitudes y respuestas de los servicios REST**
+
+Los siguientes ejemplos utilizan información ficticia para representar las estructuras JSON definidas en el Backend. Permiten comprender los datos que deben enviarse a los endpoints y la información que puede obtenerse como respuesta.
+
+**Ejemplo 1. TS03 — Registro de categorías**
+
+**Solicitud:** `POST /api/v1/categories`
+
+```json
+{
+  "businessId": 1,
+  "name": "Abarrotes",
+  "description": "Productos de consumo diario"
+}
+```
+
+**Respuesta ilustrativa — `201 Created`:**
+
+```json
+{
+  "id": 2,
+  "businessId": 1,
+  "name": "Abarrotes",
+  "description": "Productos de consumo diario"
+}
+```
+
+El servicio permite registrar categorías asociadas al negocio. El parámetro `businessId` identifica la bodega y `name` establece el nombre de la categoría que será utilizada para organizar los productos.
+
+---
+
+**Ejemplo 2. TS02 — Registro de productos**
+
+**Solicitud:** `POST /api/v1/products`
+
+```json
+{
+  "businessId": 1,
+  "categoryId": 2,
+  "name": "Arroz extra 1 kg",
+  "description": "Bolsa de arroz de un kilogramo",
+  "price": 3.80,
+  "minimumStock": 5
+}
+```
+
+**Respuesta ilustrativa — `201 Created`:**
+
+```json
+{
+  "id": 10,
+  "businessId": 1,
+  "categoryId": 2,
+  "name": "Arroz extra 1 kg",
+  "description": "Bolsa de arroz de un kilogramo",
+  "price": 3.80,
+  "minimumStock": 5,
+  "active": true
+}
+```
+
+El endpoint permite registrar productos indicando su categoría, nombre, descripción, precio y stock mínimo. También se dispone de operaciones para consultar, actualizar, activar y desactivar productos.
+
+---
+
+**Ejemplo 3. TS04 y TS05 — Registro y consulta de lotes**
+
+**Solicitud:** `POST /api/v1/lots`
+
+```json
+{
+  "businessId": 1,
+  "productId": 10,
+  "batchNumber": "ARR-2026-01",
+  "quantity": 20,
+  "expirationDate": "2027-06-30"
+}
+```
+
+**Respuesta ilustrativa — `201 Created`:**
+
+```json
+{
+  "id": 20,
+  "businessId": 1,
+  "productId": 10,
+  "batchNumber": "ARR-2026-01",
+  "quantity": 20,
+  "expirationDate": "2027-06-30"
+}
+```
+
+Para consultar la disponibilidad de un producto se utiliza:
+
+`GET /api/v1/lots?productId=10`
+
+Esta operación devuelve una lista de lotes asociados al producto, permitiendo identificar sus cantidades registradas y fechas de vencimiento.
+
+---
+
+**Ejemplo 4. TS06 — Registro de movimientos de inventario**
+
+**Solicitud:** `POST /api/v1/inventory-movements`
+
+```json
+{
+  "businessId": 1,
+  "lotId": 20,
+  "type": "EXIT",
+  "quantity": 3,
+  "reason": "Salida por venta"
+}
+```
+
+**Respuesta ilustrativa — `201 Created`:**
+
+```json
+{
+  "id": 40,
+  "businessId": 1,
+  "lotId": 20,
+  "type": "EXIT",
+  "quantity": 3,
+  "reason": "Salida por venta",
+  "createdAt": "2026-11-13T14:00:00Z"
+}
+```
+
+El servicio permite registrar entradas y salidas de mercadería. El campo `type` distingue entre movimientos de tipo `ENTRY` y `EXIT`, mientras que `quantity` y `reason` especifican la cantidad y el motivo de la operación.
+
+---
+
+**Ejemplo 5. TS08 — Registro de mermas**
+
+**Solicitud:** `POST /api/v1/wastes`
+
+```json
+{
+  "businessId": 1,
+  "lotId": 20,
+  "quantity": 2,
+  "reason": "DAMAGED",
+  "observation": "Dos bolsas dañadas durante el almacenamiento"
+}
+```
+
+**Respuesta ilustrativa — `201 Created`:**
+
+```json
+{
+  "id": 50,
+  "businessId": 1,
+  "lotId": 20,
+  "quantity": 2,
+  "reason": "DAMAGED",
+  "observation": "Dos bolsas dañadas durante el almacenamiento",
+  "registeredAt": "2026-11-13T14:10:00Z",
+  "createdAt": "2026-11-13T14:10:00Z"
+}
+```
+
+El registro de mermas permite documentar pérdidas de mercadería indicando la cantidad afectada, el lote y su motivo. Los valores admitidos para `reason` son `EXPIRED`, `DAMAGED`, `DETERIORATED` y `OTHER`.
+
+---
+
+**Ejemplo 6. TS09 — Registro de conteos físicos**
+
+**Solicitud:** `POST /api/v1/physical-counts`
+
+```json
+{
+  "businessId": 1,
+  "lotId": 20,
+  "countedQuantity": 15,
+  "observation": "Conteo de cierre del día"
+}
+```
+
+**Respuesta ilustrativa — `201 Created`:**
+
+```json
+{
+  "id": 30,
+  "businessId": 1,
+  "lotId": 20,
+  "systemQuantity": 17,
+  "countedQuantity": 15,
+  "difference": -2,
+  "observation": "Conteo de cierre del día",
+  "countedAt": "2026-11-13T14:15:00Z",
+  "createdAt": "2026-11-13T14:15:00Z"
+}
+```
+
+Este servicio permite registrar las unidades verificadas durante un conteo físico. El sistema conserva la cantidad registrada previamente y calcula la diferencia respecto a las existencias contadas.
+
+---
+
+**Ejemplo 7. TS07 — Registro de ajustes de stock**
+
+**Solicitud:** `POST /api/v1/stock-adjustments`
+
+```json
+{
+  "businessId": 1,
+  "physicalCountId": 30,
+  "reason": "Regularización por diferencia en conteo físico"
+}
+```
+
+**Respuesta ilustrativa — `201 Created`:**
+
+```json
+{
+  "id": 60,
+  "businessId": 1,
+  "physicalCountId": 30,
+  "lotId": 20,
+  "previousQuantity": 17,
+  "newQuantity": 15,
+  "difference": -2,
+  "reason": "Regularización por diferencia en conteo físico",
+  "adjustedAt": "2026-11-13T14:20:00Z",
+  "createdAt": "2026-11-13T14:20:00Z"
+}
+```
+
+El servicio permite aplicar ajustes sobre las existencias asociadas a un conteo físico con diferencias. La respuesta informa la cantidad anterior, la nueva cantidad y la diferencia registrada.
+
+---
+
+**Ejemplo 8. TS09 — Solicitudes de corrección y revisión**
+
+**Solicitud:** `POST /api/v1/correction-requests`
+
+```json
+{
+  "businessId": 1,
+  "physicalCountId": 30,
+  "reason": "Se requiere revisar la diferencia de dos unidades"
+}
+```
+
+**Respuesta ilustrativa — `201 Created`:**
+
+```json
+{
+  "id": 70,
+  "businessId": 1,
+  "physicalCountId": 30,
+  "reason": "Se requiere revisar la diferencia de dos unidades",
+  "status": "PENDING",
+  "requestedAt": "2026-11-13T14:16:00Z",
+  "reviewedAt": null,
+  "reviewComment": null,
+  "createdAt": "2026-11-13T14:16:00Z"
+}
+```
+
+Para aprobar o rechazar la solicitud se utiliza:
+
+`PATCH /api/v1/correction-requests/70/review`
+
+**Ejemplo de solicitud de aprobación:**
+
+```json
+{
+  "businessId": 1,
+  "decision": "APPROVED",
+  "reviewComment": "Diferencia validada mediante revisión física"
+}
+```
+
+**Respuesta ilustrativa — `200 OK`:**
+
+```json
+{
+  "id": 70,
+  "businessId": 1,
+  "physicalCountId": 30,
+  "reason": "Se requiere revisar la diferencia de dos unidades",
+  "status": "APPROVED",
+  "requestedAt": "2026-11-13T14:16:00Z",
+  "reviewedAt": "2026-11-13T14:22:00Z",
+  "reviewComment": "Diferencia validada mediante revisión física",
+  "createdAt": "2026-11-13T14:16:00Z"
+}
+```
+
+Las solicitudes se crean inicialmente en estado `PENDING` y pueden ser aprobadas (`APPROVED`) o rechazadas (`REJECTED`).
+
+La aprobación ejecuta el ajuste correspondiente del inventario, mientras que el rechazo registra la decisión sin aplicar la modificación de existencias.
+
+Este ejemplo es independiente del ejemplo anterior de ajuste directo: el sistema evita realizar dos ajustes sobre un mismo conteo físico.
+
+---
+
+**Códigos HTTP utilizados por los servicios REST**
+
+| **Código HTTP** | **Descripción** |
+|---|---|
+| `200 OK` | La consulta o modificación se procesó correctamente. |
+| `201 Created` | Se registró satisfactoriamente un nuevo recurso. |
+| `204 No Content` | Se eliminó correctamente una categoría sin devolver contenido. |
+| `400 Bad Request` | La solicitud contiene parámetros incorrectos o datos que incumplen las validaciones. |
+| `404 Not Found` | El recurso solicitado mediante su identificador no fue encontrado. |
+
+Los códigos y formatos exactos de las respuestas de error deben verificarse mediante Swagger UI y pruebas de ejecución, ya que algunas reglas de negocio pueden depender del manejo de excepciones configurado en el Backend.
+
+---
+
+**Evidencias de documentación de servicios REST mediante Swagger UI**
+
+La documentación interactiva permite visualizar los métodos HTTP, parámetros de entrada, esquemas de solicitud y respuestas disponibles para los recursos de BodeGo.
 
 ![Estructura / selecuser](Recursos/images/endpointsEv1.jpg)
 
+*Vista general de Swagger UI con los grupos de servicios REST disponibles en BodeGo.*
+
 ![Estructura / selecuser](Recursos/images/endpointsEv2.jpg)
+
+*Documentación de los endpoints de catálogo e inventario, incluyendo métodos HTTP y rutas de consulta y registro.*
 
 ![Estructura / selecuser](Recursos/images/endpointsEv3.jpg)
 
+*Documentación de los servicios de operaciones de inventario, como movimientos, mermas y ajustes de stock.*
+
 ![Estructura / selecuser](Recursos/images/endpointsEv4.jpg)
+
+---
+
+Las evidencias presentadas permiten identificar los endpoints disponibles en el Backend de BodeGo, mientras que los ejemplos de solicitudes y respuestas facilitan comprender los parámetros y la información intercambiada mediante los servicios REST.
+
+De esta manera, la documentación complementa las actividades realizadas durante el Sprint 3 y proporciona una referencia técnica para la integración y evaluación de las funcionalidades del sistema.
 
 ---
 
